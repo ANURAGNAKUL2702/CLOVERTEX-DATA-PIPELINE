@@ -1,0 +1,43 @@
+{
+  "_metadata": {
+    "dataset": "variants",
+    "row_count": 1137,
+    "generated": "2026-04-26 07:26:13"
+  },
+  "analytics": {
+    "clinical_significance_distribution": {
+      "uncertain significance": 405,
+      "likely benign": 202,
+      "benign": 201,
+      "pathogenic": 118,
+      "likely pathogenic": 113,
+      "nan": 98
+    },
+    "high_risk_variant_count": 231,
+    "top_10_mutated_genes": {
+      "EGFR": 60,
+      "ATM": 58,
+      "PIK3CA": 57,
+      "BRCA2": 57,
+      "TP53": 55,
+      "KRAS": 52,
+      "BRCA1": 51,
+      "APC": 51,
+      "MLH1": 49,
+      "BRAF": 48
+    },
+    "variant_type_distribution": {
+      "insertion": 303,
+      "mnv": 298,
+      "snv": 277,
+      "deletion": 259
+    },
+    "allele_frequency_stats": {
+      "mean": 0.4735,
+      "median": 0.4672,
+      "min": 0.0,
+      "max": 1.0,
+      "count": 1137
+    }
+  }
+}

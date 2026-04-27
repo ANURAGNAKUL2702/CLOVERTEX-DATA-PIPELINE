@@ -1,0 +1,28 @@
+{
+  "_metadata": {
+    "dataset": "labs",
+    "row_count": 2026,
+    "generated": "2026-04-26 07:26:13"
+  },
+  "analytics": {
+    "test_distribution": {
+      "ast": 140,
+      "creatinine": 140,
+      "glucose_fasting": 137,
+      "ldl": 136,
+      "hdl": 133,
+      "total_cholesterol": 129,
+      "hba1c": 129,
+      "alt": 128,
+      "bun": 127,
+      "hemoglobin": 124,
+      "sodium": 121,
+      "tsh": 121,
+      "wbc": 118,
+      "potassium": 117,
+      "platelets": 116,
+      "triglycerides": 110
+    },
+    "missing_test_values": 15
+  }
+}

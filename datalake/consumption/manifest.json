@@ -1,0 +1,1476 @@
+{
+  "root": "datalake/consumption",
+  "generated": "2026-04-27 04:36:43",
+  "files": [
+    {
+      "file": "plots/age_histogram.png",
+      "row_count": null,
+      "schema": null,
+      "timestamp": "2026-04-27 04:36:42",
+      "sha256": "7b8c34b7dbc8acdde9e836b4f2afaa4daa13416309abb0b711e8fae85a7ea37b"
+    },
+    {
+      "file": "plots/data_quality_overview.png",
+      "row_count": null,
+      "schema": null,
+      "timestamp": "2026-04-27 04:36:43",
+      "sha256": "d78b6ca87950d06764af055231fcb885cdb6a36f64ab17ae68df5dd43bf878ac"
+    },
+    {
+      "file": "plots/diagnosis_frequency.png",
+      "row_count": null,
+      "schema": null,
+      "timestamp": "2026-04-26 16:42:57",
+      "sha256": "d70fd3488f04383121c089e252ae0784c930a0adad317da7f336b00d672bec3d"
+    },
+    {
+      "file": "plots/diagnosis_frequency_chapters.png",
+      "row_count": null,
+      "schema": null,
+      "timestamp": "2026-04-27 04:36:43",
+      "sha256": "0dea04b33f5734d879f385b748f92305137b9a68ccead86de4b58d02b06109a2"
+    },
+    {
+      "file": "plots/gender_bar.png",
+      "row_count": null,
+      "schema": null,
+      "timestamp": "2026-04-27 04:36:42",
+      "sha256": "e605a79f1feb69e54269707434b9757a53202e09dc78f2e44c5caedf26f967f3"
+    },
+    {
+      "file": "plots/genomics_scatter.png",
+      "row_count": null,
+      "schema": null,
+      "timestamp": "2026-04-26 16:42:57",
+      "sha256": "4a31673935570bbd3c1c379af585eb823686a51b8dd5fb7cd281cabca40ee905"
+    },
+    {
+      "file": "plots/genomics_scatter_significance.png",
+      "row_count": null,
+      "schema": null,
+      "timestamp": "2026-04-27 04:36:43",
+      "sha256": "0eab3eac58eae153971ff7a8a00c6ed3a40a95161c7eea7d9ea1c9fa83a48ce4"
+    },
+    {
+      "file": "plots/high_risk_summary.png",
+      "row_count": null,
+      "schema": null,
+      "timestamp": "2026-04-27 04:36:43",
+      "sha256": "fdcffb6cbeb1310be7804032da3ca98ecfe258f29edf9a8d285f9bb1c2e72ac9"
+    },
+    {
+      "file": "plots/lab_distribution.png",
+      "row_count": null,
+      "schema": null,
+      "timestamp": "2026-04-26 16:42:57",
+      "sha256": "5232dcf80d93d9da1c78a5d3303c80dbfee20ddd730d2f65684b8b906e8b73d6"
+    },
+    {
+      "file": "plots/lab_distribution_reference.png",
+      "row_count": null,
+      "schema": null,
+      "timestamp": "2026-04-27 04:36:43",
+      "sha256": "75dad55bf3ed46fcd01ab03c0fd9e7f819b30c7c72422705a7b477d5664a822b"
+    },
+    {
+      "file": "v1/analytics/ingest_date=2026-04-26/diagnosis_frequency.parquet",
+      "row_count": 14,
+      "schema": [
+        {
+          "name": "chapter",
+          "dtype": "str"
+        },
+        {
+          "name": "patient_count",
+          "dtype": "int64"
+        }
+      ],
+      "timestamp": "2026-04-27 03:19:24",
+      "sha256": "5de01363e6d0984ec03c0f1366a6de60158867d1dba214650d7af5be5eda0c71"
+    },
+    {
+      "file": "v1/analytics/ingest_date=2026-04-26/high_risk_patients.parquet",
+      "row_count": 2,
+      "schema": [
+        {
+          "name": "patient_id",
+          "dtype": "str"
+        },
+        {
+          "name": "first_name",
+          "dtype": "string"
+        },
+        {
+          "name": "last_name",
+          "dtype": "string"
+        },
+        {
+          "name": "date_of_birth",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "sex",
+          "dtype": "string"
+        },
+        {
+          "name": "blood_group",
+          "dtype": "string"
+        },
+        {
+          "name": "admission_dt",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "discharge_dt",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "contact_phone",
+          "dtype": "string"
+        },
+        {
+          "name": "contact_email",
+          "dtype": "string"
+        },
+        {
+          "name": "site",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        },
+        {
+          "name": "birthdate",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "gender",
+          "dtype": "string"
+        },
+        {
+          "name": "bloodtype",
+          "dtype": "string"
+        },
+        {
+          "name": "name.given",
+          "dtype": "string"
+        },
+        {
+          "name": "name.family",
+          "dtype": "string"
+        },
+        {
+          "name": "encounter.admissiondate",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "encounter.dischargedate",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "encounter.facility",
+          "dtype": "string"
+        },
+        {
+          "name": "contact.phone",
+          "dtype": "string"
+        },
+        {
+          "name": "contact.email",
+          "dtype": "string"
+        },
+        {
+          "name": "labs_count",
+          "dtype": "Int64"
+        },
+        {
+          "name": "latest_lab_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "latest_lab_value",
+          "dtype": "float64"
+        },
+        {
+          "name": "latest_lab_test",
+          "dtype": "string"
+        },
+        {
+          "name": "abnormal_lab_count",
+          "dtype": "float64"
+        },
+        {
+          "name": "diagnoses_count",
+          "dtype": "Int64"
+        },
+        {
+          "name": "primary_diagnoses_count",
+          "dtype": "float64"
+        },
+        {
+          "name": "top_diagnosis_code",
+          "dtype": "string"
+        },
+        {
+          "name": "medications_count",
+          "dtype": "Int64"
+        },
+        {
+          "name": "active_medications_count",
+          "dtype": "float64"
+        },
+        {
+          "name": "top_medication",
+          "dtype": "string"
+        },
+        {
+          "name": "high_risk_variants_count",
+          "dtype": "float64"
+        },
+        {
+          "name": "top_gene",
+          "dtype": "string"
+        },
+        {
+          "name": "high_risk_patient",
+          "dtype": "object"
+        }
+      ],
+      "timestamp": "2026-04-27 03:19:24",
+      "sha256": "5c5d6920ccdcf2995bb0b3d67d6a706e4c4b08c803792a7ad6434d1e5b7fd97b"
+    },
+    {
+      "file": "v1/analytics/ingest_date=2026-04-26/lab_statistics.parquet",
+      "row_count": 88,
+      "schema": [
+        {
+          "name": "record_type",
+          "dtype": "str"
+        },
+        {
+          "name": "test_name",
+          "dtype": "str"
+        },
+        {
+          "name": "mean",
+          "dtype": "float64"
+        },
+        {
+          "name": "median",
+          "dtype": "float64"
+        },
+        {
+          "name": "std",
+          "dtype": "float64"
+        },
+        {
+          "name": "count",
+          "dtype": "float64"
+        },
+        {
+          "name": "out_of_range_count",
+          "dtype": "float64"
+        },
+        {
+          "name": "period",
+          "dtype": "str"
+        }
+      ],
+      "timestamp": "2026-04-27 03:19:24",
+      "sha256": "a34c016c00be27c145e45ae4e4513cff1a32c27ae7658a6626c44d19b44bcc17"
+    },
+    {
+      "file": "v1/analytics/ingest_date=2026-04-26/patient_summary.parquet",
+      "row_count": 12,
+      "schema": [
+        {
+          "name": "metric",
+          "dtype": "str"
+        },
+        {
+          "name": "category",
+          "dtype": "str"
+        },
+        {
+          "name": "count",
+          "dtype": "int64"
+        }
+      ],
+      "timestamp": "2026-04-27 03:19:24",
+      "sha256": "98e5655696493bc8100ebe5e204802b9ca273fc89df3c3d6adf6459b155221f9"
+    },
+    {
+      "file": "v1/analytics/ingest_date=2026-04-26/variant_hotspots.parquet",
+      "row_count": 5,
+      "schema": [
+        {
+          "name": "gene",
+          "dtype": "string"
+        },
+        {
+          "name": "count",
+          "dtype": "int64"
+        },
+        {
+          "name": "mean",
+          "dtype": "float64"
+        },
+        {
+          "name": "median",
+          "dtype": "float64"
+        },
+        {
+          "name": "min",
+          "dtype": "float64"
+        },
+        {
+          "name": "max",
+          "dtype": "float64"
+        }
+      ],
+      "timestamp": "2026-04-27 03:19:24",
+      "sha256": "6069de43a1d7bf7e1d87e8c424ce690fddd261e90c7488b36493eeddf1df3199"
+    },
+    {
+      "file": "v1/analytics/ingest_date=2026-04-27/anomaly_detection.parquet",
+      "row_count": 557,
+      "schema": [
+        {
+          "name": "dataset",
+          "dtype": "str"
+        },
+        {
+          "name": "patient_id",
+          "dtype": "str"
+        },
+        {
+          "name": "field",
+          "dtype": "str"
+        },
+        {
+          "name": "value",
+          "dtype": "float64"
+        },
+        {
+          "name": "reason",
+          "dtype": "str"
+        },
+        {
+          "name": "threshold_low",
+          "dtype": "float64"
+        },
+        {
+          "name": "threshold_high",
+          "dtype": "float64"
+        },
+        {
+          "name": "is_anomaly",
+          "dtype": "bool"
+        }
+      ],
+      "timestamp": "2026-04-27 04:36:42",
+      "sha256": "d17963253e5b79270232b0ecab6a20f3b954d111409b7d9f0085cc283d6f8f0d"
+    },
+    {
+      "file": "v1/analytics/ingest_date=2026-04-27/diagnosis_frequency.parquet",
+      "row_count": 14,
+      "schema": [
+        {
+          "name": "chapter",
+          "dtype": "str"
+        },
+        {
+          "name": "patient_count",
+          "dtype": "int64"
+        }
+      ],
+      "timestamp": "2026-04-27 04:36:42",
+      "sha256": "5de01363e6d0984ec03c0f1366a6de60158867d1dba214650d7af5be5eda0c71"
+    },
+    {
+      "file": "v1/analytics/ingest_date=2026-04-27/high_risk_patients.parquet",
+      "row_count": 0,
+      "schema": [
+        {
+          "name": "patient_id",
+          "dtype": "float64"
+        }
+      ],
+      "timestamp": "2026-04-27 04:36:42",
+      "sha256": "0d8164bfdcd6cc27ebbee11f80cbc84cdbb23560b9500d11becab43377097a00"
+    },
+    {
+      "file": "v1/analytics/ingest_date=2026-04-27/lab_statistics.parquet",
+      "row_count": 1,
+      "schema": [
+        {
+          "name": "record_type",
+          "dtype": "str"
+        },
+        {
+          "name": "test_name",
+          "dtype": "str"
+        },
+        {
+          "name": "mean",
+          "dtype": "float64"
+        },
+        {
+          "name": "median",
+          "dtype": "float64"
+        },
+        {
+          "name": "std",
+          "dtype": "float64"
+        },
+        {
+          "name": "count",
+          "dtype": "int64"
+        },
+        {
+          "name": "out_of_range_count",
+          "dtype": "int64"
+        },
+        {
+          "name": "period",
+          "dtype": "object"
+        }
+      ],
+      "timestamp": "2026-04-27 04:36:42",
+      "sha256": "760e5112ec4b9398605af48c4dd5eeaae4d8732f0789176bd69a611e641941fb"
+    },
+    {
+      "file": "v1/analytics/ingest_date=2026-04-27/patient_summary.parquet",
+      "row_count": 12,
+      "schema": [
+        {
+          "name": "metric",
+          "dtype": "str"
+        },
+        {
+          "name": "category",
+          "dtype": "str"
+        },
+        {
+          "name": "count",
+          "dtype": "int64"
+        }
+      ],
+      "timestamp": "2026-04-27 04:36:42",
+      "sha256": "292ee3a83e771dd285bd95bb4f27c3f09e76cc8f091194aec4bd1e5a63ab4bdc"
+    },
+    {
+      "file": "v1/analytics/ingest_date=2026-04-27/variant_hotspots.parquet",
+      "row_count": 5,
+      "schema": [
+        {
+          "name": "gene",
+          "dtype": "string"
+        },
+        {
+          "name": "count",
+          "dtype": "int64"
+        },
+        {
+          "name": "mean",
+          "dtype": "float64"
+        },
+        {
+          "name": "median",
+          "dtype": "float64"
+        },
+        {
+          "name": "p25",
+          "dtype": "float64"
+        },
+        {
+          "name": "p75",
+          "dtype": "float64"
+        },
+        {
+          "name": "min",
+          "dtype": "float64"
+        },
+        {
+          "name": "max",
+          "dtype": "float64"
+        }
+      ],
+      "timestamp": "2026-04-27 04:36:42",
+      "sha256": "7780fc29bdb6078c8d699d649573eae1b19ccf5fa77f9a2ac5583e6b39afe1e5"
+    },
+    {
+      "file": "v1/diagnoses/ingest_date=2026-04-26/diagnoses_icd10_csv.parquet",
+      "row_count": 1638,
+      "schema": [
+        {
+          "name": "diagnosis_id",
+          "dtype": "string"
+        },
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "icd10_code",
+          "dtype": "string"
+        },
+        {
+          "name": "description",
+          "dtype": "string"
+        },
+        {
+          "name": "diagnosis_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "diagnosing_physician",
+          "dtype": "string"
+        },
+        {
+          "name": "is_primary",
+          "dtype": "bool"
+        },
+        {
+          "name": "severity",
+          "dtype": "string"
+        },
+        {
+          "name": "status",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        }
+      ],
+      "timestamp": "2026-04-27 04:36:38",
+      "sha256": "1ca2e6cfa0dc6469d681ade2cf924fbad3616bd998bf2ba156ec327561de69b1"
+    },
+    {
+      "file": "v1/diagnoses/ingest_date=2026-04-27/diagnoses_icd10_csv.parquet",
+      "row_count": 1638,
+      "schema": [
+        {
+          "name": "diagnosis_id",
+          "dtype": "string"
+        },
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "icd10_code",
+          "dtype": "string"
+        },
+        {
+          "name": "description",
+          "dtype": "string"
+        },
+        {
+          "name": "diagnosis_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "diagnosing_physician",
+          "dtype": "string"
+        },
+        {
+          "name": "is_primary",
+          "dtype": "bool"
+        },
+        {
+          "name": "severity",
+          "dtype": "string"
+        },
+        {
+          "name": "status",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        }
+      ],
+      "timestamp": "2026-04-27 04:36:39",
+      "sha256": "5e6de3b09f302a7f001bf6159389c8c83cb73513a1eb18e4fe230f5dd33e14bc"
+    },
+    {
+      "file": "v1/labs/ingest_date=2026-04-26/site_gamma_lab_results_parquet.parquet",
+      "row_count": 118,
+      "schema": [
+        {
+          "name": "lab_result_id",
+          "dtype": "string"
+        },
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "test_name",
+          "dtype": "string"
+        },
+        {
+          "name": "test_value",
+          "dtype": "float64"
+        },
+        {
+          "name": "test_unit",
+          "dtype": "string"
+        },
+        {
+          "name": "collection_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "ordering_physician",
+          "dtype": "string"
+        },
+        {
+          "name": "site_name",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        }
+      ],
+      "timestamp": "2026-04-27 04:36:40",
+      "sha256": "1706dee7541e4ea4b6491bc8e2a368aaffbfa4effd124e18c92becef4ee8f743"
+    },
+    {
+      "file": "v1/labs/ingest_date=2026-04-27/site_gamma_lab_results_parquet.parquet",
+      "row_count": 118,
+      "schema": [
+        {
+          "name": "lab_result_id",
+          "dtype": "string"
+        },
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "test_name",
+          "dtype": "string"
+        },
+        {
+          "name": "test_value",
+          "dtype": "float64"
+        },
+        {
+          "name": "test_unit",
+          "dtype": "string"
+        },
+        {
+          "name": "collection_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "ordering_physician",
+          "dtype": "string"
+        },
+        {
+          "name": "site_name",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        }
+      ],
+      "timestamp": "2026-04-27 04:36:40",
+      "sha256": "d5989db2dd7f901e193defcb848a0f3aee7c915754bb6ae036edff75f1ff0269"
+    },
+    {
+      "file": "v1/medications/ingest_date=2026-04-26/medications_log_json.parquet",
+      "row_count": 1922,
+      "schema": [
+        {
+          "name": "medication_id",
+          "dtype": "string"
+        },
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "medication_name",
+          "dtype": "string"
+        },
+        {
+          "name": "dosage",
+          "dtype": "string"
+        },
+        {
+          "name": "route",
+          "dtype": "string"
+        },
+        {
+          "name": "frequency",
+          "dtype": "string"
+        },
+        {
+          "name": "start_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "end_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "prescribing_physician",
+          "dtype": "string"
+        },
+        {
+          "name": "status",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        }
+      ],
+      "timestamp": "2026-04-27 04:36:39",
+      "sha256": "ec1f3da1436a7e464d69d50ad3302ebead521b595ec4515c393d3d4bfabe8ef8"
+    },
+    {
+      "file": "v1/medications/ingest_date=2026-04-27/medications_log_json.parquet",
+      "row_count": 1922,
+      "schema": [
+        {
+          "name": "medication_id",
+          "dtype": "string"
+        },
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "medication_name",
+          "dtype": "string"
+        },
+        {
+          "name": "dosage",
+          "dtype": "string"
+        },
+        {
+          "name": "route",
+          "dtype": "string"
+        },
+        {
+          "name": "frequency",
+          "dtype": "string"
+        },
+        {
+          "name": "start_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "end_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "prescribing_physician",
+          "dtype": "string"
+        },
+        {
+          "name": "status",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        }
+      ],
+      "timestamp": "2026-04-27 04:36:39",
+      "sha256": "a4db6853cc12e695991e09337cde70ab2b1b9c5631bc28b92e8f05adfb8245f9"
+    },
+    {
+      "file": "v1/notes/ingest_date=2026-04-26/clinical_notes_metadata_csv.parquet",
+      "row_count": 1128,
+      "schema": [
+        {
+          "name": "note_id",
+          "dtype": "string"
+        },
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "note_category",
+          "dtype": "string"
+        },
+        {
+          "name": "expected_category",
+          "dtype": "string"
+        },
+        {
+          "name": "note_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "author",
+          "dtype": "string"
+        },
+        {
+          "name": "word_count",
+          "dtype": "int64"
+        },
+        {
+          "name": "is_addendum",
+          "dtype": "bool"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        },
+        {
+          "name": "standard_category",
+          "dtype": "str"
+        }
+      ],
+      "timestamp": "2026-04-27 04:36:39",
+      "sha256": "249d4e2add00062a463243365ad3502085c46502078c8af4cd41c2cf22de8459"
+    },
+    {
+      "file": "v1/notes/ingest_date=2026-04-27/clinical_notes_metadata_csv.parquet",
+      "row_count": 1128,
+      "schema": [
+        {
+          "name": "note_id",
+          "dtype": "string"
+        },
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "note_category",
+          "dtype": "string"
+        },
+        {
+          "name": "expected_category",
+          "dtype": "string"
+        },
+        {
+          "name": "note_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "author",
+          "dtype": "string"
+        },
+        {
+          "name": "word_count",
+          "dtype": "int64"
+        },
+        {
+          "name": "is_addendum",
+          "dtype": "bool"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        },
+        {
+          "name": "standard_category",
+          "dtype": "str"
+        }
+      ],
+      "timestamp": "2026-04-27 04:36:39",
+      "sha256": "afd9d96ee5e257e6c51280a162bdd7ea0eb1a887e1ed166281b0af03a8ebd072"
+    },
+    {
+      "file": "v1/unified/ingest_date=2026-04-26/patients_unified_analytics.parquet",
+      "row_count": 351,
+      "schema": [
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "first_name",
+          "dtype": "string"
+        },
+        {
+          "name": "last_name",
+          "dtype": "string"
+        },
+        {
+          "name": "date_of_birth",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "sex",
+          "dtype": "string"
+        },
+        {
+          "name": "blood_group",
+          "dtype": "string"
+        },
+        {
+          "name": "admission_dt",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "discharge_dt",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "contact_phone",
+          "dtype": "string"
+        },
+        {
+          "name": "contact_email",
+          "dtype": "string"
+        },
+        {
+          "name": "site",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        },
+        {
+          "name": "birthdate",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "gender",
+          "dtype": "string"
+        },
+        {
+          "name": "bloodtype",
+          "dtype": "string"
+        },
+        {
+          "name": "name.given",
+          "dtype": "string"
+        },
+        {
+          "name": "name.family",
+          "dtype": "string"
+        },
+        {
+          "name": "encounter.admissiondate",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "encounter.dischargedate",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "encounter.facility",
+          "dtype": "string"
+        },
+        {
+          "name": "contact.phone",
+          "dtype": "string"
+        },
+        {
+          "name": "contact.email",
+          "dtype": "string"
+        },
+        {
+          "name": "labs_count",
+          "dtype": "Int64"
+        },
+        {
+          "name": "latest_lab_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "latest_lab_value",
+          "dtype": "float64"
+        },
+        {
+          "name": "latest_lab_test",
+          "dtype": "string"
+        },
+        {
+          "name": "abnormal_lab_count",
+          "dtype": "int64"
+        },
+        {
+          "name": "diagnoses_count",
+          "dtype": "Int64"
+        },
+        {
+          "name": "primary_diagnoses_count",
+          "dtype": "float64"
+        },
+        {
+          "name": "top_diagnosis_code",
+          "dtype": "string"
+        },
+        {
+          "name": "medications_count",
+          "dtype": "Int64"
+        },
+        {
+          "name": "active_medications_count",
+          "dtype": "float64"
+        },
+        {
+          "name": "top_medication",
+          "dtype": "string"
+        },
+        {
+          "name": "high_risk_variants_count",
+          "dtype": "int64"
+        },
+        {
+          "name": "top_gene",
+          "dtype": "string"
+        },
+        {
+          "name": "high_risk_patient",
+          "dtype": "bool"
+        }
+      ],
+      "timestamp": "2026-04-27 04:36:41",
+      "sha256": "e3186dbe8373ae6b7ca15f5b442deea2b3ded7d2ed2a9fdc779870408b2cfe0a"
+    },
+    {
+      "file": "v1/unified/ingest_date=2026-04-27/patients_unified_analytics.parquet",
+      "row_count": 351,
+      "schema": [
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "first_name",
+          "dtype": "string"
+        },
+        {
+          "name": "last_name",
+          "dtype": "string"
+        },
+        {
+          "name": "date_of_birth",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "sex",
+          "dtype": "string"
+        },
+        {
+          "name": "blood_group",
+          "dtype": "string"
+        },
+        {
+          "name": "admission_dt",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "discharge_dt",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "contact_phone",
+          "dtype": "string"
+        },
+        {
+          "name": "contact_email",
+          "dtype": "string"
+        },
+        {
+          "name": "site",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        },
+        {
+          "name": "birthdate",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "gender",
+          "dtype": "string"
+        },
+        {
+          "name": "bloodtype",
+          "dtype": "string"
+        },
+        {
+          "name": "name.given",
+          "dtype": "string"
+        },
+        {
+          "name": "name.family",
+          "dtype": "string"
+        },
+        {
+          "name": "encounter.admissiondate",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "encounter.dischargedate",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "encounter.facility",
+          "dtype": "string"
+        },
+        {
+          "name": "contact.phone",
+          "dtype": "string"
+        },
+        {
+          "name": "contact.email",
+          "dtype": "string"
+        },
+        {
+          "name": "labs_count",
+          "dtype": "Int64"
+        },
+        {
+          "name": "latest_lab_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "latest_lab_value",
+          "dtype": "float64"
+        },
+        {
+          "name": "latest_lab_test",
+          "dtype": "string"
+        },
+        {
+          "name": "abnormal_lab_count",
+          "dtype": "int64"
+        },
+        {
+          "name": "diagnoses_count",
+          "dtype": "Int64"
+        },
+        {
+          "name": "primary_diagnoses_count",
+          "dtype": "float64"
+        },
+        {
+          "name": "top_diagnosis_code",
+          "dtype": "string"
+        },
+        {
+          "name": "medications_count",
+          "dtype": "Int64"
+        },
+        {
+          "name": "active_medications_count",
+          "dtype": "float64"
+        },
+        {
+          "name": "top_medication",
+          "dtype": "string"
+        },
+        {
+          "name": "high_risk_variants_count",
+          "dtype": "int64"
+        },
+        {
+          "name": "top_gene",
+          "dtype": "string"
+        },
+        {
+          "name": "high_risk_patient",
+          "dtype": "bool"
+        }
+      ],
+      "timestamp": "2026-04-27 04:36:41",
+      "sha256": "13c418ff8324cca1137477d35cf211fb230c38dd3ae7eff36322b6dfe6bd868a"
+    },
+    {
+      "file": "v1/variants/ingest_date=2026-04-26/genomics_variants_parquet.parquet",
+      "row_count": 1137,
+      "schema": [
+        {
+          "name": "variant_id",
+          "dtype": "string"
+        },
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "gene",
+          "dtype": "string"
+        },
+        {
+          "name": "chromosome",
+          "dtype": "string"
+        },
+        {
+          "name": "position",
+          "dtype": "int64"
+        },
+        {
+          "name": "ref_allele",
+          "dtype": "string"
+        },
+        {
+          "name": "alt_allele",
+          "dtype": "string"
+        },
+        {
+          "name": "variant_type",
+          "dtype": "string"
+        },
+        {
+          "name": "allele_frequency",
+          "dtype": "float64"
+        },
+        {
+          "name": "read_depth",
+          "dtype": "int64"
+        },
+        {
+          "name": "clinical_significance",
+          "dtype": "string"
+        },
+        {
+          "name": "sample_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "sequencing_platform",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        }
+      ],
+      "timestamp": "2026-04-27 04:36:39",
+      "sha256": "46dd628d2dfe8fe2942c0517c9c3d7cea18f6b1668e8168572e34dc108ecfd93"
+    },
+    {
+      "file": "v1/variants/ingest_date=2026-04-27/genomics_variants_parquet.parquet",
+      "row_count": 1137,
+      "schema": [
+        {
+          "name": "variant_id",
+          "dtype": "string"
+        },
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "gene",
+          "dtype": "string"
+        },
+        {
+          "name": "chromosome",
+          "dtype": "string"
+        },
+        {
+          "name": "position",
+          "dtype": "int64"
+        },
+        {
+          "name": "ref_allele",
+          "dtype": "string"
+        },
+        {
+          "name": "alt_allele",
+          "dtype": "string"
+        },
+        {
+          "name": "variant_type",
+          "dtype": "string"
+        },
+        {
+          "name": "allele_frequency",
+          "dtype": "float64"
+        },
+        {
+          "name": "read_depth",
+          "dtype": "int64"
+        },
+        {
+          "name": "clinical_significance",
+          "dtype": "string"
+        },
+        {
+          "name": "sample_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "sequencing_platform",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        }
+      ],
+      "timestamp": "2026-04-27 04:36:39",
+      "sha256": "0a42edd44ac5b0fa78366f3b91866ee1b3cd61e9f38f41a11b101d28180cbdb7"
+    }
+  ]
+}

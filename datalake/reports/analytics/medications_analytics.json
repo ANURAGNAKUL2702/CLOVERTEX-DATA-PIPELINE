@@ -1,0 +1,27 @@
+{
+  "_metadata": {
+    "dataset": "medications",
+    "row_count": 1922,
+    "generated": "2026-04-26 07:26:13"
+  },
+  "analytics": {
+    "top_10_medications": {
+      "Sertraline": 143,
+      "Lisinopril": 143,
+      "Albuterol": 132,
+      "Warfarin": 131,
+      "Amoxicillin": 129,
+      "Carbidopa-Levodopa": 128,
+      "Omeprazole": 128,
+      "Amlodipine": 127,
+      "Atorvastatin": 125,
+      "Gabapentin": 125
+    },
+    "status_distribution": {
+      "on-hold": 493,
+      "discontinued": 486,
+      "active": 476,
+      "completed": 467
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_metadata": {
+    "dataset": "notes",
+    "row_count": 1128,
+    "generated": "2026-04-26 07:26:13"
+  },
+  "analytics": {
+    "top_note_categories": {
+      "lab results review": 28,
+      "pathology results review": 28,
+      "critical lab value follow-up": 27,
+      "psych consult requested": 26,
+      "post-operative note": 26,
+      "daily note": 25,
+      "discharge note": 25,
+      "lab panel discussion": 24,
+      "blood work assessment": 24,
+      "abnormal lab follow-up": 24
+    },
+    "notes_per_author": {
+      "Dr. Gonzalez": 42,
+      "Dr. Thomas": 33,
+      "Dr. Wilson": 30,
+      "Dr. Davis": 29,
+      "Dr. Shah": 29,
+      "Dr. Tanaka": 29,
+      "Dr. King": 28,
+      "Dr. Moore": 28,
+      "Dr. Walker": 28,
+      "Dr. Martinez": 27
+    },
+    "word_count_stats": {
+      "mean": 1006.7,
+      "median": 1001.0,
+      "min": 50.0,
+      "max": 2000.0,
+      "count": 1128
+    },
+    "addendum_count": 0,
+    "addendum_rate_pct": 0.0
+  }
+}

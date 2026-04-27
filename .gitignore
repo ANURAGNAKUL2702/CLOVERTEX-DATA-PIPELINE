@@ -1,6 +1,4 @@
 # Ignore data outputs
-datalake/
-logs/
 
 # Python
 __pycache__/

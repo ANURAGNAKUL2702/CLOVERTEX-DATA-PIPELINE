@@ -1,0 +1,38 @@
+{
+  "_metadata": {
+    "dataset": "patients",
+    "row_count": 650,
+    "generated": "2026-04-26 08:26:27",
+    "source_file": "patients_unified.parquet"
+  },
+  "analytics": {
+    "gender_distribution": {
+      "nan": 300,
+      "f": 191,
+      "m": 159
+    },
+    "blood_group_distribution": {
+      "<NA>": 310,
+      "B+": 52,
+      "A-": 48,
+      "O-": 46,
+      "B-": 44,
+      "AB+": 42,
+      "A+": 41,
+      "O+": 35,
+      "AB-": 32
+    },
+    "patients_per_site": {
+      "Alpha General Hospital": 350
+    },
+    "age_distribution": {
+      "nan": 300,
+      "75+": 104,
+      "30-44": 79,
+      "60-74": 64,
+      "45-59": 60,
+      "18-29": 43,
+      "0-17": 0
+    }
+  }
+}

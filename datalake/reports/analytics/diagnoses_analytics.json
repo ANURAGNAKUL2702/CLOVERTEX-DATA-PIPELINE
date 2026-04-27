@@ -1,0 +1,36 @@
+{
+  "_metadata": {
+    "dataset": "diagnoses",
+    "row_count": 1638,
+    "generated": "2026-04-26 07:26:13"
+  },
+  "analytics": {
+    "top_10_diagnoses": {
+      "J18.9": 77,
+      "M54.5": 74,
+      "E11.9": 74,
+      "F41.1": 72,
+      "E78.5": 70,
+      "C50.919": 70,
+      "D64.9": 68,
+      "G47.33": 67,
+      "G20": 67,
+      "B20": 66
+    },
+    "severity_distribution": {
+      "moderate": 542,
+      "mild": 530,
+      "severe": 510,
+      "nan": 56
+    },
+    "status_distribution": {
+      "resolved": 569,
+      "chronic": 553,
+      "active": 516
+    },
+    "primary_vs_secondary": {
+      "False": 991,
+      "True": 647
+    }
+  }
+}

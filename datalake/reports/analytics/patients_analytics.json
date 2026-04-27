@@ -1,0 +1,18 @@
+{
+  "_metadata": {
+    "dataset": "patients",
+    "row_count": 310,
+    "generated": "2026-04-26 07:26:13"
+  },
+  "analytics": {
+    "gender_distribution": {
+      "female": 157,
+      "male": 149,
+      "nan": 3,
+      "f": 1
+    },
+    "blood_group_distribution": {
+      "NaT": 310
+    }
+  }
+}

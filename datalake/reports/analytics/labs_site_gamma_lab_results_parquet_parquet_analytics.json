@@ -1,0 +1,17 @@
+{
+  "_metadata": {
+    "dataset": "labs",
+    "row_count": 118,
+    "generated": "2026-04-27 04:36:42",
+    "source_file": "site_gamma_lab_results_parquet.parquet"
+  },
+  "analytics": {
+    "test_distribution": {
+      "wbc": 118
+    },
+    "missing_test_values": 1,
+    "out_of_range_by_test": {
+      "wbc": 19
+    }
+  }
+}

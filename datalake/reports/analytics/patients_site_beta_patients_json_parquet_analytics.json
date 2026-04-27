@@ -1,0 +1,36 @@
+{
+  "_metadata": {
+    "dataset": "patients",
+    "row_count": 310,
+    "generated": "2026-04-26 08:26:27",
+    "source_file": "site_beta_patients_json.parquet"
+  },
+  "analytics": {
+    "gender_distribution": {
+      "female": 157,
+      "male": 149,
+      "nan": 3,
+      "f": 1
+    },
+    "blood_group_distribution": {
+      "B-": 45,
+      "AB+": 43,
+      "A+": 42,
+      "O-": 40,
+      "A-": 36,
+      "O+": 35,
+      "B+": 31,
+      "AB-": 28,
+      "<NA>": 10
+    },
+    "age_distribution": {
+      "nan": 95,
+      "75+": 68,
+      "30-44": 44,
+      "45-59": 38,
+      "18-29": 33,
+      "60-74": 32,
+      "0-17": 0
+    }
+  }
+}
