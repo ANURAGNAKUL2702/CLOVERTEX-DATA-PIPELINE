@@ -568,6 +568,8 @@ def run_analytics():
                     ("count", "count"),
                     ("mean", "mean"),
                     ("median", "median"),
+                    ("p25", lambda x: float(x.quantile(0.25))),
+                    ("p75", lambda x: float(x.quantile(0.75))),
                     ("min", "min"),
                     ("max", "max"),
                 ])
@@ -579,12 +581,22 @@ def run_analytics():
         labs = pd.read_parquet(labs_file)
         variants = pd.read_parquet(variants_file)
 
-        labs["test_value"] = pd.to_numeric(labs.get("test_value"), errors="coerce")
-        hba = labs[labs.get("test_name", "").astype("string").str.lower().str.contains("hba1c", na=False)]
-        hba = hba[hba["test_value"] > 7.0]
+        if "test_value" in labs.columns:
+            labs["test_value"] = pd.to_numeric(labs["test_value"], errors="coerce")
+        else:
+            labs["test_value"] = pd.NA
 
-        cs = variants.get("clinical_significance", "").astype("string").str.lower()
-        path = variants[cs.isin({"pathogenic", "likely pathogenic"})]
+        if "test_name" in labs.columns:
+            hba = labs[labs["test_name"].astype("string").str.lower().str.contains("hba1c", na=False)]
+            hba = hba[hba["test_value"] > 7.0]
+        else:
+            hba = labs.iloc[0:0]
+
+        if "clinical_significance" in variants.columns:
+            cs = variants["clinical_significance"].astype("string").str.lower()
+            path = variants[cs.isin({"pathogenic", "likely pathogenic"})]
+        else:
+            path = variants.iloc[0:0]
 
         high_risk_ids = set(hba.get("patient_id", [])) & set(path.get("patient_id", []))
         high_risk_df = pd.DataFrame({"patient_id": list(high_risk_ids)})

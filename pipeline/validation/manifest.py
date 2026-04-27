@@ -35,7 +35,9 @@ def file_metadata(root: Path, path: Path) -> dict:
     if path.suffix.lower() == ".parquet":
         df = pd.read_parquet(path)
         entry["row_count"] = int(len(df))
-        entry["schema"] = list(df.columns)
+        entry["schema"] = [
+            {"name": str(col), "dtype": str(dtype)} for col, dtype in df.dtypes.items()
+        ]
 
     return entry
 

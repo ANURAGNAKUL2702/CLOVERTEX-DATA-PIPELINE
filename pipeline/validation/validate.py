@@ -32,6 +32,22 @@ def iter_consumption_files():
 	return files
 
 
+def file_quality_metrics(files: list[Path]) -> list[dict]:
+	metrics = []
+	for file in files:
+		parts = file.parts
+		dataset = parts[parts.index("v1") + 1] if "v1" in parts else file.parent.name
+		df = pd.read_parquet(file)
+		metrics.append({
+			"file": file.as_posix(),
+			"dataset": dataset,
+			"row_count": int(len(df)),
+			"nulls_by_column": {k: int(v) for k, v in df.isna().sum().to_dict().items()},
+			"duplicate_rows": int(df.duplicated().sum()),
+		})
+	return metrics
+
+
 def schema_mismatches(files: list[Path]) -> dict:
 	schemas: dict[str, list[set[str]]] = {}
 	for file in files:
@@ -91,6 +107,7 @@ def run_validation():
 		"generated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S"),
 		"ingestion": {},
 		"cleaning": {},
+		"quality_by_file": [],
 		"orphan_records": {},
 		"schema_mismatches": {},
 	}
@@ -104,6 +121,7 @@ def run_validation():
 		report["cleaning"] = load_json(cleaning_metrics_path)
 
 	files = iter_consumption_files()
+	report["quality_by_file"] = file_quality_metrics(files)
 	report["orphan_records"] = orphan_records(files)
 	report["schema_mismatches"] = schema_mismatches(files)
 

@@ -282,6 +282,8 @@ def run_ingestion():
         with open(log_path, "w", encoding="utf-8") as f:
             json.dump(list(dataset_metrics.values()), f, indent=2)
         print(f"[INFO] Log saved   : {log_path}")
+        print("[INFO] Metrics JSON:")
+        print(json.dumps(list(dataset_metrics.values()), indent=2))
 
 
 # -------------------------------

@@ -63,6 +63,9 @@ def run_detection():
 						"field": "test_value",
 						"value": row.get("test_value"),
 						"reason": f"IQR_outlier:{test}",
+						"threshold_low": float(lower),
+						"threshold_high": float(upper),
+						"is_anomaly": True,
 					})
 
 	if variants_file:
@@ -78,6 +81,9 @@ def run_detection():
 					"field": "allele_frequency",
 					"value": row.get("allele_frequency"),
 					"reason": "allele_frequency_gt_0.5",
+					"threshold_low": None,
+					"threshold_high": 0.5,
+					"is_anomaly": True,
 				})
 
 	output_dir = CONSUMPTION_DIR / "analytics"
