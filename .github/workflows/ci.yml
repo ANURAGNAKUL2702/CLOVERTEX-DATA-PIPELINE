@@ -24,7 +24,7 @@ jobs:
           pip install ruff
 
       - name: Ruff lint
-        run: ruff check pipeline
+        run: ruff check pipelin
 
       - name: Docker build
         run: docker build .
