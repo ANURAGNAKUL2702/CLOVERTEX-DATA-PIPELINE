@@ -1,0 +1,1639 @@
+diagnosis_id,patient_id,icd10_code,description,diagnosis_date,diagnosing_physician,is_primary,notes,severity,status
+DX-88224,GAMMA-00790,M54.5,Low back pain,09/11/2024,Dr. Kim,N,,severe,chronic
+DX-40329,BETA-00528,E11.9,Type 2 diabetes mellitus without complications,2023-03-06,Dr. Johnson,N,,severe,chronic
+DX-75064,BETA-00054,E78.5,"Dyslipidemia, unspecified",07/22/2023,Dr. Robinson,Y,,severe,resolved
+DX-31052,ALPHA-00613,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,26 Oct 2023,Dr. Gonzalez,N,,mild,resolved
+DX-38215,BETA-00755,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,03/28/2024,Dr. White,Y,,mild,chronic
+DX-51964,BETA-00287,K21.0,Gastro-esophageal reflux disease with esophagitis,04/29/2024,Dr. Tanaka,N,,mild,active
+DX-76058,ALPHA-00352,D64.9,"Anemia, unspecified",2024/10/29,Dr. Tanaka,Y,,severe,active
+DX-48086,GAMMA-00358,N18.3,"Chronic kidney disease, stage 3","October 06, 2023",Dr. Singh,Y,,mild,chronic
+DX-11899,BETA-00246,G47.33,Obstructive sleep apnea,05/11/2024,Dr. Brown,N,,moderate,chronic
+DX-39589,BETA-00277,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,03/30/2023,Dr. Martin,Y,,moderate,active
+DX-58952,BETA-00544,J18.9,"Pneumonia, unspecified organism",2024-12-27,Dr. Lee,Y,,severe,chronic
+DX-24293,GAMMA-00120,N18.4,"Chronic kidney disease, stage 4",2022/06/16,Dr. Williams,N,,severe,resolved
+DX-35527,ALPHA-00597,E11.65,Type 2 diabetes mellitus with hyperglycemia,03/29/2022,Dr. Lee,Y,,severe,resolved
+DX-89895,ALPHA-00759,B20,Human immunodeficiency virus [HIV] disease,2024-08-16,Dr. Jones,N,,severe,chronic
+DX-16657,ALPHA-00544,E11.65,Type 2 diabetes mellitus with hyperglycemia,2024-12-29T00:00:00,Dr. Smith,N,,severe,resolved
+DX-54010,GAMMA-00185,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,2024-05-08,Dr. Wilson,Y,,moderate,chronic
+DX-65025,ALPHA-00198,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,2024-09-28T00:00:00,Dr. Allen,Y,,moderate,active
+DX-71313,ALPHA-00223,D64.9,"Anemia, unspecified",07/27/2023,Dr. White,N,,moderate,chronic
+DX-59678,ALPHA-00600,I10,Essential (primary) hypertension,03/17/2023,Dr. Taylor,N,,mild,chronic
+DX-88982,BETA-00489,E03.9,"Hypothyroidism, unspecified",02/18/2024,Dr. Mueller,N,,severe,chronic
+DX-47510,BETA-00276,E03.9,"Hypothyroidism, unspecified","September 23, 2023",Dr. Moore,N,,moderate,chronic
+DX-90858,ALPHA-00705,G20,Parkinson's disease,2022/06/25,Dr. Sato,N,,moderate,active
+DX-12033,ALPHA-00423,I25.10,Atherosclerotic heart disease of native coronary artery,09-03-2024,Dr. Thompson,N,,severe,active
+DX-49520,GAMMA-00693,K70.30,Alcoholic cirrhosis of liver without ascites,10/25/2022,Dr. Wang,N,,severe,resolved
+DX-64551,BETA-00060,Z87.891,Personal history of nicotine dependence,05/14/2022,Dr. Lee,N,,moderate,chronic
+DX-50032,BETA-00338,I25.10,Atherosclerotic heart disease of native coronary artery,08/07/2022,Dr. Smith,N,,severe,resolved
+DX-39670,BETA-00737,N18.3,"Chronic kidney disease, stage 3",04/22/2022,Dr. Garcia,N,,moderate,resolved
+DX-60663,ALPHA-00222,E11.65,Type 2 diabetes mellitus with hyperglycemia,07 Jun 2024,Dr. Harris,Y,,moderate,chronic
+DX-38387,BETA-00228,E03.9,"Hypothyroidism, unspecified",2024-10-13,Dr. Thompson,Y,,mild,resolved
+DX-68851,GAMMA-00650,M54.5,Low back pain,2024-12-18,Dr. Miller,Y,,,resolved
+DX-29028,ALPHA-00468,I2510,Atherosclerotic heart disease of native coronary artery,2024-12-03,Dr. Mueller,Y,,mild,resolved
+DX-13217,GAMMA-00170,I25.10,Atherosclerotic heart disease of native coronary artery,10/20/2023,Dr. Mueller,N,,mild,chronic
+DX-52007,ALPHA-00491,J45.20,"Mild intermittent asthma, uncomplicated",2023/12/10,Dr. Patel,N,,mild,active
+DX-51912,ALPHA-00317,N18.3,"Chronic kidney disease, stage 3",2022-08-05,Dr. Schmidt,Y,,mild,active
+DX-15382,ALPHA-00227,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,01/21/2023,Dr. Rodriguez,N,,moderate,active
+DX-21438,BETA-00780,G20,Parkinson's disease,03/20/2023,Dr. Ramirez,N,,moderate,active
+DX-70233,GAMMA-00738,M54.5,Low back pain,01/30/2023,Dr. Davis,N,,mild,chronic
+DX-44041,ALPHA-00350,E11.9,Type 2 diabetes mellitus without complications,2022-03-20T00:00:00,Dr. White,Y,,severe,chronic
+DX-93008,ALPHA-00198,N18.3,"Chronic kidney disease, stage 3",2024/09/27,Dr. Rodriguez,N,,moderate,chronic
+DX-66392,ALPHA-00391,M54.5,Low back pain,14 Dec 2023,Dr. Garcia,N,,moderate,chronic
+DX-50505,GAMMA-00312,G20,Parkinson's disease,2022-09-23T00:00:00,Dr. Jackson,N,,moderate,active
+DX-37559,BETA-00252,M54.5,Low back pain,04/26/2022,Dr. Schmidt,N,,moderate,resolved
+DX-65356,ALPHA-00446,N18.3,"Chronic kidney disease, stage 3",2022-05-07,Dr. Miller,Y,,moderate,resolved
+DX-29053,GAMMA-00517,G47.33,Obstructive sleep apnea,"February 21, 2023",Dr. Gonzalez,Y,,severe,resolved
+DX-58258,ALPHA-00704,M54.5,Low back pain,26-04-2023,Dr. Ramirez,N,,mild,resolved
+DX-73227,GAMMA-00575,I10,Essential (primary) hypertension,03/02/2024,Dr. Park,N,,moderate,chronic
+DX-52727,ALPHA-00032,B20,Human immunodeficiency virus [HIV] disease,"January 02, 2023",Dr. Kumar,Y,,moderate,chronic
+DX-78508,GAMMA-00121,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,06 Nov 2023,Dr. Gonzalez,Y,,moderate,active
+DX-18256,ALPHA-00752,D64.9,"Anemia, unspecified",15 Aug 2022,Dr. Rodriguez,Y,,severe,resolved
+DX-62456,GAMMA-00680,N18.4,"Chronic kidney disease, stage 4",14-09-2023,Dr. Hernandez,N,,moderate,resolved
+DX-55719,GAMMA-00740,I25.10,Atherosclerotic heart disease of native coronary artery,20-02-2023,Dr. Thomas,N,,moderate,active
+DX-47222,GAMMA-00324,B20,Human immunodeficiency virus [HIV] disease,2022-09-25T00:00:00,Dr. Jackson,N,,severe,active
+DX-16536,BETA-00705,I25.10,Atherosclerotic heart disease of native coronary artery,22 Jun 2022,Dr. Kumar,Y,,mild,resolved
+DX-59614,ALPHA-00001,D64.9,"Anemia, unspecified",2024-11-01,Dr. Walker,Y,,mild,active
+DX-97395,GAMMA-00525,K21.0,Gastro-esophageal reflux disease with esophagitis,06/15/2022,Dr. Lee,Y,,moderate,active
+DX-41341,GAMMA-00739,K70.30,Alcoholic cirrhosis of liver without ascites,2024/08/17,Dr. Young,Y,,mild,active
+DX-70458,BETA-00528,G47.33,Obstructive sleep apnea,2023-03-04T00:00:00,Dr. Johansson,Y,,moderate,resolved
+DX-41255,GAMMA-00420,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,2024-07-21,Dr. White,N,,moderate,chronic
+DX-45476,BETA-00246,F41.1,Generalized anxiety disorder,2024-05-12,Dr. Martinez,Y,,moderate,resolved
+DX-97697,GAMMA-00059,D64.9,"Anemia, unspecified",2024-10-05,Dr. Jones,Y,,moderate,resolved
+DX-85864,BETA-00196,N18.3,"Chronic kidney disease, stage 3",2022-12-13,Dr. Taylor,Y,,severe,chronic
+DX-60941,GAMMA-00022,I10,Essential (primary) hypertension,23 Mar 2022,Dr. Walker,Y,,severe,resolved
+DX-99389,GAMMA-00199,F41.1,Generalized anxiety disorder,"June 03, 2024",Dr. Rodriguez,Y,,mild,active
+DX-15351,BETA-00143,F41.1,Generalized anxiety disorder,2023-08-11,Dr. Robinson,N,,severe,resolved
+DX-30387,ALPHA-00018,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,08/06/2024,Dr. Clark,N,,mild,resolved
+DX-95111,BETA-00099,R06.02,Shortness of breath,2024-07-21T00:00:00,Dr. Chen,N,,mild,resolved
+DX-50023,BETA-00409,I25.10,Atherosclerotic heart disease of native coronary artery,2022-10-09,Dr. Jones,Y,,mild,chronic
+DX-69561,BETA-00475,E03.9,"Hypothyroidism, unspecified",12/14/2024,Dr. Gupta,N,,severe,resolved
+DX-17264,GAMMA-00342,Z87.891,Personal history of nicotine dependence,2022-06-03T00:00:00,Dr. Harris,N,,moderate,resolved
+DX-36841,ALPHA-00502,G47.33,Obstructive sleep apnea,2022-11-07,Dr. Allen,N,,severe,active
+DX-99003,BETA-00005,G20,Parkinson's disease,2023-07-02,Dr. Davis,N,,mild,active
+DX-72551,ALPHA-00328,F41.1,Generalized anxiety disorder,02 Jul 2022,Dr. Sato,N,,severe,active
+DX-11325,ALPHA-00093,F41.1,Generalized anxiety disorder,2022/09/09,Dr. Robinson,Y,,moderate,active
+DX-62885,GAMMA-00142,K70.30,Alcoholic cirrhosis of liver without ascites,2023-07-25T00:00:00,Dr. Perez,Y,,moderate,active
+DX-49318,GAMMA-00174,E11.9,Type 2 diabetes mellitus without complications,11/23/2024,Dr. Harris,Y,,severe,resolved
+DX-13569,ALPHA-00611,K70.30,Alcoholic cirrhosis of liver without ascites,09/24/2022,Dr. Gonzalez,Y,,severe,active
+DX-44319,ALPHA-00006,M54.5,Low back pain,10/27/2023,Dr. Moore,Y,,mild,active
+DX-60122,GAMMA-00383,F32.1,"Major depressive disorder, single episode, moderate",2023-12-16,Dr. Wang,Y,,severe,chronic
+DX-27236,BETA-00149,B20,Human immunodeficiency virus [HIV] disease,"July 20, 2023",Dr. Miller,N,,mild,resolved
+DX-84494,BETA-00070,J18.9,"Pneumonia, unspecified organism",2024-01-14,Dr. White,N,,mild,resolved
+DX-76618,ALPHA-00529,B20,Human immunodeficiency virus [HIV] disease,2022/04/01,Dr. Johansson,Y,,mild,resolved
+DX-22661,BETA-00690,F32.1,"Major depressive disorder, single episode, moderate",02/01/2023,Dr. Sato,N,,moderate,active
+DX-90850,GAMMA-00599,N18.3,"Chronic kidney disease, stage 3",2022-09-10,Dr. Moore,N,,severe,active
+DX-70036,ALPHA-00551,M54.5,Low back pain,07/09/2024,Dr. Lewis,Y,,moderate,chronic
+DX-34366,GAMMA-00377,G20,Parkinson's disease,2024/09/16,Dr. Sharma,N,,mild,chronic
+DX-80333,GAMMA-00631,F41.1,Generalized anxiety disorder,06/12/2022,Dr. Clark,N,,moderate,active
+DX-40463,BETA-00605,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,2024-07-20,Dr. Wilson,N,,,chronic
+DX-99644,GAMMA-00401,D64.9,"Anemia, unspecified",2023-06-01,Dr. White,N,,severe,chronic
+DX-77001,BETA-00559,E11.65,Type 2 diabetes mellitus with hyperglycemia,10/01/2024,Dr. Johansson,N,,severe,chronic
+DX-71472,GAMMA-00217,F41.1,Generalized anxiety disorder,2024-01-01,Dr. Tanaka,N,,moderate,active
+DX-35513,GAMMA-00003,K70.30,Alcoholic cirrhosis of liver without ascites,2024-08-01,Dr. Sharma,Y,,mild,active
+DX-34485,GAMMA-00564,M54.5,Low back pain,2022/12/12,Dr. Park,N,,moderate,chronic
+DX-97334,GAMMA-00544,F41.1,Generalized anxiety disorder,2024-12-27,Dr. Johansson,N,,moderate,resolved
+DX-13513,BETA-00055,I10,Essential (primary) hypertension,2022-02-07T00:00:00,Dr. Wilson,N,,moderate,resolved
+DX-23541,BETA-00150,M54.5,Low back pain,"March 29, 2022",Dr. Smith,Y,,moderate,resolved
+DX-58506,ALPHA-00671,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,2024-09-18,Dr. Robinson,N,,severe,active
+DX-22803,ALPHA-00516,G47.33,Obstructive sleep apnea,2024/01/07,Dr. Johansson,Y,,,active
+DX-53044,BETA-00464,N18.4,"Chronic kidney disease, stage 4",2022-08-14,Dr. Patel,N,,mild,active
+DX-58815,ALPHA-00740,F41.1,Generalized anxiety disorder,2023-02-17,Dr. Johnson,Y,,moderate,active
+DX-78459,GAMMA-00579,J45.20,"Mild intermittent asthma, uncomplicated",2024-04-08,Dr. Chen,N,,mild,active
+DX-66383,ALPHA-00619,K70.30,Alcoholic cirrhosis of liver without ascites,2024-09-21,Dr. Mueller,Y,,mild,chronic
+DX-71025,ALPHA-00757,R06.02,Shortness of breath,10 Jan 2024,Dr. Chen,N,,severe,resolved
+DX-69496,GAMMA-00334,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,06/08/2024,Dr. Park,N,,severe,resolved
+DX-19635,ALPHA-00387,N18.3,"Chronic kidney disease, stage 3",05-12-2023,Dr. Singh,N,,mild,resolved
+DX-71665,BETA-00518,N18.4,"Chronic kidney disease, stage 4",06/17/2024,Dr. Lee,N,,moderate,resolved
+DX-30727,ALPHA-00117,G47.33,Obstructive sleep apnea,07/12/2024,Dr. White,N,,moderate,active
+DX-12314,GAMMA-00399,D64.9,"Anemia, unspecified",2024-04-11,Dr. Gupta,Y,,mild,chronic
+DX-59245,ALPHA-00460,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,2022-11-06T00:00:00,Dr. Gonzalez,Y,,mild,active
+DX-89585,GAMMA-00098,N18.3,"Chronic kidney disease, stage 3",18-06-2022,Dr. Park,Y,,mild,active
+DX-88649,ALPHA-00516,G20,Parkinson's disease,2024/01/08,Dr. Sanchez,N,,severe,resolved
+DX-44414,GAMMA-00225,I10,Essential (primary) hypertension,05-09-2023,Dr. Martin,Y,,severe,chronic
+DX-27370,BETA-00392,J45.20,"Mild intermittent asthma, uncomplicated","July 28, 2022",Dr. Martinez,Y,,,resolved
+DX-48316,BETA-00565,G47.33,Obstructive sleep apnea,22-10-2022,Dr. Hernandez,Y,,severe,chronic
+DX-94327,BETA-00480,J18.9,"Pneumonia, unspecified organism",2022-07-31,Dr. Sato,N,,severe,resolved
+DX-40637,BETA-00009,E11.9,Type 2 diabetes mellitus without complications,08/19/2024,Dr. Tanaka,Y,,mild,resolved
+DX-20558,ALPHA-00657,M54.5,Low back pain,30 Nov 2024,Dr. White,N,,mild,active
+DX-89823,BETA-00589,K70.30,Alcoholic cirrhosis of liver without ascites,10/16/2024,Dr. Brown,N,,severe,active
+DX-57147,ALPHA-00370,I25.10,Atherosclerotic heart disease of native coronary artery,2024-08-25,Dr. Tanaka,N,,severe,chronic
+DX-93515,ALPHA-00483,E78.5,"Dyslipidemia, unspecified",08/18/2024,Dr. Jones,N,,moderate,active
+DX-58169,GAMMA-00307,D64.9,"Anemia, unspecified","August 07, 2024",Dr. Mueller,N,,moderate,active
+DX-61180,GAMMA-00754,Z87.891,Personal history of nicotine dependence,2024-02-11,Dr. Hernandez,N,,severe,chronic
+DX-62541,GAMMA-00598,E78.5,"Dyslipidemia, unspecified",16-10-2022,Dr. Allen,N,,mild,active
+DX-38463,GAMMA-00250,D64.9,"Anemia, unspecified",27 Jan 2022,Dr. Sharma,N,,moderate,active
+DX-91042,GAMMA-00394,E03.9,"Hypothyroidism, unspecified",04/15/2023,Dr. Young,Y,,mild,active
+DX-60276,ALPHA-00053,N18.4,"Chronic kidney disease, stage 4","February 18, 2024",Dr. Kim,Y,,mild,resolved
+DX-61465,ALPHA-00571,E11.9,Type 2 diabetes mellitus without complications,2022-07-05,Dr. Taylor,Y,,mild,chronic
+DX-59517,GAMMA-00568,E03.9,"Hypothyroidism, unspecified",08/31/2022,Dr. Jackson,N,,severe,resolved
+DX-34676,GAMMA-00307,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,09-08-2024,Dr. Davis,N,,moderate,chronic
+DX-85924,BETA-00724,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,2023-05-29,Dr. Johnson,N,,severe,chronic
+DX-97422,GAMMA-00176,E11.9,Type 2 diabetes mellitus without complications,2023-05-01T00:00:00,Dr. Robinson,N,,moderate,active
+DX-26631,GAMMA-00588,Z87.891,Personal history of nicotine dependence,19-08-2024,Dr. Gupta,N,,severe,active
+DX-60541,ALPHA-00037,N18.3,"Chronic kidney disease, stage 3","November 21, 2023",Dr. Jackson,N,,moderate,resolved
+DX-47684,GAMMA-00462,I48.91,Unspecified atrial fibrillation,03/22/2023,Dr. Johansson,Y,,mild,resolved
+DX-24128,GAMMA-00467,R06.02,Shortness of breath,2024-09-18T00:00:00,Dr. Gupta,N,,moderate,active
+DX-99399,ALPHA-00566,J45.20,"Mild intermittent asthma, uncomplicated",2023-03-31,Dr. Miller,N,,mild,chronic
+DX-60844,ALPHA-00794,G20,Parkinson's disease,08/08/2024,Dr. Brown,N,,mild,chronic
+DX-46712,BETA-00389,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,2024-10-07,Dr. Brown,N,,severe,resolved
+DX-40645,GAMMA-00105,I48.91,Unspecified atrial fibrillation,2024-12-23T00:00:00,Dr. Shah,N,,severe,chronic
+DX-83578,ALPHA-00538,N18.4,"Chronic kidney disease, stage 4",07/05/2022,Dr. Taylor,Y,,mild,active
+DX-80787,BETA-00593,M54.5,Low back pain,10/22/2024,Dr. Young,N,,mild,chronic
+DX-77324,ALPHA-00773,I48.91,Unspecified atrial fibrillation,2024-07-01,Dr. Chen,Y,,severe,active
+DX-79167,GAMMA-00023,G20,Parkinson's disease,2022-09-27,Dr. Thompson,N,,severe,resolved
+DX-46579,BETA-00631,E119,Type 2 diabetes mellitus without complications,2022/06/13,Dr. Davis,N,,moderate,resolved
+DX-24496,GAMMA-00625,G20,Parkinson's disease,19 Jul 2022,Dr. Kim,Y,,severe,chronic
+DX-35384,ALPHA-00134,N18.3,"Chronic kidney disease, stage 3",2023-11-25,Dr. Martin,N,,mild,chronic
+DX-16186,GAMMA-00068,E11.65,Type 2 diabetes mellitus with hyperglycemia,10/21/2023,Dr. Thomas,Y,,mild,active
+DX-86838,GAMMA-00127,E11.9,Type 2 diabetes mellitus without complications,2024-06-16,Dr. Kim,Y,,moderate,resolved
+DX-89474,GAMMA-00418,G47.33,Obstructive sleep apnea,14 Feb 2024,Dr. Jackson,Y,,severe,chronic
+DX-37960,BETA-00018,N18.3,"Chronic kidney disease, stage 3",08/05/2024,Dr. King,N,,moderate,active
+DX-94690,BETA-00672,E11.9,Type 2 diabetes mellitus without complications,2022-09-15T00:00:00,Dr. Chen,N,,moderate,chronic
+DX-25177,ALPHA-00108,M54.5,Low back pain,2023-02-24,Dr. Johansson,N,,severe,resolved
+DX-62582,ALPHA-00109,E11.9,Type 2 diabetes mellitus without complications,"September 22, 2022",Dr. Williams,N,,moderate,active
+DX-10808,ALPHA-00752,E11.65,Type 2 diabetes mellitus with hyperglycemia,08/12/2022,Dr. Johansson,N,,severe,chronic
+DX-87071,BETA-00550,M54.5,Low back pain,2023-10-12,Dr. Moore,Y,,mild,resolved
+DX-76996,GAMMA-00781,J45.20,"Mild intermittent asthma, uncomplicated",07/25/2024,Dr. Walker,N,,mild,resolved
+DX-74092,BETA-00523,J45.20,"Mild intermittent asthma, uncomplicated",09/05/2022,Dr. Smith,N,,severe,active
+DX-52616,BETA-00032,F41.1,Generalized anxiety disorder,2023/01/04,Dr. Garcia,N,,mild,resolved
+DX-65541,BETA-00053,J18.9,"Pneumonia, unspecified organism",17-02-2024,Dr. Park,N,,moderate,chronic
+DX-14755,GAMMA-00603,E039,"Hypothyroidism, unspecified",2023/09/12,Dr. Lee,Y,,mild,resolved
+DX-95276,BETA-00640,J18.9,"Pneumonia, unspecified organism",26-06-2022,Dr. Sato,N,,,resolved
+DX-21423,ALPHA-00768,I48.91,Unspecified atrial fibrillation,2024-03-12,Dr. Chen,N,,moderate,active
+DX-16699,BETA-00763,E78.5,"Dyslipidemia, unspecified",2023-10-06,Dr. Kim,N,,mild,chronic
+DX-20529,ALPHA-00593,I48.91,Unspecified atrial fibrillation,2024-10-22T00:00:00,Dr. Jackson,N,,severe,resolved
+DX-39716,BETA-00404,J18.9,"Pneumonia, unspecified organism",07/15/2023,Dr. Davis,N,,moderate,chronic
+DX-73606,GAMMA-00455,E03.9,"Hypothyroidism, unspecified",30 Mar 2022,Dr. Gonzalez,N,,moderate,resolved
+DX-55850,ALPHA-00766,G20,Parkinson's disease,2023-03-18,Dr. Lopez,N,,mild,resolved
+DX-89217,GAMMA-00312,E11.9,Type 2 diabetes mellitus without complications,2022-09-22,Dr. Miller,N,,moderate,resolved
+DX-30548,BETA-00342,E11.65,Type 2 diabetes mellitus with hyperglycemia,2022/06/03,Dr. Tanaka,N,,severe,resolved
+DX-30484,GAMMA-00133,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,06/07/2023,Dr. Taylor,Y,,,active
+DX-56385,GAMMA-00716,M54.5,Low back pain,2022-01-25T00:00:00,Dr. Martin,N,,moderate,resolved
+DX-34699,ALPHA-00377,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,15 Sep 2024,Dr. Thomas,Y,,mild,resolved
+DX-23104,GAMMA-00697,B20,Human immunodeficiency virus [HIV] disease,2024/01/11,Dr. Ramirez,Y,,moderate,chronic
+DX-70482,GAMMA-00339,G20,Parkinson's disease,10 May 2022,Dr. Kim,N,,mild,chronic
+DX-65612,BETA-00667,K21.0,Gastro-esophageal reflux disease with esophagitis,29-04-2024,Dr. Lopez,Y,,mild,resolved
+DX-85918,ALPHA-00181,F321,"Major depressive disorder, single episode, moderate","June 08, 2023",Dr. Moore,Y,,mild,active
+DX-52504,BETA-00280,I25.10,Atherosclerotic heart disease of native coronary artery,08 Apr 2023,Dr. Jones,N,,severe,resolved
+DX-79189,BETA-00331,N18.4,"Chronic kidney disease, stage 4","December 03, 2023",Dr. King,N,,severe,active
+DX-47419,GAMMA-00066,f41.1,Generalized anxiety disorder,31-05-2023,Dr. Robinson,Y,,moderate,resolved
+DX-68141,BETA-00343,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,2023-06-08T00:00:00,Dr. Jackson,N,,moderate,active
+DX-87821,GAMMA-00090,I10,Essential (primary) hypertension,04/16/2024,Dr. Lewis,N,,mild,active
+DX-55584,GAMMA-00343,I48.91,Unspecified atrial fibrillation,"June 07, 2023",Dr. Young,N,,mild,resolved
+DX-86926,BETA-00593,E78.5,"Dyslipidemia, unspecified",2024-10-22,Dr. Williams,Y,,mild,chronic
+DX-73356,BETA-00375,F41.1,Generalized anxiety disorder,2022-01-18,Dr. Chen,N,,mild,resolved
+DX-26402,BETA-00008,M54.5,Low back pain,11/11/2024,Dr. Robinson,N,,moderate,active
+DX-93180,BETA-00095,I48.91,Unspecified atrial fibrillation,08/16/2022,Dr. Rodriguez,Y,,moderate,chronic
+DX-45594,ALPHA-00660,I25.10,Atherosclerotic heart disease of native coronary artery,2023-09-20,Dr. Martinez,N,,severe,chronic
+DX-26784,BETA-00765,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,2023-08-07T00:00:00,Dr. Sharma,Y,,mild,resolved
+DX-44416,BETA-00483,K70.30,Alcoholic cirrhosis of liver without ascites,19-08-2024,Dr. Allen,N,,moderate,resolved
+DX-91761,GAMMA-00336,J18.9,"Pneumonia, unspecified organism","April 28, 2024",Dr. Wang,Y,,severe,chronic
+DX-82158,BETA-00376,G20,Parkinson's disease,2023-06-07,Dr. Lee,N,,mild,resolved
+DX-54877,ALPHA-00482,M54.5,Low back pain,"January 02, 2023",Dr. Walker,Y,,severe,chronic
+DX-16551,GAMMA-00499,F41.1,Generalized anxiety disorder,2024-08-21T00:00:00,Dr. King,N,,moderate,active
+DX-87476,BETA-00524,F41.1,Generalized anxiety disorder,12/11/2022,Dr. Martin,Y,,moderate,resolved
+DX-43437,BETA-00115,K70.30,Alcoholic cirrhosis of liver without ascites,2024-08-18T00:00:00,Dr. Williams,Y,,severe,chronic
+DX-85618,BETA-00048,I48.91,Unspecified atrial fibrillation,2022/09/17,Dr. Jackson,N,,severe,chronic
+DX-54891,GAMMA-00702,M54.5,Low back pain,"May 14, 2022",Dr. Thompson,N,,severe,resolved
+DX-69520,GAMMA-00684,I25.10,Atherosclerotic heart disease of native coronary artery,12/27/2024,Dr. Singh,Y,,severe,active
+DX-63197,GAMMA-00089,G20,Parkinson's disease,27-04-2023,Dr. Martinez,N,,moderate,active
+DX-36481,ALPHA-00726,K7030,Alcoholic cirrhosis of liver without ascites,06/09/2022,Dr. Moore,N,,moderate,resolved
+DX-65377,BETA-00472,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,2022-11-15T00:00:00,Dr. Martin,N,,severe,chronic
+DX-67550,ALPHA-00341,I25.10,Atherosclerotic heart disease of native coronary artery,2024-06-29,Dr. Lee,Y,,moderate,chronic
+DX-41813,BETA-00063,M54.5,Low back pain,22-08-2024,Dr. Lopez,N,,severe,resolved
+DX-17429,BETA-00072,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,11/13/2022,Dr. Mueller,Y,,mild,active
+DX-23261,GAMMA-00515,D64.9,"Anemia, unspecified","January 09, 2022",Dr. Allen,Y,,,chronic
+DX-24000,GAMMA-00339,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,2022-05-08,Dr. Anderson,N,,moderate,active
+DX-12794,BETA-00009,J18.9,"Pneumonia, unspecified organism",08/19/2024,Dr. Moore,N,,severe,chronic
+DX-21144,GAMMA-00726,i25.10,Atherosclerotic heart disease of native coronary artery,06/10/2022,Dr. Mueller,N,,moderate,chronic
+DX-60993,ALPHA-00641,E11.65,Type 2 diabetes mellitus with hyperglycemia,04/08/2022,Dr. Moore,N,,moderate,active
+DX-92463,BETA-00429,F32.1,"Major depressive disorder, single episode, moderate",2024/07/15,Dr. Harris,N,,mild,resolved
+DX-68822,ALPHA-00455,F41.1,Generalized anxiety disorder,2022-03-28,Dr. Lopez,Y,,moderate,resolved
+DX-97639,BETA-00090,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,18 Apr 2024,Dr. Miller,Y,,mild,active
+DX-59398,BETA-00058,J45.20,"Mild intermittent asthma, uncomplicated",01/11/2024,Dr. King,N,,mild,resolved
+DX-92262,ALPHA-00154,M54.5,Low back pain,05/08/2024,Dr. Moore,Y,,severe,active
+DX-95072,GAMMA-00047,J18.9,"Pneumonia, unspecified organism",12/18/2023,Dr. Park,Y,,severe,chronic
+DX-60375,ALPHA-00506,I25.10,Atherosclerotic heart disease of native coronary artery,26 Dec 2023,Dr. King,N,,severe,resolved
+DX-68062,ALPHA-00784,N18.4,"Chronic kidney disease, stage 4",2022-07-21,Dr. Miller,Y,,mild,active
+DX-99316,ALPHA-00502,R06.02,Shortness of breath,08 Nov 2022,Dr. Martinez,N,,moderate,active
+DX-16161,BETA-00214,N18.3,"Chronic kidney disease, stage 3","August 24, 2022",Dr. Kim,Y,,mild,active
+DX-36893,BETA-00466,K21.0,Gastro-esophageal reflux disease with esophagitis,"July 18, 2023",Dr. Gupta,N,,severe,active
+DX-23534,GAMMA-00010,E11.9,Type 2 diabetes mellitus without complications,11/23/2022,Dr. Jones,N,,severe,resolved
+DX-29782,BETA-00163,N18.4,"Chronic kidney disease, stage 4",05/07/2024,Dr. Park,N,,moderate,chronic
+DX-87491,GAMMA-00434,I48.91,Unspecified atrial fibrillation,2024-02-24T00:00:00,Dr. Young,N,,moderate,resolved
+DX-85861,BETA-00143,N18.4,"Chronic kidney disease, stage 4",08/08/2023,Dr. Johansson,N,,moderate,resolved
+DX-58848,ALPHA-00664,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,2024/06/26,Dr. Thompson,Y,,severe,chronic
+DX-94876,BETA-00339,R06.02,Shortness of breath,2022/05/09,Dr. Ramirez,N,,moderate,chronic
+DX-33631,GAMMA-00627,C50919,Malignant neoplasm of unspecified site of unspecified female breast,15 Dec 2024,Dr. Ramirez,Y,,severe,active
+DX-34296,ALPHA-00492,R06.02,Shortness of breath,2022-01-02,Dr. Perez,N,,severe,resolved
+DX-71375,GAMMA-00211,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,2024/01/10,Dr. Thompson,Y,,severe,active
+DX-13096,GAMMA-00010,K70.30,Alcoholic cirrhosis of liver without ascites,11/22/2022,Dr. Garcia,N,,moderate,resolved
+DX-37908,BETA-00546,E78.5,"Dyslipidemia, unspecified",05/03/2024,Dr. Johansson,Y,,moderate,resolved
+DX-58307,ALPHA-00156,I48.91,Unspecified atrial fibrillation,21-08-2024,Dr. Shah,N,,mild,resolved
+DX-73653,ALPHA-00565,Z87.891,Personal history of nicotine dependence,23-10-2022,Dr. Kim,N,,mild,chronic
+DX-39456,ALPHA-00691,K70.30,Alcoholic cirrhosis of liver without ascites,12/31/2023,Dr. Singh,Y,,,chronic
+DX-22876,BETA-00499,E11.65,Type 2 diabetes mellitus with hyperglycemia,18 Aug 2024,Dr. Gupta,Y,,mild,chronic
+DX-93859,GAMMA-00503,J18.9,"Pneumonia, unspecified organism",13-11-2022,Dr. Robinson,N,,,active
+DX-51781,ALPHA-00070,D64.9,"Anemia, unspecified",2024-01-14,Dr. Ramirez,Y,,moderate,chronic
+DX-62895,GAMMA-00338,K21.0,Gastro-esophageal reflux disease with esophagitis,2022-08-09,Dr. Davis,Y,,severe,resolved
+DX-30062,GAMMA-00202,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,2022-03-29,Dr. Taylor,Y,,mild,active
+DX-48502,BETA-00682,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,12/09/2024,Dr. Singh,N,,moderate,resolved
+DX-33551,GAMMA-00019,E03.9,"Hypothyroidism, unspecified",2024-04-13,Dr. Patel,Y,,severe,resolved
+DX-86675,GAMMA-00635,N18.4,"Chronic kidney disease, stage 4",10-07-2024,Dr. Thompson,Y,,severe,chronic
+DX-71709,GAMMA-00790,E11.9,Type 2 diabetes mellitus without complications,09/12/2024,Dr. Wang,N,,moderate,chronic
+DX-79261,BETA-00430,M54.5,Low back pain,03/19/2023,Dr. Jackson,N,,severe,resolved
+DX-52274,BETA-00470,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,2023/08/02,Dr. Ramirez,N,,mild,chronic
+DX-27727,GAMMA-00676,E03.9,"Hypothyroidism, unspecified",07/17/2024,Dr. Johnson,N,,mild,active
+DX-57349,BETA-00209,E78.5,"Dyslipidemia, unspecified",07/10/2022,Dr. Singh,Y,,moderate,resolved
+DX-14243,ALPHA-00000,G47.33,Obstructive sleep apnea,04/04/2023,Dr. Thompson,N,,moderate,active
+DX-52221,GAMMA-00701,K21.0,Gastro-esophageal reflux disease with esophagitis,08/28/2023,Dr. Allen,Y,,mild,active
+DX-77500,BETA-00347,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,2023/08/03,Dr. Perez,N,,severe,active
+DX-88710,ALPHA-00251,N18.3,"Chronic kidney disease, stage 3",09/02/2022,Dr. Martinez,Y,,moderate,chronic
+DX-42932,BETA-00311,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,2023/02/13,Dr. Singh,Y,,moderate,resolved
+DX-26843,GAMMA-00123,G47.33,Obstructive sleep apnea,2023-11-21T00:00:00,Dr. Martin,Y,,severe,resolved
+DX-95234,BETA-00191,I48.91,Unspecified atrial fibrillation,2022-03-22,Dr. Jackson,N,,,active
+DX-38455,ALPHA-00094,R06.02,Shortness of breath,2023-03-04,Dr. Patel,Y,,severe,chronic
+DX-43477,BETA-00729,I25.10,Atherosclerotic heart disease of native coronary artery,"December 10, 2022",Dr. Walker,Y,,mild,active
+DX-98201,ALPHA-00719,Z87.891,Personal history of nicotine dependence,"March 22, 2022",Dr. Moore,Y,,severe,chronic
+DX-68314,ALPHA-00766,E11.65,Type 2 diabetes mellitus with hyperglycemia,2023-03-18,Dr. Thomas,Y,,moderate,resolved
+DX-89211,GAMMA-00550,K21.0,Gastro-esophageal reflux disease with esophagitis,2023-10-14T00:00:00,Dr. Sharma,N,,severe,chronic
+DX-77687,BETA-00793,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,27-05-2023,Dr. Sharma,N,,severe,active
+DX-46627,ALPHA-00111,K21.0,Gastro-esophageal reflux disease with esophagitis,"October 28, 2023",Dr. Hernandez,Y,,mild,resolved
+DX-20747,ALPHA-00132,E11.65,Type 2 diabetes mellitus with hyperglycemia,01/09/2024,Dr. Gupta,Y,,moderate,active
+DX-85106,GAMMA-00479,J18.9,"Pneumonia, unspecified organism",2024-12-28,Dr. Shah,Y,,moderate,chronic
+DX-92389,GAMMA-00221,E78.5,"Dyslipidemia, unspecified",13-08-2022,Dr. Hernandez,Y,,mild,resolved
+DX-18402,GAMMA-00050,G47.33,Obstructive sleep apnea,09/12/2023,Dr. Robinson,Y,,mild,active
+DX-55294,GAMMA-00615,Z87.891,Personal history of nicotine dependence,03/28/2022,Dr. Allen,N,,mild,resolved
+DX-39812,BETA-00010,I10,Essential (primary) hypertension,11/23/2022,Dr. Anderson,N,,severe,chronic
+DX-32206,GAMMA-00585,Z87891,Personal history of nicotine dependence,03 Apr 2022,Dr. Lee,N,,moderate,chronic
+DX-16669,ALPHA-00236,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,02-01-2025,Dr. Garcia,N,,severe,resolved
+DX-99152,ALPHA-00263,I25.10,Atherosclerotic heart disease of native coronary artery,"July 06, 2022",Dr. Garcia,N,,moderate,resolved
+DX-70725,GAMMA-00047,G20,Parkinson's disease,19-12-2023,Dr. Lopez,N,,mild,chronic
+DX-65486,ALPHA-00146,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,2023/09/28,Dr. Davis,Y,,mild,chronic
+DX-64313,GAMMA-00707,N18.3,"Chronic kidney disease, stage 3",2022-06-20,Dr. Williams,Y,,moderate,active
+DX-55652,ALPHA-00301,K21.0,Gastro-esophageal reflux disease with esophagitis,2023-06-04,Dr. Wang,Y,,moderate,resolved
+DX-23182,BETA-00724,J18.9,"Pneumonia, unspecified organism",05/30/2023,Dr. Patel,N,,severe,chronic
+DX-99746,GAMMA-00050,M54.5,Low back pain,2023-09-11,Dr. White,N,,moderate,resolved
+DX-37806,GAMMA-00373,D64.9,"Anemia, unspecified",2022-01-03,Dr. Mueller,Y,,moderate,resolved
+DX-77911,ALPHA-00633,M545,Low back pain,02/01/2022,Dr. Hernandez,Y,,severe,chronic
+DX-50550,BETA-00562,F32.1,"Major depressive disorder, single episode, moderate",02/07/2022,Dr. Johansson,Y,,moderate,active
+DX-37520,GAMMA-00771,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,08/28/2024,Dr. Sanchez,Y,,mild,active
+DX-33315,GAMMA-00192,E11.9,Type 2 diabetes mellitus without complications,30-08-2022,Dr. Ramirez,N,,severe,chronic
+DX-96727,ALPHA-00210,J45.20,"Mild intermittent asthma, uncomplicated",14-10-2022,Dr. Williams,Y,,moderate,chronic
+DX-43381,ALPHA-00250,N18.3,"Chronic kidney disease, stage 3",01/26/2022,Dr. Chen,N,,mild,resolved
+DX-69800,GAMMA-00209,D64.9,"Anemia, unspecified",10 Jul 2022,Dr. Moore,N,,severe,active
+DX-90812,GAMMA-00120,E03.9,"Hypothyroidism, unspecified",19-06-2022,Dr. Park,N,,severe,resolved
+DX-72704,GAMMA-00280,N18.4,"Chronic kidney disease, stage 4",2023-04-08T00:00:00,Dr. Hernandez,N,,severe,chronic
+DX-64917,GAMMA-00018,Z87.891,Personal history of nicotine dependence,08/07/2024,Dr. Sharma,Y,,mild,chronic
+DX-69989,BETA-00290,E78.5,"Dyslipidemia, unspecified",2024-03-08,Dr. Clark,N,,moderate,resolved
+DX-95257,BETA-00117,E03.9,"Hypothyroidism, unspecified",07/13/2024,Dr. Davis,N,,moderate,resolved
+DX-61626,ALPHA-00130,G20,Parkinson's disease,2023-05-05,Dr. Lopez,N,,moderate,resolved
+DX-25201,ALPHA-00074,I10,Essential (primary) hypertension,08/05/2023,Dr. Martinez,Y,,mild,chronic
+DX-90739,ALPHA-00652,E03.9,"Hypothyroidism, unspecified",12 Jul 2022,Dr. Johansson,Y,,severe,resolved
+DX-11425,GAMMA-00756,J18.9,"Pneumonia, unspecified organism",30-07-2023,Dr. Gupta,Y,,moderate,active
+DX-18134,BETA-00183,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,"October 03, 2022",Dr. Taylor,N,,mild,active
+DX-49773,BETA-00260,R06.02,Shortness of breath,2024-06-10,Dr. Sanchez,N,,moderate,active
+DX-72653,BETA-00236,D64.9,"Anemia, unspecified",2024-12-30T00:00:00,Dr. Martin,N,,severe,resolved
+DX-23015,GAMMA-00398,M54.5,Low back pain,11/14/2024,Dr. Perez,N,,moderate,active
+DX-50018,BETA-00528,J18.9,"Pneumonia, unspecified organism",05-03-2023,Dr. Gonzalez,N,,mild,chronic
+DX-20238,GAMMA-00739,J18.9,"Pneumonia, unspecified organism",08/17/2024,Dr. Martinez,N,,mild,chronic
+DX-34956,GAMMA-00027,E03.9,"Hypothyroidism, unspecified","June 23, 2024",Dr. Park,N,,severe,resolved
+DX-89106,GAMMA-00395,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,10/22/2024,Dr. Park,N,,moderate,resolved
+DX-91462,GAMMA-00485,B20,Human immunodeficiency virus [HIV] disease,05 Aug 2023,Dr. Lewis,N,,severe,chronic
+DX-61879,GAMMA-00514,B20,Human immunodeficiency virus [HIV] disease,2023-05-29,Dr. Singh,Y,,mild,active
+DX-25064,ALPHA-00475,E78.5,"Dyslipidemia, unspecified",2024-12-13,Dr. Jackson,Y,,moderate,chronic
+DX-77676,GAMMA-00604,Z87.891,Personal history of nicotine dependence,08/24/2024,Dr. Schmidt,N,,moderate,resolved
+DX-32919,BETA-00419,E78.5,"Dyslipidemia, unspecified",2023-12-14T00:00:00,Dr. Tanaka,N,,moderate,resolved
+DX-13507,ALPHA-00009,N18.3,"Chronic kidney disease, stage 3",2024-08-16T00:00:00,Dr. Wang,N,,moderate,active
+DX-23029,BETA-00565,K70.30,Alcoholic cirrhosis of liver without ascites,2022-10-23T00:00:00,Dr. Thompson,N,,moderate,chronic
+DX-47197,ALPHA-00738,F321,"Major depressive disorder, single episode, moderate",2023-01-31T00:00:00,Dr. Sato,Y,,severe,chronic
+DX-80756,BETA-00658,E78.5,"Dyslipidemia, unspecified","September 19, 2022",Dr. Walker,N,,mild,chronic
+DX-59664,BETA-00735,J18.9,"Pneumonia, unspecified organism",03-09-2023,Dr. Shah,Y,,mild,active
+DX-52756,BETA-00700,F41.1,Generalized anxiety disorder,01/27/2023,Dr. Taylor,Y,,mild,resolved
+DX-37876,GAMMA-00008,I25.10,Atherosclerotic heart disease of native coronary artery,11/12/2024,Dr. Johnson,Y,,moderate,resolved
+DX-81970,GAMMA-00370,R06.02,Shortness of breath,08/25/2024,Dr. Walker,Y,,severe,active
+DX-75891,GAMMA-00108,J45.20,"Mild intermittent asthma, uncomplicated",2023/02/26,Dr. Chen,N,,severe,resolved
+DX-77774,GAMMA-00494,B20,Human immunodeficiency virus [HIV] disease,18-09-2022,Dr. Lewis,N,,severe,chronic
+DX-12335,ALPHA-00387,B20,Human immunodeficiency virus [HIV] disease,12/02/2023,Dr. Chen,N,,moderate,chronic
+DX-29994,GAMMA-00151,E78.5,"Dyslipidemia, unspecified",2023-09-12,Dr. Perez,Y,,moderate,resolved
+DX-64056,BETA-00532,G47.33,Obstructive sleep apnea,2024-09-21,Dr. Mueller,Y,,severe,resolved
+DX-78860,BETA-00126,E11.9,Type 2 diabetes mellitus without complications,04/17/2022,Dr. Sanchez,Y,,moderate,chronic
+DX-69278,GAMMA-00357,Z87.891,Personal history of nicotine dependence,2023/10/16,Dr. King,N,,severe,resolved
+DX-81525,GAMMA-00181,G47.33,Obstructive sleep apnea,2023-06-06T00:00:00,Dr. Gupta,N,,severe,active
+DX-12072,ALPHA-00356,E11.65,Type 2 diabetes mellitus with hyperglycemia,"August 21, 2023",Dr. Robinson,N,,severe,chronic
+DX-87319,ALPHA-00733,K70.30,Alcoholic cirrhosis of liver without ascites,09/16/2024,Dr. Kumar,N,,severe,chronic
+DX-19922,ALPHA-00639,F41.1,Generalized anxiety disorder,2023-11-29,Dr. Sato,N,,mild,active
+DX-62692,GAMMA-00218,I10,Essential (primary) hypertension,01 Apr 2023,Dr. Brown,N,,moderate,active
+DX-40199,ALPHA-00162,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,12-12-2024,Dr. Moore,Y,,moderate,active
+DX-73318,GAMMA-00570,Z87.891,Personal history of nicotine dependence,"May 17, 2022",Dr. Patel,N,,moderate,active
+DX-39903,ALPHA-00421,F41.1,Generalized anxiety disorder,03/05/2024,Dr. Williams,N,,mild,resolved
+DX-15995,BETA-00455,K70.30,Alcoholic cirrhosis of liver without ascites,2022-03-31,Dr. Rodriguez,N,,severe,active
+DX-66387,BETA-00794,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,09 Aug 2024,Dr. Wilson,N,,mild,resolved
+DX-85808,ALPHA-00516,M54.5,Low back pain,01/08/2024,Dr. Harris,N,,moderate,resolved
+DX-94900,GAMMA-00719,F32.1,"Major depressive disorder, single episode, moderate","March 24, 2022",Dr. Martinez,N,,severe,chronic
+DX-62005,GAMMA-00187,K210,Gastro-esophageal reflux disease with esophagitis,21 Oct 2023,Dr. Singh,Y,,mild,active
+DX-16425,BETA-00274,D64.9,"Anemia, unspecified",2022-10-18T00:00:00,Dr. Moore,Y,,moderate,chronic
+DX-69852,ALPHA-00362,B20,Human immunodeficiency virus [HIV] disease,05/07/2023,Dr. Singh,N,,severe,active
+DX-98106,ALPHA-00502,D64.9,"Anemia, unspecified",08-11-2022,Dr. Miller,Y,,severe,resolved
+DX-70450,GAMMA-00102,F41.1,Generalized anxiety disorder,05/19/2024,Dr. Mueller,Y,,mild,chronic
+DX-76359,BETA-00038,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,2024-05-01,Dr. Johansson,Y,,severe,resolved
+DX-37677,ALPHA-00781,D64.9,"Anemia, unspecified",07/24/2024,Dr. Kim,N,,moderate,resolved
+DX-93767,GAMMA-00398,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,14 Nov 2024,Dr. Martinez,Y,,moderate,chronic
+DX-10880,GAMMA-00238,R06.02,Shortness of breath,20-02-2023,Dr. Allen,N,,moderate,resolved
+DX-49229,BETA-00614,G20,Parkinson's disease,11/13/2023,Dr. Hernandez,Y,,mild,active
+DX-74367,GAMMA-00281,M54.5,Low back pain,2024/02/08,Dr. Harris,Y,,moderate,resolved
+DX-99125,BETA-00442,F41.1,Generalized anxiety disorder,2024-12-17,Dr. Taylor,Y,,severe,resolved
+DX-39919,BETA-00067,E78.5,"Dyslipidemia, unspecified",12/01/2024,Dr. Lopez,Y,,severe,chronic
+DX-94556,ALPHA-00438,E11.65,Type 2 diabetes mellitus with hyperglycemia,27-10-2023,Dr. Johnson,Y,,moderate,chronic
+DX-97083,GAMMA-00504,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,06/27/2023,Dr. Clark,Y,,moderate,active
+DX-37566,GAMMA-00657,J18.9,"Pneumonia, unspecified organism",12/01/2024,Dr. Sato,N,,moderate,chronic
+DX-40908,GAMMA-00497,F41.1,Generalized anxiety disorder,19-09-2024,Dr. Garcia,Y,,mild,chronic
+DX-40282,ALPHA-00401,G47.33,Obstructive sleep apnea,06/01/2023,Dr. Robinson,N,,mild,active
+DX-28140,ALPHA-00652,N18.4,"Chronic kidney disease, stage 4",07/10/2022,Dr. Wilson,N,,severe,chronic
+DX-51305,GAMMA-00292,G47.33,Obstructive sleep apnea,2023-06-26,Dr. Brown,Y,,severe,active
+DX-67451,BETA-00620,I10,Essential (primary) hypertension,2023-07-13T00:00:00,Dr. Jackson,N,,severe,active
+DX-34542,ALPHA-00281,I25.10,Atherosclerotic heart disease of native coronary artery,2024-02-10,Dr. Gupta,N,,severe,chronic
+DX-21740,GAMMA-00252,B20,Human immunodeficiency virus [HIV] disease,24-04-2022,Dr. Lopez,Y,,mild,chronic
+DX-54746,ALPHA-00449,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,2024/12/29,Dr. Moore,N,,mild,chronic
+DX-90182,GAMMA-00505,E03.9,"Hypothyroidism, unspecified",23-06-2023,Dr. Perez,N,,severe,active
+DX-87389,ALPHA-00370,F32.1,"Major depressive disorder, single episode, moderate",25-08-2024,Dr. Johansson,N,,moderate,resolved
+DX-30270,GAMMA-00126,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,04/18/2022,Dr. Lopez,N,,severe,active
+DX-61647,ALPHA-00689,E78.5,"Dyslipidemia, unspecified",23 Jan 2022,Dr. Lewis,N,,moderate,resolved
+DX-61302,BETA-00756,E78.5,"Dyslipidemia, unspecified",30-07-2023,Dr. Ramirez,N,,moderate,active
+DX-14603,BETA-00059,N18.3,"Chronic kidney disease, stage 3",10/02/2024,Dr. Sato,N,,severe,active
+DX-22288,BETA-00752,M545,Low back pain,08/12/2022,Dr. King,N,,mild,active
+DX-29599,ALPHA-00189,G47.33,Obstructive sleep apnea,2023/01/14,Dr. Shah,N,,mild,active
+DX-15884,ALPHA-00116,E11.65,Type 2 diabetes mellitus with hyperglycemia,04/29/2022,Dr. Sanchez,N,,moderate,chronic
+DX-58290,GAMMA-00377,B20,Human immunodeficiency virus [HIV] disease,2024-09-16T00:00:00,Dr. Lee,N,,severe,active
+DX-76734,BETA-00318,J18.9,"Pneumonia, unspecified organism",2024-04-22,Dr. Chen,Y,,severe,resolved
+DX-91906,BETA-00334,D64.9,"Anemia, unspecified","June 07, 2024",Dr. Wilson,N,,severe,active
+DX-50233,GAMMA-00577,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,24-06-2022,Dr. Martinez,Y,,severe,chronic
+DX-61172,BETA-00035,B20,Human immunodeficiency virus [HIV] disease,09/21/2022,Dr. Schmidt,Y,,mild,chronic
+DX-44370,GAMMA-00287,J18.9,"Pneumonia, unspecified organism",04/27/2024,Dr. Perez,N,,mild,resolved
+DX-66969,GAMMA-00090,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,19 Apr 2024,Dr. Hernandez,N,,severe,chronic
+DX-43106,ALPHA-00327,M54.5,Low back pain,"July 27, 2023",Dr. Anderson,N,,severe,active
+DX-67873,BETA-00434,I25.10,Atherosclerotic heart disease of native coronary artery,26-02-2024,Dr. Ramirez,Y,,moderate,chronic
+DX-40177,BETA-00695,G20,Parkinson's disease,10/12/2024,Dr. Johansson,N,,moderate,chronic
+DX-23759,GAMMA-00149,Z87.891,Personal history of nicotine dependence,18-07-2023,Dr. Patel,Y,,mild,active
+DX-97833,BETA-00391,G20,Parkinson's disease,2023-12-14,Dr. Young,Y,,severe,resolved
+DX-73272,ALPHA-00369,R06.02,Shortness of breath,06 Jan 2023,Dr. Johansson,Y,,moderate,chronic
+DX-64201,GAMMA-00229,J18.9,"Pneumonia, unspecified organism",04/08/2023,Dr. Rodriguez,N,,mild,chronic
+DX-92633,GAMMA-00785,D64.9,"Anemia, unspecified",2023-08-02T00:00:00,Dr. Tanaka,Y,,mild,chronic
+DX-57261,BETA-00515,N18.4,"Chronic kidney disease, stage 4",01/11/2022,Dr. Garcia,N,,moderate,chronic
+DX-88154,GAMMA-00047,I2510,Atherosclerotic heart disease of native coronary artery,12/18/2023,Dr. Kumar,N,,severe,active
+DX-66497,GAMMA-00775,E78.5,"Dyslipidemia, unspecified",2023-10-29T00:00:00,Dr. Park,Y,,severe,resolved
+DX-38097,BETA-00791,F32.1,"Major depressive disorder, single episode, moderate",01/02/2025,Dr. Singh,Y,,severe,resolved
+DX-67735,ALPHA-00328,F32.1,"Major depressive disorder, single episode, moderate",2022-07-01,Dr. Davis,N,,mild,resolved
+DX-27875,GAMMA-00617,E11.65,Type 2 diabetes mellitus with hyperglycemia,28 Jun 2023,Dr. Robinson,Y,,,active
+DX-33313,ALPHA-00183,F32.1,"Major depressive disorder, single episode, moderate",10/01/2022,Dr. Anderson,Y,,moderate,chronic
+DX-41142,ALPHA-00735,F32.1,"Major depressive disorder, single episode, moderate",2023/09/01,Dr. Anderson,N,,severe,resolved
+DX-97945,BETA-00042,F32.1,"Major depressive disorder, single episode, moderate","February 25, 2024",Dr. Davis,Y,,moderate,chronic
+DX-63802,GAMMA-00617,Z87.891,Personal history of nicotine dependence,06/27/2023,Dr. Wang,N,,mild,chronic
+DX-91904,BETA-00439,B20,Human immunodeficiency virus [HIV] disease,13 Dec 2022,Dr. Wilson,N,,severe,chronic
+DX-53483,GAMMA-00105,I25.10,Atherosclerotic heart disease of native coronary artery,2024-12-22,Dr. Garcia,N,,moderate,resolved
+DX-64476,GAMMA-00601,N18.4,"Chronic kidney disease, stage 4","May 21, 2023",Dr. Walker,Y,,severe,chronic
+DX-85249,GAMMA-00688,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,13 Sep 2023,Dr. Martinez,N,,mild,active
+DX-13574,GAMMA-00710,B20,Human immunodeficiency virus [HIV] disease,2024/03/25,Dr. Martinez,Y,,mild,chronic
+DX-77730,GAMMA-00783,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,2022-08-17,Dr. Ramirez,Y,,severe,chronic
+DX-48147,ALPHA-00738,K21.0,Gastro-esophageal reflux disease with esophagitis,01/31/2023,Dr. Moore,N,,severe,active
+DX-95922,ALPHA-00761,F41.1,Generalized anxiety disorder,2024/10/04,Dr. Brown,Y,,severe,resolved
+DX-74345,GAMMA-00477,Z87.891,Personal history of nicotine dependence,"March 17, 2022",Dr. Johansson,N,,mild,active
+DX-67711,BETA-00408,J45.20,"Mild intermittent asthma, uncomplicated",2024-05-16,Dr. Kim,Y,,mild,active
+DX-67367,GAMMA-00236,E11.9,Type 2 diabetes mellitus without complications,01/02/2025,Dr. Kim,N,,moderate,chronic
+DX-51580,ALPHA-00357,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,2023-10-13,Dr. Clark,Y,,severe,chronic
+DX-92589,GAMMA-00616,D64.9,"Anemia, unspecified",2022-10-21,Dr. Gupta,N,,severe,resolved
+DX-33580,ALPHA-00328,K70.30,Alcoholic cirrhosis of liver without ascites,2022/07/01,Dr. Thompson,N,,mild,chronic
+DX-35870,GAMMA-00786,G20,Parkinson's disease,06 Apr 2024,Dr. Park,Y,,severe,chronic
+DX-81072,GAMMA-00313,I25.10,Atherosclerotic heart disease of native coronary artery,2024-12-10T00:00:00,Dr. Park,N,,moderate,resolved
+DX-87845,ALPHA-00085,N18.4,"Chronic kidney disease, stage 4",2023-05-31,Dr. Gupta,N,,moderate,resolved
+DX-98367,GAMMA-00099,i25.10,Atherosclerotic heart disease of native coronary artery,20-07-2024,Dr. White,Y,,severe,active
+DX-68472,ALPHA-00643,E11.9,Type 2 diabetes mellitus without complications,05 Aug 2022,Dr. Chen,N,,severe,resolved
+DX-39648,ALPHA-00557,C50919,Malignant neoplasm of unspecified site of unspecified female breast,05/19/2024,Dr. Perez,N,,severe,active
+DX-15764,BETA-00236,G20,Parkinson's disease,12/30/2024,Dr. Young,Y,,moderate,resolved
+DX-61963,GAMMA-00657,B20,Human immunodeficiency virus [HIV] disease,2024-11-28,Dr. Park,N,,severe,active
+DX-71924,BETA-00481,E03.9,"Hypothyroidism, unspecified",2023-11-25,Dr. Chen,Y,,moderate,chronic
+DX-36014,ALPHA-00467,N18.4,"Chronic kidney disease, stage 4",09/17/2024,Dr. Moore,N,,mild,active
+DX-38738,ALPHA-00373,R06.02,Shortness of breath,01/05/2022,Dr. Martin,N,,moderate,chronic
+DX-96599,GAMMA-00569,N18.4,"Chronic kidney disease, stage 4",2022-02-08,Dr. Patel,N,,severe,active
+DX-25053,GAMMA-00374,Z87.891,Personal history of nicotine dependence,2022/07/22,Dr. Lewis,N,,moderate,active
+DX-46980,GAMMA-00743,J18.9,"Pneumonia, unspecified organism",11/15/2022,Dr. Wilson,N,,moderate,resolved
+DX-60893,ALPHA-00573,E78.5,"Dyslipidemia, unspecified",01/18/2023,Dr. Park,Y,,mild,active
+DX-54428,BETA-00449,I10,Essential (primary) hypertension,12/27/2024,Dr. Garcia,N,,severe,active
+DX-92335,ALPHA-00731,K70.30,Alcoholic cirrhosis of liver without ascites,27-03-2023,Dr. Gupta,Y,,severe,resolved
+DX-88074,BETA-00150,G20,Parkinson's disease,2022-03-29,Dr. Thompson,N,,mild,resolved
+DX-11456,BETA-00797,N18.3,"Chronic kidney disease, stage 3",06/19/2024,Dr. Robinson,Y,,severe,resolved
+DX-52956,GAMMA-00688,B20,Human immunodeficiency virus [HIV] disease,2023-09-12,Dr. Clark,Y,,mild,chronic
+DX-75565,BETA-00719,I10,Essential (primary) hypertension,"March 23, 2022",Dr. Kumar,N,,severe,active
+DX-13595,GAMMA-00424,B20,Human immunodeficiency virus [HIV] disease,16 Aug 2024,Dr. Kumar,Y,,mild,resolved
+DX-84061,ALPHA-00586,E11.9,Type 2 diabetes mellitus without complications,01/02/2024,Dr. Robinson,N,,moderate,resolved
+DX-47179,ALPHA-00192,I10,Essential (primary) hypertension,01-09-2022,Dr. Rodriguez,Y,,mild,resolved
+DX-77560,BETA-00425,D64.9,"Anemia, unspecified",16-09-2023,Dr. Anderson,Y,,moderate,resolved
+DX-14367,ALPHA-00425,J45.20,"Mild intermittent asthma, uncomplicated",16-09-2023,Dr. Harris,N,,severe,active
+DX-14585,ALPHA-00051,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,2024/05/10,Dr. Brown,N,,mild,resolved
+DX-51969,GAMMA-00570,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,"May 19, 2022",Dr. Young,N,,mild,active
+DX-70558,ALPHA-00005,K21.0,Gastro-esophageal reflux disease with esophagitis,07/04/2023,Dr. Martin,Y,,mild,active
+DX-49015,ALPHA-00643,G20,Parkinson's disease,03-08-2022,Dr. Jackson,N,,mild,chronic
+DX-34636,ALPHA-00077,F321,"Major depressive disorder, single episode, moderate",2024-07-27T00:00:00,Dr. Wilson,Y,,moderate,active
+DX-35909,BETA-00762,N18.3,"Chronic kidney disease, stage 3",08/26/2022,Dr. Sanchez,N,,moderate,chronic
+DX-10762,ALPHA-00463,N18.3,"Chronic kidney disease, stage 3",2022-04-12,Dr. Anderson,Y,,moderate,chronic
+DX-33764,BETA-00747,F41.1,Generalized anxiety disorder,2022-11-01,Dr. Johansson,N,,moderate,chronic
+DX-25652,BETA-00298,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,2024-08-31T00:00:00,Dr. Davis,N,,mild,chronic
+DX-26640,ALPHA-00789,N18.4,"Chronic kidney disease, stage 4",06/12/2022,Dr. Wang,N,,moderate,chronic
+DX-75367,ALPHA-00488,F32.1,"Major depressive disorder, single episode, moderate",2022-08-23T00:00:00,Dr. Martin,N,,severe,chronic
+DX-73012,BETA-00380,E78.5,"Dyslipidemia, unspecified",03-04-2024,Dr. Thompson,N,,moderate,chronic
+DX-74697,BETA-00653,I48.91,Unspecified atrial fibrillation,2022-08-15,Dr. Miller,N,,mild,resolved
+DX-60689,GAMMA-00306,E78.5,"Dyslipidemia, unspecified",07/03/2022,Dr. Kumar,Y,,severe,chronic
+DX-62091,GAMMA-00717,F32.1,"Major depressive disorder, single episode, moderate",01-03-2023,Dr. Tanaka,N,,moderate,chronic
+DX-33506,ALPHA-00705,E03.9,"Hypothyroidism, unspecified","June 22, 2022",Dr. Williams,N,,severe,resolved
+DX-72832,ALPHA-00639,I10,Essential (primary) hypertension,11/27/2023,Dr. Robinson,Y,,mild,resolved
+DX-14552,GAMMA-00115,E03.9,"Hypothyroidism, unspecified",20-08-2024,Dr. Tanaka,N,,moderate,resolved
+DX-46968,ALPHA-00540,F32.1,"Major depressive disorder, single episode, moderate",03/04/2023,Dr. Moore,N,,mild,resolved
+DX-60467,ALPHA-00335,N18.3,"Chronic kidney disease, stage 3",27-02-2024,Dr. Tanaka,N,,mild,active
+DX-37376,ALPHA-00423,I48.91,Unspecified atrial fibrillation,2024-03-06,Dr. Taylor,Y,,moderate,resolved
+DX-68503,GAMMA-00395,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,2024-10-23T00:00:00,Dr. Johansson,N,,severe,chronic
+DX-24244,BETA-00794,K70.30,Alcoholic cirrhosis of liver without ascites,"August 09, 2024",Dr. Sharma,N,,severe,resolved
+DX-26180,ALPHA-00662,B20,Human immunodeficiency virus [HIV] disease,15-07-2024,Dr. Clark,Y,,severe,active
+DX-68646,ALPHA-00478,F41.1,Generalized anxiety disorder,07/31/2022,Dr. Chen,Y,,severe,active
+DX-79586,BETA-00120,N18.3,"Chronic kidney disease, stage 3",06/16/2022,Dr. Anderson,N,,moderate,chronic
+DX-85568,ALPHA-00161,I25.10,Atherosclerotic heart disease of native coronary artery,11/11/2023,Dr. Thomas,Y,,severe,chronic
+DX-83963,BETA-00000,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,04/06/2023,Dr. Ramirez,Y,,severe,resolved
+DX-29465,BETA-00589,N18.3,"Chronic kidney disease, stage 3",16 Oct 2024,Dr. Taylor,N,,mild,chronic
+DX-11259,BETA-00072,K21.0,Gastro-esophageal reflux disease with esophagitis,14 Nov 2022,Dr. Singh,N,,moderate,chronic
+DX-31247,GAMMA-00665,I25.10,Atherosclerotic heart disease of native coronary artery,01/30/2023,Dr. Martinez,N,,severe,active
+DX-34765,GAMMA-00563,E11.9,Type 2 diabetes mellitus without complications,2024/01/12,Dr. Williams,N,,moderate,chronic
+DX-22386,ALPHA-00127,M54.5,Low back pain,06/16/2024,Dr. Gonzalez,N,,moderate,resolved
+DX-57708,BETA-00188,E11.9,Type 2 diabetes mellitus without complications,"May 27, 2024",Dr. Patel,N,,severe,active
+DX-90705,GAMMA-00712,G47.33,Obstructive sleep apnea,31 Dec 2023,Dr. Thomas,N,,moderate,chronic
+DX-80963,BETA-00592,N18.4,"Chronic kidney disease, stage 4",02/16/2023,Dr. Jones,Y,,severe,resolved
+DX-41578,ALPHA-00169,J441,Chronic obstructive pulmonary disease with acute exacerbation,26-07-2022,Dr. Gonzalez,N,,mild,active
+DX-71554,BETA-00698,G20,Parkinson's disease,01/02/2023,Dr. Rodriguez,N,,moderate,resolved
+DX-49966,GAMMA-00306,J18.9,"Pneumonia, unspecified organism","July 03, 2022",Dr. Singh,N,,mild,chronic
+DX-47288,GAMMA-00183,M54.5,Low back pain,10/01/2022,Dr. Young,N,,mild,active
+DX-44537,BETA-00076,E11.9,Type 2 diabetes mellitus without complications,"February 21, 2024",Dr. Ramirez,N,,moderate,chronic
+DX-41264,BETA-00791,E03.9,"Hypothyroidism, unspecified","January 02, 2025",Dr. Mueller,N,,severe,resolved
+DX-97496,BETA-00682,M54.5,Low back pain,09-12-2024,Dr. Sanchez,N,,severe,resolved
+DX-38100,ALPHA-00125,F41.1,Generalized anxiety disorder,06/21/2024,Dr. Hernandez,N,,mild,resolved
+DX-48251,BETA-00762,K70.30,Alcoholic cirrhosis of liver without ascites,08/26/2022,Dr. Singh,N,,moderate,resolved
+DX-48795,BETA-00649,I48.91,Unspecified atrial fibrillation,11/07/2022,Dr. Thompson,Y,,mild,resolved
+DX-12438,GAMMA-00552,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,"November 05, 2024",Dr. Patel,Y,,,chronic
+DX-17297,GAMMA-00284,G20,Parkinson's disease,09/11/2024,Dr. Perez,N,,moderate,active
+DX-25360,GAMMA-00278,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,"November 21, 2023",Dr. Wilson,N,,moderate,active
+DX-74049,BETA-00221,E03.9,"Hypothyroidism, unspecified",2022-08-15,Dr. Moore,N,,moderate,active
+DX-30195,GAMMA-00074,N18.3,"Chronic kidney disease, stage 3",08/03/2023,Dr. Kim,N,,moderate,chronic
+DX-13639,BETA-00447,I10,Essential (primary) hypertension,13-04-2023,Dr. Smith,Y,,mild,chronic
+DX-34092,ALPHA-00255,F41.1,Generalized anxiety disorder,"April 04, 2023",Dr. Harris,N,,severe,chronic
+DX-20302,GAMMA-00303,I25.10,Atherosclerotic heart disease of native coronary artery,2022-11-05,Dr. Sharma,Y,,mild,resolved
+DX-82341,BETA-00467,E03.9,"Hypothyroidism, unspecified",09/19/2024,Dr. White,Y,,severe,active
+DX-38050,BETA-00570,B20,Human immunodeficiency virus [HIV] disease,05/18/2022,Dr. Taylor,N,,mild,chronic
+DX-90757,BETA-00512,E11.9,Type 2 diabetes mellitus without complications,2023-11-15,Dr. Sato,Y,,moderate,resolved
+DX-77833,BETA-00547,E11.9,Type 2 diabetes mellitus without complications,2024/12/03,Dr. Jackson,N,,,resolved
+DX-41529,ALPHA-00085,J45.20,"Mild intermittent asthma, uncomplicated",31-05-2023,Dr. Chen,N,,moderate,chronic
+DX-10533,GAMMA-00037,G47.33,Obstructive sleep apnea,2023-11-18,Dr. Singh,Y,,severe,chronic
+DX-89518,BETA-00644,F32.1,"Major depressive disorder, single episode, moderate",09/02/2022,Dr. Lewis,N,,mild,resolved
+DX-79857,BETA-00566,K21.0,Gastro-esophageal reflux disease with esophagitis,2023-04-01,Dr. Young,Y,,mild,resolved
+DX-96215,ALPHA-00749,G47.33,Obstructive sleep apnea,08/14/2022,Dr. Wilson,N,,moderate,active
+DX-72926,BETA-00706,N18.4,"Chronic kidney disease, stage 4","April 20, 2024",Dr. Lee,Y,,severe,active
+DX-31410,ALPHA-00147,J18.9,"Pneumonia, unspecified organism",11/28/2024,Dr. Davis,Y,,severe,active
+DX-94924,BETA-00030,F32.1,"Major depressive disorder, single episode, moderate",2022-11-24,Dr. Thomas,N,,moderate,chronic
+DX-58262,GAMMA-00282,R06.02,Shortness of breath,06/10/2024,Dr. King,N,,moderate,chronic
+DX-32142,ALPHA-00327,I48.91,Unspecified atrial fibrillation,07/26/2023,Dr. Kim,N,,moderate,chronic
+DX-25161,ALPHA-00633,K21.0,Gastro-esophageal reflux disease with esophagitis,01/29/2022,Dr. Thomas,N,,mild,active
+DX-65446,GAMMA-00488,D64.9,"Anemia, unspecified",2022/08/23,Dr. Robinson,Y,,severe,active
+DX-48570,GAMMA-00700,I25.10,Atherosclerotic heart disease of native coronary artery,01/24/2023,Dr. Taylor,N,,severe,chronic
+DX-35926,GAMMA-00613,G20,Parkinson's disease,2023-10-28,Dr. Martinez,Y,,severe,chronic
+DX-19756,GAMMA-00713,D64.9,"Anemia, unspecified",03/08/2022,Dr. Wilson,N,,severe,chronic
+DX-83431,BETA-00366,F41.1,Generalized anxiety disorder,10/12/2022,Dr. Schmidt,N,,moderate,chronic
+DX-37438,BETA-00324,G47.33,Obstructive sleep apnea,09/26/2022,Dr. Sanchez,Y,,mild,resolved
+DX-69255,BETA-00271,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,2024-03-08T00:00:00,Dr. Brown,N,,severe,active
+DX-77963,BETA-00503,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,11/12/2022,Dr. Gupta,N,,mild,chronic
+DX-42219,GAMMA-00606,F32.1,"Major depressive disorder, single episode, moderate",2023-09-19,Dr. Walker,N,,mild,resolved
+DX-20484,BETA-00063,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,2024/08/22,Dr. Clark,N,,severe,active
+DX-37297,ALPHA-00465,B20,Human immunodeficiency virus [HIV] disease,2022/03/17,Dr. King,Y,,mild,resolved
+DX-82592,BETA-00408,K21.0,Gastro-esophageal reflux disease with esophagitis,05/14/2024,Dr. Miller,N,,mild,active
+DX-99873,GAMMA-00499,K70.30,Alcoholic cirrhosis of liver without ascites,08/18/2024,Dr. Ramirez,N,,severe,active
+DX-44521,BETA-00754,G4733,Obstructive sleep apnea,2024/02/10,Dr. Perez,N,,moderate,resolved
+DX-60455,GAMMA-00334,F32.1,"Major depressive disorder, single episode, moderate",06/06/2024,Dr. Williams,Y,,severe,resolved
+DX-72840,ALPHA-00255,G47.33,Obstructive sleep apnea,04/06/2023,Dr. Shah,Y,,moderate,active
+DX-63600,ALPHA-00524,N18.4,"Chronic kidney disease, stage 4",12/14/2022,Dr. Hernandez,N,,mild,resolved
+DX-81923,BETA-00428,R06.02,Shortness of breath,2024/02/03,Dr. Anderson,Y,,severe,chronic
+DX-55570,ALPHA-00337,Z87.891,Personal history of nicotine dependence,"January 02, 2023",Dr. White,Y,,severe,chronic
+DX-65672,ALPHA-00717,E11.9,Type 2 diabetes mellitus without complications,2023-03-01,Dr. Gupta,N,,moderate,chronic
+DX-45411,GAMMA-00490,J45.20,"Mild intermittent asthma, uncomplicated",05-11-2022,Dr. Kumar,Y,,severe,chronic
+DX-99748,GAMMA-00577,N18.3,"Chronic kidney disease, stage 3",26 Jun 2022,Dr. Anderson,N,,severe,active
+DX-73190,GAMMA-00363,G47.33,Obstructive sleep apnea,2024-09-27,Dr. Kim,Y,,moderate,chronic
+DX-83961,BETA-00102,G20,Parkinson's disease,05/19/2024,Dr. Sharma,N,,moderate,active
+DX-61854,BETA-00182,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,08/14/2023,Dr. Wang,N,,moderate,chronic
+DX-98633,BETA-00111,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,10/29/2023,Dr. Walker,N,,severe,resolved
+DX-23881,GAMMA-00599,F32.1,"Major depressive disorder, single episode, moderate",09/10/2022,Dr. King,N,,moderate,active
+DX-95849,ALPHA-00245,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,19-08-2022,Dr. Sharma,N,,severe,chronic
+DX-32877,GAMMA-00440,N18.4,"Chronic kidney disease, stage 4","June 25, 2022",Dr. Clark,N,,mild,active
+DX-92833,BETA-00387,E03.9,"Hypothyroidism, unspecified",12/05/2023,Dr. Lee,N,,mild,resolved
+DX-81224,BETA-00663,G4733,Obstructive sleep apnea,10/29/2023,Dr. Sanchez,N,,moderate,active
+DX-68947,ALPHA-00008,B20,Human immunodeficiency virus [HIV] disease,2024-11-10,Dr. Chen,N,,severe,chronic
+DX-57194,BETA-00632,R06.02,Shortness of breath,2024-04-12,Dr. White,N,,moderate,resolved
+DX-58434,BETA-00096,Z87.891,Personal history of nicotine dependence,"December 16, 2024",Dr. Martin,Y,,severe,resolved
+DX-67339,ALPHA-00092,I25.10,Atherosclerotic heart disease of native coronary artery,06/27/2024,Dr. Sanchez,N,,mild,active
+DX-60393,ALPHA-00133,N18.4,"Chronic kidney disease, stage 4",07-06-2023,Dr. Sato,N,,moderate,chronic
+DX-63523,BETA-00048,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,09/18/2022,Dr. Kumar,N,,severe,chronic
+DX-83541,ALPHA-00718,E03.9,"Hypothyroidism, unspecified",02/19/2023,Dr. Lopez,N,,severe,resolved
+DX-71170,ALPHA-00300,J4520,"Mild intermittent asthma, uncomplicated",2022/12/24,Dr. King,Y,,moderate,resolved
+DX-20636,BETA-00210,I25.10,Atherosclerotic heart disease of native coronary artery,"October 13, 2022",Dr. Taylor,N,,moderate,resolved
+DX-43373,ALPHA-00274,I10,Essential (primary) hypertension,10/18/2022,Dr. Lewis,N,,,chronic
+DX-59930,BETA-00302,K70.30,Alcoholic cirrhosis of liver without ascites,08/05/2023,Dr. Schmidt,Y,,mild,active
+DX-18999,BETA-00073,E03.9,"Hypothyroidism, unspecified",02/27/2024,Dr. Wilson,N,,severe,chronic
+DX-28698,BETA-00518,E11.9,Type 2 diabetes mellitus without complications,2024-06-17T00:00:00,Dr. Davis,N,,severe,resolved
+DX-12584,BETA-00235,J18.9,"Pneumonia, unspecified organism",11/24/2024,Dr. Singh,Y,,severe,resolved
+DX-87258,GAMMA-00763,G20,Parkinson's disease,05-10-2023,Dr. Hernandez,N,,moderate,resolved
+DX-68687,BETA-00557,F32.1,"Major depressive disorder, single episode, moderate",20-05-2024,Dr. Garcia,N,,severe,active
+DX-89561,BETA-00125,I25.10,Atherosclerotic heart disease of native coronary artery,2024-06-22,Dr. Ramirez,Y,,mild,resolved
+DX-52951,GAMMA-00506,N18.4,"Chronic kidney disease, stage 4",2023-12-27,Dr. Hernandez,Y,,severe,chronic
+DX-82890,ALPHA-00228,E78.5,"Dyslipidemia, unspecified",2024-10-11,Dr. Kim,N,,moderate,chronic
+DX-57516,GAMMA-00285,I25.10,Atherosclerotic heart disease of native coronary artery,2024-08-25,Dr. Anderson,N,,moderate,chronic
+DX-52044,BETA-00711,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,01/20/2023,Dr. Sharma,N,,,active
+DX-23241,BETA-00095,N18.4,"Chronic kidney disease, stage 4","August 15, 2022",Dr. Johansson,N,,severe,resolved
+DX-76356,GAMMA-00763,K21.0,Gastro-esophageal reflux disease with esophagitis,2023/10/05,Dr. Clark,Y,,severe,chronic
+DX-97297,GAMMA-00347,N18.3,"Chronic kidney disease, stage 3",2023/08/05,Dr. Rodriguez,Y,,severe,chronic
+DX-79632,GAMMA-00491,E03.9,"Hypothyroidism, unspecified",2023-12-07,Dr. Johnson,N,,severe,resolved
+DX-16973,GAMMA-00094,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,03/04/2023,Dr. Patel,N,,moderate,active
+DX-76872,GAMMA-00444,I10,Essential (primary) hypertension,"September 20, 2024",Dr. Sharma,N,,mild,resolved
+DX-79229,ALPHA-00278,J18.9,"Pneumonia, unspecified organism",2023-11-22T00:00:00,Dr. Lopez,Y,,mild,active
+DX-66818,GAMMA-00626,N18.4,"Chronic kidney disease, stage 4",2023-01-18T00:00:00,Dr. Ramirez,Y,,severe,active
+DX-59249,BETA-00416,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,03/30/2022,Dr. Davis,N,,severe,active
+DX-50811,ALPHA-00599,N18.4,"Chronic kidney disease, stage 4",2022-09-10,Dr. Kim,N,,mild,resolved
+DX-59973,GAMMA-00449,E11.9,Type 2 diabetes mellitus without complications,2024-12-28,Dr. Tanaka,Y,,moderate,chronic
+DX-57522,ALPHA-00403,I25.10,Atherosclerotic heart disease of native coronary artery,2024/06/26,Dr. Jackson,Y,,mild,resolved
+DX-43817,GAMMA-00130,F41.1,Generalized anxiety disorder,05/04/2023,Dr. Jones,Y,,moderate,active
+DX-55911,BETA-00482,E78.5,"Dyslipidemia, unspecified",01/04/2023,Dr. Wang,N,,mild,resolved
+DX-20444,GAMMA-00615,E78.5,"Dyslipidemia, unspecified",2022/03/28,Dr. Perez,N,,mild,chronic
+DX-31653,GAMMA-00179,F32.1,"Major depressive disorder, single episode, moderate",02/20/2023,Dr. Rodriguez,N,,mild,resolved
+DX-66301,GAMMA-00395,N18.3,"Chronic kidney disease, stage 3",2024-10-23,Dr. Gupta,Y,,severe,active
+DX-30553,GAMMA-00711,B20,Human immunodeficiency virus [HIV] disease,01/20/2023,Dr. Allen,N,,severe,active
+DX-33715,GAMMA-00250,F32.1,"Major depressive disorder, single episode, moderate",28-01-2022,Dr. Walker,N,,severe,chronic
+DX-78296,ALPHA-00193,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,"January 07, 2024",Dr. Singh,N,,mild,chronic
+DX-72028,BETA-00374,E11.9,Type 2 diabetes mellitus without complications,07/20/2022,Dr. Johansson,Y,,severe,chronic
+DX-10330,ALPHA-00380,J18.9,"Pneumonia, unspecified organism",2024-04-03,Dr. Kumar,N,,severe,active
+DX-67390,BETA-00315,g47.33,Obstructive sleep apnea,2022-04-13,Dr. Allen,N,,mild,active
+DX-23235,BETA-00000,I10,Essential (primary) hypertension,04/05/2023,Dr. Ramirez,N,,moderate,chronic
+DX-80391,GAMMA-00208,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,06/30/2024,Dr. Patel,Y,,mild,chronic
+DX-59325,GAMMA-00672,G47.33,Obstructive sleep apnea,17 Sep 2022,Dr. Lewis,N,,moderate,chronic
+DX-73124,ALPHA-00013,N18.4,"Chronic kidney disease, stage 4",2022-12-06T00:00:00,Dr. Lewis,Y,,,resolved
+DX-37913,BETA-00064,E11.65,Type 2 diabetes mellitus with hyperglycemia,2022-08-26,Dr. Sato,Y,,mild,active
+DX-82924,GAMMA-00050,d64.9,"Anemia, unspecified","September 10, 2023",Dr. Shah,N,,,chronic
+DX-16752,BETA-00789,J18.9,"Pneumonia, unspecified organism",2022-06-14,Dr. Tanaka,Y,,severe,chronic
+DX-39713,ALPHA-00700,N18.3,"Chronic kidney disease, stage 3",2023-01-26T00:00:00,Dr. Rodriguez,N,,moderate,resolved
+DX-56583,BETA-00374,F32.1,"Major depressive disorder, single episode, moderate",2022-07-20T00:00:00,Dr. Lewis,N,,moderate,chronic
+DX-29585,ALPHA-00043,R06.02,Shortness of breath,11 Feb 2022,Dr. Wang,N,,mild,resolved
+DX-13521,ALPHA-00234,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,"October 23, 2023",Dr. Robinson,Y,,severe,chronic
+DX-85884,GAMMA-00522,F41.1,Generalized anxiety disorder,05/11/2022,Dr. Allen,Y,,mild,resolved
+DX-62478,ALPHA-00332,E11.9,Type 2 diabetes mellitus without complications,2022-08-11,Dr. Robinson,N,,moderate,chronic
+DX-37576,BETA-00793,E78.5,"Dyslipidemia, unspecified",2023-05-27T00:00:00,Dr. Patel,Y,,moderate,chronic
+DX-84995,BETA-00433,G20,Parkinson's disease,13-06-2022,Dr. Lewis,N,,moderate,active
+DX-51330,GAMMA-00005,N18.3,"Chronic kidney disease, stage 3",02-07-2023,Dr. Park,N,,moderate,resolved
+DX-79682,GAMMA-00569,G20,Parkinson's disease,11 Feb 2022,Dr. Jones,N,,severe,active
+DX-19631,BETA-00585,K70.30,Alcoholic cirrhosis of liver without ascites,04/06/2022,Dr. Lewis,N,,severe,resolved
+DX-20001,GAMMA-00178,R06.02,Shortness of breath,03/25/2023,Dr. Johansson,N,,severe,resolved
+DX-96814,GAMMA-00508,E78.5,"Dyslipidemia, unspecified","January 20, 2022",Dr. Taylor,Y,,moderate,resolved
+DX-82326,ALPHA-00664,M54.5,Low back pain,2024-06-28,Dr. Sato,N,,moderate,resolved
+DX-13830,ALPHA-00622,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,2023-07-07,Dr. Smith,N,,moderate,chronic
+DX-51035,ALPHA-00618,Z87.891,Personal history of nicotine dependence,2023-04-18T00:00:00,Dr. Martin,Y,,mild,resolved
+DX-73460,GAMMA-00500,K70.30,Alcoholic cirrhosis of liver without ascites,09/17/2023,Dr. Jackson,N,,mild,active
+DX-12712,GAMMA-00573,I10,Essential (primary) hypertension,2023-01-17,Dr. Anderson,N,,moderate,resolved
+DX-13691,GAMMA-00520,F41.1,Generalized anxiety disorder,"December 08, 2024",Dr. Martin,N,,moderate,chronic
+DX-75755,GAMMA-00243,F32.1,"Major depressive disorder, single episode, moderate",15-10-2022,Dr. Garcia,N,,moderate,resolved
+DX-68428,GAMMA-00094,D64.9,"Anemia, unspecified",03/02/2023,Dr. Moore,N,,mild,active
+DX-94070,ALPHA-00691,M54.5,Low back pain,2023-12-31T00:00:00,Dr. Sanchez,N,,moderate,chronic
+DX-74678,ALPHA-00152,M54.5,Low back pain,08/09/2024,Dr. Sato,N,,moderate,chronic
+DX-25560,ALPHA-00335,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,02/29/2024,Dr. Taylor,Y,,moderate,chronic
+DX-45559,BETA-00352,N18.4,"Chronic kidney disease, stage 4","October 27, 2024",Dr. Martinez,N,,moderate,resolved
+DX-20094,ALPHA-00662,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,07/15/2024,Dr. Hernandez,N,,mild,active
+DX-22291,ALPHA-00417,N18.3,"Chronic kidney disease, stage 3",2024-01-02T00:00:00,Dr. Allen,Y,,mild,resolved
+DX-31934,ALPHA-00230,F41.1,Generalized anxiety disorder,03/27/2022,Dr. Smith,Y,,severe,active
+DX-47086,GAMMA-00704,F41.1,Generalized anxiety disorder,04/26/2023,Dr. Young,N,,mild,resolved
+DX-49455,ALPHA-00785,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,2023-08-04,Dr. Ramirez,N,,moderate,chronic
+DX-45539,BETA-00772,E785,"Dyslipidemia, unspecified",05/11/2023,Dr. Wang,N,,mild,resolved
+DX-37019,BETA-00765,R06.02,Shortness of breath,06-08-2023,Dr. Young,N,,mild,resolved
+DX-48130,ALPHA-00399,J45.20,"Mild intermittent asthma, uncomplicated",04/09/2024,Dr. Lewis,N,,moderate,active
+DX-45507,ALPHA-00086,F41.1,Generalized anxiety disorder,2023-08-31,Dr. Kim,N,,severe,chronic
+DX-18514,GAMMA-00619,E03.9,"Hypothyroidism, unspecified",2024-09-20,Dr. Clark,N,,severe,chronic
+DX-80797,ALPHA-00117,B20,Human immunodeficiency virus [HIV] disease,2024-07-13,Dr. Gonzalez,N,,severe,resolved
+DX-68631,ALPHA-00500,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,2023-09-18,Dr. Sharma,N,,mild,chronic
+DX-93957,GAMMA-00626,Z87891,Personal history of nicotine dependence,18 Jan 2023,Dr. Tanaka,N,,mild,active
+DX-29137,ALPHA-00690,I25.10,Atherosclerotic heart disease of native coronary artery,2023-02-01,Dr. Miller,Y,,severe,active
+DX-54158,ALPHA-00766,I25.10,Atherosclerotic heart disease of native coronary artery,03/19/2023,Dr. Perez,N,,moderate,chronic
+DX-28168,BETA-00293,G47.33,Obstructive sleep apnea,2024-03-21,Dr. Lewis,Y,,mild,active
+DX-52751,GAMMA-00716,I25.10,Atherosclerotic heart disease of native coronary artery,2022/01/24,Dr. Singh,N,,severe,resolved
+DX-83269,BETA-00130,I48.91,Unspecified atrial fibrillation,2023-05-03,Dr. Martin,N,,moderate,active
+DX-25277,ALPHA-00055,N18.4,"Chronic kidney disease, stage 4",02/05/2022,Dr. Tanaka,N,,severe,chronic
+DX-91375,ALPHA-00375,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,01/18/2022,Dr. Shah,N,,severe,resolved
+DX-83812,ALPHA-00070,E78.5,"Dyslipidemia, unspecified",2024/01/14,Dr. Lewis,N,,severe,resolved
+DX-59787,GAMMA-00074,D64.9,"Anemia, unspecified",2023-08-03T00:00:00,Dr. Martin,N,,mild,chronic
+DX-66502,ALPHA-00698,n18.3,"Chronic kidney disease, stage 3",01/04/2023,Dr. Ramirez,N,,moderate,active
+DX-89129,GAMMA-00465,F41.1,Generalized anxiety disorder,03/18/2022,Dr. Wilson,N,,mild,chronic
+DX-82033,GAMMA-00436,N18.4,"Chronic kidney disease, stage 4",2022-06-21,Dr. Mueller,N,,severe,resolved
+DX-34974,GAMMA-00547,N18.4,"Chronic kidney disease, stage 4",03-12-2024,Dr. Lopez,Y,,moderate,chronic
+DX-40177,BETA-00624,F41.1,Generalized anxiety disorder,12/01/2022,Dr. Clark,N,,,chronic
+DX-20054,ALPHA-00489,R06.02,Shortness of breath,"February 17, 2024",Dr. Hernandez,N,,mild,active
+DX-67657,GAMMA-00576,Z87.891,Personal history of nicotine dependence,2024/05/26,Dr. Thompson,N,,mild,resolved
+DX-82616,BETA-00343,I10,Essential (primary) hypertension,06/07/2023,Dr. Thomas,Y,,severe,resolved
+DX-41553,ALPHA-00200,I48.91,Unspecified atrial fibrillation,02/07/2024,Dr. Ramirez,Y,,moderate,chronic
+DX-41722,ALPHA-00436,R06.02,Shortness of breath,2022-06-22,Dr. Lopez,N,,,chronic
+DX-19967,BETA-00285,E78.5,"Dyslipidemia, unspecified",08/23/2024,Dr. Hernandez,N,,severe,resolved
+DX-79378,GAMMA-00097,R06.02,Shortness of breath,2024-12-06,Dr. Taylor,N,,mild,chronic
+DX-46281,BETA-00553,K70.30,Alcoholic cirrhosis of liver without ascites,2022-03-27T00:00:00,Dr. Lewis,N,,moderate,resolved
+DX-34790,BETA-00658,B20,Human immunodeficiency virus [HIV] disease,"September 18, 2022",Dr. Martinez,Y,,mild,chronic
+DX-94527,GAMMA-00746,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,09/07/2024,Dr. Ramirez,N,,moderate,resolved
+DX-39884,ALPHA-00143,R06.02,Shortness of breath,2023-08-09,Dr. Thompson,N,,moderate,resolved
+DX-64822,ALPHA-00238,I25.10,Atherosclerotic heart disease of native coronary artery,02/22/2023,Dr. Sato,Y,,severe,chronic
+DX-99415,BETA-00023,N18.4,"Chronic kidney disease, stage 4",09/29/2022,Dr. Jones,Y,,severe,resolved
+DX-76981,GAMMA-00444,K21.0,Gastro-esophageal reflux disease with esophagitis,09/21/2024,Dr. Tanaka,N,,moderate,chronic
+DX-49802,ALPHA-00000,N18.4,"Chronic kidney disease, stage 4",04/06/2023,Dr. Johansson,N,,mild,chronic
+DX-29585,ALPHA-00119,M54.5,Low back pain,04/18/2024,Dr. Mueller,Y,,,active
+DX-36616,GAMMA-00792,K70.30,Alcoholic cirrhosis of liver without ascites,12/26/2022,Dr. Allen,N,,mild,resolved
+DX-27860,BETA-00123,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,2023-11-21,Dr. Kim,N,,moderate,chronic
+DX-68016,GAMMA-00051,N18.3,"Chronic kidney disease, stage 3",2024-05-12T00:00:00,Dr. Lewis,Y,,severe,resolved
+DX-83283,BETA-00129,D64.9,"Anemia, unspecified",18 Aug 2024,Dr. Harris,Y,,severe,chronic
+DX-30398,BETA-00048,E11.65,Type 2 diabetes mellitus with hyperglycemia,"September 18, 2022",Dr. Perez,N,,moderate,chronic
+DX-83061,BETA-00250,F41.1,Generalized anxiety disorder,01/28/2022,Dr. Jackson,Y,,mild,resolved
+DX-55571,GAMMA-00266,D64.9,"Anemia, unspecified",2024/08/03,Dr. Thomas,Y,,moderate,resolved
+DX-59340,GAMMA-00492,i10,Essential (primary) hypertension,01/05/2022,Dr. Garcia,Y,,mild,active
+DX-38280,BETA-00489,K21.0,Gastro-esophageal reflux disease with esophagitis,16-02-2024,Dr. Harris,Y,,mild,chronic
+DX-38512,GAMMA-00386,Z87.891,Personal history of nicotine dependence,2023-04-17,Dr. Rodriguez,Y,,moderate,chronic
+DX-14569,ALPHA-00387,G47.33,Obstructive sleep apnea,2023-12-02,Dr. Singh,Y,,severe,resolved
+DX-97400,ALPHA-00016,G47.33,Obstructive sleep apnea,08/26/2024,Dr. Davis,Y,,severe,resolved
+DX-73132,BETA-00540,F41.1,Generalized anxiety disorder,2023-03-04T00:00:00,Dr. King,Y,,mild,resolved
+DX-63832,ALPHA-00452,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,"August 31, 2024",Dr. Gupta,Y,,moderate,active
+DX-90221,BETA-00220,I48.91,Unspecified atrial fibrillation,"September 02, 2024",Dr. Williams,Y,,mild,resolved
+DX-87092,GAMMA-00643,M54.5,Low back pain,08/02/2022,Dr. Lee,Y,,severe,chronic
+DX-68725,ALPHA-00536,K70.30,Alcoholic cirrhosis of liver without ascites,2023/04/02,Dr. Moore,Y,,moderate,resolved
+DX-77045,BETA-00789,D64.9,"Anemia, unspecified",2022-06-13,Dr. Lewis,N,,severe,resolved
+DX-70106,ALPHA-00276,N18.3,"Chronic kidney disease, stage 3",09/24/2023,Dr. Gupta,Y,,mild,chronic
+DX-52726,BETA-00779,I25.10,Atherosclerotic heart disease of native coronary artery,2023-12-24T00:00:00,Dr. Walker,Y,,mild,resolved
+DX-74586,BETA-00757,Z87.891,Personal history of nicotine dependence,01/08/2024,Dr. Clark,Y,,severe,resolved
+DX-26867,ALPHA-00370,K70.30,Alcoholic cirrhosis of liver without ascites,2024-08-23,Dr. Gonzalez,N,,moderate,active
+DX-89486,ALPHA-00790,E78.5,"Dyslipidemia, unspecified",2024-09-09T00:00:00,Dr. Allen,Y,,mild,resolved
+DX-88605,ALPHA-00142,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,07/25/2023,Dr. Thomas,N,,moderate,active
+DX-57969,ALPHA-00069,E1165,Type 2 diabetes mellitus with hyperglycemia,06/01/2023,Dr. Wilson,Y,,mild,resolved
+DX-29329,GAMMA-00043,B20,Human immunodeficiency virus [HIV] disease,2022-02-10,Dr. Johansson,Y,,moderate,resolved
+DX-28667,BETA-00796,F32.1,"Major depressive disorder, single episode, moderate",11/18/2022,Dr. Hernandez,N,,moderate,resolved
+DX-71174,GAMMA-00759,K70.30,Alcoholic cirrhosis of liver without ascites,2024-08-15T00:00:00,Dr. Jones,N,,mild,chronic
+DX-62738,BETA-00108,E11.9,Type 2 diabetes mellitus without complications,2023-02-24,Dr. Robinson,Y,,severe,chronic
+DX-50523,BETA-00042,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,25-02-2024,Dr. White,N,,moderate,active
+DX-75002,GAMMA-00076,Z87.891,Personal history of nicotine dependence,2024-02-20,Dr. Sato,N,,severe,resolved
+DX-95089,BETA-00476,N18.3,"Chronic kidney disease, stage 3",2022-11-14T00:00:00,Dr. Lopez,N,,moderate,active
+DX-93872,ALPHA-00436,M54.5,Low back pain,"June 21, 2022",Dr. Robinson,Y,,mild,chronic
+DX-84209,ALPHA-00586,R06.02,Shortness of breath,2024/01/03,Dr. Sanchez,N,,mild,resolved
+DX-45617,GAMMA-00790,K21.0,Gastro-esophageal reflux disease with esophagitis,12 Sep 2024,Dr. Tanaka,N,,mild,active
+DX-86083,BETA-00518,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,2024-06-17,Dr. Shah,N,,mild,chronic
+DX-53880,GAMMA-00136,K70.30,Alcoholic cirrhosis of liver without ascites,2023-11-13T00:00:00,Dr. Wang,Y,,moderate,chronic
+DX-37389,GAMMA-00076,K21.0,Gastro-esophageal reflux disease with esophagitis,02/23/2024,Dr. Sanchez,N,,mild,chronic
+DX-85927,BETA-00261,E78.5,"Dyslipidemia, unspecified",06/04/2022,Dr. Perez,Y,,moderate,resolved
+DX-29040,GAMMA-00187,P07.30,"Preterm newborn, unspecified",10/19/2023,Dr. Jones,N,,moderate,active
+DX-17189,BETA-00262,K70.30,Alcoholic cirrhosis of liver without ascites,"January 05, 2024",Dr. Robinson,N,,severe,resolved
+DX-50689,GAMMA-00638,F32.1,"Major depressive disorder, single episode, moderate",12/13/2023,Dr. Schmidt,Y,,moderate,active
+DX-30845,GAMMA-00233,K21.0,Gastro-esophageal reflux disease with esophagitis,20-11-2024,Dr. Perez,N,,mild,resolved
+DX-86988,BETA-00344,J18.9,"Pneumonia, unspecified organism",2024-01-04,Dr. White,N,,severe,chronic
+DX-68068,BETA-00322,R06.02,Shortness of breath,12/06/2023,Dr. Ramirez,N,,severe,resolved
+DX-16866,BETA-00233,I48.91,Unspecified atrial fibrillation,11/22/2024,Dr. Hernandez,Y,,mild,active
+DX-75898,ALPHA-00481,M54.5,Low back pain,11/25/2023,Dr. Ramirez,N,,moderate,resolved
+DX-89647,GAMMA-00704,I48.91,Unspecified atrial fibrillation,2023-04-29,Dr. Kim,N,,,chronic
+DX-35499,ALPHA-00135,B20,Human immunodeficiency virus [HIV] disease,2023-02-15,Dr. Young,N,,moderate,resolved
+DX-44560,ALPHA-00355,G20,Parkinson's disease,04/26/2024,Dr. White,N,,moderate,active
+DX-10427,BETA-00058,G20,Parkinson's disease,"January 11, 2024",Dr. Sharma,Y,,severe,chronic
+DX-61263,GAMMA-00281,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,02/08/2024,Dr. Taylor,N,,severe,active
+DX-47691,GAMMA-00610,G47.33,Obstructive sleep apnea,2024-07-19,Dr. Martinez,N,,severe,resolved
+DX-12938,ALPHA-00288,E78.5,"Dyslipidemia, unspecified",21-03-2024,Dr. Wilson,Y,,moderate,chronic
+DX-25744,GAMMA-00587,E11.9,Type 2 diabetes mellitus without complications,2022/08/23,Dr. Smith,N,,,active
+DX-83642,ALPHA-00016,e11.65,Type 2 diabetes mellitus with hyperglycemia,29-08-2024,Dr. Schmidt,N,,severe,active
+DX-37262,ALPHA-00779,K70.30,Alcoholic cirrhosis of liver without ascites,25-12-2023,Dr. Harris,N,,severe,resolved
+DX-92474,ALPHA-00026,D64.9,"Anemia, unspecified",2024-09-30,Dr. Hernandez,Y,,severe,resolved
+DX-91120,ALPHA-00180,D64.9,"Anemia, unspecified",2022-04-25,Dr. Mueller,N,,moderate,resolved
+DX-79827,GAMMA-00419,J18.9,"Pneumonia, unspecified organism",2023/12/14,Dr. Sanchez,Y,,mild,active
+DX-88507,ALPHA-00417,R06.02,Shortness of breath,2024-01-01,Dr. Kumar,N,,mild,resolved
+DX-13212,ALPHA-00005,I10,Essential (primary) hypertension,2023-07-04,Dr. Garcia,N,,severe,active
+DX-40815,ALPHA-00755,Z87.891,Personal history of nicotine dependence,03/28/2024,Dr. King,N,,moderate,resolved
+DX-52665,BETA-00388,I25.10,Atherosclerotic heart disease of native coronary artery,16-02-2023,Dr. Harris,Y,,moderate,active
+DX-50125,ALPHA-00332,I25.10,Atherosclerotic heart disease of native coronary artery,08/10/2022,Dr. Singh,N,,moderate,active
+DX-80816,GAMMA-00290,I10,Essential (primary) hypertension,03/08/2024,Dr. Mueller,N,,mild,active
+DX-13991,GAMMA-00150,N18.4,"Chronic kidney disease, stage 4",28 Mar 2022,Dr. Wang,N,,moderate,active
+DX-46478,GAMMA-00500,I25.10,Atherosclerotic heart disease of native coronary artery,09/16/2023,Dr. Smith,Y,,moderate,active
+DX-25162,BETA-00569,G47.33,Obstructive sleep apnea,02/10/2022,Dr. Harris,Y,,moderate,resolved
+DX-52649,GAMMA-00627,J45.20,"Mild intermittent asthma, uncomplicated",2024/12/16,Dr. Park,N,,severe,resolved
+DX-40530,ALPHA-00425,I48.91,Unspecified atrial fibrillation,09/18/2023,Dr. Miller,N,,mild,chronic
+DX-89240,GAMMA-00085,E11.9,Type 2 diabetes mellitus without complications,2023/05/29,Dr. Clark,Y,,moderate,active
+DX-71659,ALPHA-00437,B20,Human immunodeficiency virus [HIV] disease,2024-09-14T00:00:00,Dr. Rodriguez,Y,,severe,active
+DX-46656,ALPHA-00786,I25.10,Atherosclerotic heart disease of native coronary artery,04/04/2024,Dr. Park,N,,mild,resolved
+DX-89057,BETA-00438,I48.91,Unspecified atrial fibrillation,25-10-2023,Dr. Ramirez,N,,moderate,resolved
+DX-98037,ALPHA-00765,E03.9,"Hypothyroidism, unspecified",04 Aug 2023,Dr. Wang,N,,moderate,chronic
+DX-76596,GAMMA-00297,D64.9,"Anemia, unspecified",01/28/2024,Dr. Thompson,N,,moderate,resolved
+DX-60531,ALPHA-00682,E11.65,Type 2 diabetes mellitus with hyperglycemia,2024/12/10,Dr. Martin,Y,,moderate,active
+DX-26805,ALPHA-00665,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,"February 02, 2023",Dr. Martinez,Y,,severe,chronic
+DX-48280,BETA-00359,F32.1,"Major depressive disorder, single episode, moderate",2024-01-08T00:00:00,Dr. Park,N,,mild,chronic
+DX-73117,GAMMA-00527,N18.4,"Chronic kidney disease, stage 4",2024/05/09,Dr. Ramirez,N,,mild,active
+DX-11011,ALPHA-00169,G20,Parkinson's disease,07/27/2022,Dr. Thompson,Y,,severe,chronic
+DX-54540,BETA-00477,G47.33,Obstructive sleep apnea,18-03-2022,Dr. Thomas,N,,mild,chronic
+DX-10655,ALPHA-00488,G47.33,Obstructive sleep apnea,2022-08-26,Dr. Rodriguez,N,,mild,chronic
+DX-39802,BETA-00022,F41.1,Generalized anxiety disorder,2022-03-26T00:00:00,Dr. Kumar,N,,moderate,chronic
+DX-20585,BETA-00026,R06.02,Shortness of breath,09/27/2024,Dr. Allen,N,,moderate,resolved
+DX-18365,GAMMA-00412,E11.9,Type 2 diabetes mellitus without complications,"June 30, 2023",Dr. Jackson,Y,,moderate,chronic
+DX-95382,ALPHA-00568,E11.9,Type 2 diabetes mellitus without complications,09/01/2022,Dr. Jones,N,,mild,chronic
+DX-93445,GAMMA-00421,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,03/04/2024,Dr. Thomas,N,,mild,resolved
+DX-32356,GAMMA-00730,F32.1,"Major depressive disorder, single episode, moderate",08-09-2022,Dr. Chen,Y,,mild,resolved
+DX-75754,ALPHA-00110,J45.20,"Mild intermittent asthma, uncomplicated",11-02-2022,Dr. Young,Y,,mild,chronic
+DX-54066,BETA-00748,Z87.891,Personal history of nicotine dependence,01/23/2023,Dr. Wilson,Y,,,active
+DX-42343,BETA-00684,J18.9,"Pneumonia, unspecified organism","December 27, 2024",Dr. Jones,N,,moderate,resolved
+DX-59012,ALPHA-00677,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,01/08/2022,Dr. Brown,N,,mild,chronic
+DX-64488,BETA-00758,E03.9,"Hypothyroidism, unspecified",26-07-2022,Dr. Kumar,N,,mild,chronic
+DX-21684,BETA-00759,D64.9,"Anemia, unspecified",08/14/2024,Dr. Garcia,N,,severe,resolved
+DX-94158,ALPHA-00339,J45.20,"Mild intermittent asthma, uncomplicated",2022-05-10T00:00:00,Dr. Tanaka,Y,,moderate,resolved
+DX-19390,ALPHA-00564,E78.5,"Dyslipidemia, unspecified",12/11/2022,Dr. Singh,N,,mild,chronic
+DX-40064,BETA-00753,G20,Parkinson's disease,09/20/2024,Dr. Shah,N,,mild,chronic
+DX-29386,ALPHA-00170,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,2023-10-21,Dr. Park,Y,,severe,resolved
+DX-32244,ALPHA-00725,R06.02,Shortness of breath,22 Aug 2024,Dr. Thompson,N,,severe,chronic
+DX-37842,GAMMA-00260,K21.0,Gastro-esophageal reflux disease with esophagitis,"June 12, 2024",Dr. Johansson,Y,,moderate,active
+DX-51891,GAMMA-00253,z87.891,Personal history of nicotine dependence,2022-04-04T00:00:00,Dr. Miller,Y,,mild,resolved
+DX-57953,GAMMA-00606,J18.9,"Pneumonia, unspecified organism",09/21/2023,Dr. Taylor,N,,severe,resolved
+DX-53607,GAMMA-00733,I25.10,Atherosclerotic heart disease of native coronary artery,09/15/2024,Dr. Chen,Y,,mild,resolved
+DX-48236,BETA-00053,K70.30,Alcoholic cirrhosis of liver without ascites,02/17/2024,Dr. Park,N,,mild,active
+DX-95727,GAMMA-00552,E78.5,"Dyslipidemia, unspecified",06 Nov 2024,Dr. Sharma,N,,moderate,resolved
+DX-23041,GAMMA-00197,I25.10,Atherosclerotic heart disease of native coronary artery,04/24/2024,Dr. Sharma,N,,moderate,chronic
+DX-34547,ALPHA-00783,K70.30,Alcoholic cirrhosis of liver without ascites,14-08-2022,Dr. Perez,N,,mild,resolved
+DX-53160,GAMMA-00420,f32.1,"Major depressive disorder, single episode, moderate",18 Jul 2024,Dr. Kim,N,,moderate,chronic
+DX-69254,BETA-00083,I25.10,Atherosclerotic heart disease of native coronary artery,09/17/2024,Dr. Moore,N,,mild,chronic
+DX-48217,GAMMA-00481,G20,Parkinson's disease,28-11-2023,Dr. Gupta,N,,severe,active
+DX-57781,ALPHA-00136,R06.02,Shortness of breath,11/13/2023,Dr. Lewis,N,,severe,chronic
+DX-31548,BETA-00681,E78.5,"Dyslipidemia, unspecified",07/24/2023,Dr. Wilson,N,,moderate,resolved
+DX-72055,GAMMA-00185,B20,Human immunodeficiency virus [HIV] disease,10 May 2024,Dr. Kumar,N,,moderate,resolved
+DX-88066,GAMMA-00375,Z87.891,Personal history of nicotine dependence,"January 17, 2022",Dr. Wang,Y,,moderate,active
+DX-66826,GAMMA-00771,G20,Parkinson's disease,08/29/2024,Dr. Williams,N,,severe,chronic
+DX-51327,GAMMA-00778,G47.33,Obstructive sleep apnea,04-01-2022,Dr. Patel,N,,severe,resolved
+DX-44990,ALPHA-00134,E78.5,"Dyslipidemia, unspecified",2023-11-28,Dr. Walker,N,,severe,chronic
+DX-74235,ALPHA-00420,K21.0,Gastro-esophageal reflux disease with esophagitis,2024-07-21,Dr. Miller,Y,,moderate,active
+DX-11473,ALPHA-00795,G47.33,Obstructive sleep apnea,2023-12-30,Dr. Park,N,,mild,chronic
+DX-65479,GAMMA-00720,I10,Essential (primary) hypertension,05/28/2023,Dr. Wilson,Y,,mild,chronic
+DX-32231,BETA-00646,I48.91,Unspecified atrial fibrillation,24-06-2022,Dr. Kim,N,,severe,chronic
+DX-61180,GAMMA-00118,N18.4,"Chronic kidney disease, stage 4",12/22/2022,Dr. Lewis,N,,moderate,active
+DX-44199,ALPHA-00726,J45.20,"Mild intermittent asthma, uncomplicated","June 11, 2022",Dr. Gonzalez,Y,,severe,active
+DX-86764,GAMMA-00011,J18.9,"Pneumonia, unspecified organism",14 Feb 2023,Dr. Harris,N,,moderate,resolved
+DX-44244,GAMMA-00282,K70.30,Alcoholic cirrhosis of liver without ascites,06/11/2024,Dr. Williams,Y,,severe,active
+DX-40891,ALPHA-00397,E11.9,Type 2 diabetes mellitus without complications,2023-12-09T00:00:00,Dr. Thompson,N,,moderate,active
+DX-37617,GAMMA-00563,b20,Human immunodeficiency virus [HIV] disease,01/11/2024,Dr. Kumar,Y,,mild,chronic
+DX-83914,GAMMA-00737,F41.1,Generalized anxiety disorder,2022/04/23,Dr. King,N,,mild,chronic
+DX-92843,ALPHA-00747,N18.4,"Chronic kidney disease, stage 4",2022/10/31,Dr. Mueller,Y,,moderate,chronic
+DX-95737,ALPHA-00585,I25.10,Atherosclerotic heart disease of native coronary artery,04/03/2022,Dr. Jackson,Y,,moderate,chronic
+DX-44096,ALPHA-00421,J45.20,"Mild intermittent asthma, uncomplicated",04-03-2024,Dr. Moore,N,,moderate,active
+DX-81533,ALPHA-00049,N18.4,"Chronic kidney disease, stage 4",2023-10-03,Dr. King,N,,severe,active
+DX-39167,ALPHA-00421,K21.0,Gastro-esophageal reflux disease with esophagitis,2024/03/07,Dr. Ramirez,Y,,mild,active
+DX-28422,BETA-00558,G20,Parkinson's disease,01/17/2022,Dr. Taylor,N,,moderate,resolved
+DX-91311,BETA-00342,E78.5,"Dyslipidemia, unspecified",06/03/2022,Dr. Sanchez,Y,,mild,chronic
+DX-67694,BETA-00239,G20,Parkinson's disease,2024-03-24T00:00:00,Dr. Young,N,,severe,resolved
+DX-95263,GAMMA-00507,M54.5,Low back pain,04-08-2024,Dr. Lee,N,,severe,chronic
+DX-71799,BETA-00658,G47.33,Obstructive sleep apnea,09/19/2022,Dr. Johansson,N,,mild,chronic
+DX-98684,BETA-00506,M54.5,Low back pain,29-12-2023,Dr. Rodriguez,N,,severe,active
+DX-55456,GAMMA-00276,E78.5,"Dyslipidemia, unspecified",09/24/2023,Dr. Sato,N,,mild,chronic
+DX-14309,BETA-00682,I25.10,Atherosclerotic heart disease of native coronary artery,2024-12-10,Dr. Lee,N,,mild,resolved
+DX-15068,ALPHA-00046,F32.1,"Major depressive disorder, single episode, moderate",11/01/2023,Dr. Wilson,Y,,mild,chronic
+DX-61244,ALPHA-00602,E03.9,"Hypothyroidism, unspecified",2024/03/01,Dr. Tanaka,Y,,severe,resolved
+DX-95521,GAMMA-00597,B20,Human immunodeficiency virus [HIV] disease,03/31/2022,Dr. Allen,N,,moderate,resolved
+DX-71112,GAMMA-00679,F411,Generalized anxiety disorder,2024-08-05,Dr. Harris,Y,,mild,resolved
+DX-96120,ALPHA-00243,I10,Essential (primary) hypertension,10/17/2022,Dr. Patel,N,,severe,chronic
+DX-89772,BETA-00243,I25.10,Atherosclerotic heart disease of native coronary artery,15-10-2022,Dr. Thompson,Y,,severe,active
+DX-44559,GAMMA-00703,E78.5,"Dyslipidemia, unspecified",2024-09-17T00:00:00,Dr. Thomas,Y,,mild,chronic
+DX-75767,BETA-00242,G47.33,Obstructive sleep apnea,"January 20, 2022",Dr. Perez,Y,,moderate,chronic
+DX-71648,BETA-00687,E03.9,"Hypothyroidism, unspecified",07/03/2024,Dr. Gupta,Y,,mild,active
+DX-26553,BETA-00414,Z87.891,Personal history of nicotine dependence,2024/03/10,Dr. Garcia,Y,,severe,active
+DX-10926,BETA-00239,I25.10,Atherosclerotic heart disease of native coronary artery,2024-03-25,Dr. Shah,Y,,mild,active
+DX-68407,GAMMA-00203,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,12 Mar 2022,Dr. Lopez,Y,,moderate,chronic
+DX-31953,GAMMA-00589,I48.91,Unspecified atrial fibrillation,2024-10-16T00:00:00,Dr. Gonzalez,Y,,severe,resolved
+DX-12892,ALPHA-00465,K70.30,Alcoholic cirrhosis of liver without ascites,2022/03/15,Dr. Young,N,,mild,chronic
+DX-26761,ALPHA-00258,J45.20,"Mild intermittent asthma, uncomplicated",2022-08-02,Dr. Taylor,Y,,moderate,chronic
+DX-84064,GAMMA-00260,E11.65,Type 2 diabetes mellitus with hyperglycemia,"June 09, 2024",Dr. Wilson,N,,severe,chronic
+DX-42026,GAMMA-00219,J18.9,"Pneumonia, unspecified organism","September 01, 2023",Dr. Gonzalez,Y,,severe,resolved
+DX-32500,GAMMA-00179,F41.1,Generalized anxiety disorder,02/22/2023,Dr. Rodriguez,Y,,moderate,resolved
+DX-48424,BETA-00780,E03.9,"Hypothyroidism, unspecified",22-03-2023,Dr. Garcia,Y,,mild,chronic
+DX-25398,ALPHA-00623,K70.30,Alcoholic cirrhosis of liver without ascites,04/26/2022,Dr. Sato,N,,severe,active
+DX-60073,ALPHA-00753,N18.4,"Chronic kidney disease, stage 4",2024-09-20,Dr. King,Y,,mild,active
+DX-73995,GAMMA-00590,F41.1,Generalized anxiety disorder,2023-09-03,Dr. Tanaka,Y,,severe,resolved
+DX-16813,ALPHA-00537,K70.30,Alcoholic cirrhosis of liver without ascites,2022-07-21T00:00:00,Dr. Young,N,,mild,resolved
+DX-92952,BETA-00093,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,2022/09/09,Dr. Brown,N,,moderate,active
+DX-33939,BETA-00445,R06.02,Shortness of breath,"November 18, 2023",Dr. Miller,Y,,moderate,chronic
+DX-55521,BETA-00503,F32.1,"Major depressive disorder, single episode, moderate",2022-11-13T00:00:00,Dr. Schmidt,N,,mild,chronic
+DX-11877,GAMMA-00117,M54.5,Low back pain,07/12/2024,Dr. Park,Y,,severe,resolved
+DX-69782,BETA-00647,Z87.891,Personal history of nicotine dependence,"April 14, 2023",Dr. Tanaka,N,,moderate,chronic
+DX-78648,ALPHA-00135,I25.10,Atherosclerotic heart disease of native coronary artery,2023-02-13,Dr. Walker,N,,moderate,resolved
+DX-96075,BETA-00644,K70.30,Alcoholic cirrhosis of liver without ascites,2022-08-31,Dr. Hernandez,N,,mild,resolved
+DX-52037,BETA-00676,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,07/18/2024,Dr. Wang,N,,mild,chronic
+DX-36801,ALPHA-00368,M54.5,Low back pain,"April 21, 2024",Dr. Johansson,Y,,mild,chronic
+DX-90759,ALPHA-00476,E03.9,"Hypothyroidism, unspecified",11/13/2022,Dr. Gonzalez,Y,,severe,chronic
+DX-79596,ALPHA-00737,K21.0,Gastro-esophageal reflux disease with esophagitis,21-04-2022,Dr. Gonzalez,Y,,moderate,chronic
+DX-79155,ALPHA-00271,E11.9,Type 2 diabetes mellitus without complications,2024-03-08,Dr. Hernandez,Y,,moderate,resolved
+DX-15788,GAMMA-00719,B20,Human immunodeficiency virus [HIV] disease,03/22/2022,Dr. Shah,N,,severe,chronic
+DX-18649,GAMMA-00328,J45.20,"Mild intermittent asthma, uncomplicated",07/02/2022,Dr. Kumar,Y,,severe,resolved
+DX-57638,ALPHA-00620,G20,Parkinson's disease,07/14/2023,Dr. Schmidt,Y,,moderate,resolved
+DX-20338,GAMMA-00180,E03.9,"Hypothyroidism, unspecified",2022-04-27,Dr. Jones,Y,,severe,resolved
+DX-55563,GAMMA-00716,J18.9,"Pneumonia, unspecified organism",25 Jan 2022,Dr. Chen,Y,,moderate,resolved
+DX-63166,BETA-00310,J18.9,"Pneumonia, unspecified organism","June 30, 2022",Dr. Young,N,,mild,resolved
+DX-77241,GAMMA-00559,M54.5,Low back pain,01 Oct 2024,Dr. Sato,Y,,severe,resolved
+DX-76320,GAMMA-00390,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,30-07-2023,Dr. Rodriguez,N,,mild,active
+DX-71671,GAMMA-00430,N18.4,"Chronic kidney disease, stage 4","March 16, 2023",Dr. Schmidt,N,,severe,chronic
+DX-87434,ALPHA-00624,K21.0,Gastro-esophageal reflux disease with esophagitis,12/01/2022,Dr. Sato,N,,,chronic
+DX-59511,ALPHA-00635,J45.20,"Mild intermittent asthma, uncomplicated",2024/07/12,Dr. Gupta,N,,mild,resolved
+DX-69238,GAMMA-00140,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,2024-11-17T00:00:00,Dr. Wilson,Y,,moderate,resolved
+DX-15215,GAMMA-00621,c50.919,Malignant neoplasm of unspecified site of unspecified female breast,2022/02/23,Dr. Mueller,Y,,mild,resolved
+DX-93253,GAMMA-00120,E78.5,"Dyslipidemia, unspecified",17-06-2022,Dr. Walker,Y,,severe,resolved
+DX-35668,BETA-00146,E11.9,Type 2 diabetes mellitus without complications,09/29/2023,Dr. Johnson,N,,mild,resolved
+DX-84939,GAMMA-00465,E11.9,Type 2 diabetes mellitus without complications,"March 18, 2022",Dr. Lewis,N,,moderate,active
+DX-95936,GAMMA-00588,E78.5,"Dyslipidemia, unspecified",20 Aug 2024,Dr. Brown,Y,,,active
+DX-73555,BETA-00735,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,01-09-2023,Dr. Rodriguez,N,,moderate,resolved
+DX-14433,BETA-00372,F41.1,Generalized anxiety disorder,2024-05-11,Dr. King,N,,mild,active
+DX-97261,ALPHA-00619,K21.0,Gastro-esophageal reflux disease with esophagitis,09/22/2024,Dr. Walker,N,,mild,chronic
+DX-13949,GAMMA-00028,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,2024/05/31,Dr. Clark,Y,,mild,resolved
+DX-50102,GAMMA-00635,K21.0,Gastro-esophageal reflux disease with esophagitis,2024-07-12,Dr. Wilson,N,,severe,resolved
+DX-23458,ALPHA-00713,M54.5,Low back pain,2022-03-08T00:00:00,Dr. Robinson,N,,severe,resolved
+DX-81195,ALPHA-00521,E11.65,Type 2 diabetes mellitus with hyperglycemia,04/04/2022,Dr. Singh,N,,severe,resolved
+DX-74554,GAMMA-00344,I48.91,Unspecified atrial fibrillation,2024-01-04,Dr. Davis,N,,moderate,active
+DX-70929,ALPHA-00230,I25.10,Atherosclerotic heart disease of native coronary artery,2022-03-29,Dr. Mueller,N,,mild,active
+DX-85958,GAMMA-00439,D64.9,"Anemia, unspecified",12/15/2022,Dr. Martinez,N,,moderate,active
+DX-32268,BETA-00286,I10,Essential (primary) hypertension,06/27/2023,Dr. Walker,Y,,severe,chronic
+DX-78122,BETA-00158,E78.5,"Dyslipidemia, unspecified",07/29/2023,Dr. Johansson,Y,,moderate,active
+DX-24053,GAMMA-00331,M545,Low back pain,2023/12/02,Dr. Walker,Y,,moderate,active
+DX-49908,GAMMA-00552,R06.02,Shortness of breath,2024-11-08T00:00:00,Dr. Thomas,N,,moderate,active
+DX-31649,GAMMA-00457,I10,Essential (primary) hypertension,23-10-2024,Dr. Rodriguez,Y,,mild,chronic
+DX-91590,BETA-00155,I48.91,Unspecified atrial fibrillation,17-10-2024,Dr. White,Y,,mild,resolved
+DX-64816,ALPHA-00575,N18.3,"Chronic kidney disease, stage 3",2024-03-01,Dr. Wang,Y,,,active
+DX-73590,GAMMA-00727,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,2024-12-09T00:00:00,Dr. Thomas,Y,,severe,chronic
+DX-43879,GAMMA-00471,R06.02,Shortness of breath,24-03-2024,Dr. Robinson,Y,,mild,resolved
+DX-81853,GAMMA-00173,K70.30,Alcoholic cirrhosis of liver without ascites,06/14/2023,Dr. Thomas,Y,,mild,active
+DX-35984,ALPHA-00083,I48.91,Unspecified atrial fibrillation,2024-09-19,Dr. King,Y,,moderate,active
+DX-35978,GAMMA-00299,E78.5,"Dyslipidemia, unspecified",12/03/2022,Dr. Kumar,Y,,mild,active
+DX-71841,BETA-00431,E11.65,Type 2 diabetes mellitus with hyperglycemia,11/19/2022,Dr. Hernandez,N,,moderate,chronic
+DX-90726,BETA-00475,G47.33,Obstructive sleep apnea,2024-12-14,Dr. Kim,N,,moderate,resolved
+DX-55379,ALPHA-00419,D64.9,"Anemia, unspecified",12/17/2023,Dr. Tanaka,N,,mild,resolved
+DX-57256,BETA-00369,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,2023-01-04,Dr. Singh,N,,mild,active
+DX-75010,GAMMA-00408,J18.9,"Pneumonia, unspecified organism",2024-05-15T00:00:00,Dr. Tanaka,N,,moderate,active
+DX-23082,BETA-00698,F32.1,"Major depressive disorder, single episode, moderate",01/04/2023,Dr. Wilson,Y,,moderate,active
+DX-14553,ALPHA-00604,E11.65,Type 2 diabetes mellitus with hyperglycemia,2024-08-22,Dr. Lewis,N,,mild,chronic
+DX-50063,ALPHA-00758,M54.5,Low back pain,26-07-2022,Dr. Wilson,N,,moderate,active
+DX-58905,GAMMA-00229,E11.65,Type 2 diabetes mellitus with hyperglycemia,2023/04/09,Dr. King,Y,,severe,active
+DX-63749,ALPHA-00553,C50919,Malignant neoplasm of unspecified site of unspecified female breast,03/25/2022,Dr. Martin,N,,severe,resolved
+DX-37899,BETA-00086,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,28 Aug 2023,Dr. Hernandez,N,,severe,resolved
+DX-61265,ALPHA-00628,z87.891,Personal history of nicotine dependence,31-08-2023,Dr. Wang,N,,,chronic
+DX-70602,BETA-00169,E11.65,Type 2 diabetes mellitus with hyperglycemia,07/25/2022,Dr. Jones,N,,mild,active
+DX-19335,BETA-00275,D64.9,"Anemia, unspecified","October 10, 2022",Dr. Rodriguez,Y,,moderate,active
+DX-65050,BETA-00226,G20,Parkinson's disease,2022-10-11,Dr. Moore,N,,severe,chronic
+DX-63252,ALPHA-00671,G20,Parkinson's disease,09/19/2024,Dr. Ramirez,N,,severe,chronic
+DX-69907,ALPHA-00732,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,2022-12-20T00:00:00,Dr. Ramirez,Y,,severe,chronic
+DX-54950,BETA-00475,N18.4,"Chronic kidney disease, stage 4",13 Dec 2024,Dr. Lee,N,,severe,active
+DX-47918,BETA-00343,B20,Human immunodeficiency virus [HIV] disease,06/10/2023,Dr. Rodriguez,N,,moderate,chronic
+DX-86824,ALPHA-00109,F32.1,"Major depressive disorder, single episode, moderate",22-09-2022,Dr. Walker,Y,,,active
+DX-49087,ALPHA-00528,C50919,Malignant neoplasm of unspecified site of unspecified female breast,"March 03, 2023",Dr. Walker,N,,mild,resolved
+DX-18476,BETA-00342,J18.9,"Pneumonia, unspecified organism",06/03/2022,Dr. Taylor,N,,severe,resolved
+DX-39510,ALPHA-00515,K21.0,Gastro-esophageal reflux disease with esophagitis,"January 08, 2022",Dr. Chen,N,,moderate,resolved
+DX-83088,BETA-00104,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,07 Jan 2023,Dr. Kim,Y,,moderate,chronic
+DX-59433,GAMMA-00472,N18.4,"Chronic kidney disease, stage 4",2022-11-17T00:00:00,Dr. Schmidt,Y,,moderate,active
+DX-93967,BETA-00559,B20,Human immunodeficiency virus [HIV] disease,02-10-2024,Dr. Perez,N,,moderate,chronic
+DX-70028,BETA-00492,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,01/05/2022,Dr. Mueller,N,,severe,resolved
+DX-27345,BETA-00231,P07.30,"Preterm newborn, unspecified",12/15/2023,Dr. Patel,N,,moderate,active
+DX-46020,BETA-00159,D64.9,"Anemia, unspecified",10/24/2024,Dr. Taylor,Y,,severe,chronic
+DX-18951,ALPHA-00112,G47.33,Obstructive sleep apnea,14 Jun 2022,Dr. Clark,Y,,severe,active
+DX-12888,BETA-00348,Z87.891,Personal history of nicotine dependence,11/20/2024,Dr. Chen,N,,moderate,resolved
+DX-26311,GAMMA-00148,M54.5,Low back pain,2022/11/12,Dr. Kumar,N,,mild,resolved
+DX-16850,BETA-00676,G47.33,Obstructive sleep apnea,2024-07-17,Dr. Wang,Y,,mild,active
+DX-32264,BETA-00663,F41.1,Generalized anxiety disorder,10/31/2023,Dr. Allen,N,,moderate,chronic
+DX-43396,BETA-00287,F32.1,"Major depressive disorder, single episode, moderate",2024/04/30,Dr. Martinez,Y,,mild,resolved
+DX-33583,BETA-00174,R06.02,Shortness of breath,11/23/2024,Dr. Walker,N,,severe,active
+DX-87177,GAMMA-00547,G47.33,Obstructive sleep apnea,2024-12-02,Dr. Harris,N,,severe,chronic
+DX-37218,GAMMA-00084,D64.9,"Anemia, unspecified",20-01-2022,Dr. Anderson,N,,severe,active
+DX-39713,GAMMA-00615,B20,Human immunodeficiency virus [HIV] disease,"March 27, 2022",Dr. Williams,Y,,mild,chronic
+DX-17052,BETA-00626,D64.9,"Anemia, unspecified",18 Jan 2023,Dr. Chen,N,,severe,active
+DX-80366,ALPHA-00061,J18.9,"Pneumonia, unspecified organism",04 May 2024,Dr. Tanaka,N,,moderate,active
+DX-50557,GAMMA-00039,G47.33,Obstructive sleep apnea,11/29/2024,Dr. Martin,Y,,moderate,chronic
+DX-53629,GAMMA-00541,D64.9,"Anemia, unspecified",2024/08/12,Dr. Sanchez,Y,,,active
+DX-32092,BETA-00086,E03.9,"Hypothyroidism, unspecified",2023/08/31,Dr. Smith,Y,,severe,chronic
+DX-79209,BETA-00346,E11.9,Type 2 diabetes mellitus without complications,2022/01/19,Dr. Hernandez,Y,,moderate,chronic
+DX-29499,ALPHA-00275,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,10/09/2022,Dr. Gupta,N,,severe,chronic
+DX-65492,ALPHA-00397,G47.33,Obstructive sleep apnea,12/07/2023,Dr. Patel,Y,,mild,active
+DX-67539,ALPHA-00716,K21.0,Gastro-esophageal reflux disease with esophagitis,25-01-2022,Dr. Johansson,N,,severe,active
+DX-32329,ALPHA-00391,J18.9,"Pneumonia, unspecified organism",2023-12-15,Dr. Gonzalez,N,,moderate,resolved
+DX-37479,BETA-00219,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,31-08-2023,Dr. Lee,N,,mild,active
+DX-16105,BETA-00444,J45.20,"Mild intermittent asthma, uncomplicated",2024-09-20,Dr. Hernandez,Y,,severe,resolved
+DX-95097,BETA-00351,N18.3,"Chronic kidney disease, stage 3",04/11/2024,Dr. Sanchez,Y,,mild,active
+DX-69160,BETA-00711,K70.30,Alcoholic cirrhosis of liver without ascites,22 Jan 2023,Dr. King,N,,severe,chronic
+DX-52645,GAMMA-00660,E78.5,"Dyslipidemia, unspecified",09/19/2023,Dr. Lee,Y,,mild,resolved
+DX-20392,ALPHA-00545,B20,Human immunodeficiency virus [HIV] disease,2023-08-16,Dr. Johnson,Y,,mild,chronic
+DX-85152,ALPHA-00409,J18.9,"Pneumonia, unspecified organism",10/09/2022,Dr. Park,N,,severe,resolved
+DX-58788,ALPHA-00051,I48.91,Unspecified atrial fibrillation,05/11/2024,Dr. Martinez,N,,moderate,active
+DX-44183,ALPHA-00298,I48.91,Unspecified atrial fibrillation,30-08-2024,Dr. Allen,N,,moderate,active
+DX-95714,GAMMA-00052,B20,Human immunodeficiency virus [HIV] disease,"September 20, 2024",Dr. Chen,N,,severe,chronic
+DX-42460,BETA-00287,R06.02,Shortness of breath,2024-04-30,Dr. Jackson,N,,moderate,resolved
+DX-21328,GAMMA-00742,G20,Parkinson's disease,02/20/2024,Dr. Martinez,Y,,mild,resolved
+DX-21552,BETA-00606,E11.65,Type 2 diabetes mellitus with hyperglycemia,2023-09-18,Dr. Mueller,Y,,moderate,active
+DX-59161,GAMMA-00762,D64.9,"Anemia, unspecified",2022-08-25,Dr. Jackson,Y,,severe,active
+DX-99885,ALPHA-00029,B20,Human immunodeficiency virus [HIV] disease,"November 13, 2022",Dr. Jackson,N,,moderate,active
+DX-97135,ALPHA-00689,R06.02,Shortness of breath,2022/01/25,Dr. Singh,Y,,mild,chronic
+DX-95632,BETA-00243,N18.4,"Chronic kidney disease, stage 4",14 Oct 2022,Dr. Lee,N,,moderate,chronic
+DX-76820,ALPHA-00315,E03.9,"Hypothyroidism, unspecified",04/13/2022,Dr. Smith,Y,,moderate,chronic
+DX-71949,GAMMA-00123,D64.9,"Anemia, unspecified",2023-11-21,Dr. Park,N,,mild,resolved
+DX-14876,ALPHA-00659,K21.0,Gastro-esophageal reflux disease with esophagitis,2024-01-27,Dr. Thompson,N,,severe,chronic
+DX-70448,GAMMA-00494,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,2022-09-15,Dr. Jones,N,,mild,chronic
+DX-11420,ALPHA-00166,E11.9,Type 2 diabetes mellitus without complications,01 Oct 2024,Dr. Rodriguez,N,,severe,resolved
+DX-79075,ALPHA-00638,R06.02,Shortness of breath,12/15/2023,Dr. Schmidt,N,,moderate,active
+DX-41238,ALPHA-00354,E11.9,Type 2 diabetes mellitus without complications,2022/10/18,Dr. King,Y,,severe,resolved
+DX-65916,GAMMA-00191,N18.3,"Chronic kidney disease, stage 3",2022-03-25T00:00:00,Dr. Walker,N,,severe,resolved
+DX-40718,ALPHA-00644,F41.1,Generalized anxiety disorder,2022-09-01,Dr. Allen,Y,,severe,resolved
+DX-13663,GAMMA-00613,I10,Essential (primary) hypertension,2023-10-27,Dr. Park,N,,severe,resolved
+DX-23459,BETA-00605,J18.9,"Pneumonia, unspecified organism",2024-07-18,Dr. Allen,Y,,mild,chronic
+DX-20450,BETA-00496,Z87.891,Personal history of nicotine dependence,20-05-2024,Dr. Brown,Y,,severe,chronic
+DX-46362,ALPHA-00285,M54.5,Low back pain,2024-08-22,Dr. Brown,Y,,severe,resolved
+DX-90506,BETA-00178,M54.5,Low back pain,"March 25, 2023",Dr. Wang,Y,,mild,resolved
+DX-60405,BETA-00564,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,12-12-2022,Dr. Lewis,Y,,mild,active
+DX-73602,ALPHA-00245,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,2022-08-21T00:00:00,Dr. Gonzalez,Y,,severe,chronic
+DX-70992,ALPHA-00059,R06.02,Shortness of breath,10/03/2024,Dr. Kim,N,,severe,active
+DX-97071,ALPHA-00148,E11.9,Type 2 diabetes mellitus without complications,11 Nov 2022,Dr. Tanaka,Y,,severe,chronic
+DX-47341,BETA-00521,F41.1,Generalized anxiety disorder,2022-04-04,Dr. Clark,N,,moderate,resolved
+DX-94072,BETA-00476,I48.91,Unspecified atrial fibrillation,2022/11/15,Dr. Shah,N,,mild,active
+DX-82979,ALPHA-00302,E78.5,"Dyslipidemia, unspecified",02 Aug 2023,Dr. Smith,N,,,resolved
+DX-42687,BETA-00527,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,2024/05/08,Dr. Jones,Y,,mild,resolved
+DX-86147,GAMMA-00430,E78.5,"Dyslipidemia, unspecified",18 Mar 2023,Dr. Jackson,N,,mild,resolved
+DX-67867,ALPHA-00184,J45.20,"Mild intermittent asthma, uncomplicated","August 06, 2024",Dr. Miller,Y,,moderate,resolved
+DX-16127,GAMMA-00568,D64.9,"Anemia, unspecified",09/01/2022,Dr. Young,N,,severe,resolved
+DX-55884,BETA-00105,Z87.891,Personal history of nicotine dependence,22-12-2024,Dr. Sato,Y,,moderate,resolved
+DX-10955,GAMMA-00137,K70.30,Alcoholic cirrhosis of liver without ascites,2024-10-18,Dr. Wilson,Y,,severe,resolved
+DX-59639,GAMMA-00063,E78.5,"Dyslipidemia, unspecified",08/23/2024,Dr. Mueller,N,,mild,resolved
+DX-69796,BETA-00648,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,2024-11-25,Dr. Kim,Y,,mild,resolved
+DX-86148,ALPHA-00174,E03.9,"Hypothyroidism, unspecified",24 Nov 2024,Dr. Clark,N,,mild,chronic
+DX-89429,GAMMA-00049,I48.91,Unspecified atrial fibrillation,2023-09-30,Dr. Walker,Y,,mild,active
+DX-40531,BETA-00509,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,"January 31, 2023",Dr. Tanaka,N,,severe,chronic
+DX-14541,BETA-00341,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,06/27/2024,Dr. Schmidt,N,,mild,resolved
+DX-10644,GAMMA-00409,M54.5,Low back pain,10/10/2022,Dr. Taylor,N,,mild,active
+DX-38483,BETA-00692,E11.9,Type 2 diabetes mellitus without complications,2024-06-11,Dr. Kim,N,,moderate,active
+DX-97586,ALPHA-00156,D64.9,"Anemia, unspecified",2024-08-22T00:00:00,Dr. Williams,N,,severe,chronic
+DX-37397,BETA-00446,E03.9,"Hypothyroidism, unspecified",05/08/2022,Dr. Kim,N,,mild,chronic
+DX-44629,BETA-00364,B20,Human immunodeficiency virus [HIV] disease,2022-03-23,Dr. Sato,Y,,severe,chronic
+DX-32192,GAMMA-00681,K21.0,Gastro-esophageal reflux disease with esophagitis,2023-07-23,Dr. Mueller,N,,moderate,active
+DX-68549,BETA-00429,I48.91,Unspecified atrial fibrillation,2024/07/18,Dr. Mueller,Y,,moderate,active
+DX-96182,GAMMA-00702,E78.5,"Dyslipidemia, unspecified",16 May 2022,Dr. Martinez,N,,severe,resolved
+DX-25402,ALPHA-00707,K70.30,Alcoholic cirrhosis of liver without ascites,19-06-2022,Dr. Sanchez,N,,moderate,chronic
+DX-13035,GAMMA-00270,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,25-08-2024,Dr. Smith,N,,mild,chronic
+DX-27904,ALPHA-00311,R06.02,Shortness of breath,14 Feb 2023,Dr. Ramirez,N,,moderate,resolved
+DX-10244,ALPHA-00301,E119,Type 2 diabetes mellitus without complications,03-06-2023,Dr. Sato,N,,severe,active
+DX-73904,ALPHA-00505,K7030,Alcoholic cirrhosis of liver without ascites,06/25/2023,Dr. Thomas,Y,,severe,resolved
+DX-81608,GAMMA-00372,G20,Parkinson's disease,05/09/2024,Dr. Patel,N,,moderate,resolved
+DX-99388,ALPHA-00231,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,"December 17, 2023",Dr. Sanchez,N,,moderate,resolved
+DX-83658,GAMMA-00145,G47.33,Obstructive sleep apnea,"February 16, 2023",Dr. Schmidt,N,,mild,active
+DX-43414,ALPHA-00276,F41.1,Generalized anxiety disorder,09/21/2023,Dr. Gupta,N,,severe,resolved
+DX-68835,ALPHA-00405,I10,Essential (primary) hypertension,04/14/2023,Dr. Sharma,Y,,moderate,chronic
+DX-80675,BETA-00237,E78.5,"Dyslipidemia, unspecified",2024-09-21T00:00:00,Dr. Martin,Y,,mild,resolved
+DX-87484,BETA-00625,R06.02,Shortness of breath,2022-07-16,Dr. Thompson,N,,mild,resolved
+DX-20735,ALPHA-00052,E03.9,"Hypothyroidism, unspecified",09/18/2024,Dr. Park,Y,,moderate,chronic
+DX-18701,ALPHA-00786,N18.3,"Chronic kidney disease, stage 3",04/06/2024,Dr. Brown,N,,moderate,active
+DX-38990,ALPHA-00126,M54.5,Low back pain,2022-04-20,Dr. Johansson,N,,,resolved
+DX-83437,BETA-00737,J18.9,"Pneumonia, unspecified organism",04/21/2022,Dr. Jackson,N,,,resolved
+DX-85747,BETA-00611,P07.30,"Preterm newborn, unspecified",09/24/2022,Dr. Sharma,N,,moderate,active
+DX-99251,GAMMA-00470,G47.33,Obstructive sleep apnea,2023/08/03,Dr. Hernandez,N,,mild,active
+DX-86009,ALPHA-00312,K70.30,Alcoholic cirrhosis of liver without ascites,2022/09/22,Dr. Williams,Y,,severe,resolved
+DX-66688,ALPHA-00743,G20,Parkinson's disease,2022/11/14,Dr. Martin,N,,severe,active
+DX-96198,GAMMA-00274,G20,Parkinson's disease,2022/10/19,Dr. Kumar,N,,mild,resolved
+DX-78770,GAMMA-00746,I25.10,Atherosclerotic heart disease of native coronary artery,05-09-2024,Dr. Johnson,N,,severe,chronic
+DX-53577,BETA-00774,I10,Essential (primary) hypertension,09/09/2024,Dr. Miller,N,,mild,resolved
+DX-49435,GAMMA-00384,M545,Low back pain,08/09/2022,Dr. Wang,Y,,mild,resolved
+DX-35337,ALPHA-00692,B20,Human immunodeficiency virus [HIV] disease,2024/06/14,Dr. Singh,Y,,severe,resolved
+DX-46946,GAMMA-00169,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,"July 27, 2022",Dr. Garcia,N,,moderate,active
+DX-85170,ALPHA-00223,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,28 Jul 2023,Dr. Martinez,N,,severe,active
+DX-75947,GAMMA-00433,Z87.891,Personal history of nicotine dependence,2022-06-12,Dr. Wang,Y,,mild,chronic
+DX-29056,GAMMA-00557,Z87.891,Personal history of nicotine dependence,2024-05-20,Dr. Clark,Y,,mild,active
+DX-39752,BETA-00136,G47.33,Obstructive sleep apnea,"November 14, 2023",Dr. Perez,N,,mild,resolved
+DX-32068,BETA-00680,I10,Essential (primary) hypertension,09/16/2023,Dr. Martinez,N,,moderate,chronic
+DX-51927,ALPHA-00478,J45.20,"Mild intermittent asthma, uncomplicated",08/02/2022,Dr. Jackson,N,,moderate,resolved
+DX-73166,ALPHA-00450,R06.02,Shortness of breath,2023-07-15,Dr. Gonzalez,Y,,severe,resolved
+DX-90787,ALPHA-00104,M54.5,Low back pain,2023/01/08,Dr. Sharma,N,,mild,resolved
+DX-29722,GAMMA-00344,Z87.891,Personal history of nicotine dependence,2024-01-07,Dr. Ramirez,Y,,moderate,resolved
+DX-79340,ALPHA-00750,E03.9,"Hypothyroidism, unspecified",2022-07-21,Dr. Robinson,N,,severe,chronic
+DX-32582,BETA-00646,I10,Essential (primary) hypertension,2022/06/27,Dr. Allen,N,,moderate,chronic
+DX-23428,GAMMA-00143,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,10 Aug 2023,Dr. Thomas,Y,,severe,resolved
+DX-34624,ALPHA-00245,E78.5,"Dyslipidemia, unspecified",2022-08-20T00:00:00,Dr. Hernandez,N,,mild,resolved
+DX-67788,GAMMA-00635,R06.02,Shortness of breath,2024-07-11,Dr. Chen,N,,moderate,chronic
+DX-68882,GAMMA-00504,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,2023/06/27,Dr. Wilson,N,,mild,resolved
+DX-97554,GAMMA-00617,I48.91,Unspecified atrial fibrillation,"June 27, 2023",Dr. Chen,N,,mild,active
+DX-48538,ALPHA-00266,E11.65,Type 2 diabetes mellitus with hyperglycemia,2024-08-03,Dr. Taylor,N,,severe,resolved
+DX-14281,GAMMA-00311,N18.3,"Chronic kidney disease, stage 3","February 13, 2023",Dr. King,N,,mild,resolved
+DX-64614,BETA-00509,J18.9,"Pneumonia, unspecified organism",02/03/2023,Dr. Shah,Y,,mild,active
+DX-50909,ALPHA-00166,R06.02,Shortness of breath,09/29/2024,Dr. Chen,N,,severe,chronic
+DX-72711,BETA-00073,J45.20,"Mild intermittent asthma, uncomplicated","February 25, 2024",Dr. Garcia,Y,,severe,active
+DX-96067,ALPHA-00056,C3490,Malignant neoplasm of unspecified part of bronchus or lung,2024-05-22,Dr. Thompson,N,,moderate,active
+DX-22093,ALPHA-00074,J18.9,"Pneumonia, unspecified organism",2023-08-04,Dr. Martin,N,,mild,chronic
+DX-38947,BETA-00327,Z87.891,Personal history of nicotine dependence,07/26/2023,Dr. Jones,Y,,mild,chronic
+DX-50574,BETA-00673,D64.9,"Anemia, unspecified",2024-05-17T00:00:00,Dr. Schmidt,N,,mild,active
+DX-53772,BETA-00206,N18.3,"Chronic kidney disease, stage 3",2024-02-10T00:00:00,Dr. Kumar,Y,,mild,active
+DX-56089,GAMMA-00223,K21.0,Gastro-esophageal reflux disease with esophagitis,"July 26, 2023",Dr. Wang,Y,,mild,active
+DX-87901,GAMMA-00073,E11.65,Type 2 diabetes mellitus with hyperglycemia,02/25/2024,Dr. Davis,N,,moderate,chronic
+DX-24802,BETA-00615,E11.9,Type 2 diabetes mellitus without complications,29-03-2022,Dr. Perez,N,,severe,active
+DX-15053,BETA-00007,M54.5,Low back pain,"July 30, 2024",Dr. Clark,Y,,severe,active
+DX-50982,GAMMA-00219,Z87.891,Personal history of nicotine dependence,"August 29, 2023",Dr. Moore,N,,moderate,active
+DX-62920,ALPHA-00553,g20,Parkinson's disease,03/27/2022,Dr. Anderson,Y,,moderate,chronic
+DX-31631,GAMMA-00126,K21.0,Gastro-esophageal reflux disease with esophagitis,2022-04-20,Dr. Taylor,N,,mild,chronic
+DX-68955,ALPHA-00380,E11.9,Type 2 diabetes mellitus without complications,02 Apr 2024,Dr. Davis,Y,,severe,resolved
+DX-95054,GAMMA-00470,K21.0,Gastro-esophageal reflux disease with esophagitis,2023/08/01,Dr. Ramirez,Y,,severe,active
+DX-19665,BETA-00749,R06.02,Shortness of breath,2022-08-13T00:00:00,Dr. Thompson,Y,,moderate,active
+DX-92008,BETA-00018,F41.1,Generalized anxiety disorder,2024/08/06,Dr. Clark,N,,moderate,active
+DX-23470,BETA-00050,J45.20,"Mild intermittent asthma, uncomplicated",2023-09-13,Dr. Walker,N,,mild,active
+DX-93335,ALPHA-00575,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,2024-03-01,Dr. Lopez,N,,moderate,resolved
+DX-16257,BETA-00521,K70.30,Alcoholic cirrhosis of liver without ascites,"April 05, 2022",Dr. Thompson,N,,severe,resolved
+DX-27063,ALPHA-00351,E78.5,"Dyslipidemia, unspecified",04/10/2024,Dr. Anderson,N,,mild,chronic
+DX-39840,GAMMA-00118,j18.9,"Pneumonia, unspecified organism",2022-12-22,Dr. Garcia,N,,mild,resolved
+DX-17389,GAMMA-00252,J18.9,"Pneumonia, unspecified organism",2022-04-24,Dr. Hernandez,N,,moderate,chronic
+DX-40803,ALPHA-00362,D64.9,"Anemia, unspecified",2023-05-07,Dr. Ramirez,N,,severe,resolved
+DX-75265,GAMMA-00489,I25.10,Atherosclerotic heart disease of native coronary artery,2024-02-17,Dr. Harris,N,,mild,chronic
+DX-78265,GAMMA-00162,J18.9,"Pneumonia, unspecified organism",2024-12-11,Dr. Thomas,N,,moderate,resolved
+DX-60808,BETA-00580,E039,"Hypothyroidism, unspecified",07/26/2022,Dr. Miller,Y,,moderate,active
+DX-96011,GAMMA-00313,Z87891,Personal history of nicotine dependence,12/09/2024,Dr. Gonzalez,Y,,severe,chronic
+DX-49093,ALPHA-00263,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,2022-07-08T00:00:00,Dr. Garcia,Y,,moderate,resolved
+DX-65567,GAMMA-00792,N18.3,"Chronic kidney disease, stage 3",2022-12-26,Dr. Kim,Y,,moderate,active
+DX-54151,ALPHA-00389,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,2024-10-06,Dr. Ramirez,N,,moderate,active
+DX-90104,GAMMA-00470,E78.5,"Dyslipidemia, unspecified",2023-07-31T00:00:00,Dr. Sharma,N,,mild,chronic
+DX-53784,GAMMA-00174,e78.5,"Dyslipidemia, unspecified",22 Nov 2024,Dr. White,N,,severe,resolved
+DX-57870,ALPHA-00292,R06.02,Shortness of breath,2023/06/25,Dr. Martin,N,,severe,chronic
+DX-49935,GAMMA-00757,M54.5,Low back pain,2024-01-10,Dr. Robinson,N,,mild,chronic
+DX-93092,BETA-00605,E039,"Hypothyroidism, unspecified",07/20/2024,Dr. Rodriguez,N,,mild,resolved
+DX-72511,GAMMA-00224,F41.1,Generalized anxiety disorder,2024-09-29,Dr. Park,Y,,mild,resolved
+DX-41599,GAMMA-00311,K21.0,Gastro-esophageal reflux disease with esophagitis,2023/02/16,Dr. Johansson,N,,severe,active
+DX-65575,GAMMA-00135,E11.9,Type 2 diabetes mellitus without complications,"February 13, 2023",Dr. Clark,N,,severe,chronic
+DX-28567,BETA-00116,J45.20,"Mild intermittent asthma, uncomplicated","April 30, 2022",Dr. Garcia,Y,,severe,active
+DX-24609,GAMMA-00687,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,07/04/2024,Dr. Walker,N,,mild,chronic
+DX-12617,GAMMA-00175,I25.10,Atherosclerotic heart disease of native coronary artery,2024/02/28,Dr. Johnson,Y,,mild,active
+DX-97319,GAMMA-00302,J18.9,"Pneumonia, unspecified organism",04-08-2023,Dr. Kim,N,,moderate,chronic
+DX-51770,ALPHA-00641,E11.9,Type 2 diabetes mellitus without complications,09-04-2022,Dr. Chen,Y,,moderate,chronic
+DX-38957,GAMMA-00386,G47.33,Obstructive sleep apnea,04/16/2023,Dr. Thompson,N,,moderate,chronic
+DX-52437,GAMMA-00598,F32.1,"Major depressive disorder, single episode, moderate",18-10-2022,Dr. White,Y,,moderate,resolved
+DX-82107,ALPHA-00587,E785,"Dyslipidemia, unspecified",2022-08-24,Dr. Lopez,Y,,mild,chronic
+DX-17760,ALPHA-00677,J18.9,"Pneumonia, unspecified organism",06-01-2022,Dr. Ramirez,N,,mild,chronic
+DX-11814,BETA-00282,G47.33,Obstructive sleep apnea,2024-06-10T00:00:00,Dr. Anderson,N,,mild,chronic
+DX-70627,BETA-00037,E03.9,"Hypothyroidism, unspecified","November 20, 2023",Dr. Martin,N,,mild,chronic
+DX-20660,ALPHA-00731,J18.9,"Pneumonia, unspecified organism",03/30/2023,Dr. Harris,N,,mild,resolved
+DX-39651,BETA-00119,B20,Human immunodeficiency virus [HIV] disease,2024/04/19,Dr. Moore,N,,severe,resolved
+DX-23955,BETA-00225,J45.20,"Mild intermittent asthma, uncomplicated",03 Sep 2023,Dr. Rodriguez,N,,severe,active
+DX-94397,GAMMA-00049,E11.9,Type 2 diabetes mellitus without complications,2023-09-30,Dr. Lewis,N,,moderate,resolved
+DX-45411,ALPHA-00277,D64.9,"Anemia, unspecified",03/30/2023,Dr. Davis,N,,mild,resolved
+DX-76696,GAMMA-00578,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,02/16/2023,Dr. Lee,Y,,severe,active
+DX-43031,BETA-00659,E78.5,"Dyslipidemia, unspecified",2024-01-27T00:00:00,Dr. Shah,Y,,mild,active
+DX-79293,ALPHA-00182,F41.1,Generalized anxiety disorder,13-08-2023,Dr. Chen,Y,,mild,resolved
+DX-18619,BETA-00654,N18.3,"Chronic kidney disease, stage 3",2024-07-20,Dr. Lee,Y,,severe,resolved
+DX-56344,BETA-00136,F41.1,Generalized anxiety disorder,11 Nov 2023,Dr. Moore,N,,moderate,chronic
+DX-38419,ALPHA-00152,F41.1,Generalized anxiety disorder,2024-08-09T00:00:00,Dr. Martinez,Y,,severe,active
+DX-74860,ALPHA-00379,F32.1,"Major depressive disorder, single episode, moderate",13-01-2022,Dr. Johansson,N,,severe,resolved
+DX-55059,ALPHA-00114,M545,Low back pain,06/06/2022,Dr. Garcia,Y,,mild,resolved
+DX-75279,ALPHA-00199,M54.5,Low back pain,06/03/2024,Dr. Jones,N,,severe,active
+DX-62129,BETA-00644,n18.4,"Chronic kidney disease, stage 4",2022-09-01,Dr. Sato,N,,severe,chronic
+DX-72000,BETA-00413,I10,Essential (primary) hypertension,28-02-2024,Dr. Kim,N,,moderate,chronic
+DX-42089,ALPHA-00146,E03.9,"Hypothyroidism, unspecified",09/28/2023,Dr. Lewis,N,,severe,resolved
+DX-44923,GAMMA-00022,F32.1,"Major depressive disorder, single episode, moderate",23-03-2022,Dr. Robinson,N,,moderate,chronic
+DX-71256,GAMMA-00176,J45.20,"Mild intermittent asthma, uncomplicated",04/29/2023,Dr. Brown,Y,,mild,resolved
+DX-15158,BETA-00191,J18.9,"Pneumonia, unspecified organism",2022-03-25,Dr. Johnson,Y,,mild,chronic
+DX-61859,GAMMA-00399,R06.02,Shortness of breath,11-04-2024,Dr. Brown,N,,mild,active
+DX-58484,ALPHA-00429,G20,Parkinson's disease,"July 17, 2024",Dr. Clark,N,,,active
+DX-28845,BETA-00068,I10,Essential (primary) hypertension,20 Oct 2023,Dr. Thomas,N,,severe,resolved
+DX-19285,ALPHA-00750,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,07/20/2022,Dr. Robinson,Y,,mild,active
+DX-35001,ALPHA-00041,G47.33,Obstructive sleep apnea,05/06/2023,Dr. Sato,Y,,moderate,active
+DX-10475,ALPHA-00507,J18.9,"Pneumonia, unspecified organism",2024-08-02,Dr. Sharma,N,,mild,active
+DX-21419,BETA-00600,M54.5,Low back pain,03/18/2023,Dr. King,Y,,mild,resolved
+DX-68802,ALPHA-00225,D64.9,"Anemia, unspecified",02 Sep 2023,Dr. Mueller,N,,severe,chronic
+DX-23565,ALPHA-00001,N18.3,"Chronic kidney disease, stage 3",11/01/2024,Dr. Taylor,N,,mild,resolved
+DX-64943,BETA-00575,F41.1,Generalized anxiety disorder,"March 02, 2024",Dr. Miller,N,,mild,chronic
+DX-86440,BETA-00015,G20,Parkinson's disease,05/04/2022,Dr. White,Y,,severe,chronic
+DX-14531,GAMMA-00197,F32.1,"Major depressive disorder, single episode, moderate","April 25, 2024",Dr. Gupta,Y,,moderate,resolved
+DX-48769,BETA-00001,E11.9,Type 2 diabetes mellitus without complications,2024/10/31,Dr. Allen,N,,severe,chronic
+DX-60121,GAMMA-00289,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,17-09-2022,Dr. Gonzalez,Y,,severe,resolved
+DX-84225,GAMMA-00214,J18.9,"Pneumonia, unspecified organism",2022-08-25T00:00:00,Dr. Kim,N,,severe,chronic
+DX-99141,ALPHA-00712,R06.02,Shortness of breath,12/28/2023,Dr. Chen,N,,severe,chronic
+DX-32419,ALPHA-00604,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,24 Aug 2024,Dr. Johansson,N,,moderate,chronic
+DX-72969,GAMMA-00576,B20,Human immunodeficiency virus [HIV] disease,2024/05/27,Dr. Miller,Y,,,chronic
+DX-99090,BETA-00011,F41.1,Generalized anxiety disorder,02/12/2023,Dr. Wilson,Y,,moderate,active
+DX-16620,ALPHA-00728,K21.0,Gastro-esophageal reflux disease with esophagitis,05 May 2023,Dr. Lopez,Y,,moderate,resolved
+DX-18970,BETA-00766,N18.3,"Chronic kidney disease, stage 3",03/18/2023,Dr. Lee,N,,severe,chronic
+DX-92322,GAMMA-00653,I10,Essential (primary) hypertension,2022-08-15,Dr. Thomas,Y,,severe,active
+DX-74323,GAMMA-00722,E11.9,Type 2 diabetes mellitus without complications,28-01-2024,Dr. Wilson,Y,,severe,resolved
+DX-56210,ALPHA-00162,N18.3,"Chronic kidney disease, stage 3",2024-12-09,Dr. Schmidt,N,,moderate,resolved
+DX-14894,BETA-00140,F41.1,Generalized anxiety disorder,11/19/2024,Dr. Wilson,N,,mild,active
+DX-21477,BETA-00389,G47.33,Obstructive sleep apnea,2024-10-07,Dr. Taylor,N,,mild,resolved
+DX-40944,GAMMA-00115,i25.10,Atherosclerotic heart disease of native coronary artery,2024-08-18,Dr. Lee,N,,severe,active
+DX-17648,BETA-00771,F41.1,Generalized anxiety disorder,08/28/2024,Dr. Perez,N,,severe,resolved
+DX-74593,BETA-00266,I25.10,Atherosclerotic heart disease of native coronary artery,2024-08-04,Dr. Davis,N,,severe,chronic
+DX-44201,BETA-00450,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,07/17/2023,Dr. Harris,N,,moderate,chronic
+DX-33707,ALPHA-00566,E11.9,Type 2 diabetes mellitus without complications,03/29/2023,Dr. Johansson,N,,moderate,active
+DX-46713,ALPHA-00204,K21.0,Gastro-esophageal reflux disease with esophagitis,05/09/2023,Dr. Wang,Y,,moderate,chronic
+DX-99931,GAMMA-00221,E11.65,Type 2 diabetes mellitus with hyperglycemia,2022-08-12T00:00:00,Dr. Wilson,N,,moderate,resolved
+DX-44586,ALPHA-00445,G47.33,Obstructive sleep apnea,11/17/2023,Dr. Sato,N,,moderate,chronic
+DX-33348,BETA-00680,N18.3,"Chronic kidney disease, stage 3",09/14/2023,Dr. Williams,Y,,mild,active
+DX-43649,BETA-00431,J18.9,"Pneumonia, unspecified organism",11/16/2022,Dr. Chen,N,,moderate,resolved
+DX-45000,ALPHA-00596,E11.65,Type 2 diabetes mellitus with hyperglycemia,2024-06-15T00:00:00,Dr. Martin,Y,,severe,active
+DX-39057,GAMMA-00355,D64.9,"Anemia, unspecified",04/27/2024,Dr. Schmidt,N,,mild,active
+DX-59419,BETA-00331,D64.9,"Anemia, unspecified",12/04/2023,Dr. Lewis,N,,moderate,active
+DX-89794,BETA-00494,I25.10,Atherosclerotic heart disease of native coronary artery,2022-09-18,Dr. Miller,Y,,moderate,active
+DX-26947,GAMMA-00144,M54.5,Low back pain,2023-12-15,Dr. Brown,Y,,mild,resolved
+DX-32572,BETA-00389,I25.10,Atherosclerotic heart disease of native coronary artery,10/08/2024,Dr. Johansson,Y,,severe,resolved
+DX-49232,BETA-00029,M54.5,Low back pain,11/16/2022,Dr. Singh,N,,severe,active
+DX-85044,ALPHA-00459,E11.65,Type 2 diabetes mellitus with hyperglycemia,17-01-2024,Dr. Thompson,N,,moderate,chronic
+DX-89063,GAMMA-00793,J45.20,"Mild intermittent asthma, uncomplicated",30 May 2023,Dr. Walker,N,,moderate,chronic
+DX-73214,ALPHA-00745,G47.33,Obstructive sleep apnea,06/14/2024,Dr. Gupta,Y,,severe,active
+DX-82624,ALPHA-00406,R06.02,Shortness of breath,08/13/2023,Dr. Sharma,Y,,,resolved
+DX-90096,ALPHA-00157,G47.33,Obstructive sleep apnea,03 Apr 2022,Dr. Park,Y,,mild,chronic
+DX-41934,ALPHA-00443,D64.9,"Anemia, unspecified",03/08/2024,Dr. Mueller,N,,moderate,active
+DX-97908,BETA-00794,G47.33,Obstructive sleep apnea,09 Aug 2024,Dr. Tanaka,Y,,mild,active
+DX-76575,ALPHA-00542,J45.20,"Mild intermittent asthma, uncomplicated",2022/08/21,Dr. Martin,Y,,moderate,active
+DX-58631,GAMMA-00484,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,2024/03/13,Dr. Chen,Y,,mild,active
+DX-86707,GAMMA-00238,G20,Parkinson's disease,20 Feb 2023,Dr. Davis,N,,,chronic
+DX-66021,ALPHA-00485,E03.9,"Hypothyroidism, unspecified",2023-08-03,Dr. Smith,Y,,moderate,active
+DX-84265,BETA-00083,M54.5,Low back pain,2024-09-18,Dr. Ramirez,N,,mild,active
+DX-30602,BETA-00293,N18.4,"Chronic kidney disease, stage 4",03/24/2024,Dr. Clark,N,,severe,chronic
+DX-83892,ALPHA-00548,N18.4,"Chronic kidney disease, stage 4",09/23/2023,Dr. Lewis,Y,,mild,chronic
+DX-89271,BETA-00759,F41.1,Generalized anxiety disorder,16 Aug 2024,Dr. Kim,Y,,mild,chronic
+DX-95188,ALPHA-00531,M54.5,Low back pain,11/01/2023,Dr. Smith,Y,,severe,chronic
+DX-27718,ALPHA-00401,E11.65,Type 2 diabetes mellitus with hyperglycemia,2023-06-01T00:00:00,Dr. Kim,N,,moderate,active
+DX-93704,BETA-00638,E785,"Dyslipidemia, unspecified",12/14/2023,Dr. Chen,N,,severe,resolved
+DX-97680,ALPHA-00478,K70.30,Alcoholic cirrhosis of liver without ascites,2022-07-31,Dr. Martinez,N,,mild,active
+DX-21343,ALPHA-00089,J18.9,"Pneumonia, unspecified organism",2023/04/24,Dr. Shah,N,,mild,chronic
+DX-46062,GAMMA-00758,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,2022/07/27,Dr. Gonzalez,Y,,mild,active
+DX-10547,ALPHA-00003,G47.33,Obstructive sleep apnea,08/01/2024,Dr. Rodriguez,N,,mild,resolved
+DX-86149,GAMMA-00782,E78.5,"Dyslipidemia, unspecified",2024-11-16,Dr. Jackson,N,,mild,chronic
+DX-96386,ALPHA-00056,J4520,"Mild intermittent asthma, uncomplicated",22-05-2024,Dr. Gonzalez,Y,,severe,chronic
+DX-91418,BETA-00604,M54.5,Low back pain,2024-08-24,Dr. Lewis,Y,,moderate,active
+DX-31277,BETA-00411,B20,Human immunodeficiency virus [HIV] disease,10/07/2024,Dr. Thomas,Y,,moderate,resolved
+DX-52336,BETA-00520,J18.9,"Pneumonia, unspecified organism",12/08/2024,Dr. Kim,Y,,mild,active
+DX-83501,ALPHA-00229,K70.30,Alcoholic cirrhosis of liver without ascites,2023-04-07T00:00:00,Dr. Garcia,N,,mild,resolved
+DX-63901,BETA-00167,J18.9,"Pneumonia, unspecified organism",2022-03-31,Dr. Williams,Y,,mild,resolved
+DX-33072,ALPHA-00072,E11.9,Type 2 diabetes mellitus without complications,2022/11/14,Dr. Shah,N,,moderate,chronic
+DX-73689,BETA-00004,D64.9,"Anemia, unspecified",2023/04/14,Dr. Singh,Y,,mild,resolved
+DX-23681,BETA-00231,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,2023/12/18,Dr. Jackson,Y,,mild,active
+DX-23306,ALPHA-00431,B20,Human immunodeficiency virus [HIV] disease,2022/11/19,Dr. Tanaka,N,,mild,active
+DX-54563,GAMMA-00712,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,12/29/2023,Dr. Kumar,Y,,,chronic
+DX-73361,BETA-00628,B20,Human immunodeficiency virus [HIV] disease,09/01/2023,Dr. Johansson,Y,,severe,active
+DX-98153,BETA-00721,F32.1,"Major depressive disorder, single episode, moderate",2022-11-20,Dr. Harris,Y,,mild,resolved
+DX-36378,ALPHA-00395,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,2024-10-21,Dr. Chen,N,,mild,chronic
+DX-84143,ALPHA-00298,I10,Essential (primary) hypertension,08/31/2024,Dr. Clark,Y,,mild,resolved
+DX-86546,BETA-00061,I10,Essential (primary) hypertension,05/05/2024,Dr. Lee,Y,,severe,chronic
+DX-48887,BETA-00255,I48.91,Unspecified atrial fibrillation,2023-04-03T00:00:00,Dr. Schmidt,N,,mild,resolved
+DX-88110,BETA-00657,G20,Parkinson's disease,2024-11-28,Dr. Clark,Y,,severe,resolved
+DX-84961,ALPHA-00321,i25.10,Atherosclerotic heart disease of native coronary artery,2022-04-05,Dr. Sato,Y,,severe,chronic
+DX-80566,ALPHA-00632,J18.9,"Pneumonia, unspecified organism",04/11/2024,Dr. Shah,Y,,mild,active
+DX-98030,BETA-00561,B20,Human immunodeficiency virus [HIV] disease,17-05-2022,Dr. Clark,Y,,mild,resolved
+DX-72571,BETA-00363,K7030,Alcoholic cirrhosis of liver without ascites,09/25/2024,Dr. Chen,N,,severe,chronic
+DX-63170,GAMMA-00235,K70.30,Alcoholic cirrhosis of liver without ascites,2024-11-22,Dr. Rodriguez,N,,moderate,chronic
+DX-27947,GAMMA-00078,G47.33,Obstructive sleep apnea,06/15/2022,Dr. Wilson,Y,,,active
+DX-29967,BETA-00785,E11.65,Type 2 diabetes mellitus with hyperglycemia,08/04/2023,Dr. Chen,N,,mild,chronic
+DX-26068,BETA-00646,K21.0,Gastro-esophageal reflux disease with esophagitis,2022-06-26,Dr. Schmidt,Y,,moderate,active
+DX-62168,ALPHA-00305,F32.1,"Major depressive disorder, single episode, moderate",2023-09-07,Dr. Gupta,N,,severe,chronic
+DX-34059,BETA-00746,I10,Essential (primary) hypertension,2024-09-07,Dr. Thompson,N,,severe,chronic
+DX-70621,BETA-00013,J4520,"Mild intermittent asthma, uncomplicated",06 Dec 2022,Dr. Davis,N,,mild,resolved
+DX-77660,ALPHA-00148,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,2022-11-13,Dr. Young,N,,mild,chronic
+DX-21508,GAMMA-00297,E11.9,Type 2 diabetes mellitus without complications,26-01-2024,Dr. Thompson,Y,,mild,resolved
+DX-46721,BETA-00413,M54.5,Low back pain,02/28/2024,Dr. Moore,Y,,mild,chronic
+DX-98779,BETA-00209,N18.3,"Chronic kidney disease, stage 3",07/13/2022,Dr. Thomas,N,,mild,resolved
+DX-60554,GAMMA-00176,I48.91,Unspecified atrial fibrillation,30 Apr 2023,Dr. Miller,N,,moderate,chronic
+DX-20731,BETA-00772,E11.9,Type 2 diabetes mellitus without complications,05/10/2023,Dr. Clark,Y,,moderate,chronic
+DX-81288,ALPHA-00613,J18.9,"Pneumonia, unspecified organism",28 Oct 2023,Dr. Tanaka,N,,severe,resolved
+DX-98364,BETA-00094,K21.0,Gastro-esophageal reflux disease with esophagitis,03/02/2023,Dr. Lopez,N,,severe,active
+DX-35857,BETA-00503,J45.20,"Mild intermittent asthma, uncomplicated",11/12/2022,Dr. White,Y,,moderate,chronic
+DX-80218,ALPHA-00540,N18.3,"Chronic kidney disease, stage 3",04 Mar 2023,Dr. Lewis,N,,severe,active
+DX-82656,ALPHA-00041,J45.20,"Mild intermittent asthma, uncomplicated",2023-05-07,Dr. Williams,N,,mild,active
+DX-28928,ALPHA-00610,I48.91,Unspecified atrial fibrillation,07/18/2024,Dr. Hernandez,Y,,severe,active
+DX-18068,GAMMA-00558,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,01/15/2022,Dr. Johansson,N,,moderate,resolved
+DX-48777,GAMMA-00071,I10,Essential (primary) hypertension,2022-03-03,Dr. Wilson,N,,severe,chronic
+DX-71377,ALPHA-00355,Z87.891,Personal history of nicotine dependence,27 Apr 2024,Dr. Sanchez,N,,mild,resolved
+DX-17643,GAMMA-00055,E78.5,"Dyslipidemia, unspecified",02/05/2022,Dr. Perez,Y,,mild,active
+DX-23380,BETA-00003,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,08/01/2024,Dr. White,N,,moderate,chronic
+DX-57774,GAMMA-00724,F32.1,"Major depressive disorder, single episode, moderate",31 May 2023,Dr. Young,N,,mild,chronic
+DX-87726,BETA-00456,J18.9,"Pneumonia, unspecified organism","September 16, 2023",Dr. Jackson,Y,,severe,resolved
+DX-62678,ALPHA-00197,K21.0,Gastro-esophageal reflux disease with esophagitis,27-04-2024,Dr. Smith,N,,moderate,resolved
+DX-88829,BETA-00429,N18.4,"Chronic kidney disease, stage 4",18 Jul 2024,Dr. Williams,N,,mild,resolved
+DX-36362,ALPHA-00312,E11.65,Type 2 diabetes mellitus with hyperglycemia,09/23/2022,Dr. Thompson,N,,severe,resolved
+DX-45121,ALPHA-00607,D64.9,"Anemia, unspecified",10/02/2022,Dr. Allen,Y,,moderate,chronic
+DX-98328,GAMMA-00602,E78.5,"Dyslipidemia, unspecified",02/29/2024,Dr. Patel,N,,mild,resolved
+DX-81921,BETA-00103,R06.02,Shortness of breath,2022-08-10T00:00:00,Dr. Sanchez,Y,,,resolved
+DX-88848,ALPHA-00551,N18.4,"Chronic kidney disease, stage 4",2024-07-07,Dr. Wang,N,,moderate,active
+DX-39344,GAMMA-00487,F41.1,Generalized anxiety disorder,03/05/2023,Dr. Wilson,Y,,severe,active
+DX-72984,BETA-00063,G47.33,Obstructive sleep apnea,2024-08-21T00:00:00,Dr. Rodriguez,Y,,severe,resolved
+DX-13482,GAMMA-00269,J18.9,"Pneumonia, unspecified organism",09/22/2024,Dr. Schmidt,Y,,moderate,active
+DX-36739,BETA-00694,N18.3,"Chronic kidney disease, stage 3",09/03/2024,Dr. Robinson,Y,,mild,chronic
+DX-98340,ALPHA-00224,B20,Human immunodeficiency virus [HIV] disease,"October 01, 2024",Dr. Moore,N,,moderate,resolved
+DX-96491,BETA-00271,F32.1,"Major depressive disorder, single episode, moderate",09-03-2024,Dr. Perez,N,,mild,chronic
+DX-53439,GAMMA-00030,I25.10,Atherosclerotic heart disease of native coronary artery,2022-11-24,Dr. Thomas,Y,,mild,chronic
+DX-51018,ALPHA-00070,K70.30,Alcoholic cirrhosis of liver without ascites,01/13/2024,Dr. Schmidt,N,,moderate,active
+DX-65807,ALPHA-00280,F41.1,Generalized anxiety disorder,10-04-2023,Dr. Singh,N,,,chronic
+DX-93806,ALPHA-00121,K21.0,Gastro-esophageal reflux disease with esophagitis,2023-11-05,Dr. Davis,N,,moderate,chronic
+DX-95948,GAMMA-00789,I10,Essential (primary) hypertension,2022/06/13,Dr. Young,N,,severe,chronic
+DX-16378,BETA-00629,Z87.891,Personal history of nicotine dependence,2023/12/29,Dr. Shah,Y,,moderate,active
+DX-70850,GAMMA-00207,R06.02,Shortness of breath,07/06/2023,Dr. Kim,Y,,moderate,active
+DX-48665,BETA-00630,F41.1,Generalized anxiety disorder,22-06-2022,Dr. Singh,Y,,moderate,active
+DX-22540,GAMMA-00729,D64.9,"Anemia, unspecified",12/11/2022,Dr. Young,N,,moderate,active
+DX-60701,ALPHA-00642,N18.4,"Chronic kidney disease, stage 4",04/11/2023,Dr. Taylor,N,,,resolved
+DX-68466,BETA-00754,E78.5,"Dyslipidemia, unspecified",02/09/2024,Dr. Miller,Y,,,active
+DX-47321,ALPHA-00477,M54.5,Low back pain,2022/03/19,Dr. Kumar,Y,,,chronic
+DX-68557,BETA-00491,e11.9,Type 2 diabetes mellitus without complications,2023/12/08,Dr. Thompson,Y,,mild,resolved
+DX-93321,GAMMA-00631,E11.65,Type 2 diabetes mellitus with hyperglycemia,2022/06/11,Dr. Lewis,Y,,severe,chronic
+DX-65002,ALPHA-00290,M54.5,Low back pain,2024-03-07T00:00:00,Dr. Brown,Y,,,chronic
+DX-64296,ALPHA-00622,M54.5,Low back pain,2023-07-07,Dr. Taylor,N,,mild,active
+DX-88955,GAMMA-00673,G20,Parkinson's disease,2024-05-19,Dr. Martin,Y,,moderate,active
+DX-39600,BETA-00407,Z87.891,Personal history of nicotine dependence,2024-02-06,Dr. Garcia,Y,,moderate,active
+DX-65046,ALPHA-00085,K21.0,Gastro-esophageal reflux disease with esophagitis,05/29/2023,Dr. Young,N,,moderate,chronic
+DX-56454,BETA-00350,N18.3,"Chronic kidney disease, stage 3",22-03-2022,Dr. Allen,N,,,chronic
+DX-48945,GAMMA-00519,Z87.891,Personal history of nicotine dependence,2023-09-26,Dr. Gonzalez,N,,moderate,resolved
+DX-55610,ALPHA-00746,N18.3,"Chronic kidney disease, stage 3",05-09-2024,Dr. Thomas,Y,,severe,active
+DX-10497,ALPHA-00123,E03.9,"Hypothyroidism, unspecified",2023/11/23,Dr. Smith,N,,mild,resolved
+DX-42252,BETA-00397,i48.91,Unspecified atrial fibrillation,08-12-2023,Dr. Lee,N,,,resolved
+DX-25173,GAMMA-00623,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,2022-04-26,Dr. King,Y,,mild,active
+DX-68897,GAMMA-00162,E11.65,Type 2 diabetes mellitus with hyperglycemia,2024-12-11T00:00:00,Dr. Wang,N,,moderate,resolved
+DX-15307,GAMMA-00376,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,2023/06/05,Dr. Brown,Y,,mild,resolved
+DX-61876,GAMMA-00768,G20,Parkinson's disease,"March 14, 2024",Dr. Kumar,Y,,moderate,resolved
+DX-18087,ALPHA-00677,E11.65,Type 2 diabetes mellitus with hyperglycemia,2022/01/07,Dr. Mueller,Y,,moderate,chronic
+DX-29385,GAMMA-00373,N18.4,"Chronic kidney disease, stage 4",01/06/2022,Dr. Tanaka,N,,mild,chronic
+DX-73559,ALPHA-00373,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,2022-01-04,Dr. Chen,N,,moderate,active
+DX-23916,BETA-00438,J45.20,"Mild intermittent asthma, uncomplicated",27-10-2023,Dr. Kumar,N,,severe,active
+DX-43072,GAMMA-00009,C3490,Malignant neoplasm of unspecified part of bronchus or lung,2024/08/18,Dr. Robinson,N,,severe,active
+DX-68710,BETA-00262,K21.0,Gastro-esophageal reflux disease with esophagitis,05 Jan 2024,Dr. Young,Y,,moderate,resolved
+DX-23786,GAMMA-00416,Z87.891,Personal history of nicotine dependence,2022/03/29,Dr. Young,Y,,severe,resolved
+DX-33979,BETA-00568,I10,Essential (primary) hypertension,2022-09-01,Dr. White,Y,,severe,chronic
+DX-24196,BETA-00747,G20,Parkinson's disease,10/31/2022,Dr. Sharma,N,,severe,active
+DX-59069,BETA-00684,F41.1,Generalized anxiety disorder,2024-12-29T00:00:00,Dr. Hernandez,N,,moderate,resolved
+DX-45273,BETA-00588,D64.9,"Anemia, unspecified",08/19/2024,Dr. Thompson,N,,severe,chronic
+DX-49508,BETA-00672,E78.5,"Dyslipidemia, unspecified",09/16/2022,Dr. Wilson,Y,,mild,resolved
+DX-60007,ALPHA-00178,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,2023-03-24,Dr. Garcia,N,,severe,active
+DX-47927,BETA-00097,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,12/04/2024,Dr. Lee,Y,,mild,resolved
+DX-88286,ALPHA-00633,R06.02,Shortness of breath,2022/02/01,Dr. Kumar,N,,moderate,chronic
+DX-26017,BETA-00550,I48.91,Unspecified atrial fibrillation,11 Oct 2023,Dr. Lee,N,,severe,chronic
+DX-42354,BETA-00233,R06.02,Shortness of breath,2024-11-20,Dr. Moore,N,,moderate,chronic
+DX-79592,ALPHA-00434,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,2024-02-26,Dr. Lewis,N,,,resolved
+DX-83812,BETA-00553,E78.5,"Dyslipidemia, unspecified","March 25, 2022",Dr. Jackson,N,,mild,resolved
+DX-58873,ALPHA-00666,n18.4,"Chronic kidney disease, stage 4",05/21/2023,Dr. Brown,N,,mild,active
+DX-61050,GAMMA-00788,B20,Human immunodeficiency virus [HIV] disease,10/27/2024,Dr. Gupta,Y,,severe,chronic
+DX-31454,BETA-00434,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,24-02-2024,Dr. Rodriguez,N,,severe,active
+DX-49548,BETA-00642,E03.9,"Hypothyroidism, unspecified","April 11, 2023",Dr. Jones,Y,,mild,chronic
+DX-47639,GAMMA-00466,R06.02,Shortness of breath,07/20/2023,Dr. Ramirez,N,,moderate,chronic
+DX-48549,GAMMA-00341,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,06/26/2024,Dr. Allen,N,,mild,chronic
+DX-76306,ALPHA-00505,G47.33,Obstructive sleep apnea,06/24/2023,Dr. Patel,N,,severe,active
+DX-66755,BETA-00060,E03.9,"Hypothyroidism, unspecified",15-05-2022,Dr. Jackson,N,,mild,chronic
+DX-55680,ALPHA-00321,R06.02,Shortness of breath,04/07/2022,Dr. Park,N,,severe,chronic
+DX-37903,BETA-00089,F41.1,Generalized anxiety disorder,"April 26, 2023",Dr. Sato,Y,,moderate,chronic
+DX-24662,BETA-00623,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,04/25/2022,Dr. Sanchez,N,,moderate,active
+DX-92938,ALPHA-00512,I10,Essential (primary) hypertension,"November 14, 2023",Dr. White,N,,severe,chronic
+DX-47111,GAMMA-00186,Z87.891,Personal history of nicotine dependence,06/17/2024,Dr. Kumar,Y,,severe,active
+DX-20840,ALPHA-00145,B20,Human immunodeficiency virus [HIV] disease,2023-02-18,Dr. King,Y,,severe,resolved
+DX-33173,BETA-00624,F32.1,"Major depressive disorder, single episode, moderate",02-12-2022,Dr. Shah,N,,severe,chronic
+DX-24563,GAMMA-00372,K21.0,Gastro-esophageal reflux disease with esophagitis,2024/05/11,Dr. Lee,N,,,chronic
+DX-41407,BETA-00159,N18.4,"Chronic kidney disease, stage 4",2024-10-24,Dr. Wang,N,,mild,chronic
+DX-48773,GAMMA-00481,Z87.891,Personal history of nicotine dependence,11/26/2023,Dr. Kumar,N,,moderate,chronic
+DX-46432,ALPHA-00379,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,"January 14, 2022",Dr. Shah,Y,,severe,chronic
+DX-16166,BETA-00263,E1165,Type 2 diabetes mellitus with hyperglycemia,08 Jul 2022,Dr. Tanaka,N,,mild,chronic
+DX-93117,ALPHA-00254,E11.65,Type 2 diabetes mellitus with hyperglycemia,10/25/2023,Dr. Perez,Y,,moderate,resolved
+DX-22253,ALPHA-00156,B20,Human immunodeficiency virus [HIV] disease,2024-08-23T00:00:00,Dr. Singh,Y,,moderate,active
+DX-56243,GAMMA-00246,G20,Parkinson's disease,05/12/2024,Dr. King,N,,mild,resolved
+DX-98844,BETA-00135,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,2023/02/15,Dr. Robinson,Y,,mild,active
+DX-95055,GAMMA-00372,I25.10,Atherosclerotic heart disease of native coronary artery,2024-05-11,Dr. Hernandez,Y,,severe,chronic
+DX-49907,BETA-00091,B20,Human immunodeficiency virus [HIV] disease,2024-05-11T00:00:00,Dr. Clark,Y,,mild,resolved
+DX-91103,ALPHA-00359,Z87.891,Personal history of nicotine dependence,2024-01-05,Dr. Young,Y,,moderate,chronic
+DX-52702,ALPHA-00163,K21.0,Gastro-esophageal reflux disease with esophagitis,05/07/2024,Dr. Chen,N,,severe,resolved
+DX-36027,GAMMA-00564,R06.02,Shortness of breath,12/12/2022,Dr. Park,N,,severe,resolved
+DX-31962,GAMMA-00062,B20,Human immunodeficiency virus [HIV] disease,2022-07-24T00:00:00,Dr. Garcia,Y,,mild,active
+DX-12483,BETA-00166,F41.1,Generalized anxiety disorder,29 Sep 2024,Dr. Thompson,Y,,moderate,active
+DX-31590,GAMMA-00521,R06.02,Shortness of breath,2022/04/06,Dr. Lewis,Y,,mild,chronic
+DX-80078,BETA-00067,B20,Human immunodeficiency virus [HIV] disease,30-11-2024,Dr. Lewis,N,,severe,active
+DX-78263,BETA-00653,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,08/17/2022,Dr. Garcia,N,,mild,resolved
+DX-32058,ALPHA-00695,E11.9,Type 2 diabetes mellitus without complications,2024-10-13,Dr. Martin,Y,,severe,active
+DX-51069,GAMMA-00071,K70.30,Alcoholic cirrhosis of liver without ascites,03/04/2022,Dr. Jones,Y,,severe,resolved
+DX-47029,ALPHA-00166,F32.1,"Major depressive disorder, single episode, moderate",2024-10-01,Dr. Martinez,N,,mild,active
+DX-90940,BETA-00626,J18.9,"Pneumonia, unspecified organism",20 Jan 2023,Dr. Kim,N,,moderate,active
+DX-53868,ALPHA-00049,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,03-10-2023,Dr. Sanchez,N,,mild,active
+DX-89711,BETA-00711,E11.9,Type 2 diabetes mellitus without complications,2023-01-22,Dr. Thompson,Y,,moderate,active
+DX-73723,ALPHA-00284,I25.10,Atherosclerotic heart disease of native coronary artery,13-09-2024,Dr. Hernandez,N,,mild,active
+DX-84404,ALPHA-00179,J18.9,"Pneumonia, unspecified organism","February 19, 2023",Dr. Park,N,,moderate,chronic
+DX-83638,ALPHA-00338,F32.1,"Major depressive disorder, single episode, moderate","August 08, 2022",Dr. Schmidt,N,,mild,active
+DX-12797,GAMMA-00193,K70.30,Alcoholic cirrhosis of liver without ascites,09-01-2024,Dr. Schmidt,Y,,moderate,active
+DX-84205,BETA-00431,F41.1,Generalized anxiety disorder,2022-11-16,Dr. Martin,Y,,moderate,resolved
+DX-54177,BETA-00459,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,"January 15, 2024",Dr. Gupta,Y,,mild,resolved
+DX-66669,ALPHA-00131,I48.91,Unspecified atrial fibrillation,05-02-2022,Dr. Gonzalez,Y,,,resolved
+DX-10682,GAMMA-00079,N18.3,"Chronic kidney disease, stage 3",2022-07-07T00:00:00,Dr. Lopez,Y,,moderate,chronic
+DX-13447,ALPHA-00330,G20,Parkinson's disease,2024-07-20T00:00:00,Dr. Chen,Y,,mild,resolved
+DX-23033,ALPHA-00717,G20,Parkinson's disease,2023-03-01,Dr. Smith,N,,mild,resolved
+DX-99305,BETA-00438,E03.9,"Hypothyroidism, unspecified",2023-10-28,Dr. Lopez,N,,severe,resolved
+DX-67497,ALPHA-00537,N18.3,"Chronic kidney disease, stage 3",07/21/2022,Dr. Chen,Y,,severe,chronic
+DX-81711,ALPHA-00507,E03.9,"Hypothyroidism, unspecified",2024/08/04,Dr. Park,N,,severe,chronic
+DX-10747,ALPHA-00266,J18.9,"Pneumonia, unspecified organism",2024/08/02,Dr. Wang,N,,severe,resolved
+DX-84554,ALPHA-00772,f41.1,Generalized anxiety disorder,2023-05-11,Dr. Allen,N,,moderate,resolved
+DX-95147,BETA-00230,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,2022-03-30,Dr. Young,N,,severe,active
+DX-72233,BETA-00356,J18.9,"Pneumonia, unspecified organism",08/21/2023,Dr. Harris,N,,severe,chronic
+DX-76202,ALPHA-00322,I4891,Unspecified atrial fibrillation,12/04/2023,Dr. Ramirez,N,,moderate,chronic
+DX-77938,GAMMA-00776,F32.1,"Major depressive disorder, single episode, moderate",13 Sep 2022,Dr. Hernandez,Y,,moderate,resolved
+DX-17675,ALPHA-00660,E11.9,Type 2 diabetes mellitus without complications,17 Sep 2023,Dr. Kim,N,,moderate,resolved
+DX-78506,ALPHA-00084,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,18-01-2022,Dr. Walker,Y,,severe,active
+DX-96188,GAMMA-00192,E03.9,"Hypothyroidism, unspecified",08/30/2022,Dr. Shah,N,,severe,resolved
+DX-38400,ALPHA-00108,E11.65,Type 2 diabetes mellitus with hyperglycemia,2023-02-24,Dr. Patel,N,,severe,active
+DX-56671,BETA-00643,E11.65,Type 2 diabetes mellitus with hyperglycemia,2022-08-03T00:00:00,Dr. Perez,N,,mild,resolved
+DX-62542,BETA-00239,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,2024-03-25,Dr. Sanchez,N,,moderate,chronic
+DX-95637,BETA-00235,F32.1,"Major depressive disorder, single episode, moderate",2024/11/22,Dr. Tanaka,N,,mild,resolved
+DX-52853,GAMMA-00189,B20,Human immunodeficiency virus [HIV] disease,2023/01/15,Dr. Clark,Y,,moderate,chronic
+DX-26240,GAMMA-00551,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,2024-07-08,Dr. Smith,N,,severe,chronic
+DX-10171,BETA-00139,N18.4,"Chronic kidney disease, stage 4",2024-07-04T00:00:00,Dr. Wilson,Y,,severe,active
+DX-43962,ALPHA-00037,E11.65,Type 2 diabetes mellitus with hyperglycemia,11/21/2023,Dr. Perez,N,,severe,chronic
+DX-86049,BETA-00498,E03.9,"Hypothyroidism, unspecified",07/02/2022,Dr. Johnson,Y,,moderate,resolved
+DX-66315,GAMMA-00298,J45.20,"Mild intermittent asthma, uncomplicated",2024-08-30T00:00:00,Dr. Schmidt,N,,severe,chronic
+DX-78136,GAMMA-00677,G47.33,Obstructive sleep apnea,2022-01-07,Dr. Thompson,N,,moderate,resolved
+DX-39000,ALPHA-00749,Z87.891,Personal history of nicotine dependence,2022/08/15,Dr. Jones,N,,moderate,active
+DX-87216,GAMMA-00362,J18.9,"Pneumonia, unspecified organism",2023-05-07,Dr. Sato,Y,,severe,chronic
+DX-73185,BETA-00355,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,27 Apr 2024,Dr. Johansson,Y,,mild,active
+DX-46478,GAMMA-00416,G20,Parkinson's disease,"March 30, 2022",Dr. Young,N,,moderate,resolved
+DX-85012,GAMMA-00417,K70.30,Alcoholic cirrhosis of liver without ascites,2024-01-02T00:00:00,Dr. Moore,N,,severe,active
+DX-90191,ALPHA-00180,G20,Parkinson's disease,2022-04-27,Dr. Kumar,N,,severe,resolved
+DX-23710,ALPHA-00523,I25.10,Atherosclerotic heart disease of native coronary artery,2022-09-07T00:00:00,Dr. Chen,N,,moderate,chronic
+DX-47034,GAMMA-00195,G20,Parkinson's disease,2023-04-19T00:00:00,Dr. Gonzalez,Y,,moderate,resolved
+DX-71674,GAMMA-00282,Z87.891,Personal history of nicotine dependence,2024-06-10T00:00:00,Dr. Wilson,N,,moderate,chronic
+DX-52119,BETA-00555,F41.1,Generalized anxiety disorder,10/02/2024,Dr. Jackson,Y,,moderate,chronic
+DX-80387,GAMMA-00269,G47.33,Obstructive sleep apnea,22-09-2024,Dr. Sharma,N,,moderate,active
+DX-18033,ALPHA-00247,B20,Human immunodeficiency virus [HIV] disease,05/06/2022,Dr. Jackson,Y,,mild,resolved
+DX-41157,ALPHA-00307,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,2024-08-10T00:00:00,Dr. Perez,Y,,mild,active
+DX-31575,GAMMA-00464,F411,Generalized anxiety disorder,"August 13, 2022",Dr. Smith,N,,moderate,active
+DX-38691,ALPHA-00446,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,2022-05-08,Dr. Williams,N,,severe,chronic
+DX-43530,GAMMA-00747,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,2022-11-01T00:00:00,Dr. Park,N,,mild,resolved
+DX-16006,BETA-00329,E11.65,Type 2 diabetes mellitus with hyperglycemia,02 Jan 2022,Dr. Young,Y,,moderate,active
+DX-67823,BETA-00332,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,2022-08-10,Dr. Ramirez,N,,moderate,active
+DX-33480,BETA-00116,Z87.891,Personal history of nicotine dependence,30-04-2022,Dr. Park,N,,severe,resolved
+DX-66561,GAMMA-00345,F32.1,"Major depressive disorder, single episode, moderate",2022-07-09,Dr. Martinez,Y,,severe,resolved
+DX-40112,GAMMA-00308,I48.91,Unspecified atrial fibrillation,2022-04-23,Dr. King,Y,,mild,resolved
+DX-75008,GAMMA-00001,B20,Human immunodeficiency virus [HIV] disease,2024-11-01,Dr. Thomas,N,,moderate,resolved
+DX-10188,ALPHA-00029,G20,Parkinson's disease,2022-11-14,Dr. Taylor,Y,,mild,resolved
+DX-25093,GAMMA-00076,I10,Essential (primary) hypertension,2024-02-20T00:00:00,Dr. Jackson,Y,,mild,chronic
+DX-10620,BETA-00089,M54.5,Low back pain,04/27/2023,Dr. Walker,N,,mild,resolved
+DX-17453,BETA-00217,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,12/29/2023,Dr. Thomas,Y,,moderate,chronic
+DX-21144,BETA-00289,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,2022-09-16,Dr. Thomas,N,,severe,active
+DX-81972,GAMMA-00782,D64.9,"Anemia, unspecified","November 16, 2024",Dr. Thompson,Y,,severe,resolved
+DX-67609,BETA-00548,I25.10,Atherosclerotic heart disease of native coronary artery,2023/09/22,Dr. Williams,N,,moderate,chronic
+DX-78310,GAMMA-00356,B20,Human immunodeficiency virus [HIV] disease,"August 19, 2023",Dr. Lopez,Y,,moderate,resolved
+DX-47556,GAMMA-00231,J18.9,"Pneumonia, unspecified organism",12/16/2023,Dr. Ramirez,N,,severe,resolved
+DX-21644,GAMMA-00252,I10,Essential (primary) hypertension,04/26/2022,Dr. Smith,N,,moderate,resolved
+DX-45261,GAMMA-00091,E03.9,"Hypothyroidism, unspecified",2024-05-10,Dr. Lewis,N,,moderate,chronic
+DX-58376,ALPHA-00652,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,07/10/2022,Dr. Kim,N,,severe,chronic
+DX-12277,GAMMA-00523,I48.91,Unspecified atrial fibrillation,2022-09-05,Dr. Young,N,,severe,chronic
+DX-86415,GAMMA-00394,P07.30,"Preterm newborn, unspecified",04/14/2023,Dr. Sharma,N,,moderate,active
+DX-11820,ALPHA-00558,E11.65,Type 2 diabetes mellitus with hyperglycemia,01/16/2022,Dr. Jones,Y,,mild,resolved
+DX-45579,GAMMA-00092,E78.5,"Dyslipidemia, unspecified",2024-06-30,Dr. Thompson,Y,,mild,resolved
+DX-58409,GAMMA-00671,E11.9,Type 2 diabetes mellitus without complications,19 Sep 2024,Dr. Thomas,Y,,mild,chronic
+DX-87348,BETA-00441,N18.4,"Chronic kidney disease, stage 4",2023-11-14,Dr. Garcia,Y,,mild,active
+DX-34478,ALPHA-00663,F32.1,"Major depressive disorder, single episode, moderate",11/01/2023,Dr. Shah,Y,,mild,resolved
+DX-23609,ALPHA-00681,B20,Human immunodeficiency virus [HIV] disease,07/23/2023,Dr. Wilson,Y,,moderate,chronic
+DX-42196,ALPHA-00605,N18.4,"Chronic kidney disease, stage 4","July 20, 2024",Dr. Sanchez,N,,severe,active
+DX-68596,GAMMA-00233,F32.1,"Major depressive disorder, single episode, moderate",2024-11-19,Dr. Singh,N,,moderate,chronic
+DX-92296,BETA-00703,K70.30,Alcoholic cirrhosis of liver without ascites,2024-09-18,Dr. Singh,N,,severe,active
+DX-99810,GAMMA-00512,K70.30,Alcoholic cirrhosis of liver without ascites,2023-11-14,Dr. Wilson,N,,mild,chronic
+DX-41739,GAMMA-00681,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,26 Jul 2023,Dr. Taylor,N,,severe,chronic
+DX-33235,GAMMA-00401,J18.9,"Pneumonia, unspecified organism","May 31, 2023",Dr. Young,Y,,moderate,resolved
+DX-59688,GAMMA-00693,Z87.891,Personal history of nicotine dependence,2022-10-24,Dr. Sanchez,Y,,mild,resolved
+DX-93065,ALPHA-00524,E03.9,"Hypothyroidism, unspecified",12-12-2022,Dr. White,N,,moderate,chronic
+DX-92439,ALPHA-00792,M54.5,Low back pain,2022-12-27,Dr. Thomas,N,,moderate,chronic
+DX-26903,ALPHA-00791,D64.9,"Anemia, unspecified",12/30/2024,Dr. Lopez,N,,moderate,resolved
+DX-52904,ALPHA-00450,Z87.891,Personal history of nicotine dependence,18-07-2023,Dr. Perez,N,,moderate,active
+DX-95411,GAMMA-00377,D64.9,"Anemia, unspecified",18 Sep 2024,Dr. Tanaka,N,,mild,resolved
+DX-72634,BETA-00283,F32.1,"Major depressive disorder, single episode, moderate",2022-04-14T00:00:00,Dr. Kim,Y,,severe,active
+DX-71129,GAMMA-00669,G20,Parkinson's disease,2024-03-11,Dr. Wang,Y,,severe,chronic
+DX-72145,BETA-00623,E11.9,Type 2 diabetes mellitus without complications,04/25/2022,Dr. Park,N,,moderate,chronic
+DX-93527,GAMMA-00573,J18.9,"Pneumonia, unspecified organism",2023/01/17,Dr. Patel,N,,severe,chronic
+DX-24676,GAMMA-00781,K21.0,Gastro-esophageal reflux disease with esophagitis,23 Jul 2024,Dr. Sato,Y,,mild,resolved
+DX-53390,GAMMA-00570,N18.4,"Chronic kidney disease, stage 4","May 19, 2022",Dr. Robinson,Y,,moderate,active
+DX-59495,BETA-00757,I10,Essential (primary) hypertension,09-01-2024,Dr. Taylor,N,,severe,active
+DX-53942,BETA-00230,R06.02,Shortness of breath,03/27/2022,Dr. Jackson,N,,moderate,active
+DX-32365,ALPHA-00270,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,08/25/2024,Dr. Williams,Y,,moderate,chronic
+DX-66497,ALPHA-00075,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,2024-02-13T00:00:00,Dr. Young,Y,,moderate,chronic
+DX-23820,ALPHA-00315,E11.9,Type 2 diabetes mellitus without complications,04/11/2022,Dr. Walker,N,,mild,resolved
+DX-58380,GAMMA-00390,R06.02,Shortness of breath,2023-07-30,Dr. Park,Y,,mild,chronic
+DX-38867,GAMMA-00280,F32.1,"Major depressive disorder, single episode, moderate",2023-04-07,Dr. Kumar,Y,,severe,active
+DX-77494,BETA-00093,J18.9,"Pneumonia, unspecified organism",2022-09-08,Dr. Martinez,N,,moderate,resolved
+DX-42974,BETA-00454,B20,Human immunodeficiency virus [HIV] disease,02/19/2024,Dr. Robinson,Y,,moderate,resolved
+DX-33257,ALPHA-00178,D64.9,"Anemia, unspecified",2023-03-27,Dr. Williams,N,,severe,chronic
+DX-65478,GAMMA-00627,J18.9,"Pneumonia, unspecified organism",12/18/2024,Dr. Garcia,N,,mild,active
+DX-29976,ALPHA-00743,I48.91,Unspecified atrial fibrillation,15 Nov 2022,Dr. Lee,Y,,moderate,chronic
+DX-83603,ALPHA-00297,G20,Parkinson's disease,2024-01-26,Dr. Allen,N,,mild,chronic
+DX-94746,GAMMA-00548,F32.1,"Major depressive disorder, single episode, moderate","September 20, 2023",Dr. Jackson,N,,mild,active
+DX-19142,BETA-00480,J45.20,"Mild intermittent asthma, uncomplicated","July 29, 2022",Dr. Lee,Y,,severe,active
+DX-16715,BETA-00466,J18.9,"Pneumonia, unspecified organism",2023-07-17,Dr. Clark,Y,,moderate,resolved
+DX-68290,BETA-00599,Z87.891,Personal history of nicotine dependence,"September 09, 2022",Dr. Rodriguez,Y,,severe,chronic
+DX-55177,BETA-00042,J18.9,"Pneumonia, unspecified organism",2024-02-26T00:00:00,Dr. Williams,N,,mild,resolved
+DX-34689,GAMMA-00032,G20,Parkinson's disease,01-01-2023,Dr. Shah,N,,severe,resolved
+DX-51890,ALPHA-00464,I25.10,Atherosclerotic heart disease of native coronary artery,14-08-2022,Dr. Davis,N,,mild,active
+DX-86890,BETA-00284,M545,Low back pain,09/10/2024,Dr. Sharma,Y,,severe,resolved
+DX-93969,BETA-00548,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,09/20/2023,Dr. Clark,N,,severe,resolved
+DX-14722,GAMMA-00624,J18.9,"Pneumonia, unspecified organism",2022-11-30,Dr. Jones,Y,,mild,resolved
+DX-37499,ALPHA-00027,K21.0,Gastro-esophageal reflux disease with esophagitis,2024-06-23,Dr. Lewis,Y,,mild,active
+DX-47616,GAMMA-00443,G20,Parkinson's disease,03/08/2024,Dr. King,Y,,moderate,chronic
+DX-21058,BETA-00633,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,2022/02/01,Dr. Young,N,,moderate,chronic
+DX-69551,ALPHA-00344,f32.1,"Major depressive disorder, single episode, moderate",01/04/2024,Dr. Moore,N,,moderate,resolved
+DX-13634,GAMMA-00330,E11.9,Type 2 diabetes mellitus without complications,2024-07-21,Dr. Rodriguez,N,,moderate,active
+DX-90785,BETA-00796,E03.9,"Hypothyroidism, unspecified",11/15/2022,Dr. Martin,Y,,moderate,resolved
+DX-16673,ALPHA-00338,E78.5,"Dyslipidemia, unspecified",2022-08-08T00:00:00,Dr. Martin,N,,mild,chronic
+DX-65334,BETA-00275,E03.9,"Hypothyroidism, unspecified",2022-10-07,Dr. Walker,N,,moderate,active
+DX-63324,GAMMA-00717,D64.9,"Anemia, unspecified",27-02-2023,Dr. Brown,Y,,severe,chronic
+DX-94786,ALPHA-00310,C50919,Malignant neoplasm of unspecified site of unspecified female breast,2022-06-30,Dr. Taylor,Y,,moderate,resolved
+DX-50942,ALPHA-00666,G20,Parkinson's disease,"May 19, 2023",Dr. Young,Y,,mild,active
+DX-64179,GAMMA-00124,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,2023/05/04,Dr. Mueller,N,,severe,resolved
+DX-79349,GAMMA-00523,F32.1,"Major depressive disorder, single episode, moderate",09/05/2022,Dr. Thompson,Y,,mild,active
+DX-27457,GAMMA-00227,Z87.891,Personal history of nicotine dependence,2023-01-20T00:00:00,Dr. King,Y,,severe,chronic
+DX-11776,ALPHA-00430,F41.1,Generalized anxiety disorder,03/16/2023,Dr. Jackson,Y,,moderate,resolved
+DX-54361,BETA-00149,F32.1,"Major depressive disorder, single episode, moderate",2023/07/17,Dr. Thomas,N,,severe,resolved
+DX-65229,GAMMA-00616,E11.9,Type 2 diabetes mellitus without complications,10/18/2022,Dr. Shah,Y,,moderate,resolved
+DX-31706,ALPHA-00163,R06.02,Shortness of breath,2024-05-10,Dr. Clark,Y,,moderate,resolved
+DX-98333,GAMMA-00663,Z87.891,Personal history of nicotine dependence,2023/10/30,Dr. Perez,N,,,chronic
+DX-83207,ALPHA-00179,N18.3,"Chronic kidney disease, stage 3",02/19/2023,Dr. Sanchez,N,,severe,resolved
+DX-24354,ALPHA-00764,M54.5,Low back pain,2022-09-19,Dr. Lee,N,,moderate,chronic
+DX-39983,GAMMA-00008,E78.5,"Dyslipidemia, unspecified",09-11-2024,Dr. Gupta,N,,mild,resolved
+DX-11868,BETA-00659,F41.1,Generalized anxiety disorder,2024-01-27,Dr. Jones,N,,mild,chronic
+DX-94619,GAMMA-00640,I10,Essential (primary) hypertension,"June 27, 2022",Dr. Thompson,Y,,mild,active
+DX-75255,BETA-00444,G47.33,Obstructive sleep apnea,2024-09-22T00:00:00,Dr. Gupta,N,,,resolved
+DX-23666,BETA-00410,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,04/12/2022,Dr. Wang,Y,,mild,active
+DX-43916,ALPHA-00213,E03.9,"Hypothyroidism, unspecified",2023-10-09T00:00:00,Dr. Walker,N,,mild,chronic
+DX-69531,BETA-00134,D64.9,"Anemia, unspecified",2023-11-25T00:00:00,Dr. Robinson,Y,,moderate,active
+DX-33781,ALPHA-00313,I10,Essential (primary) hypertension,2024-12-11,Dr. Gupta,N,,severe,chronic
+DX-97002,BETA-00226,E11.65,Type 2 diabetes mellitus with hyperglycemia,2022-10-13,Dr. Hernandez,Y,,mild,active
+DX-82577,GAMMA-00207,F41.1,Generalized anxiety disorder,2023-07-06,Dr. Walker,N,,moderate,active
+DX-69394,ALPHA-00447,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,04/14/2023,Dr. Thomas,N,,moderate,chronic
+DX-98837,GAMMA-00506,F32.1,"Major depressive disorder, single episode, moderate",2023-12-26,Dr. Mueller,N,,severe,active
+DX-67264,GAMMA-00797,E11.65,Type 2 diabetes mellitus with hyperglycemia,21 Jun 2024,Dr. Patel,N,,moderate,resolved
+DX-73370,BETA-00213,I25.10,Atherosclerotic heart disease of native coronary artery,10/09/2023,Dr. King,N,,moderate,resolved
+DX-20748,GAMMA-00653,K70.30,Alcoholic cirrhosis of liver without ascites,2022-08-16T00:00:00,Dr. Sharma,N,,mild,chronic
+DX-60331,BETA-00712,E78.5,"Dyslipidemia, unspecified",29-12-2023,Dr. Johansson,N,,severe,active
+DX-20025,GAMMA-00180,B20,Human immunodeficiency virus [HIV] disease,04/25/2022,Dr. Tanaka,N,,moderate,chronic
+DX-21605,GAMMA-00649,K21.0,Gastro-esophageal reflux disease with esophagitis,11/07/2022,Dr. Miller,N,,moderate,resolved
+DX-51272,GAMMA-00463,K70.30,Alcoholic cirrhosis of liver without ascites,11 Apr 2022,Dr. Brown,N,,mild,chronic
+DX-59549,BETA-00718,M54.5,Low back pain,02/19/2023,Dr. Lee,N,,mild,resolved
+DX-89873,BETA-00159,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,23 Oct 2024,Dr. Martin,N,,moderate,resolved
+DX-44595,BETA-00375,E78.5,"Dyslipidemia, unspecified",2022-01-17T00:00:00,Dr. Jones,N,,mild,resolved
+DX-31807,BETA-00404,F32.1,"Major depressive disorder, single episode, moderate",07/12/2023,Dr. Harris,Y,,severe,resolved
+DX-66995,ALPHA-00797,E11.9,Type 2 diabetes mellitus without complications,2024/06/18,Dr. Martinez,N,,mild,active
+DX-22409,BETA-00109,G20,Parkinson's disease,2022/09/24,Dr. White,N,,moderate,chronic
+DX-22545,ALPHA-00561,n18.4,"Chronic kidney disease, stage 4","May 20, 2022",Dr. Singh,N,,severe,resolved
+DX-13298,GAMMA-00347,K70.30,Alcoholic cirrhosis of liver without ascites,05-08-2023,Dr. Shah,N,,mild,active
+DX-85080,BETA-00366,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,13-10-2022,Dr. White,Y,,moderate,resolved
+DX-45106,ALPHA-00042,K21.0,Gastro-esophageal reflux disease with esophagitis,2024-02-25,Dr. Jackson,N,,severe,active
+DX-95959,GAMMA-00483,E11.9,Type 2 diabetes mellitus without complications,20-08-2024,Dr. Gupta,N,,moderate,chronic
+DX-41249,BETA-00522,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,11 May 2022,Dr. Lee,N,,,active
+DX-80371,ALPHA-00060,B20,Human immunodeficiency virus [HIV] disease,2022-05-17,Dr. Hernandez,Y,,moderate,resolved
+DX-55958,BETA-00083,G47.33,Obstructive sleep apnea,2024-09-18,Dr. Sanchez,N,,mild,resolved
+DX-49579,BETA-00188,E03.9,"Hypothyroidism, unspecified",05/24/2024,Dr. Martinez,Y,,severe,chronic
+DX-59194,GAMMA-00542,M54.5,Low back pain,2022-08-21,Dr. Davis,N,,moderate,active
+DX-28636,BETA-00563,E11.65,Type 2 diabetes mellitus with hyperglycemia,01/11/2024,Dr. Perez,N,,severe,resolved
+DX-23251,GAMMA-00215,N18.4,"Chronic kidney disease, stage 4",2024-10-20,Dr. Sharma,Y,,severe,chronic
+DX-47630,ALPHA-00796,E11.9,Type 2 diabetes mellitus without complications,2022-11-17,Dr. Harris,N,,severe,active
+DX-60982,ALPHA-00740,E1165,Type 2 diabetes mellitus with hyperglycemia,02/18/2023,Dr. Perez,N,,moderate,active
+DX-58924,ALPHA-00724,I48.91,Unspecified atrial fibrillation,2023-05-31,Dr. Davis,Y,,severe,resolved
+DX-87965,ALPHA-00640,R06.02,Shortness of breath,26-06-2022,Dr. Brown,N,,mild,resolved
+DX-16393,BETA-00417,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,02-01-2024,Dr. Kumar,N,,mild,chronic
+DX-48679,BETA-00764,J189,"Pneumonia, unspecified organism",09/18/2022,Dr. Mueller,Y,,moderate,active
+DX-55332,ALPHA-00647,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,2023-04-13,Dr. Lopez,N,,mild,chronic
+DX-32542,GAMMA-00352,F32.1,"Major depressive disorder, single episode, moderate",10/26/2024,Dr. Ramirez,N,,moderate,active
+DX-96794,ALPHA-00101,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,06/03/2024,Dr. Schmidt,Y,,moderate,resolved
+DX-78111,BETA-00492,G47.33,Obstructive sleep apnea,2022-01-02,Dr. Johansson,N,,mild,active
+DX-69816,GAMMA-00011,N18.3,"Chronic kidney disease, stage 3",02/15/2023,Dr. Miller,N,,mild,resolved
+DX-14324,BETA-00704,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,2023-04-29,Dr. White,Y,,severe,chronic
+DX-73774,GAMMA-00671,M54.5,Low back pain,09/21/2024,Dr. Young,N,,severe,chronic
+DX-44875,BETA-00327,D64.9,"Anemia, unspecified","July 25, 2023",Dr. Smith,N,,mild,active
+DX-40906,GAMMA-00611,E03.9,"Hypothyroidism, unspecified",2022-09-26,Dr. Singh,N,,severe,active
+DX-79606,GAMMA-00638,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,14-12-2023,Dr. Rodriguez,N,,moderate,active
+DX-25274,ALPHA-00656,J45.20,"Mild intermittent asthma, uncomplicated",2024-05-24,Dr. Gonzalez,Y,,mild,active
+DX-20990,BETA-00579,E11.9,Type 2 diabetes mellitus without complications,08 Apr 2024,Dr. Taylor,Y,,moderate,active
+DX-87702,GAMMA-00067,N18.4,"Chronic kidney disease, stage 4","November 30, 2024",Dr. Hernandez,N,,mild,active
+DX-39764,ALPHA-00124,F41.1,Generalized anxiety disorder,05/04/2023,Dr. Moore,N,,moderate,resolved
+DX-12188,ALPHA-00723,E11.9,Type 2 diabetes mellitus without complications,"February 26, 2022",Dr. Garcia,Y,,mild,resolved
+DX-44731,GAMMA-00278,K21.0,Gastro-esophageal reflux disease with esophagitis,21-11-2023,Dr. Perez,N,,moderate,active
+DX-11035,GAMMA-00158,M54.5,Low back pain,28 Jul 2023,Dr. Martin,N,,mild,active
+DX-84855,BETA-00588,G20,Parkinson's disease,19 Aug 2024,Dr. Hernandez,N,,severe,resolved
+DX-80225,BETA-00702,D64.9,"Anemia, unspecified","May 14, 2022",Dr. Gupta,Y,,severe,resolved
+DX-92837,ALPHA-00729,R06.02,Shortness of breath,12/10/2022,Dr. Allen,N,,mild,active
+DX-36835,BETA-00124,M54.5,Low back pain,05/04/2023,Dr. Jones,Y,,severe,active
+DX-42072,GAMMA-00382,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,06/29/2022,Dr. Sanchez,Y,,severe,resolved
+DX-18826,GAMMA-00185,N18.4,"Chronic kidney disease, stage 4",10-05-2024,Dr. Tanaka,N,,moderate,resolved
+DX-23821,ALPHA-00228,G47.33,Obstructive sleep apnea,10/13/2024,Dr. Gupta,N,,mild,resolved
+DX-34342,ALPHA-00407,F41.1,Generalized anxiety disorder,2024-02-05T00:00:00,Dr. Walker,N,,mild,resolved
+DX-86013,ALPHA-00265,E11.9,Type 2 diabetes mellitus without complications,06/23/2022,Dr. White,Y,,mild,active
+DX-30129,GAMMA-00500,D64.9,"Anemia, unspecified",17-09-2023,Dr. Smith,N,,severe,chronic
+DX-63244,ALPHA-00078,B20,Human immunodeficiency virus [HIV] disease,15-06-2022,Dr. Young,N,,severe,chronic
+DX-87190,GAMMA-00485,K70.30,Alcoholic cirrhosis of liver without ascites,2023-08-03T00:00:00,Dr. Gonzalez,N,,mild,resolved
+DX-97643,BETA-00213,G47.33,Obstructive sleep apnea,2023-10-09,Dr. Smith,Y,,moderate,active
+DX-97190,BETA-00477,E11.65,Type 2 diabetes mellitus with hyperglycemia,2022-03-17T00:00:00,Dr. Park,N,,mild,active
+DX-19432,ALPHA-00397,N18.4,"Chronic kidney disease, stage 4",12/08/2023,Dr. Thompson,N,,severe,chronic
+DX-90893,GAMMA-00668,F41.1,Generalized anxiety disorder,06/10/2023,Dr. Schmidt,Y,,moderate,active
+DX-42138,BETA-00478,G47.33,Obstructive sleep apnea,03-08-2022,Dr. Wang,N,,severe,active
+DX-21937,GAMMA-00740,I48.91,Unspecified atrial fibrillation,"February 20, 2023",Dr. White,N,,moderate,active
+DX-32518,GAMMA-00448,I25.10,Atherosclerotic heart disease of native coronary artery,2022-10-13,Dr. Shah,Y,,mild,active
+DX-25142,ALPHA-00403,Z87.891,Personal history of nicotine dependence,06/28/2024,Dr. Garcia,N,,mild,chronic
+DX-24087,ALPHA-00281,r06.02,Shortness of breath,02/08/2024,Dr. Lee,N,,severe,active
+DX-60127,BETA-00780,N18.3,"Chronic kidney disease, stage 3",2023-03-22,Dr. Hernandez,N,,mild,resolved
+DX-15956,ALPHA-00379,J45.20,"Mild intermittent asthma, uncomplicated",2022-01-11,Dr. Lewis,N,,mild,resolved
+DX-87648,GAMMA-00774,D64.9,"Anemia, unspecified",09 Sep 2024,Dr. Shah,Y,,mild,chronic
+DX-18048,ALPHA-00762,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,2022-08-26,Dr. Sharma,N,,moderate,resolved
+DX-30359,BETA-00693,R06.02,Shortness of breath,2022-10-24,Dr. Young,N,,moderate,resolved
+DX-14253,GAMMA-00296,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,2022-10-08T00:00:00,Dr. Thomas,Y,,moderate,active
+DX-29104,ALPHA-00022,E03.9,"Hypothyroidism, unspecified",03/23/2022,Dr. Lee,N,,mild,active
+DX-75901,GAMMA-00305,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,09/08/2023,Dr. Smith,N,,mild,resolved
+DX-30825,BETA-00703,B20,Human immunodeficiency virus [HIV] disease,09/16/2024,Dr. Thompson,N,,severe,active
+DX-21146,BETA-00047,G47.33,Obstructive sleep apnea,12/18/2023,Dr. Lopez,N,,mild,chronic
+DX-36444,GAMMA-00695,E78.5,"Dyslipidemia, unspecified","October 15, 2024",Dr. Anderson,N,,moderate,chronic
+DX-81381,GAMMA-00317,I48.91,Unspecified atrial fibrillation,08/03/2022,Dr. Allen,N,,mild,active
+DX-70726,ALPHA-00714,K70.30,Alcoholic cirrhosis of liver without ascites,09/02/2024,Dr. Wang,N,,severe,chronic
+DX-89980,ALPHA-00519,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,09/23/2023,Dr. Kumar,Y,,mild,active
+DX-10206,GAMMA-00332,N18.4,"Chronic kidney disease, stage 4",08/08/2022,Dr. Ramirez,Y,,mild,active
+DX-87371,GAMMA-00348,F32.1,"Major depressive disorder, single episode, moderate",11/21/2024,Dr. Chen,Y,,mild,active
+DX-85570,ALPHA-00044,E11.9,Type 2 diabetes mellitus without complications,2024/06/14,Dr. Taylor,N,,moderate,chronic
+DX-92932,GAMMA-00284,Z87.891,Personal history of nicotine dependence,2024-09-13,Dr. Smith,N,,moderate,resolved
+DX-87726,GAMMA-00181,E11.9,Type 2 diabetes mellitus without complications,2023-06-09,Dr. Gonzalez,N,,severe,active
+DX-63163,ALPHA-00606,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,09/19/2023,Dr. Davis,N,,,resolved
+DX-18264,ALPHA-00646,D64.9,"Anemia, unspecified",2022-06-27,Dr. Chen,N,,mild,active
+DX-69748,ALPHA-00647,G47.33,Obstructive sleep apnea,04/16/2023,Dr. Sanchez,Y,,mild,chronic
+DX-99954,ALPHA-00755,N18.4,"Chronic kidney disease, stage 4",03/30/2024,Dr. Martinez,N,,mild,chronic
+DX-80835,ALPHA-00739,N18.4,"Chronic kidney disease, stage 4",08/16/2024,Dr. Garcia,N,,severe,chronic
+DX-45959,GAMMA-00079,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,2022-07-07,Dr. Davis,N,,mild,resolved
+DX-29684,ALPHA-00714,E78.5,"Dyslipidemia, unspecified",2024-08-30T00:00:00,Dr. Lopez,Y,,moderate,resolved
+DX-11272,BETA-00006,I10,Essential (primary) hypertension,27-10-2023,Dr. Tanaka,N,,mild,active
+DX-33918,BETA-00795,E11.9,Type 2 diabetes mellitus without complications,2023-12-30,Dr. Wilson,Y,,moderate,active
+DX-60942,BETA-00725,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,"August 22, 2024",Dr. Sharma,Y,,mild,chronic
+DX-16196,BETA-00329,N18.3,"Chronic kidney disease, stage 3",03 Jan 2022,Dr. Walker,N,,moderate,chronic
+DX-13915,ALPHA-00518,J18.9,"Pneumonia, unspecified organism",06/18/2024,Dr. Harris,Y,,moderate,resolved
+DX-87189,BETA-00782,E039,"Hypothyroidism, unspecified",13 Nov 2024,Dr. Anderson,N,,severe,active
+DX-18725,GAMMA-00265,Z87.891,Personal history of nicotine dependence,23-06-2022,Dr. Singh,N,,mild,active
+DX-11569,GAMMA-00003,E78.5,"Dyslipidemia, unspecified",2024-07-30,Dr. Sanchez,N,,severe,active
+DX-51854,GAMMA-00330,E78.5,"Dyslipidemia, unspecified",07/19/2024,Dr. Perez,N,,moderate,chronic
+DX-23649,GAMMA-00693,F41.1,Generalized anxiety disorder,2022-10-26,Dr. Kim,N,,moderate,chronic
+DX-80933,ALPHA-00793,F41.1,Generalized anxiety disorder,2023-05-29,Dr. Mueller,N,,severe,active
+DX-41439,BETA-00607,F41.1,Generalized anxiety disorder,"October 03, 2022",Dr. Singh,N,,severe,chronic
+DX-66474,ALPHA-00652,E11.9,Type 2 diabetes mellitus without complications,2022-07-12T00:00:00,Dr. Patel,N,,mild,chronic
+DX-68534,ALPHA-00713,I4891,Unspecified atrial fibrillation,2022-03-08,Dr. Miller,Y,,severe,resolved
+DX-39171,BETA-00021,I2510,Atherosclerotic heart disease of native coronary artery,09/03/2024,Dr. Williams,Y,,mild,chronic
+DX-32342,ALPHA-00184,E78.5,"Dyslipidemia, unspecified",08/07/2024,Dr. Jackson,N,,moderate,active
+DX-15991,ALPHA-00124,E03.9,"Hypothyroidism, unspecified",02 May 2023,Dr. Chen,N,,moderate,chronic
+DX-80617,BETA-00322,I10,Essential (primary) hypertension,04 Dec 2023,Dr. Garcia,Y,,mild,active
+DX-86094,GAMMA-00334,J45.20,"Mild intermittent asthma, uncomplicated",06/08/2024,Dr. Brown,N,,,active
+DX-94005,BETA-00285,Z87.891,Personal history of nicotine dependence,08/23/2024,Dr. Walker,N,,severe,resolved
+DX-10795,BETA-00029,E11.9,Type 2 diabetes mellitus without complications,13-11-2022,Dr. Wang,N,,moderate,chronic
+DX-78890,GAMMA-00393,E78.5,"Dyslipidemia, unspecified",01/14/2023,Dr. Tanaka,Y,,mild,active
+DX-82378,ALPHA-00440,K70.30,Alcoholic cirrhosis of liver without ascites,06/27/2022,Dr. Garcia,Y,,severe,resolved
+DX-78151,GAMMA-00263,G47.33,Obstructive sleep apnea,2022-07-09T00:00:00,Dr. Gupta,N,,moderate,chronic
+DX-67328,ALPHA-00379,K21.0,Gastro-esophageal reflux disease with esophagitis,14 Jan 2022,Dr. Gupta,N,,mild,chronic
+DX-24315,BETA-00218,I25.10,Atherosclerotic heart disease of native coronary artery,2023/04/02,Dr. Davis,Y,,mild,active
+DX-27903,GAMMA-00315,J18.9,"Pneumonia, unspecified organism",10 Apr 2022,Dr. Johansson,N,,mild,active
+DX-58459,BETA-00044,N18.3,"Chronic kidney disease, stage 3",13-06-2024,Dr. Perez,Y,,mild,resolved
+DX-63116,BETA-00702,K21.0,Gastro-esophageal reflux disease with esophagitis,05/14/2022,Dr. Allen,N,,mild,active
+DX-86358,BETA-00419,G20,Parkinson's disease,2023-12-14,Dr. Shah,N,,mild,active
+DX-22556,BETA-00752,E11.9,Type 2 diabetes mellitus without complications,2022/08/12,Dr. Davis,N,,mild,chronic
+DX-58891,ALPHA-00155,N18.3,"Chronic kidney disease, stage 3",2024-10-16T00:00:00,Dr. Tanaka,N,,moderate,active
+DX-39346,BETA-00641,K70.30,Alcoholic cirrhosis of liver without ascites,04/07/2022,Dr. Gupta,N,,moderate,chronic
+DX-84326,BETA-00514,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,2023-05-30T00:00:00,Dr. Clark,N,,mild,active
+DX-31491,GAMMA-00056,I25.10,Atherosclerotic heart disease of native coronary artery,2024-05-23T00:00:00,Dr. Shah,N,,severe,active
+DX-77618,BETA-00380,D64.9,"Anemia, unspecified",04/01/2024,Dr. Ramirez,N,,mild,resolved
+DX-84803,BETA-00299,D64.9,"Anemia, unspecified",12/01/2022,Dr. Lopez,N,,severe,resolved
+DX-79631,ALPHA-00356,F32.1,"Major depressive disorder, single episode, moderate",08/22/2023,Dr. Singh,N,,severe,resolved
+DX-43946,GAMMA-00689,I25.10,Atherosclerotic heart disease of native coronary artery,01/24/2022,Dr. Harris,N,,mild,chronic
+DX-29643,BETA-00452,B20,Human immunodeficiency virus [HIV] disease,08/28/2024,Dr. Lewis,N,,severe,resolved
+DX-18695,BETA-00205,E11.65,Type 2 diabetes mellitus with hyperglycemia,06/08/2022,Dr. Johnson,Y,,,active
+DX-96810,GAMMA-00726,F32.1,"Major depressive disorder, single episode, moderate",2022/06/08,Dr. Davis,N,,mild,chronic
+DX-39087,BETA-00010,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,2022-11-23T00:00:00,Dr. Lee,Y,,moderate,active
+DX-98969,GAMMA-00231,E78.5,"Dyslipidemia, unspecified",2023-12-18T00:00:00,Dr. Kumar,N,,severe,resolved
+DX-96268,BETA-00458,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,02/20/2023,Dr. Jones,Y,,severe,active
+DX-98791,BETA-00055,J45.20,"Mild intermittent asthma, uncomplicated",07-02-2022,Dr. Gupta,N,,severe,active
+DX-60307,ALPHA-00463,E03.9,"Hypothyroidism, unspecified",2022-04-14,Dr. Park,N,,moderate,active
+DX-19210,BETA-00792,I25.10,Atherosclerotic heart disease of native coronary artery,12/25/2022,Dr. Brown,N,,moderate,chronic
+DX-58923,GAMMA-00507,E11.9,Type 2 diabetes mellitus without complications,2024-08-05T00:00:00,Dr. Miller,Y,,mild,active
+DX-27204,GAMMA-00226,N18.4,"Chronic kidney disease, stage 4",11 Oct 2022,Dr. Williams,N,,severe,chronic
+DX-43380,BETA-00351,J45.20,"Mild intermittent asthma, uncomplicated",04/11/2024,Dr. Lopez,N,,mild,chronic
+DX-89611,BETA-00439,E11.9,Type 2 diabetes mellitus without complications,12/14/2022,Dr. Thompson,Y,,moderate,resolved
+DX-32223,BETA-00622,Z87.891,Personal history of nicotine dependence,06 Jul 2023,Dr. Tanaka,N,,moderate,active
+DX-73265,ALPHA-00299,J45.20,"Mild intermittent asthma, uncomplicated",2022-11-30,Dr. Sato,N,,mild,active
+DX-36909,BETA-00455,I25.10,Atherosclerotic heart disease of native coronary artery,03/28/2022,Dr. Chen,N,,mild,active
+DX-69099,GAMMA-00586,K210,Gastro-esophageal reflux disease with esophagitis,2024-01-02,Dr. Kumar,Y,,,chronic
+DX-97249,BETA-00225,N18.4,"Chronic kidney disease, stage 4",09/03/2023,Dr. Walker,N,,moderate,resolved
+DX-76882,BETA-00341,J45.20,"Mild intermittent asthma, uncomplicated",26-06-2024,Dr. Moore,N,,mild,active
+DX-37082,GAMMA-00543,D64.9,"Anemia, unspecified",2022/04/23,Dr. Thomas,Y,,moderate,chronic
+DX-42999,ALPHA-00122,F32.1,"Major depressive disorder, single episode, moderate",2024-09-22,Dr. Shah,Y,,mild,resolved
+DX-86021,ALPHA-00078,R06.02,Shortness of breath,14-06-2022,Dr. Jones,N,,mild,active
+DX-29091,BETA-00476,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,2022-11-13,Dr. White,N,,moderate,chronic
+DX-21861,ALPHA-00086,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,2023-08-28,Dr. Shah,N,,mild,chronic
+DX-76750,ALPHA-00622,R06.02,Shortness of breath,2023-07-06,Dr. Singh,Y,,mild,chronic
+DX-10319,ALPHA-00157,M54.5,Low back pain,03 Apr 2022,Dr. Patel,N,,moderate,chronic
+DX-72048,GAMMA-00778,M54.5,Low back pain,01-01-2022,Dr. Clark,Y,,severe,resolved
+DX-67084,GAMMA-00468,B20,Human immunodeficiency virus [HIV] disease,2024-12-01,Dr. Martin,N,,moderate,resolved
+DX-75328,BETA-00044,B20,Human immunodeficiency virus [HIV] disease,11-06-2024,Dr. Sharma,N,,moderate,active
+DX-28640,BETA-00718,E11.65,Type 2 diabetes mellitus with hyperglycemia,2023-02-18,Dr. Chen,Y,,mild,active
+DX-61659,GAMMA-00324,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,09/26/2022,Dr. Allen,N,,mild,chronic
+DX-10550,GAMMA-00275,G47.33,Obstructive sleep apnea,08-10-2022,Dr. Thompson,N,,moderate,active
+DX-60846,BETA-00040,b20,Human immunodeficiency virus [HIV] disease,11/02/2024,Dr. Park,Y,,mild,active
+DX-92753,GAMMA-00305,E03.9,"Hypothyroidism, unspecified",2023-09-07,Dr. Mueller,Y,,moderate,resolved
+DX-99636,BETA-00420,Z87.891,Personal history of nicotine dependence,2024-07-20T00:00:00,Dr. Young,N,,severe,resolved
+DX-91991,ALPHA-00060,J18.9,"Pneumonia, unspecified organism",05/14/2022,Dr. Wilson,N,,mild,active
+DX-29840,BETA-00118,J44.1,Chronic obstructive pulmonary disease with acute exacerbation,21-12-2022,Dr. Harris,Y,,mild,chronic
+DX-85280,BETA-00305,C50.919,Malignant neoplasm of unspecified site of unspecified female breast,09/10/2023,Dr. Thomas,N,,mild,resolved
+DX-29755,ALPHA-00048,J18.9,"Pneumonia, unspecified organism",09/19/2022,Dr. Tanaka,Y,,severe,active
+DX-44568,ALPHA-00244,K70.30,Alcoholic cirrhosis of liver without ascites,10-08-2023,Dr. Martin,Y,,moderate,active
+DX-99866,ALPHA-00464,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,08/13/2022,Dr. Lee,Y,,mild,active
+DX-49521,ALPHA-00155,M54.5,Low back pain,2024/10/17,Dr. Johnson,N,,severe,active
+DX-34786,GAMMA-00647,I48.91,Unspecified atrial fibrillation,13-04-2023,Dr. Anderson,N,,mild,resolved
+DX-46942,GAMMA-00004,E78.5,"Dyslipidemia, unspecified",2023-04-14,Dr. Smith,N,,moderate,active
+DX-42695,BETA-00194,Z87891,Personal history of nicotine dependence,28-04-2024,Dr. Mueller,Y,,mild,chronic
+DX-59264,ALPHA-00780,I48.91,Unspecified atrial fibrillation,20-03-2023,Dr. Young,N,,moderate,active
+DX-85883,ALPHA-00795,N18.3,"Chronic kidney disease, stage 3",2023-12-28T00:00:00,Dr. Ramirez,N,,severe,chronic
+DX-45884,BETA-00480,G20,Parkinson's disease,29 Jul 2022,Dr. Johnson,N,,mild,active
+DX-31356,GAMMA-00110,C34.90,Malignant neoplasm of unspecified part of bronchus or lung,"February 09, 2022",Dr. Johnson,N,,severe,resolved
+DX-46828,ALPHA-00739,M54.5,Low back pain,2024-08-17,Dr. White,N,,mild,chronic
+DX-95499,BETA-00483,E03.9,"Hypothyroidism, unspecified",08/17/2024,Dr. Jones,Y,,mild,chronic
+DX-34677,BETA-00631,E03.9,"Hypothyroidism, unspecified",2022-06-10,Dr. Gonzalez,N,,mild,resolved

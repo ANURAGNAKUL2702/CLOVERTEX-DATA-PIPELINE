@@ -1,0 +1,15 @@
+# Ignore data outputs
+datalake/
+logs/
+
+# Python
+__pycache__/
+*.pyc
+
+# Env
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db

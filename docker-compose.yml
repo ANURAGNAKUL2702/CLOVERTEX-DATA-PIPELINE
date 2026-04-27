@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  pipeline:
+    build: .
+    container_name: clovertex-pipeline
+    command: ["python", "pipeline/main.py", "--start-at", "ingestion", "--stop-at", "visualization"]
+    volumes:
+      - ./datalake:/app/datalake

@@ -1,0 +1,1129 @@
+note_id,patient_id,note_category,expected_category,note_date,author,word_count,is_addendum
+NOTE-76679,GAMMA-00452,Admitting physician note,Admission,09/10/2024,Dr. Wilson,1384,Y
+NOTE-71922,BETA-00478,Lab results review,Lab Review,2022-08-14,Dr. Allen,620,N
+NOTE-15394,BETA-00710,nursing progress documentation,Progress,04/02/2024,Dr. Chen,841,Y
+NOTE-38432,ALPHA-00518,lab review note,Lab Review,2024-06-27,Dr. Davis,931,Y
+NOTE-30683,ALPHA-00545,nursing progress documentation,Progress,08/24/2023,Dr. Harris,575,N
+NOTE-82453,BETA-00338,progress update day 3,Progress,2022/08/10,Dr. Sanchez,997,N
+NOTE-90066,ALPHA-00434,Rounding note,Progress,02/25/2024,Dr. Kumar,1517,N
+NOTE-48615,BETA-00101,progress update day 3,Progress,2024/06/05,Dr. Chen,711,N
+NOTE-95196,GAMMA-00157,Cardiology consultation,Consultation,04/05/2022,Dr. Gupta,1793,Y
+NOTE-75110,BETA-00131,ID consultation,Consultation,02/15/2022,Dr. Martinez,799,Y
+NOTE-65615,BETA-00702,Lab results review,Lab Review,2022-05-14,Dr. Anderson,561,N
+NOTE-23588,BETA-00647,LAB REVIEW NOTE,Lab Review,20 Apr 2023,Dr. Shah,1551,Y
+NOTE-42088,BETA-00615,d/c summary,Discharge,2022-04-05,Dr. Ramirez,1420,N
+NOTE-44622,ALPHA-00303,admitting physician note,Admission,11/05/2022,Dr. Martinez,599,N
+NOTE-52001,GAMMA-00288,Specialist consultation request,Consultation,03/25/2024,Dr. Thomas,75,Y
+NOTE-73809,BETA-00714,ADMISSION EVALUATION,Admission,2024-09-03,Dr. Williams,811,N
+NOTE-31496,GAMMA-00218,Admitting physician note,Admission,2023-04-04,Dr. Jackson,1381,N
+NOTE-10000,ALPHA-00796,PSYCH CONSULT REQUESTED,Consultation,2022-11-22,Dr. Kim,1582,N
+NOTE-39363,GAMMA-00015,Discharge planning documentation,Discharge,05/01/2022,Dr. Clark,1034,N
+NOTE-86388,GAMMA-00693,Critical lab value follow-up,Lab Review,10/30/2022,Dr. Chen,1052,Y
+NOTE-20504,ALPHA-00773,Follow-up progress assessment,Progress,07/09/2024,Dr. Ramirez,1189,N
+NOTE-13729,ALPHA-00187,admit note,Admission,10/20/2023,Dr. Sato,1492,Y
+NOTE-15012,ALPHA-00377,interventional procedure note,Surgical,12/22/2022,Dr. Mueller,438,Y
+NOTE-30023,GAMMA-00419,patient intake assessment,Admission,12/26/2023,Dr. Taylor,238,N
+NOTE-63697,GAMMA-00235,ID consultation,Consultation,11/24/2024,Dr. Johansson,304,N
+NOTE-65914,GAMMA-00368,LAB REVIEW NOTE,Lab Review,05/04/2024,Dr. Davis,151,N
+NOTE-89957,GAMMA-00060,endocrine consult,Consultation,05/24/2022,Dr. Singh,414,Y
+NOTE-32371,BETA-00299,follow-up progress assessment,Progress,12/05/2022,Dr. Martin,193,N
+NOTE-76459,GAMMA-00178,lab panel discussion,Lab Review,"March 24, 2023",Dr. King,105,N
+NOTE-33968,BETA-00784,CONSULTATION NOTE,Consultation,2022-07-22,Dr. Jackson,1542,N
+NOTE-95063,GAMMA-00140,progress update day 3,Progress,2024-11-28,Dr. Chen,165,Y
+NOTE-95448,GAMMA-00276,INTERVAL PROGRESS NOTE,Progress,"September 22, 2023",Dr. Patel,1359,N
+NOTE-52895,ALPHA-00729,nursing progress documentation,Progress,14-12-2022,Dr. Perez,236,N
+NOTE-75288,BETA-00175,Admitting physician note,Admission,2024/03/06,Dr. Moore,576,N
+NOTE-10030,ALPHA-00518,Discharge summary,Discharge,06/16/2024,Dr. Wilson,976,N
+NOTE-94842,GAMMA-00504,blood work assessment,Lab Review,05-07-2023,Dr. Thomas,251,Y
+NOTE-86261,GAMMA-00407,Cardiology consultation,Consultation,17-02-2024,Dr. Miller,908,N
+NOTE-74196,BETA-00215,ADMISSION EVALUATION,Admission,10/21/2024,Dr. Lee,180,N
+NOTE-63728,BETA-00346,discharge med reconciliation,Discharge,2022-01-24,Dr. Smith,72,N
+NOTE-99639,BETA-00557,pre-op clearance,Surgical,2024-05-31,Dr. Moore,1976,Y
+NOTE-40825,BETA-00598,Specialist consultation request,Consultation,10/22/2022,Dr. Garcia,134,N
+NOTE-66987,BETA-00529,LAB REVIEW NOTE,Lab Review,2022-04-04T00:00:00,Dr. Clark,484,N
+NOTE-55194,ALPHA-00366,SPECIALIST CONSULTATION REQUEST,Consultation,2022-10-25,Dr. Jackson,1895,Y
+NOTE-25943,BETA-00781,new admission workup,Admission,07/23/2024,Dr. Ramirez,1009,N
+NOTE-66888,ALPHA-00092,Final Discharge Assessment,Discharge,07 Jul 2024,Dr. Gupta,333,N
+NOTE-83121,ALPHA-00265,ER TO INPATIENT ADMISSION,Admission,2022/07/01,Dr. Smith,1809,N
+NOTE-98695,ALPHA-00649,abnormal lab follow-up,Lab Review,2022-11-15T00:00:00,Dr. Anderson,240,N
+NOTE-53386,GAMMA-00135,Admission H&P,Admission,16-02-2023,Dr. Wang,1699,N
+NOTE-44486,BETA-00722,LAB REVIEW NOTE,Lab Review,2024/01/31,Dr. Taylor,274,N
+NOTE-62216,ALPHA-00018,Lab results review,Lab Review,"August 16, 2024",Dr. Harris,1745,N
+NOTE-44239,GAMMA-00175,patient intake assessment,Admission,02/29/2024,Dr. Johnson,860,N
+NOTE-80792,ALPHA-00343,nursing progress documentation,Progress,06/19/2023,Dr. Lewis,1069,N
+NOTE-91330,ALPHA-00752,CRITICAL LAB VALUE FOLLOW-UP,Lab Review,2022-08-25,Dr. Sharma,1078,Y
+NOTE-49089,BETA-00454,Patient discharge note,Discharge,2024-02-26,Dr. Perez,420,N
+NOTE-64339,GAMMA-00226,endocrine consult,Consultation,2022/10/16,Dr. Lee,519,N
+NOTE-60188,GAMMA-00681,patient status update,Progress,07/29/2023,Dr. Garcia,933,N
+NOTE-75985,GAMMA-00782,lab interpretation note,Lab Review,11/27/2024,Dr. Johansson,599,N
+NOTE-38180,BETA-00642,LAB REVIEW NOTE,Lab Review,04/17/2023,Dr. Moore,126,N
+NOTE-29480,BETA-00521,Daily note with lab review,Progress,06 Apr 2022,Dr. Anderson,1466,N
+NOTE-12972,ALPHA-00624,LAB INTERPRETATION NOTE,Lab Review,04 Dec 2022,Dr. Sato,1145,N
+NOTE-70903,ALPHA-00515,post-surgical follow-up,Surgical,2022-01-21,Dr. Miller,634,N
+NOTE-80346,ALPHA-00732,progress update day 3,Progress,2022-12-27,Dr. Perez,1193,N
+NOTE-90649,GAMMA-00233,Admission H&P,Admission,11/25/2024,Dr. Perez,1674,Y
+NOTE-68136,ALPHA-00728,Pre-operative assessment,Surgical,"May 15, 2023",Dr. Gonzalez,609,N
+NOTE-71542,BETA-00784,pathology results review,Lab Review,07/29/2022,Dr. Gonzalez,306,N
+NOTE-75154,BETA-00587,anesthesia pre-op eval,Surgical,09/06/2022,Dr. Gupta,1850,N
+NOTE-73620,BETA-00785,consult - pulmonology,Consultation,2023-08-07,Dr. Hernandez,1712,Y
+NOTE-86018,GAMMA-00424,DISCHARGE INSTRUCTIONS GIVEN,Discharge,2024-08-24,Dr. Lewis,213,N
+NOTE-18430,BETA-00475,patient intake assessment,Admission,2024-12-16T00:00:00,Dr. Mueller,1763,N
+NOTE-56209,BETA-00251,Nephrology consult note,Consultation,09/06/2022,Dr. Thompson,1319,N
+NOTE-71240,ALPHA-00640,endocrine consult,Consultation,2022-06-26,Dr. Brown,448,N
+NOTE-10097,BETA-00064,endoscopy findings,Surgical,2022-03-24,Dr. Lewis,215,N
+NOTE-24252,BETA-00487,PRE-OPERATIVE ASSESSMENT,Surgical,2023-03-04,Dr. Smith,1527,N
+NOTE-46590,ALPHA-00425,Follow-up progress assessment,Progress,09/23/2023,Dr. Singh,1986,N
+NOTE-76061,ALPHA-00205,Lab results review,Lab Review,10-06-2022,Dr. Sharma,1886,Y
+NOTE-86381,ALPHA-00598,Initial admission assessment,Admission,"October 20, 2022",Dr. Johansson,1156,Y
+NOTE-96531,BETA-00344,Admitting physician note,Admission,"January 08, 2024",Dr. Jones,970,N
+NOTE-64647,GAMMA-00724,Daily Note,Progress,2023/06/12,Dr. Ramirez,504,N
+NOTE-42013,BETA-00405,Rounding note,Progress,04/15/2023,Dr. Jackson,72,N
+NOTE-36267,ALPHA-00000,abnormal lab follow-up,Lab Review,04/06/2023,Dr. Lewis,962,N
+NOTE-99324,BETA-00542,Pre-operative assessment,Surgical,"September 02, 2022",Dr. Garcia,657,N
+NOTE-96353,BETA-00624,Rounding note,Progress,12/01/2022,Dr. Kumar,1753,N
+NOTE-72354,ALPHA-00752,Patient discharge note,Discharge,08/21/2022,Dr. Smith,278,N
+NOTE-61434,ALPHA-00260,ID consultation,Consultation,"June 14, 2024",Dr. Tanaka,1905,Y
+NOTE-43814,BETA-00379,Initial admission assessment,Admission,2022-01-19,Dr. Young,1718,N
+NOTE-62438,BETA-00179,Lab results review,Lab Review,19-02-2023,Dr. Sharma,1541,N
+NOTE-88475,ALPHA-00439,Daily progress note,Progress,12/16/2022,Dr. Anderson,1628,N
+NOTE-46421,ALPHA-00039,LAB REVIEW NOTE,Lab Review,05-12-2024,Dr. Tanaka,59,N
+NOTE-15712,BETA-00738,DAILY NOTE,Progress,2023-02-12,Dr. Sato,1321,N
+NOTE-30423,GAMMA-00386,DISCHARGE NOTE,Discharge,04/29/2023,Dr. Rodriguez,120,N
+NOTE-71822,ALPHA-00086,oncology referral note,Consultation,"September 02, 2023",Dr. Sanchez,1682,Y
+NOTE-88684,GAMMA-00496,INITIAL ADMISSION ASSESSMENT,Admission,2024-05-20,Dr. Robinson,1268,N
+NOTE-33089,ALPHA-00714,Surgical procedure note,Surgical,09/12/2024,Dr. Patel,77,N
+NOTE-57148,ALPHA-00443,pathology results review,Lab Review,"March 16, 2024",Dr. Young,223,N
+NOTE-80905,BETA-00044,LAB INTERPRETATION NOTE,Lab Review,2024-06-19,Dr. Perez,1731,N
+NOTE-50184,GAMMA-00137,Post-operative note,Surgical,29-10-2024,Dr. Davis,1722,N
+NOTE-28061,ALPHA-00277,surgical consent documentation,Surgical,04/03/2023,Dr. Thompson,1087,N
+NOTE-79736,ALPHA-00410,consult - pulmonology,Consultation,2022-04-15,Dr. Lewis,253,N
+NOTE-40062,BETA-00313,Specialist consultation request,Consultation,12/22/2024,Dr. Mueller,1218,Y
+NOTE-24710,GAMMA-00445,patient intake assessment,Admission,22-11-2023,Dr. Anderson,796,N
+NOTE-49782,GAMMA-00786,surgical consent documentation,Surgical,2024-04-13,Dr. Kim,1670,N
+NOTE-94447,BETA-00202,Pre-operative assessment,Surgical,2022-04-12T00:00:00,Dr. Martinez,747,N
+NOTE-45551,BETA-00795,DISCHARGE NOTE,Discharge,01/01/2024,Dr. Patel,981,N
+NOTE-83831,ALPHA-00489,PRE-OP CLEARANCE,Surgical,02/25/2024,Dr. White,827,N
+NOTE-62921,GAMMA-00083,pathology results review,Lab Review,2024/09/26,Dr. Hernandez,1304,Y
+NOTE-80413,ALPHA-00783,CONSULTATION NOTE,Consultation,2022/08/21,Dr. Moore,1145,Y
+NOTE-51345,GAMMA-00766,Psych Consult Requested,Consultation,03/23/2023,Dr. Gupta,1629,Y
+NOTE-73615,BETA-00235,new admission workup,Admission,2024-12-02,Dr. Moore,226,Y
+NOTE-39098,BETA-00123,Discharge summary,Discharge,12/04/2023,Dr. Robinson,1823,N
+NOTE-90665,GAMMA-00779,DAILY NOTE,Progress,01/01/2024,Dr. Moore,77,N
+NOTE-44361,ALPHA-00167,ID consultation,Consultation,06 Apr 2022,Dr. Brown,1466,N
+NOTE-53092,BETA-00602,Pre-operative assessment,Surgical,03/10/2024,Dr. Thompson,178,N
+NOTE-37621,GAMMA-00404,LAB REVIEW NOTE,Lab Review,23 Jul 2023,Dr. Lopez,809,Y
+NOTE-99264,BETA-00373,TOXICOLOGY SCREEN REVIEW,Lab Review,07/03/2023,Dr. Robinson,849,N
+NOTE-52892,GAMMA-00420,LAB REVIEW NOTE,Lab Review,2024-07-21,Dr. Davis,58,N
+NOTE-34343,GAMMA-00786,operative report,Surgical,09 Apr 2024,Dr. Miller,1236,N
+NOTE-53500,BETA-00368,psych consult requested,Consultation,05/03/2024,Dr. Mueller,324,N
+NOTE-11400,ALPHA-00522,Lab results review,Lab Review,05/23/2022,Dr. Chen,1620,Y
+NOTE-10259,BETA-00169,LAB REVIEW NOTE,Lab Review,28-07-2022,Dr. Robinson,644,Y
+NOTE-65870,ALPHA-00321,Admitting physician note,Admission,2022-04-15,Dr. Sanchez,168,N
+NOTE-59867,ALPHA-00429,pre-op clearance,Surgical,07/17/2024,Dr. Gonzalez,1004,Y
+NOTE-98957,ALPHA-00191,Admission note - new patient,Admission,04/04/2022,Dr. Anderson,1722,N
+NOTE-55192,ALPHA-00097,Discharge summary,Discharge,"December 13, 2024",Dr. Rodriguez,1330,N
+NOTE-23595,GAMMA-00792,discharge med reconciliation,Discharge,2023-01-03,Dr. Perez,936,N
+NOTE-56587,BETA-00280,consult - pulmonology,Consultation,11 Apr 2023,Dr. Thompson,758,Y
+NOTE-36908,BETA-00764,Care completion note,Discharge,04/02/2024,Dr. King,1197,N
+NOTE-17886,ALPHA-00408,CONSULTATION NOTE,Consultation,05/16/2024,Dr. Shah,1289,N
+NOTE-34469,GAMMA-00784,lab interpretation note,Lab Review,2022-08-03,Dr. Harris,921,N
+NOTE-78065,GAMMA-00043,routine progress check,Progress,2022/02/23,Dr. Thompson,1291,Y
+NOTE-99083,GAMMA-00068,CRITICAL LAB VALUE FOLLOW-UP,Lab Review,11/01/2023,Dr. Gonzalez,1535,N
+NOTE-64619,ALPHA-00779,End of stay summary,Discharge,19-02-2023,Dr. Moore,1394,N
+NOTE-74693,ALPHA-00496,initial admission assessment,Admission,2024/05/28,Dr. Garcia,288,N
+NOTE-34763,ALPHA-00702,patient intake assessment,Admission,2022-05-13,Dr. Kumar,1886,N
+NOTE-38201,GAMMA-00383,endocrine consult,Consultation,12/20/2023,Dr. Mueller,269,N
+NOTE-19625,BETA-00213,SURGERY NOTE,Surgical,10/13/2023,Dr. Tanaka,137,N
+NOTE-58715,BETA-00565,Pre-Operative Assessment,Surgical,05-11-2022,Dr. Young,499,N
+NOTE-45192,ALPHA-00429,SURGERY NOTE,Surgical,2024-07-29T00:00:00,Dr. Chen,1568,N
+NOTE-93923,GAMMA-00597,Nephrology consult note,Consultation,2022-04-10T00:00:00,Dr. Chen,99,N
+NOTE-53535,BETA-00452,Patient admitted for evaluation,Admission,09/08/2024,Dr. Rodriguez,1147,N
+NOTE-50631,BETA-00179,psych consult requested,Consultation,02/19/2023,Dr. Lee,1171,N
+NOTE-38112,GAMMA-00392,Surgical procedure note,Surgical,27-07-2022,Dr. Thomas,1478,N
+NOTE-67790,ALPHA-00512,DISCHARGE SUMMARY,Discharge,2023-11-26,Dr. Lopez,1724,N
+NOTE-76408,ALPHA-00176,surgical consent documentation,Surgical,"May 05, 2023",Dr. Garcia,775,N
+NOTE-52856,GAMMA-00781,psych consult requested,Consultation,2024/07/29,Dr. Chen,1926,Y
+NOTE-14072,BETA-00322,ER to inpatient admission,Admission,12/06/2023,Dr. Taylor,876,N
+NOTE-78061,BETA-00614,Surgical procedure note,Surgical,"November 26, 2023",Dr. Smith,1636,N
+NOTE-88607,BETA-00480,pathology results review,Lab Review,2022-08-01,Dr. Chen,1363,Y
+NOTE-86823,BETA-00125,DISCHARGE NOTE,Discharge,06/24/2024,Dr. Sanchez,1826,N
+NOTE-58421,GAMMA-00197,Discharge summary,Discharge,2024-04-26,Dr. Martin,442,Y
+NOTE-34501,GAMMA-00358,pathology results review,Lab Review,10/11/2023,Dr. Wang,188,N
+NOTE-67286,BETA-00094,CONSULTATION NOTE,Consultation,03/14/2023,Dr. Harris,1322,Y
+NOTE-33520,ALPHA-00277,CARDIOLOGY CONSULTATION,Consultation,2023-03-31,Dr. Robinson,1209,N
+NOTE-68173,ALPHA-00424,abnormal lab follow-up,Lab Review,08/18/2024,Dr. Gonzalez,986,Y
+NOTE-69348,BETA-00040,Anesthesia Pre-Op Eval,Surgical,2024-11-05T00:00:00,Dr. Patel,1379,N
+NOTE-49955,BETA-00247,DISCHARGE NOTE,Discharge,15 May 2022,Dr. Hernandez,509,Y
+NOTE-74584,ALPHA-00598,admit note,Admission,2022-10-24,Dr. Sato,338,N
+NOTE-90301,ALPHA-00060,consult - pulmonology,Consultation,05/14/2022,Dr. Wang,859,N
+NOTE-80930,GAMMA-00468,DAILY NOTE,Progress,04 Dec 2024,Dr. Harris,1570,N
+NOTE-72138,BETA-00620,ID consultation,Consultation,07/17/2023,Dr. Lewis,896,N
+NOTE-85576,ALPHA-00496,ER to inpatient admission,Admission,2024/05/27,Dr. Johnson,1172,N
+NOTE-32824,BETA-00491,INITIAL ORDERS AND ASSESSMENT,Admission,04/04/2023,Dr. Schmidt,1942,N
+NOTE-84536,BETA-00226,final discharge assessment,Discharge,2022-10-16,Dr. Sato,635,N
+NOTE-60483,BETA-00531,discharge instructions given,Discharge,11/05/2023,Dr. Sharma,1526,N
+NOTE-80958,BETA-00705,pathology results review,Lab Review,07/04/2022,Dr. Gonzalez,1430,N
+NOTE-43792,BETA-00175,CRITICAL VALUE NOTIFICATION,Lab Review,2022-06-18,Dr. Hernandez,232,Y
+NOTE-45336,BETA-00225,INTERVAL PROGRESS NOTE,Progress,09/09/2023,Dr. Jackson,155,N
+NOTE-15999,BETA-00617,lab review note,Lab Review,07/02/2023,Dr. Davis,1512,N
+NOTE-79532,ALPHA-00029,abnormal lab follow-up,Lab Review,11/26/2022,Dr. Chen,1866,N
+NOTE-80117,GAMMA-00062,Ongoing care documentation,Progress,06-08-2024,Dr. Lewis,1739,N
+NOTE-21344,ALPHA-00786,post-surgical follow-up,Surgical,2024/04/11,Dr. Clark,623,N
+NOTE-30301,GAMMA-00649,patient discharge note,Discharge,11/12/2022,Dr. Martinez,668,N
+NOTE-49016,BETA-00532,DAILY NOTE,Progress,2024-09-23,Dr. Harris,299,N
+NOTE-25566,ALPHA-00303,abnormal lab follow-up,Lab Review,2022-11-14,Dr. Gonzalez,302,N
+NOTE-87849,ALPHA-00590,abnormal lab follow-up,Lab Review,2023-09-10,Dr. Gonzalez,758,N
+NOTE-71690,BETA-00482,D/C SUMMARY,Discharge,01/06/2023,Dr. Park,100,N
+NOTE-24453,BETA-00622,DAILY NOTE,Progress,14-07-2023,Dr. Mueller,1339,Y
+NOTE-37783,ALPHA-00204,DAILY NOTE,Progress,16-05-2023,Dr. Sharma,1336,N
+NOTE-20606,BETA-00293,Follow-Up Progress Assessment,Progress,03/30/2024,Dr. Anderson,1191,N
+NOTE-92408,GAMMA-00700,CHEMISTRY PANEL DISCUSSION,Lab Review,08 Jun 2023,Dr. Brown,928,N
+NOTE-94147,GAMMA-00196,PATIENT DISCHARGE NOTE,Discharge,12/15/2022,Dr. Sato,1157,N
+NOTE-61312,BETA-00181,Admission H&P,Admission,08 Jun 2023,Dr. Jackson,1664,N
+NOTE-20890,GAMMA-00762,Cardiology consultation,Consultation,2022-08-30,Dr. Young,1067,N
+NOTE-10683,ALPHA-00407,ADMISSION EVALUATION,Admission,02/12/2024,Dr. King,1834,N
+NOTE-23350,ALPHA-00607,anesthesia pre-op eval,Surgical,10/05/2022,Dr. Johansson,1057,Y
+NOTE-14818,GAMMA-00223,Surgical procedure note,Surgical,"August 01, 2023",Dr. Martinez,1534,Y
+NOTE-42039,BETA-00666,Daily progress note,Progress,2023/06/01,Dr. Patel,1806,N
+NOTE-90629,ALPHA-00693,Critical lab value follow-up,Lab Review,"October 31, 2022",Dr. Jones,1881,N
+NOTE-58440,ALPHA-00098,Procedure documentation,Surgical,2023-07-15,Dr. King,1552,N
+NOTE-25523,ALPHA-00139,Specialist consultation request,Consultation,07/14/2024,Dr. Martinez,573,N
+NOTE-39298,BETA-00494,d/c summary,Discharge,2022/09/29,Dr. Lee,1660,Y
+NOTE-14100,GAMMA-00588,Critical lab value follow-up,Lab Review,"August 29, 2024",Dr. Tanaka,1672,N
+NOTE-85631,GAMMA-00327,Surgical Consent Documentation,Surgical,04-08-2023,Dr. Gupta,578,N
+NOTE-34694,ALPHA-00425,CONSULTATION NOTE,Consultation,2023-09-18,Dr. Clark,613,Y
+NOTE-42793,ALPHA-00022,Curbside discussion note,Consultation,2024-06-20T00:00:00,Dr. Kumar,121,Y
+NOTE-41883,ALPHA-00441,psych consult requested,Consultation,11/25/2023,Dr. King,1624,N
+NOTE-58920,BETA-00759,blood work assessment,Lab Review,2024-08-19,Dr. Jackson,1867,N
+NOTE-28244,GAMMA-00368,Post-operative note,Surgical,26-04-2024,Dr. Kim,342,N
+NOTE-24014,BETA-00480,Outside physician communication,Consultation,01/03/2023,Dr. Sanchez,425,N
+NOTE-99703,GAMMA-00039,Urgent lab callback documentation,Lab Review,2024/12/03,Dr. Lewis,715,N
+NOTE-72642,ALPHA-00149,patient intake assessment,Admission,2023-07-23,Dr. Clark,1145,N
+NOTE-95999,GAMMA-00520,discharge med reconciliation,Discharge,12/18/2024,Dr. Brown,1751,Y
+NOTE-20465,BETA-00796,ADMISSION EVALUATION,Admission,2022-11-17,Dr. Gonzalez,1255,N
+NOTE-88434,ALPHA-00226,lab interpretation note,Lab Review,10 Oct 2022,Dr. Singh,878,Y
+NOTE-19435,GAMMA-00750,discharge instructions given,Discharge,29 Jul 2022,Dr. Hernandez,1572,Y
+NOTE-77940,BETA-00455,endocrine consult,Consultation,30 Mar 2022,Dr. Lee,1589,Y
+NOTE-17389,ALPHA-00410,DAILY NOTE,Progress,04/25/2022,Dr. Perez,475,N
+NOTE-60684,BETA-00260,DISCHARGE NOTE,Discharge,2024-06-18,Dr. Shah,1017,N
+NOTE-46348,GAMMA-00392,nursing progress documentation,Progress,2022/08/03,Dr. White,696,N
+NOTE-32903,BETA-00485,ROUNDING NOTE,Progress,08/03/2023,Dr. Miller,451,N
+NOTE-47821,GAMMA-00237,rounding note,Progress,09/21/2024,Dr. Miller,784,Y
+NOTE-95764,GAMMA-00372,Presenting complaint workup,Admission,2023-01-18T00:00:00,Dr. Patel,1840,N
+NOTE-27505,GAMMA-00364,Surgical Consent Documentation,Surgical,2022-03-24,Dr. Martinez,702,N
+NOTE-11664,GAMMA-00018,daily note,Progress,08/09/2024,Dr. Perez,337,N
+NOTE-32568,ALPHA-00782,surgical consent documentation,Surgical,"November 15, 2024",Dr. Chen,1317,N
+NOTE-23550,ALPHA-00588,new admission workup,Admission,08/30/2024,Dr. Miller,210,N
+NOTE-96480,ALPHA-00592,ID consultation,Consultation,"February 16, 2023",Dr. White,1920,N
+NOTE-38575,GAMMA-00062,TEST RESULT INTERPRETATION,Lab Review,09/21/2023,Dr. Tanaka,1082,Y
+NOTE-36092,BETA-00276,patient status update,Progress,2023/09/25,Dr. Wilson,429,N
+NOTE-58467,GAMMA-00242,Discharge Instructions Given,Discharge,01/28/2022,Dr. Kumar,619,N
+NOTE-58980,GAMMA-00207,DAILY NOTE,Progress,2023-07-06,Dr. Sato,454,N
+NOTE-79963,ALPHA-00417,ADMISSION EVALUATION,Admission,10 Jan 2024,Dr. Davis,1992,N
+NOTE-39363,GAMMA-00627,Discharge Med Reconciliation,Discharge,2024-12-23,Dr. Martin,1858,Y
+NOTE-76108,GAMMA-00752,lab panel discussion,Lab Review,2022-08-17,Dr. Park,1290,Y
+NOTE-36996,ALPHA-00391,Post-operative note,Surgical,2023/12/18,Dr. Kumar,846,N
+NOTE-88227,GAMMA-00221,pre-op clearance,Surgical,2022-08-13,Dr. Thomas,1205,N
+NOTE-17316,GAMMA-00013,Patient registration clinical note,Admission,2023-06-07,Dr. Sharma,304,Y
+NOTE-64825,ALPHA-00157,operative report,Surgical,04/09/2022,Dr. Allen,663,Y
+NOTE-18781,GAMMA-00633,Rounding note,Progress,2022/02/09,Dr. Patel,554,Y
+NOTE-59642,ALPHA-00654,discharge med reconciliation,Discharge,2024-07-23,Dr. Smith,540,N
+NOTE-49007,ALPHA-00755,Pre-operative assessment,Surgical,2024/04/05,Dr. Hernandez,227,Y
+NOTE-67173,BETA-00629,Follow-up progress assessment,Progress,2024-01-01T00:00:00,Dr. Thompson,1463,Y
+NOTE-59753,ALPHA-00032,Thoracentesis documentation,Surgical,2024-07-02T00:00:00,Dr. Sanchez,1872,N
+NOTE-72899,GAMMA-00062,Progress Update Day 3,Progress,"August 01, 2022",Dr. Jackson,1429,N
+NOTE-23725,GAMMA-00460,PATIENT STATUS UPDATE,Progress,2022-11-16T00:00:00,Dr. Allen,1347,N
+NOTE-13752,BETA-00133,ADMISSION EVALUATION,Admission,06/16/2023,Dr. Davis,1432,Y
+NOTE-36278,BETA-00546,DISCHARGE NOTE,Discharge,2024-05-05,Dr. Martin,137,N
+NOTE-94666,ALPHA-00271,Lab results review,Lab Review,15 Mar 2024,Dr. Mueller,1976,Y
+NOTE-92727,BETA-00074,PROGRESS UPDATE DAY 3,Progress,2023-08-05,Dr. Park,542,Y
+NOTE-51832,GAMMA-00198,operative report,Surgical,09/28/2024,Dr. Hernandez,449,Y
+NOTE-49437,BETA-00515,consult - pulmonology,Consultation,01/21/2022,Dr. Singh,1187,N
+NOTE-73019,GAMMA-00300,DAILY NOTE,Progress,12/25/2022,Dr. Gupta,1879,N
+NOTE-98354,BETA-00252,PATIENT INTAKE ASSESSMENT,Admission,07-05-2022,Dr. Hernandez,1332,N
+NOTE-32120,BETA-00387,nursing progress documentation,Progress,2023-12-02,Dr. Kim,783,N
+NOTE-15264,GAMMA-00754,d/c summary,Discharge,02/09/2024,Dr. Taylor,1701,N
+NOTE-99498,ALPHA-00598,Daily progress note,Progress,10/25/2022,Dr. Lopez,1684,N
+NOTE-86740,GAMMA-00555,patient admitted for evaluation,Admission,"October 09, 2024",Dr. Thompson,1513,N
+NOTE-53204,ALPHA-00207,consult - pulmonology,Consultation,05-07-2023,Dr. Wang,1912,N
+NOTE-21477,BETA-00633,Initial admission assessment,Admission,2022-02-11,Dr. Walker,870,Y
+NOTE-95876,GAMMA-00565,Lab results review,Lab Review,2022-10-29,Dr. Shah,1177,N
+NOTE-45181,ALPHA-00377,psych consult requested,Consultation,20 Sep 2024,Dr. Lewis,1903,N
+NOTE-44253,BETA-00094,Admission H&P,Admission,2023/03/11,Dr. Moore,712,N
+NOTE-73792,GAMMA-00290,DISCHARGE NOTE,Discharge,05 Mar 2024,Dr. Schmidt,1737,N
+NOTE-12054,ALPHA-00394,Follow-up progress assessment,Progress,04/20/2023,Dr. Sharma,214,N
+NOTE-95574,ALPHA-00166,Patient discharge note,Discharge,10/12/2024,Dr. Brown,1124,Y
+NOTE-44387,BETA-00652,nursing progress documentation,Progress,07/18/2022,Dr. Shah,651,N
+NOTE-83297,BETA-00795,Catheterization report,Surgical,2022-04-11T00:00:00,Dr. Williams,1705,Y
+NOTE-49197,ALPHA-00105,PRE-OPERATIVE ASSESSMENT,Surgical,01/01/2025,Dr. Tanaka,1142,N
+NOTE-64015,GAMMA-00343,nursing progress documentation,Progress,2023/06/07,Dr. Patel,1159,N
+NOTE-21868,ALPHA-00099,Critical lab value follow-up,Lab Review,2024-07-29,Dr. Robinson,371,N
+NOTE-10730,ALPHA-00568,oncology referral note,Consultation,"September 08, 2022",Dr. Davis,883,N
+NOTE-39292,BETA-00047,Initial admission assessment,Admission,2023-12-31,Dr. Anderson,750,N
+NOTE-52908,ALPHA-00116,Post-operative note,Surgical,2022/05/02,Dr. Anderson,831,N
+NOTE-46268,BETA-00061,ADMISSION EVALUATION,Admission,2024-05-06,Dr. Schmidt,414,N
+NOTE-66757,GAMMA-00700,Post-operative note,Surgical,2023/02/07,Dr. Lewis,187,N
+NOTE-32245,ALPHA-00717,Lab Interpretation Note,Lab Review,03/08/2023,Dr. Tanaka,169,N
+NOTE-66634,GAMMA-00161,CONSULTATION NOTE,Consultation,2023/11/11,Dr. Martin,95,N
+NOTE-36113,GAMMA-00404,pathology results review,Lab Review,2023-07-24,Dr. Thomas,1119,N
+NOTE-21606,ALPHA-00785,DISCHARGE NOTE,Discharge,08/04/2023,Dr. Hernandez,948,Y
+NOTE-21902,ALPHA-00482,psych consult requested,Consultation,01/13/2023,Dr. Tanaka,505,Y
+NOTE-52164,GAMMA-00021,Patient discharge note,Discharge,2024-09-16,Dr. Walker,52,N
+NOTE-69265,GAMMA-00021,Cardiology consultation,Consultation,09/03/2024,Dr. Park,1604,Y
+NOTE-95205,ALPHA-00008,Bedside procedure note,Surgical,"November 15, 2024",Dr. Jackson,356,N
+NOTE-54488,BETA-00073,Admission with surgical consult pending,Admission,25 Feb 2024,Dr. King,1113,N
+NOTE-48403,ALPHA-00796,final discharge assessment,Discharge,11/15/2022,Dr. Kim,928,N
+NOTE-39264,BETA-00242,routine progress check,Progress,20-01-2022,Dr. Lopez,112,N
+NOTE-67898,GAMMA-00568,psych consult requested,Consultation,2022-09-13,Dr. Garcia,1206,N
+NOTE-57153,ALPHA-00382,DISCHARGE NOTE,Discharge,07/07/2022,Dr. Martinez,595,N
+NOTE-63871,GAMMA-00448,POST-SURGICAL FOLLOW-UP,Surgical,2022-10-11,Dr. Thomas,486,Y
+NOTE-68837,ALPHA-00044,lab panel discussion,Lab Review,16 Jun 2024,Dr. Moore,1723,Y
+NOTE-90411,BETA-00471,discharge planning documentation,Discharge,2024/03/28,Dr. Davis,1644,N
+NOTE-78978,ALPHA-00296,DAILY NOTE,Progress,2022/10/06,Dr. White,1326,Y
+NOTE-90757,ALPHA-00083,ID consultation,Consultation,2024-09-26,Dr. Kumar,1611,N
+NOTE-96175,GAMMA-00498,patient intake assessment,Admission,07/07/2022,Dr. Sato,1172,Y
+NOTE-54854,BETA-00784,Discharge summary,Discharge,2022-07-27T00:00:00,Dr. Davis,629,N
+NOTE-23175,GAMMA-00146,Hematology findings note,Lab Review,2022-06-20,Dr. Sanchez,917,N
+NOTE-73052,ALPHA-00490,surgical consent documentation,Surgical,2022-11-02,Dr. Kumar,1301,N
+NOTE-57247,ALPHA-00658,cardiology consultation,Consultation,"October 01, 2022",Dr. King,1619,Y
+NOTE-56831,GAMMA-00434,CONSULTATION NOTE,Consultation,27-02-2024,Dr. Singh,1321,N
+NOTE-31519,ALPHA-00611,pathology results review,Lab Review,10/04/2022,Dr. Sanchez,910,N
+NOTE-66463,BETA-00693,lab interpretation note,Lab Review,2022-11-01T00:00:00,Dr. Clark,1919,N
+NOTE-88426,ALPHA-00068,Admission note - new patient,Admission,11/02/2023,Dr. White,1046,N
+NOTE-85989,GAMMA-00221,Day 2 clinical note,Progress,2022-10-16,Dr. Ramirez,1960,Y
+NOTE-77025,GAMMA-00647,admission evaluation,Admission,04/17/2023,Dr. Martin,270,N
+NOTE-75311,ALPHA-00705,routine progress check,Progress,06/26/2022,Dr. Singh,1978,N
+NOTE-26201,ALPHA-00693,Resident note,Progress,2024/09/26,Dr. Garcia,132,N
+NOTE-27696,GAMMA-00732,Pre-op labs and admission orders,Surgical,18 Dec 2022,Dr. Martinez,1117,N
+NOTE-26864,BETA-00187,Discharge summary,Discharge,2023/10/25,Dr. Martin,498,N
+NOTE-91458,BETA-00211,Patient discharge note,Discharge,2024/01/14,Dr. Clark,1727,N
+NOTE-23708,GAMMA-00726,post-surgical follow-up,Surgical,2022-06-20,Dr. Anderson,426,Y
+NOTE-73472,GAMMA-00149,routine progress check,Progress,2023-07-28,Dr. Wilson,689,N
+NOTE-39439,GAMMA-00061,post-surgical follow-up,Surgical,05/07/2024,Dr. Jackson,1462,Y
+NOTE-21089,GAMMA-00109,routine progress check,Progress,2022/10/06,Dr. Rodriguez,753,N
+NOTE-62929,GAMMA-00482,new admission workup,Admission,06-01-2023,Dr. Sato,274,N
+NOTE-50113,GAMMA-00038,anesthesia pre-op eval,Surgical,08 May 2024,Dr. Smith,477,N
+NOTE-71935,BETA-00030,Discharge planning documentation,Discharge,2022-11-24T00:00:00,Dr. Lee,1609,Y
+NOTE-54068,BETA-00480,Discharge Summary,Discharge,08/05/2022,Dr. Brown,1506,Y
+NOTE-66272,GAMMA-00039,oncology referral note,Consultation,2024/11/27,Dr. Park,1138,N
+NOTE-76801,ALPHA-00590,Second opinion documentation,Consultation,"April 11, 2022",Dr. Anderson,865,N
+NOTE-41667,GAMMA-00213,discharge summary,Discharge,2023-10-18,Dr. Chen,53,N
+NOTE-84876,BETA-00410,admit note,Admission,2022-04-25T00:00:00,Dr. White,1102,Y
+NOTE-99703,BETA-00472,Patient discharge note,Discharge,27-11-2022,Dr. Park,321,N
+NOTE-95085,ALPHA-00120,progress update day 3,Progress,06/16/2022,Dr. Ramirez,96,N
+NOTE-88060,GAMMA-00115,DAILY NOTE,Progress,08/18/2024,Dr. Wang,1648,N
+NOTE-83927,GAMMA-00790,abnormal lab follow-up,Lab Review,09/11/2024,Dr. Walker,1732,N
+NOTE-63631,GAMMA-00287,Lab results review,Lab Review,05/05/2024,Dr. Thomas,1355,N
+NOTE-73481,GAMMA-00663,Nephrology consult note,Consultation,11/08/2023,Dr. Martin,552,Y
+NOTE-96265,GAMMA-00395,Patient admitted for evaluation,Admission,2024-11-02,Dr. Park,430,Y
+NOTE-95980,GAMMA-00074,progress update day 3,Progress,"August 13, 2023",Dr. Johansson,1787,N
+NOTE-49305,GAMMA-00475,ROUTINE PROGRESS CHECK,Progress,12/18/2024,Dr. Ramirez,630,N
+NOTE-59066,GAMMA-00003,anesthesia pre-op eval,Surgical,2024-08-10T00:00:00,Dr. Jackson,865,N
+NOTE-27012,ALPHA-00372,anesthesia pre-op eval,Surgical,2024-05-15,Dr. Shah,316,Y
+NOTE-74272,BETA-00116,ID consultation,Consultation,05/07/2022,Dr. Garcia,683,N
+NOTE-40378,GAMMA-00607,ER to inpatient admission,Admission,10/11/2022,Dr. Hernandez,745,N
+NOTE-83777,GAMMA-00395,psych consult requested,Consultation,2024-10-27T00:00:00,Dr. Patel,1762,Y
+NOTE-39654,GAMMA-00346,Cardiology consultation,Consultation,2022-01-30,Dr. Sanchez,714,N
+NOTE-33333,ALPHA-00317,anesthesia pre-op eval,Surgical,"August 07, 2022",Dr. Kim,1629,N
+NOTE-57379,GAMMA-00642,Post-operative note,Surgical,24 Apr 2023,Dr. Gonzalez,1031,N
+NOTE-32544,BETA-00098,BLOOD WORK ASSESSMENT,Lab Review,"June 26, 2022",Dr. Thompson,529,Y
+NOTE-54520,ALPHA-00754,ADMITTING PHYSICIAN NOTE,Admission,2024/02/22,Dr. Taylor,1800,N
+NOTE-56207,GAMMA-00586,admit note,Admission,01/09/2024,Dr. Taylor,858,Y
+NOTE-52127,GAMMA-00611,interval progress note,Progress,2022-09-27,Dr. Mueller,1496,N
+NOTE-82704,GAMMA-00038,endocrine consult,Consultation,2024/05/01,Dr. Kim,501,N
+NOTE-83306,ALPHA-00161,ER to inpatient admission,Admission,11/21/2023,Dr. Hernandez,1233,N
+NOTE-91840,BETA-00455,discharge instructions given,Discharge,2022-04-04T00:00:00,Dr. Jones,620,N
+NOTE-53709,GAMMA-00208,ADMISSION EVALUATION,Admission,07/01/2024,Dr. Gonzalez,1083,N
+NOTE-65760,GAMMA-00434,Triage and placement note,Admission,01/20/2024,Dr. Robinson,1314,Y
+NOTE-39467,ALPHA-00463,Rounding note,Progress,04/12/2022,Dr. Jackson,1504,N
+NOTE-90159,BETA-00118,post-operative note,Surgical,2023-01-03,Dr. Patel,1393,Y
+NOTE-97617,ALPHA-00735,Rounding note,Progress,09/03/2023,Dr. Martin,1969,Y
+NOTE-69859,BETA-00290,SURGERY NOTE,Surgical,10-03-2024,Dr. Anderson,1263,N
+NOTE-65807,BETA-00522,Surgical procedure note,Surgical,05/19/2022,Dr. Sanchez,539,N
+NOTE-82153,GAMMA-00175,Specialist consultation request,Consultation,03/07/2024,Dr. Allen,809,N
+NOTE-51550,BETA-00658,discharge med reconciliation,Discharge,2022-09-30,Dr. Clark,861,N
+NOTE-77924,ALPHA-00143,surgical procedure note,Surgical,2023/08/11,Dr. Wang,493,N
+NOTE-87071,BETA-00143,Home going instructions,Discharge,29 Jul 2022,Dr. Clark,1818,N
+NOTE-26801,BETA-00178,SURGERY NOTE,Surgical,2023-04-02,Dr. Lee,1133,N
+NOTE-17123,BETA-00419,Initial admission assessment,Admission,12/18/2023,Dr. Martinez,1632,N
+NOTE-70057,GAMMA-00230,discharge instructions given,Discharge,04/02/2022,Dr. Lopez,349,N
+NOTE-97086,GAMMA-00117,routine progress check,Progress,07/23/2024,Dr. Williams,941,Y
+NOTE-37915,GAMMA-00611,Nephrology consult note,Consultation,24 Sep 2022,Dr. Ramirez,495,Y
+NOTE-10876,GAMMA-00742,Follow-up progress assessment,Progress,03/03/2024,Dr. Taylor,1440,N
+NOTE-36574,ALPHA-00628,blood work assessment,Lab Review,2023-09-08,Dr. Williams,691,Y
+NOTE-56406,BETA-00211,initial admission assessment,Admission,01/20/2024,Dr. Wilson,1953,N
+NOTE-61834,GAMMA-00443,surgical consent documentation,Surgical,17 Mar 2024,Dr. Moore,121,N
+NOTE-68832,ALPHA-00387,new admission workup,Admission,12/06/2023,Dr. Young,872,Y
+NOTE-23449,BETA-00648,Daily progress note,Progress,11/28/2024,Dr. Kim,1607,N
+NOTE-54237,ALPHA-00614,Cardiology consultation,Consultation,19 Nov 2023,Dr. Walker,886,Y
+NOTE-58941,BETA-00191,Lab results review,Lab Review,2022/03/26,Dr. Brown,1779,Y
+NOTE-11550,GAMMA-00617,Pre-operative assessment,Surgical,2023-06-30,Dr. Gonzalez,1923,N
+NOTE-77377,GAMMA-00199,discharge instructions given,Discharge,06/12/2024,Dr. Williams,1034,N
+NOTE-32304,ALPHA-00750,ID consultation,Consultation,2022-07-24,Dr. Shah,1963,N
+NOTE-26245,GAMMA-00263,DISCHARGE NOTE,Discharge,2022-07-14,Dr. Shah,1864,N
+NOTE-80811,ALPHA-00018,Critical lab value follow-up,Lab Review,08/10/2024,Dr. Sharma,1301,N
+NOTE-69106,ALPHA-00604,anesthesia pre-op eval,Surgical,08/24/2024,Dr. Kumar,1033,N
+NOTE-62670,ALPHA-00331,Discharge summary,Discharge,2023-12-07,Dr. Kumar,1978,N
+NOTE-60140,BETA-00606,blood work assessment,Lab Review,2023-09-30,Dr. Sanchez,1061,N
+NOTE-51376,BETA-00354,Pre-operative assessment,Surgical,10/28/2022,Dr. Walker,1029,N
+NOTE-46327,ALPHA-00022,nursing progress documentation,Progress,04/04/2022,Dr. Thomas,591,N
+NOTE-63827,GAMMA-00485,DISCHARGE INSTRUCTIONS GIVEN,Discharge,2023-08-02T00:00:00,Dr. Gupta,398,N
+NOTE-16249,BETA-00161,Floor arrival documentation,Admission,08/15/2022,Dr. Gonzalez,867,N
+NOTE-67221,GAMMA-00089,CONSULTATION NOTE,Consultation,"April 30, 2023",Dr. Rodriguez,718,Y
+NOTE-97525,ALPHA-00269,Rounding note,Progress,2024-10-02,Dr. Schmidt,968,N
+NOTE-15875,GAMMA-00246,anesthesia pre-op eval,Surgical,2024-05-16,Dr. Sharma,580,N
+NOTE-41983,BETA-00143,admit note,Admission,"August 20, 2023",Dr. Anderson,712,N
+NOTE-10458,ALPHA-00624,Pre-Op Clearance,Surgical,08 Dec 2022,Dr. Lee,929,N
+NOTE-44320,BETA-00282,daily note,Progress,2024-06-20T00:00:00,Dr. Taylor,1330,N
+NOTE-23751,GAMMA-00601,lab review note,Lab Review,06/02/2023,Dr. Gonzalez,598,N
+NOTE-99446,GAMMA-00008,Admitting physician note,Admission,2024/11/23,Dr. Moore,1809,Y
+NOTE-36619,GAMMA-00198,psych consult requested,Consultation,05-10-2024,Dr. Hernandez,1695,N
+NOTE-75829,BETA-00366,ABNORMAL LAB FOLLOW-UP,Lab Review,10/24/2022,Dr. Sato,573,N
+NOTE-16002,ALPHA-00049,METABOLIC WORKUP REVIEW,Lab Review,08/11/2022,Dr. Jackson,1758,N
+NOTE-39763,BETA-00638,new admission workup,Admission,2023/12/12,Dr. Miller,154,N
+NOTE-61087,BETA-00627,PRE-OP CLEARANCE,Surgical,2024-12-26,Dr. Thomas,1150,N
+NOTE-97908,GAMMA-00766,Nephrology consult note,Consultation,2023-03-24,Dr. Tanaka,1520,N
+NOTE-61135,BETA-00341,Surgical procedure note,Surgical,06/29/2024,Dr. Clark,624,N
+NOTE-83131,ALPHA-00727,INPATIENT ARRIVAL DOCUMENTATION,Admission,10/05/2022,Dr. King,792,Y
+NOTE-28679,BETA-00693,post-surgical follow-up,Surgical,10/29/2022,Dr. Williams,461,N
+NOTE-89784,ALPHA-00245,post-surgical follow-up,Surgical,2022-08-29T00:00:00,Dr. Taylor,1374,Y
+NOTE-12243,BETA-00115,LAB REVIEW NOTE,Lab Review,2024-08-29,Dr. Patel,975,N
+NOTE-21210,GAMMA-00725,DAILY NOTE,Progress,2024-08-26,Dr. Lee,440,N
+NOTE-99487,BETA-00790,ANESTHESIA PRE-OP EVAL,Surgical,2024-09-14,Dr. Smith,583,N
+NOTE-96292,BETA-00027,CONSULTATION NOTE,Consultation,07/02/2024,Dr. Young,259,N
+NOTE-29306,BETA-00158,psych consult requested,Consultation,29-07-2023,Dr. Robinson,1230,N
+NOTE-37264,GAMMA-00011,ADMISSION EVALUATION,Admission,02/21/2023,Dr. Park,493,N
+NOTE-75156,GAMMA-00313,d/c summary,Discharge,2024-12-15,Dr. Ramirez,216,N
+NOTE-25449,ALPHA-00308,discharge instructions given,Discharge,2022-04-23,Dr. Miller,235,N
+NOTE-75509,GAMMA-00570,routine progress check,Progress,05/18/2022,Dr. White,1164,N
+NOTE-78699,ALPHA-00392,surgery note,Surgical,2022/08/03,Dr. Young,454,N
+NOTE-37349,BETA-00454,post-surgical follow-up,Surgical,2024/02/19,Dr. King,1855,Y
+NOTE-94459,ALPHA-00499,Critical lab value follow-up,Lab Review,08/31/2024,Dr. Garcia,1530,N
+NOTE-68053,GAMMA-00276,patient intake assessment,Admission,2023-09-23,Dr. Lee,1201,N
+NOTE-39935,BETA-00643,nursing progress documentation,Progress,08/11/2022,Dr. Shah,571,Y
+NOTE-27011,ALPHA-00277,Lab results review,Lab Review,"March 30, 2023",Dr. Wilson,1133,N
+NOTE-72251,GAMMA-00562,Post-operative note,Surgical,02/06/2022,Dr. Garcia,1354,N
+NOTE-83475,BETA-00178,lab interpretation note,Lab Review,03/30/2023,Dr. Schmidt,661,N
+NOTE-78635,ALPHA-00234,consult - pulmonology,Consultation,"October 27, 2023",Dr. Tanaka,1594,N
+NOTE-45005,BETA-00450,routine progress check,Progress,2023-07-17,Dr. Mueller,1768,Y
+NOTE-47572,ALPHA-00140,ONCOLOGY REFERRAL NOTE,Consultation,2024-11-19,Dr. Moore,232,N
+NOTE-99093,ALPHA-00303,lab review note,Lab Review,11/08/2022,Dr. Miller,1308,N
+NOTE-16753,GAMMA-00650,Discharge summary,Discharge,12/19/2024,Dr. Lopez,325,Y
+NOTE-85939,ALPHA-00447,PATIENT STATUS UPDATE,Progress,04/11/2023,Dr. Wilson,670,N
+NOTE-10463,ALPHA-00620,ABNORMAL LAB FOLLOW-UP,Lab Review,07/19/2023,Dr. Martin,339,Y
+NOTE-94685,BETA-00208,ADMISSION EVALUATION,Admission,"July 02, 2024",Dr. Hernandez,871,N
+NOTE-19180,ALPHA-00517,Critical lab value follow-up,Lab Review,02/28/2023,Dr. Thomas,1456,N
+NOTE-77020,BETA-00000,lab interpretation note,Lab Review,04/08/2023,Dr. Anderson,178,N
+NOTE-41620,BETA-00239,routine progress check,Progress,2024-04-02,Dr. Miller,364,N
+NOTE-13778,GAMMA-00602,routine progress check,Progress,02 Mar 2024,Dr. Sanchez,614,N
+NOTE-97350,BETA-00643,oncology referral note,Consultation,08/15/2022,Dr. King,650,N
+NOTE-73575,BETA-00327,patient status update,Progress,2023-08-02T00:00:00,Dr. King,358,N
+NOTE-13086,ALPHA-00336,initial admission assessment,Admission,"May 09, 2024",Dr. Schmidt,161,N
+NOTE-74964,BETA-00067,Multidisciplinary team rounding note,Progress,2024-12-04T00:00:00,Dr. Miller,884,N
+NOTE-25821,GAMMA-00196,final discharge assessment,Discharge,12/22/2022,Dr. Walker,1287,N
+NOTE-74636,GAMMA-00157,blood work assessment,Lab Review,14 Apr 2022,Dr. Robinson,188,Y
+NOTE-95389,GAMMA-00629,Incision and drainage note,Surgical,10-08-2023,Dr. Lopez,542,N
+NOTE-41586,ALPHA-00659,Admission H&P,Admission,2024/02/01,Dr. King,463,Y
+NOTE-26720,BETA-00292,Admitting physician note,Admission,07/03/2023,Dr. King,351,N
+NOTE-87910,GAMMA-00732,Pre-operative assessment,Surgical,2022/12/31,Dr. White,1366,N
+NOTE-83301,BETA-00243,blood work assessment,Lab Review,10/20/2022,Dr. Johnson,954,N
+NOTE-15445,GAMMA-00405,Pre-operative assessment,Surgical,16 Apr 2023,Dr. Jones,1549,N
+NOTE-91068,ALPHA-00480,ADMITTING PHYSICIAN NOTE,Admission,2022-07-29,Dr. Jones,1967,N
+NOTE-75849,BETA-00504,Admission Note - New Patient,Admission,2023-07-02,Dr. Walker,685,Y
+NOTE-50609,ALPHA-00700,patient status update,Progress,2023-02-05T00:00:00,Dr. Gonzalez,268,Y
+NOTE-33569,BETA-00163,Daily progress note,Progress,05/10/2024,Dr. Johnson,456,N
+NOTE-39974,BETA-00763,surgical consent documentation,Surgical,10/14/2023,Dr. Wilson,448,N
+NOTE-34008,ALPHA-00663,d/c summary,Discharge,11 Nov 2023,Dr. Ramirez,1864,N
+NOTE-10644,BETA-00262,lab panel discussion,Lab Review,01/12/2024,Dr. Young,1897,Y
+NOTE-74797,ALPHA-00076,lab panel discussion,Lab Review,02/22/2024,Dr. Allen,1053,N
+NOTE-34219,BETA-00383,discharge instructions given,Discharge,26-12-2023,Dr. Taylor,577,N
+NOTE-94954,BETA-00054,pathology results review,Lab Review,07/23/2023,Dr. Garcia,1307,N
+NOTE-20493,GAMMA-00140,CONSULTATION NOTE,Consultation,11/23/2024,Dr. Johansson,566,N
+NOTE-46692,ALPHA-00640,new admission workup,Admission,07/04/2022,Dr. Shah,872,N
+NOTE-71359,GAMMA-00443,Specialist Consultation Request,Consultation,03/18/2024,Dr. Schmidt,1788,N
+NOTE-43274,GAMMA-00270,blood work assessment,Lab Review,2024-08-26,Dr. Shah,1411,N
+NOTE-16789,BETA-00359,Discharge summary,Discharge,10 Jan 2024,Dr. Lewis,1967,N
+NOTE-79164,ALPHA-00763,DISCHARGE NOTE,Discharge,10/08/2023,Dr. Wang,342,N
+NOTE-28185,ALPHA-00597,psych consult requested,Consultation,10-04-2022,Dr. Young,1816,N
+NOTE-18120,GAMMA-00580,CONSULTATION NOTE,Consultation,2022-07-27,Dr. White,1039,N
+NOTE-25008,ALPHA-00044,final discharge assessment,Discharge,06/16/2024,Dr. Sanchez,232,N
+NOTE-61717,ALPHA-00406,LAB INTERPRETATION NOTE,Lab Review,"August 23, 2023",Dr. Thomas,1530,N
+NOTE-86290,BETA-00315,blood work assessment,Lab Review,04/12/2022,Dr. Chen,1193,N
+NOTE-98124,ALPHA-00098,Admission H&P,Admission,2022-06-25,Dr. Miller,1471,N
+NOTE-11309,GAMMA-00764,FOLLOW-UP PROGRESS ASSESSMENT,Progress,09/27/2022,Dr. Sharma,154,N
+NOTE-97935,BETA-00078,new admission workup,Admission,06/20/2022,Dr. Anderson,1474,N
+NOTE-76732,GAMMA-00679,ID consultation,Consultation,08/05/2024,Dr. Smith,1201,N
+NOTE-84024,ALPHA-00728,DAILY PROGRESS NOTE,Progress,2023/05/18,Dr. Sharma,893,N
+NOTE-78575,GAMMA-00721,progress update day 3,Progress,11/21/2022,Dr. Moore,1247,N
+NOTE-91196,GAMMA-00145,progress update day 3,Progress,02/18/2023,Dr. Tanaka,1552,Y
+NOTE-12474,GAMMA-00604,interval progress note,Progress,27-08-2024,Dr. Davis,1121,Y
+NOTE-27513,BETA-00383,Critical lab value follow-up,Lab Review,2023-12-25T00:00:00,Dr. Patel,579,Y
+NOTE-19437,GAMMA-00506,SURGERY NOTE,Surgical,02 Jan 2024,Dr. Chen,381,N
+NOTE-28584,GAMMA-00532,new admission workup,Admission,09/21/2024,Dr. Williams,1865,N
+NOTE-36062,ALPHA-00682,Rounding note,Progress,2024/12/17,Dr. Smith,1593,N
+NOTE-36404,ALPHA-00217,discharge med reconciliation,Discharge,01/03/2024,Dr. Gupta,1068,Y
+NOTE-34358,GAMMA-00114,Discharge summary,Discharge,2022/06/05,Dr. Rodriguez,1118,Y
+NOTE-50278,GAMMA-00042,admit note,Admission,2024-03-05,Dr. Johnson,284,Y
+NOTE-65338,GAMMA-00062,abnormal lab follow-up,Lab Review,08/04/2022,Dr. Jones,686,N
+NOTE-40945,BETA-00368,pre-op clearance,Surgical,05/01/2024,Dr. Kim,1728,Y
+NOTE-93068,GAMMA-00411,pathology results review,Lab Review,10/21/2024,Dr. Hernandez,841,N
+NOTE-20596,GAMMA-00061,SURGERY NOTE,Surgical,05/07/2024,Dr. Martin,874,Y
+NOTE-78702,GAMMA-00757,blood work assessment,Lab Review,01/12/2024,Dr. Robinson,1470,N
+NOTE-55952,GAMMA-00262,consult - pulmonology,Consultation,01/08/2024,Dr. Taylor,547,N
+NOTE-20836,ALPHA-00041,discharge summary,Discharge,12 May 2023,Dr. Patel,538,N
+NOTE-22921,GAMMA-00547,lab interpretation note,Lab Review,12/01/2024,Dr. Sato,565,N
+NOTE-43262,BETA-00729,Discharge planning documentation,Discharge,12/16/2022,Dr. Ramirez,1462,N
+NOTE-77387,BETA-00373,lab panel discussion,Lab Review,01/05/2022,Dr. King,828,N
+NOTE-12822,ALPHA-00496,Lumbar puncture note,Surgical,07/28/2024,Dr. Sato,504,N
+NOTE-96684,GAMMA-00586,new admission workup,Admission,2024-01-05,Dr. Young,953,N
+NOTE-90774,ALPHA-00684,ADMISSION H&P,Admission,12/30/2024,Dr. Robinson,1519,N
+NOTE-46762,BETA-00796,abnormal lab follow-up,Lab Review,11/24/2022,Dr. Davis,1721,N
+NOTE-47920,BETA-00702,Coagulation study review,Lab Review,01/13/2023,Dr. Jackson,326,N
+NOTE-47529,GAMMA-00455,LAB REVIEW NOTE,Lab Review,2022-04-08,Dr. Shah,302,N
+NOTE-35751,ALPHA-00331,operative report,Surgical,2023/12/07,Dr. Walker,1051,N
+NOTE-53996,ALPHA-00313,endocrine consult,Consultation,2024-12-13,Dr. Garcia,792,N
+NOTE-24004,BETA-00401,surgical procedure note,Surgical,2023-06-11,Dr. Shah,859,N
+NOTE-36318,GAMMA-00630,Bed assignment documentation,Admission,03/24/2024,Dr. Davis,577,N
+NOTE-28684,BETA-00135,Post-operative note,Surgical,2023-02-17,Dr. Lee,757,N
+NOTE-47400,ALPHA-00063,lab panel discussion,Lab Review,2024-08-26,Dr. Walker,387,N
+NOTE-38285,BETA-00158,Nephrology consult note,Consultation,2023-08-04,Dr. Kumar,1090,N
+NOTE-12820,GAMMA-00299,critical lab value follow-up,Lab Review,"December 12, 2022",Dr. Wilson,1224,Y
+NOTE-12655,BETA-00407,consult - pulmonology,Consultation,02/13/2024,Dr. Martinez,1298,Y
+NOTE-73705,BETA-00477,id consultation,Consultation,03/18/2022,Dr. Wilson,1130,N
+NOTE-88335,BETA-00125,Cardiology consultation,Consultation,06/23/2024,Dr. Brown,818,N
+NOTE-19630,GAMMA-00732,d/c summary,Discharge,12/20/2022,Dr. Gupta,723,Y
+NOTE-65197,GAMMA-00407,nursing progress documentation,Progress,02/13/2024,Dr. Jones,1760,N
+NOTE-39963,ALPHA-00143,Patient Admitted For Evaluation,Admission,2023-08-19,Dr. Tanaka,152,N
+NOTE-32523,ALPHA-00416,interval assessment,Progress,11/19/2023,Dr. Anderson,194,N
+NOTE-14157,ALPHA-00433,discharge med reconciliation,Discharge,2022-06-11,Dr. Park,1535,N
+NOTE-41864,BETA-00067,Recovery room assessment,Surgical,12/18/2024,Dr. Brown,1119,Y
+NOTE-34397,ALPHA-00213,Critical lab value follow-up,Lab Review,10/07/2023,Dr. Williams,863,Y
+NOTE-20765,ALPHA-00411,ID consultation,Consultation,10/12/2024,Dr. Ramirez,797,N
+NOTE-48124,ALPHA-00282,DISCHARGE NOTE,Discharge,06/11/2024,Dr. Young,96,N
+NOTE-70818,ALPHA-00290,Critical lab value follow-up,Lab Review,2024/03/11,Dr. Patel,440,Y
+NOTE-25752,ALPHA-00308,discharge summary,Discharge,25 Apr 2022,Dr. Sato,987,Y
+NOTE-52069,ALPHA-00382,patient status update,Progress,06/30/2022,Dr. Sanchez,862,Y
+NOTE-55011,BETA-00790,post-surgical follow-up,Surgical,2024-09-09T00:00:00,Dr. Rodriguez,495,N
+NOTE-68958,ALPHA-00441,discharge med reconciliation,Discharge,24 Nov 2023,Dr. Shah,210,N
+NOTE-57099,GAMMA-00654,NURSING PROGRESS DOCUMENTATION,Progress,"July 17, 2024",Dr. Thomas,1228,Y
+NOTE-53520,BETA-00780,lab panel discussion,Lab Review,03/25/2023,Dr. Wang,256,N
+NOTE-14311,GAMMA-00789,admitting physician note,Admission,06/15/2022,Dr. Martinez,1630,Y
+NOTE-62697,BETA-00132,Discharge planning documentation,Discharge,2024-01-23T00:00:00,Dr. Walker,710,Y
+NOTE-61994,ALPHA-00786,PRE-OPERATIVE ASSESSMENT,Surgical,04/08/2024,Dr. Singh,800,N
+NOTE-17783,BETA-00764,Follow-up progress assessment,Progress,2022-09-25,Dr. Kim,940,N
+NOTE-83152,BETA-00615,Follow-up progress assessment,Progress,04/03/2022,Dr. Lopez,1630,Y
+NOTE-45716,GAMMA-00318,pre-op clearance,Surgical,04/27/2024,Dr. Gupta,1448,N
+NOTE-71106,BETA-00296,PSYCH CONSULT REQUESTED,Consultation,2022-10-16,Dr. Wilson,949,N
+NOTE-63906,BETA-00725,admit note,Admission,"August 25, 2024",Dr. Tanaka,832,Y
+NOTE-79750,ALPHA-00779,blood work assessment,Lab Review,2024-01-01,Dr. Patel,320,N
+NOTE-97361,ALPHA-00424,Cardiology Consultation,Consultation,08/27/2024,Dr. Ramirez,860,N
+NOTE-53130,ALPHA-00640,Post-hospitalization plan,Discharge,"April 30, 2023",Dr. Thomas,1827,N
+NOTE-38044,GAMMA-00166,abnormal lab follow-up,Lab Review,10/11/2024,Dr. Clark,1917,N
+NOTE-16213,ALPHA-00728,lab panel discussion,Lab Review,2023-05-05T00:00:00,Dr. Sato,901,N
+NOTE-78058,ALPHA-00677,SURGERY NOTE,Surgical,2022-01-11,Dr. Kim,1341,N
+NOTE-38135,BETA-00219,Discharge summary,Discharge,2023-09-02,Dr. Sanchez,968,N
+NOTE-34998,GAMMA-00189,routine progress check,Progress,2023-01-18T00:00:00,Dr. Walker,1507,Y
+NOTE-70021,ALPHA-00783,psych consult requested,Consultation,17-08-2022,Dr. Johnson,237,N
+NOTE-88142,ALPHA-00717,lab panel discussion,Lab Review,"March 13, 2023",Dr. Jackson,181,N
+NOTE-62401,ALPHA-00030,DISCHARGE NOTE,Discharge,2022/12/06,Dr. Park,741,N
+NOTE-69590,ALPHA-00239,Follow-up progress assessment,Progress,03/25/2024,Dr. Shah,1448,N
+NOTE-17503,BETA-00260,Discharge planning documentation,Discharge,2024-06-19,Dr. Lee,1743,N
+NOTE-54044,ALPHA-00060,ADMISSION NOTE - NEW PATIENT,Admission,19 May 2022,Dr. Johansson,156,Y
+NOTE-19164,BETA-00079,lab panel discussion,Lab Review,"July 16, 2022",Dr. Martin,1623,Y
+NOTE-91849,ALPHA-00555,pathology results review,Lab Review,14 Oct 2024,Dr. Taylor,1778,Y
+NOTE-77262,BETA-00067,discharge summary,Discharge,2024-12-01,Dr. Chen,1308,N
+NOTE-86341,BETA-00754,SURGERY NOTE,Surgical,02/16/2024,Dr. Robinson,839,Y
+NOTE-50863,BETA-00252,routine progress check,Progress,2022-04-25T00:00:00,Dr. Anderson,1295,N
+NOTE-13703,BETA-00120,surgical procedure note,Surgical,06/29/2022,Dr. Clark,1157,N
+NOTE-99056,ALPHA-00452,operative report,Surgical,31 Aug 2024,Dr. Thompson,944,N
+NOTE-41669,ALPHA-00083,Wound exploration findings,Surgical,2022-11-15,Dr. Walker,1065,N
+NOTE-78054,BETA-00520,Admitting physician note,Admission,12/11/2024,Dr. Gonzalez,1012,Y
+NOTE-86476,BETA-00456,ER to inpatient admission,Admission,2023-09-28,Dr. Hernandez,1458,N
+NOTE-46978,BETA-00330,oncology referral note,Consultation,2024-07-26,Dr. Tanaka,1286,N
+NOTE-31755,BETA-00008,Continuity of care document,Discharge,08/24/2023,Dr. Brown,124,Y
+NOTE-55243,GAMMA-00650,abnormal lab follow-up,Lab Review,12/27/2024,Dr. Miller,589,N
+NOTE-18754,BETA-00132,Surgical procedure note,Surgical,11-01-2024,Dr. Kumar,833,Y
+NOTE-12671,BETA-00163,Attending physician update,Progress,2023-12-31,Dr. Kumar,1982,Y
+NOTE-49373,GAMMA-00200,final discharge assessment,Discharge,02/05/2024,Dr. Hernandez,1770,Y
+NOTE-64381,ALPHA-00225,patient intake assessment,Admission,09/02/2023,Dr. Moore,1108,N
+NOTE-62408,GAMMA-00114,discharge planning documentation,Discharge,"June 07, 2022",Dr. Walker,1517,N
+NOTE-93414,BETA-00237,BLOOD WORK ASSESSMENT,Lab Review,2024/09/21,Dr. Martinez,1357,Y
+NOTE-14698,GAMMA-00377,DISCHARGE INSTRUCTIONS GIVEN,Discharge,2024-09-22,Dr. Rodriguez,1664,N
+NOTE-39620,GAMMA-00508,CONSULTATION NOTE,Consultation,2022-02-01,Dr. Allen,1703,N
+NOTE-57459,ALPHA-00416,daily progress note,Progress,2022/03/30,Dr. Gonzalez,1552,N
+NOTE-97157,GAMMA-00078,discharge med reconciliation,Discharge,2022-06-16,Dr. Tanaka,1153,N
+NOTE-39513,ALPHA-00125,ID consultation,Consultation,2024-06-24,Dr. Johnson,880,N
+NOTE-98454,BETA-00375,Discharge planning documentation,Discharge,01/24/2022,Dr. Gupta,97,N
+NOTE-96313,BETA-00606,discharge instructions given,Discharge,2023-09-27,Dr. Ramirez,1897,N
+NOTE-23557,ALPHA-00548,Initial admission assessment,Admission,09/21/2023,Dr. Singh,1526,Y
+NOTE-45063,GAMMA-00280,pathology results review,Lab Review,2023-04-07T00:00:00,Dr. Clark,474,N
+NOTE-29179,ALPHA-00628,Post-operative note,Surgical,31 Aug 2023,Dr. Ramirez,275,N
+NOTE-82335,ALPHA-00181,lab interpretation note,Lab Review,"June 19, 2023",Dr. Johnson,359,Y
+NOTE-96289,ALPHA-00720,DISCHARGE NOTE,Discharge,2023-05-28,Dr. Smith,1359,N
+NOTE-55269,BETA-00784,Patient departure instructions,Discharge,26 Sep 2024,Dr. Anderson,1791,N
+NOTE-38789,ALPHA-00247,Patient admitted for evaluation,Admission,05/12/2022,Dr. Walker,1712,Y
+NOTE-37541,ALPHA-00454,operative report,Surgical,02/20/2024,Dr. Hernandez,991,N
+NOTE-87935,GAMMA-00159,DISCHARGE NOTE,Discharge,2024-10-22,Dr. Lopez,1846,N
+NOTE-71857,ALPHA-00061,LAB RESULTS REVIEW,Lab Review,2024-05-14,Dr. Ramirez,108,N
+NOTE-81273,GAMMA-00605,discharge med reconciliation,Discharge,2024-07-27,Dr. Martinez,228,N
+NOTE-75282,GAMMA-00666,nursing progress documentation,Progress,2023-05-19,Dr. Garcia,1802,N
+NOTE-35309,ALPHA-00258,Post-operative note,Surgical,08/12/2022,Dr. Smith,1292,N
+NOTE-95752,ALPHA-00322,Surgical Procedure Note,Surgical,12/14/2023,Dr. Johansson,1088,N
+NOTE-11510,BETA-00000,pre-op clearance,Surgical,04/07/2023,Dr. Gonzalez,1985,Y
+NOTE-91969,BETA-00204,POST-OPERATIVE NOTE,Surgical,05/08/2023,Dr. Moore,151,N
+NOTE-37012,ALPHA-00640,Discharge planning documentation,Discharge,2022-07-01T00:00:00,Dr. Tanaka,1726,N
+NOTE-33318,GAMMA-00167,progress update day 3,Progress,"April 05, 2022",Dr. Wang,260,N
+NOTE-79558,GAMMA-00001,Post-operative note,Surgical,2024/11/13,Dr. Harris,697,N
+NOTE-91435,GAMMA-00146,routine progress check,Progress,10/04/2023,Dr. Mueller,525,Y
+NOTE-70220,GAMMA-00167,Peer review discussion,Consultation,03/25/2024,Dr. Hernandez,724,N
+NOTE-48651,BETA-00700,nephrology consult note,Consultation,2023-01-28,Dr. Walker,589,Y
+NOTE-10883,BETA-00181,ID consultation,Consultation,06/10/2023,Dr. Miller,433,Y
+NOTE-98251,GAMMA-00480,Lab results review,Lab Review,07/29/2022,Dr. Johnson,185,N
+NOTE-56430,GAMMA-00679,pre-op clearance,Surgical,2024-08-07,Dr. Thompson,1151,N
+NOTE-20957,GAMMA-00009,admission note - new patient,Admission,08/29/2024,Dr. Smith,1304,N
+NOTE-28251,GAMMA-00134,final discharge assessment,Discharge,07-12-2023,Dr. Allen,1072,N
+NOTE-10963,GAMMA-00750,surgical consent documentation,Surgical,2022/07/23,Dr. Allen,1392,N
+NOTE-14198,GAMMA-00038,new admission workup,Admission,11-05-2024,Dr. White,1931,Y
+NOTE-39758,BETA-00372,Patient admitted for evaluation,Admission,05/10/2024,Dr. Johnson,1277,Y
+NOTE-14707,BETA-00063,Discharge summary,Discharge,31-08-2024,Dr. Johansson,2000,N
+NOTE-87843,ALPHA-00605,pathology results review,Lab Review,2024-07-26,Dr. King,1452,Y
+NOTE-98571,ALPHA-00204,discharge med reconciliation,Discharge,2023-05-13,Dr. Johnson,70,N
+NOTE-25538,GAMMA-00105,lab panel discussion,Lab Review,12/29/2024,Dr. Wilson,726,N
+NOTE-82880,ALPHA-00559,discharge med reconciliation,Discharge,13-10-2024,Dr. Ramirez,1284,N
+NOTE-94802,BETA-00752,post-surgical follow-up,Surgical,08/14/2022,Dr. Garcia,905,N
+NOTE-32564,GAMMA-00489,Admission Note - New Patient,Admission,2024/02/16,Dr. Robinson,1184,Y
+NOTE-85159,GAMMA-00528,pathology results review,Lab Review,2023/03/06,Dr. Thompson,63,N
+NOTE-64594,BETA-00559,DAILY NOTE,Progress,10/10/2024,Dr. Perez,1042,N
+NOTE-15180,ALPHA-00730,routine progress check,Progress,09/14/2022,Dr. Schmidt,381,Y
+NOTE-51623,ALPHA-00187,initial admission assessment,Admission,2023-10-25T00:00:00,Dr. Davis,359,Y
+NOTE-43763,GAMMA-00287,Acute care entry note,Admission,06/29/2022,Dr. Wang,1439,Y
+NOTE-52576,BETA-00202,DISCHARGE NOTE,Discharge,04/12/2022,Dr. Miller,1917,N
+NOTE-26439,ALPHA-00666,discharge med reconciliation,Discharge,2023-05-28,Dr. Wilson,191,N
+NOTE-77867,BETA-00352,admit note,Admission,10/27/2024,Dr. Sato,1627,N
+NOTE-16692,GAMMA-00263,DAILY NOTE,Progress,2022-07-13,Dr. Robinson,1663,Y
+NOTE-46241,ALPHA-00276,admitting physician note,Admission,09/26/2023,Dr. King,1961,N
+NOTE-36037,BETA-00532,anesthesia pre-op eval,Surgical,2024-10-03,Dr. Smith,1246,N
+NOTE-67832,ALPHA-00386,DISCHARGE NOTE,Discharge,2023/04/18,Dr. Schmidt,1410,N
+NOTE-87985,BETA-00739,interval progress note,Progress,18-08-2024,Dr. Sato,607,N
+NOTE-92505,ALPHA-00282,interval progress note,Progress,15 Jun 2024,Dr. Jackson,1579,Y
+NOTE-99697,ALPHA-00327,ID consultation,Consultation,2023-07-25,Dr. Davis,1454,N
+NOTE-14302,ALPHA-00586,PRE-OPERATIVE ASSESSMENT,Surgical,"January 12, 2024",Dr. Gonzalez,1329,Y
+NOTE-48126,GAMMA-00619,Transition of care documentation,Discharge,2022-04-09T00:00:00,Dr. Tanaka,826,N
+NOTE-92910,GAMMA-00619,Discharge planning documentation,Discharge,09/27/2024,Dr. Tanaka,236,N
+NOTE-22807,ALPHA-00209,nursing progress documentation,Progress,"July 19, 2022",Dr. Rodriguez,282,N
+NOTE-69810,ALPHA-00792,Patient discharge note,Discharge,12/25/2022,Dr. Kim,1717,N
+NOTE-73333,BETA-00652,interval progress note,Progress,21-07-2022,Dr. Jones,1805,N
+NOTE-74672,BETA-00742,admit note,Admission,2024/03/02,Dr. Hernandez,456,N
+NOTE-32116,ALPHA-00602,progress update day 3,Progress,03 Mar 2024,Dr. White,1305,N
+NOTE-78478,BETA-00570,SURGERY NOTE,Surgical,2022-05-29T00:00:00,Dr. Kumar,267,N
+NOTE-16266,BETA-00392,ADMISSION EVALUATION,Admission,2022-08-09,Dr. Wang,1132,Y
+NOTE-29356,ALPHA-00263,Lab results review,Lab Review,19 Jul 2022,Dr. Walker,443,Y
+NOTE-81075,ALPHA-00570,Specimen analysis discussion,Lab Review,"April 21, 2024",Dr. Thomas,317,Y
+NOTE-60547,BETA-00354,nursing progress documentation,Progress,18 Oct 2022,Dr. Mueller,426,N
+NOTE-79873,BETA-00140,lab panel discussion,Lab Review,11/24/2024,Dr. Kim,202,N
+NOTE-38657,ALPHA-00568,lab interpretation note,Lab Review,09/07/2022,Dr. Davis,1330,N
+NOTE-27096,GAMMA-00127,psych consult requested,Consultation,2024-06-25,Dr. Thomas,1951,N
+NOTE-47705,ALPHA-00682,Surgical procedure note,Surgical,2024-12-20,Dr. Wilson,540,Y
+NOTE-88630,ALPHA-00570,new admission workup,Admission,2022/05/28,Dr. Young,965,N
+NOTE-83686,BETA-00063,ER to inpatient admission,Admission,"August 22, 2024",Dr. Moore,1151,N
+NOTE-28850,GAMMA-00433,Patient discharge note,Discharge,12-06-2022,Dr. Shah,578,N
+NOTE-66673,ALPHA-00601,discharge instructions given,Discharge,2023-05-28,Dr. Chen,226,N
+NOTE-61189,ALPHA-00109,Pre-operative assessment,Surgical,09/24/2022,Dr. Park,907,Y
+NOTE-99709,BETA-00231,Daily progress note,Progress,2023-12-24,Dr. Wilson,1781,N
+NOTE-39539,ALPHA-00652,ID CONSULTATION,Consultation,07/11/2022,Dr. Garcia,109,N
+NOTE-33597,BETA-00225,Cardiology consultation,Consultation,2023-09-08,Dr. Moore,588,Y
+NOTE-69215,BETA-00040,ABNORMAL LAB FOLLOW-UP,Lab Review,"November 06, 2024",Dr. Garcia,787,N
+NOTE-99732,GAMMA-00717,LAB REVIEW NOTE,Lab Review,2023-03-12,Dr. Lewis,1745,N
+NOTE-78259,BETA-00522,CONSULT - PULMONOLOGY,Consultation,2022/05/22,Dr. Martin,621,N
+NOTE-37378,GAMMA-00405,patient intake assessment,Admission,2023-04-13,Dr. Wilson,765,Y
+NOTE-19252,GAMMA-00555,Nephrology consult note,Consultation,04 Oct 2024,Dr. Kumar,472,N
+NOTE-40235,ALPHA-00321,Specialist consultation request,Consultation,2022-04-18,Dr. Shah,1193,N
+NOTE-84447,ALPHA-00448,ER to inpatient admission,Admission,18-10-2022,Dr. Gonzalez,709,N
+NOTE-81389,ALPHA-00471,ADMISSION EVALUATION,Admission,03/29/2024,Dr. Kim,262,Y
+NOTE-42618,BETA-00315,LAB PANEL DISCUSSION,Lab Review,16-04-2022,Dr. Sato,510,Y
+NOTE-16442,GAMMA-00611,Patient admitted for evaluation,Admission,2022-10-02T00:00:00,Dr. Hernandez,1283,N
+NOTE-76632,ALPHA-00452,operative report,Surgical,10 Sep 2024,Dr. Smith,1575,N
+NOTE-21875,GAMMA-00009,LAB RESULTS REVIEW,Lab Review,08/30/2024,Dr. Park,1175,Y
+NOTE-24190,BETA-00282,anesthesia pre-op eval,Surgical,2024/06/08,Dr. Thomas,1122,Y
+NOTE-41816,GAMMA-00762,new admission workup,Admission,2022-09-02,Dr. Martin,817,N
+NOTE-71161,ALPHA-00487,Admitting physician note,Admission,13-03-2023,Dr. Singh,351,N
+NOTE-91957,GAMMA-00654,lab panel discussion,Lab Review,2024/07/22,Dr. Lee,686,N
+NOTE-71575,BETA-00167,interval progress note,Progress,"April 06, 2022",Dr. Anderson,519,N
+NOTE-95669,GAMMA-00143,SURGICAL PROCEDURE NOTE,Surgical,2023-08-08,Dr. Johnson,936,Y
+NOTE-70409,ALPHA-00231,post-surgical follow-up,Surgical,12/26/2023,Dr. Robinson,1021,N
+NOTE-77555,GAMMA-00005,progress update day 3,Progress,2023-07-13,Dr. Ramirez,1703,N
+NOTE-27141,GAMMA-00315,lab panel discussion,Lab Review,"April 11, 2022",Dr. Patel,1928,N
+NOTE-54735,GAMMA-00117,blood work assessment,Lab Review,22-07-2024,Dr. Thompson,167,N
+NOTE-38032,GAMMA-00059,Critical lab value follow-up,Lab Review,10/10/2024,Dr. Rodriguez,1387,N
+NOTE-47272,GAMMA-00783,lab panel discussion,Lab Review,20-08-2022,Dr. Chen,627,N
+NOTE-14145,GAMMA-00630,Discharge planning documentation,Discharge,07/03/2022,Dr. Walker,1940,N
+NOTE-60638,ALPHA-00019,admit note,Admission,04/15/2024,Dr. Kumar,705,N
+NOTE-92318,GAMMA-00795,DISCHARGE INSTRUCTIONS GIVEN,Discharge,01/10/2024,Dr. Smith,1793,N
+NOTE-33689,BETA-00766,Post-operative note,Surgical,03/21/2023,Dr. Lewis,1360,Y
+NOTE-40009,GAMMA-00615,Initial admission assessment,Admission,2022-04-07,Dr. Lee,1469,Y
+NOTE-11594,GAMMA-00512,Admitting physician note,Admission,11/19/2023,Dr. Tanaka,1838,Y
+NOTE-98699,GAMMA-00341,admission note - new patient,Admission,"July 05, 2024",Dr. Chen,1833,N
+NOTE-30969,GAMMA-00714,Admission H&P,Admission,2024/09/07,Dr. Lee,1216,N
+NOTE-24131,GAMMA-00015,Patient discharge note,Discharge,05/09/2022,Dr. Chen,1580,N
+NOTE-44510,BETA-00680,Discharge planning documentation,Discharge,2023-09-21T00:00:00,Dr. Johnson,176,N
+NOTE-71176,GAMMA-00489,discharge planning documentation,Discharge,2024-02-16,Dr. Wang,793,N
+NOTE-64370,ALPHA-00743,Discharge summary,Discharge,22-11-2022,Dr. Jackson,62,N
+NOTE-31140,GAMMA-00386,Cardiology consultation,Consultation,2023-04-23,Dr. Park,1574,N
+NOTE-33987,ALPHA-00198,Surgical procedure note,Surgical,10-10-2024,Dr. Martinez,1617,N
+NOTE-95822,GAMMA-00629,DISCHARGE NOTE,Discharge,06-01-2024,Dr. Williams,874,N
+NOTE-81605,ALPHA-00355,ROUNDING NOTE,Progress,2024-04-27,Dr. Thomas,1457,N
+NOTE-44289,ALPHA-00005,Daily progress note,Progress,2023-07-02,Dr. Robinson,947,N
+NOTE-11925,ALPHA-00245,blood work assessment,Lab Review,08/28/2022,Dr. Walker,665,N
+NOTE-93586,ALPHA-00306,INTERVAL PROGRESS NOTE,Progress,11-07-2022,Dr. Sato,105,Y
+NOTE-42731,BETA-00773,ED handoff to medicine,Admission,2023/03/06,Dr. Garcia,1589,Y
+NOTE-21582,BETA-00559,Post-operative note,Surgical,14 Oct 2024,Dr. Smith,1867,N
+NOTE-27311,GAMMA-00566,routine progress check,Progress,04/06/2023,Dr. Garcia,1434,N
+NOTE-86508,BETA-00317,LAB PANEL DISCUSSION,Lab Review,08/15/2022,Dr. Park,134,N
+NOTE-18045,BETA-00009,Pre-operative assessment,Surgical,2024-08-19,Dr. Gupta,1975,N
+NOTE-70908,ALPHA-00429,PATIENT STATUS UPDATE,Progress,07/27/2024,Dr. Miller,1844,N
+NOTE-22696,GAMMA-00003,interval progress note,Progress,03 Aug 2024,Dr. Lopez,109,N
+NOTE-84992,ALPHA-00663,psych consult requested,Consultation,2023-11-09,Dr. Lee,1458,N
+NOTE-60270,BETA-00517,Cardiology consultation,Consultation,2023-02-26,Dr. Williams,92,N
+NOTE-15440,BETA-00382,CONSULTATION NOTE,Consultation,01 Jul 2022,Dr. White,1459,N
+NOTE-48110,ALPHA-00517,multidisciplinary opinion,Consultation,2023-12-07,Dr. Wang,677,N
+NOTE-45356,GAMMA-00725,routine progress check,Progress,28-08-2024,Dr. Lopez,927,Y
+NOTE-40183,GAMMA-00629,PATHOLOGY RESULTS REVIEW,Lab Review,2024-01-02,Dr. Wang,1456,Y
+NOTE-30041,GAMMA-00783,Surgical procedure note,Surgical,2022-08-16T00:00:00,Dr. Shah,485,N
+NOTE-56706,GAMMA-00622,Nephrology consult note,Consultation,"July 07, 2023",Dr. Robinson,414,N
+NOTE-98987,GAMMA-00001,operative report,Surgical,11/14/2024,Dr. Brown,733,N
+NOTE-70431,GAMMA-00785,NEPHROLOGY CONSULT NOTE,Consultation,2023/08/09,Dr. Gonzalez,679,N
+NOTE-81556,GAMMA-00275,new admission workup,Admission,10/09/2022,Dr. Martinez,1737,Y
+NOTE-31334,ALPHA-00551,DISCHARGE NOTE,Discharge,07/12/2024,Dr. Wilson,1192,N
+NOTE-95627,BETA-00691,new admission workup,Admission,01/11/2024,Dr. Thomas,1720,N
+NOTE-76204,ALPHA-00687,ADMISSION EVALUATION,Admission,07/09/2024,Dr. Kim,382,N
+NOTE-80519,BETA-00492,PATIENT STATUS UPDATE,Progress,2022/01/15,Dr. Allen,141,N
+NOTE-14350,ALPHA-00090,admission note - new patient,Admission,04/22/2024,Dr. Perez,1882,N
+NOTE-79539,GAMMA-00524,DAILY NOTE,Progress,2022-12-20T00:00:00,Dr. Singh,118,N
+NOTE-20015,GAMMA-00524,Rounding note,Progress,2022-12-21,Dr. Jones,618,N
+NOTE-46529,ALPHA-00727,consult - pulmonology,Consultation,12/14/2024,Dr. Lopez,950,N
+NOTE-84910,BETA-00200,Admission H&P,Admission,02/17/2024,Dr. Thomas,749,N
+NOTE-72806,GAMMA-00157,Final medication reconciliation,Discharge,2024-10-03,Dr. Thompson,1138,N
+NOTE-42677,ALPHA-00707,pathology results review,Lab Review,06/18/2022,Dr. Thompson,1801,Y
+NOTE-97724,BETA-00660,Specialist consultation request,Consultation,"September 30, 2023",Dr. Allen,394,N
+NOTE-86813,ALPHA-00456,oncology referral note,Consultation,09/22/2023,Dr. Sharma,1430,N
+NOTE-37808,GAMMA-00336,Patient condition update,Progress,12/11/2024,Dr. Johnson,1777,Y
+NOTE-11283,ALPHA-00059,d/c summary,Discharge,10/02/2024,Dr. Walker,1793,Y
+NOTE-48037,BETA-00299,DAILY PROGRESS NOTE,Progress,2022-12-11,Dr. Shah,282,N
+NOTE-93176,BETA-00299,operative report,Surgical,12/14/2022,Dr. Brown,1658,N
+NOTE-43919,ALPHA-00262,Critical lab value follow-up,Lab Review,01/05/2024,Dr. Sanchez,679,N
+NOTE-41304,BETA-00195,pathology results review,Lab Review,2023/04/29,Dr. Jackson,113,Y
+NOTE-94254,BETA-00336,Patient admitted for evaluation,Admission,05/05/2024,Dr. Gupta,194,N
+NOTE-59022,GAMMA-00170,admit note,Admission,29 Oct 2023,Dr. Moore,265,Y
+NOTE-94755,BETA-00442,lab interpretation note,Lab Review,12/27/2024,Dr. Patel,821,N
+NOTE-61245,BETA-00001,SURGERY NOTE,Surgical,08 Nov 2024,Dr. Johansson,241,N
+NOTE-21470,GAMMA-00003,FINAL DISCHARGE ASSESSMENT,Discharge,06-08-2024,Dr. Lopez,209,Y
+NOTE-66999,ALPHA-00222,CONSULTATION NOTE,Consultation,05 Jun 2024,Dr. Patel,78,Y
+NOTE-83075,BETA-00373,ER to inpatient admission,Admission,2022-01-15,Dr. Jones,1397,N
+NOTE-26380,BETA-00060,Critical lab value follow-up,Lab Review,05/17/2022,Dr. Jones,1569,N
+NOTE-34579,ALPHA-00158,Pre-operative assessment,Surgical,08/10/2023,Dr. Lewis,1251,N
+NOTE-82339,GAMMA-00419,Cardiology consultation,Consultation,2023-12-22T00:00:00,Dr. Gonzalez,476,N
+NOTE-37180,ALPHA-00068,pre-op clearance,Surgical,2023-10-31,Dr. Tanaka,1783,N
+NOTE-65309,GAMMA-00269,Lab results review,Lab Review,09/20/2024,Dr. Martinez,514,N
+NOTE-40926,GAMMA-00105,CONSULTATION NOTE,Consultation,2024-12-29,Dr. Martin,70,N
+NOTE-90989,BETA-00019,Discharge planning documentation,Discharge,04/17/2024,Dr. Brown,1445,N
+NOTE-58183,GAMMA-00363,discharge med reconciliation,Discharge,"October 07, 2024",Dr. White,1565,N
+NOTE-96902,ALPHA-00032,Expert review note,Consultation,"January 08, 2024",Dr. Allen,1687,N
+NOTE-95089,GAMMA-00187,Admission note - new patient,Admission,2023-10-22,Dr. Thompson,1539,N
+NOTE-15077,GAMMA-00489,Patient discharge note,Discharge,02/25/2024,Dr. Shah,1378,N
+NOTE-98329,BETA-00559,DAILY NOTE,Progress,10-10-2024,Dr. King,713,N
+NOTE-90842,ALPHA-00022,interval progress note,Progress,03/31/2022,Dr. Garcia,930,N
+NOTE-17220,GAMMA-00430,patient intake assessment,Admission,03/28/2023,Dr. Thomas,1623,N
+NOTE-39466,GAMMA-00408,ER to inpatient admission,Admission,15-05-2024,Dr. Sanchez,504,N
+NOTE-90276,GAMMA-00146,abnormal lab follow-up,Lab Review,04-10-2023,Dr. Davis,1779,N
+NOTE-30018,ALPHA-00792,Specialist consultation request,Consultation,01-01-2023,Dr. Schmidt,1707,Y
+NOTE-84778,BETA-00677,DAILY PROGRESS NOTE,Progress,01/15/2022,Dr. Rodriguez,716,N
+NOTE-71147,ALPHA-00030,oncology referral note,Consultation,30-11-2022,Dr. Mueller,356,N
+NOTE-67550,BETA-00408,Endocrine Consult,Consultation,05/16/2024,Dr. Wilson,1428,N
+NOTE-77581,BETA-00466,abnormal lab follow-up,Lab Review,07/21/2023,Dr. Walker,1079,N
+NOTE-22413,GAMMA-00226,patient status update,Progress,2022/10/18,Dr. Allen,681,N
+NOTE-88875,ALPHA-00607,Lab results review,Lab Review,10/09/2022,Dr. Jackson,1410,N
+NOTE-88865,ALPHA-00235,Cardiology consultation,Consultation,11/27/2024,Dr. Rodriguez,1530,N
+NOTE-71426,BETA-00097,pathology results review,Lab Review,03-12-2024,Dr. Johnson,937,N
+NOTE-32921,GAMMA-00341,D/C Summary,Discharge,2024/07/10,Dr. Jones,1421,N
+NOTE-79697,BETA-00116,OUTPATIENT TRANSITION PLAN,Discharge,05/24/2022,Dr. Moore,1995,N
+NOTE-72173,BETA-00152,blood work assessment,Lab Review,2024/08/22,Dr. Thomas,1230,Y
+NOTE-19224,BETA-00180,admit note,Admission,04/27/2022,Dr. Chen,489,N
+NOTE-61967,BETA-00275,operative report,Surgical,10/16/2022,Dr. Harris,88,N
+NOTE-56836,GAMMA-00375,lab panel discussion,Lab Review,26 Jan 2022,Dr. Singh,602,N
+NOTE-86227,GAMMA-00630,Critical lab value follow-up,Lab Review,24-06-2022,Dr. Miller,1999,N
+NOTE-34920,GAMMA-00691,ABNORMAL LAB FOLLOW-UP,Lab Review,2024-01-02,Dr. Taylor,1709,N
+NOTE-46963,BETA-00475,surgical consent documentation,Surgical,12/23/2024,Dr. Williams,227,N
+NOTE-64449,BETA-00735,Lab results review,Lab Review,09/12/2023,Dr. Martinez,431,Y
+NOTE-23265,ALPHA-00126,DISCHARGE NOTE,Discharge,2022-04-23,Dr. Thomas,862,N
+NOTE-90209,BETA-00732,Admission H&P,Admission,12/19/2022,Dr. Martinez,1865,Y
+NOTE-83198,GAMMA-00384,PATIENT STATUS UPDATE,Progress,2022-08-08,Dr. Garcia,1763,N
+NOTE-60270,ALPHA-00647,CONSULTATION NOTE,Consultation,2023-04-18,Dr. White,403,N
+NOTE-18951,ALPHA-00085,Admission note - new patient,Admission,30-05-2023,Dr. Moore,1063,Y
+NOTE-98296,ALPHA-00425,operative report,Surgical,2023/09/17,Dr. Sanchez,1132,N
+NOTE-21125,ALPHA-00762,consult - pulmonology,Consultation,08/31/2022,Dr. Sharma,1231,N
+NOTE-44547,ALPHA-00470,oncology referral note,Consultation,10-08-2023,Dr. Moore,1522,N
+NOTE-49647,GAMMA-00532,blood work assessment,Lab Review,09/30/2024,Dr. Singh,1544,Y
+NOTE-36924,GAMMA-00027,Initial admission assessment,Admission,2024-07-05,Dr. Lopez,865,Y
+NOTE-55491,ALPHA-00482,ER TO INPATIENT ADMISSION,Admission,2023-01-14,Dr. Chen,411,Y
+NOTE-35515,ALPHA-00472,operative report,Surgical,11/15/2022,Dr. Williams,818,N
+NOTE-85165,ALPHA-00058,admission note - new patient,Admission,2024-01-15,Dr. Martinez,685,N
+NOTE-60256,GAMMA-00292,SPECIALIST OPINION,Consultation,2023-01-08,Dr. Tanaka,1062,N
+NOTE-59625,GAMMA-00729,admit note,Admission,12/17/2022,Dr. Harris,766,N
+NOTE-28547,BETA-00515,patient status update,Progress,01/13/2022,Dr. Johansson,1884,N
+NOTE-66967,ALPHA-00641,Discharge planning documentation,Discharge,2022-04-14T00:00:00,Dr. Kumar,1847,N
+NOTE-93228,GAMMA-00258,Surgical procedure note,Surgical,08/14/2022,Dr. Robinson,740,N
+NOTE-59069,ALPHA-00072,abnormal lab follow-up,Lab Review,14 Nov 2022,Dr. Hernandez,331,Y
+NOTE-57875,ALPHA-00189,Same-day surgery admission,Surgical,19 Jan 2023,Dr. Lee,868,N
+NOTE-85455,ALPHA-00200,Lab results review,Lab Review,07 Feb 2024,Dr. Singh,1593,N
+NOTE-59925,BETA-00416,CONSULTATION NOTE,Consultation,2022-04-08,Dr. Anderson,202,N
+NOTE-37271,ALPHA-00785,DAILY NOTE,Progress,08/03/2023,Dr. Gonzalez,108,N
+NOTE-31203,GAMMA-00725,final discharge assessment,Discharge,2024/09/01,Dr. Kim,673,N
+NOTE-48212,GAMMA-00720,pre-operative assessment,Surgical,29 May 2023,Dr. Schmidt,77,N
+NOTE-68173,GAMMA-00731,psych consult requested,Consultation,04/04/2023,Dr. Perez,893,N
+NOTE-96064,ALPHA-00430,ADMITTING PHYSICIAN NOTE,Admission,2023-03-16T00:00:00,Dr. White,617,N
+NOTE-74567,ALPHA-00434,DISCHARGE MED RECONCILIATION,Discharge,2024/03/02,Dr. Sharma,1700,N
+NOTE-53848,ALPHA-00315,Nursing assessment,Progress,2023/08/09,Dr. Lopez,1716,N
+NOTE-98714,GAMMA-00735,Critical lab value follow-up,Lab Review,09/09/2023,Dr. Ramirez,374,Y
+NOTE-10628,GAMMA-00470,COLLABORATIVE CARE NOTE,Consultation,30-11-2022,Dr. Brown,661,N
+NOTE-83708,GAMMA-00135,Daily progress note,Progress,02/18/2023,Dr. Singh,440,N
+NOTE-92093,GAMMA-00643,ID consultation,Consultation,08/12/2022,Dr. Perez,813,N
+NOTE-63592,BETA-00196,Daily progress note,Progress,12/15/2022,Dr. Patel,109,N
+NOTE-57320,GAMMA-00146,ER to inpatient admission,Admission,2023-09-30T00:00:00,Dr. Garcia,930,N
+NOTE-38642,BETA-00191,Lab results review,Lab Review,2022-04-01,Dr. Rodriguez,1243,Y
+NOTE-70647,GAMMA-00200,First contact assessment,Admission,"March 30, 2023",Dr. Jackson,492,N
+NOTE-23961,ALPHA-00114,Patient discharge note,Discharge,05-06-2022,Dr. Rodriguez,1102,N
+NOTE-22493,GAMMA-00660,admit note,Admission,2023-09-22,Dr. Davis,1101,N
+NOTE-18894,GAMMA-00018,Consult note re: discharge planning,Consultation,2024-08-08T00:00:00,Dr. Wilson,1205,N
+NOTE-11586,ALPHA-00037,d/c summary,Discharge,2023-11-22,Dr. Moore,542,N
+NOTE-97124,GAMMA-00478,ER to inpatient admission,Admission,"August 04, 2022",Dr. Johansson,1860,N
+NOTE-48444,BETA-00369,routine progress check,Progress,04-01-2023,Dr. Kumar,1493,N
+NOTE-78448,BETA-00308,discharge instructions given,Discharge,2022-04-28,Dr. Lewis,730,N
+NOTE-99819,ALPHA-00037,Transfer note from ER,Admission,2023/11/21,Dr. Sharma,266,N
+NOTE-66047,GAMMA-00198,pathology results review,Lab Review,29-09-2024,Dr. Wilson,1437,N
+NOTE-24852,BETA-00470,pathology results review,Lab Review,2023-08-06,Dr. Johansson,145,N
+NOTE-38501,BETA-00620,Patient admitted for evaluation,Admission,2023-07-15,Dr. Clark,1561,N
+NOTE-24408,ALPHA-00059,Patient discharge note,Discharge,10/07/2024,Dr. Schmidt,274,Y
+NOTE-22940,ALPHA-00083,pre-op clearance,Surgical,09/17/2024,Dr. Thompson,1326,Y
+NOTE-22858,BETA-00118,Admission H&P,Admission,01/03/2023,Dr. Gonzalez,1528,Y
+NOTE-75839,BETA-00277,admit note,Admission,03/30/2023,Dr. Allen,231,N
+NOTE-20727,GAMMA-00470,discharge med reconciliation,Discharge,2023-08-10T00:00:00,Dr. Lewis,1347,N
+NOTE-66999,GAMMA-00377,psych consult requested,Consultation,2024-09-26T00:00:00,Dr. Kumar,860,Y
+NOTE-81173,BETA-00301,abnormal lab follow-up,Lab Review,04 Jun 2023,Dr. Jackson,1168,N
+NOTE-32009,BETA-00450,Post-operative note,Surgical,2023-07-15,Dr. Park,581,Y
+NOTE-73604,ALPHA-00404,Post-operative note,Surgical,07/22/2023,Dr. Davis,255,N
+NOTE-83256,ALPHA-00753,Critical lab value follow-up,Lab Review,24 Sep 2024,Dr. Park,279,Y
+NOTE-70091,BETA-00524,nursing progress documentation,Progress,12/21/2022,Dr. Brown,57,Y
+NOTE-66817,BETA-00456,admit note,Admission,"September 29, 2023",Dr. Walker,1937,Y
+NOTE-43198,GAMMA-00042,Critical lab value follow-up,Lab Review,05 Mar 2024,Dr. Gonzalez,1959,N
+NOTE-93041,BETA-00142,patient status update,Progress,2023-07-30T00:00:00,Dr. Brown,346,N
+NOTE-36627,GAMMA-00275,Admission H&P,Admission,2022-10-20T00:00:00,Dr. Williams,642,Y
+NOTE-53742,GAMMA-00546,Follow-up progress assessment,Progress,2024/05/12,Dr. Tanaka,1161,N
+NOTE-52898,ALPHA-00516,post-surgical follow-up,Surgical,2024-01-11,Dr. Park,1864,N
+NOTE-29418,BETA-00671,Telephone consultation with family,Consultation,"September 25, 2024",Dr. Thomas,1373,N
+NOTE-84020,ALPHA-00022,Cardiology consultation,Consultation,2022-03-28,Dr. Williams,1545,N
+NOTE-45065,ALPHA-00064,progress update day 3,Progress,2022-08-29T00:00:00,Dr. Thompson,1219,N
+NOTE-91105,ALPHA-00498,lab interpretation note,Lab Review,2022-07-04T00:00:00,Dr. Walker,404,N
+NOTE-22319,BETA-00009,ID consultation,Consultation,2024-08-26,Dr. Williams,885,N
+NOTE-53009,ALPHA-00084,oncology referral note,Consultation,2022-01-17T00:00:00,Dr. Sharma,1130,N
+NOTE-55907,ALPHA-00242,psych consult requested,Consultation,01/27/2022,Dr. Thomas,1438,N
+NOTE-87399,GAMMA-00115,DAILY NOTE,Progress,08/29/2024,Dr. Moore,877,N
+NOTE-17417,ALPHA-00260,Post-operative note,Surgical,2024/06/12,Dr. Ramirez,333,N
+NOTE-87745,ALPHA-00601,Discharge planning documentation,Discharge,2023-05-26,Dr. Lewis,697,N
+NOTE-18205,GAMMA-00239,ANESTHESIA PRE-OP EVAL,Surgical,26-03-2024,Dr. King,417,N
+NOTE-29932,ALPHA-00562,new admission workup,Admission,2022/02/16,Dr. Johnson,1021,N
+NOTE-21945,BETA-00019,Wound care progress assessment,Progress,14 Apr 2024,Dr. Tanaka,1380,N
+NOTE-24750,BETA-00243,pre-op clearance,Surgical,2022-10-26,Dr. Lopez,1494,N
+NOTE-35445,GAMMA-00021,endocrine consult,Consultation,14 Sep 2024,Dr. Wang,398,Y
+NOTE-30204,GAMMA-00118,Daily progress note,Progress,2022-12-22,Dr. Thompson,364,N
+NOTE-74936,BETA-00503,Lab results review,Lab Review,2022-11-15,Dr. Gonzalez,1222,N
+NOTE-84872,BETA-00397,Pre-operative assessment,Surgical,12/17/2023,Dr. Garcia,91,N
+NOTE-64565,GAMMA-00743,blood work assessment,Lab Review,11/25/2022,Dr. Young,615,Y
+NOTE-77475,ALPHA-00721,oncology referral note,Consultation,2022-12-01,Dr. Moore,1340,Y
+NOTE-59135,ALPHA-00133,psych consult requested,Consultation,2023-06-07,Dr. Jones,909,N
+NOTE-13103,ALPHA-00315,pathology results review,Lab Review,2022-04-11T00:00:00,Dr. Gonzalez,1406,N
+NOTE-48969,BETA-00139,Admitting physician note,Admission,"July 14, 2024",Dr. Kim,1504,Y
+NOTE-66482,GAMMA-00487,d/c summary,Discharge,03/03/2023,Dr. Wang,1157,N
+NOTE-90130,ALPHA-00642,Follow-up progress assessment,Progress,2023-04-19,Dr. Ramirez,1169,N
+NOTE-27490,ALPHA-00023,Lab results review,Lab Review,2022/09/30,Dr. Harris,461,N
+NOTE-17417,BETA-00145,BLOOD WORK ASSESSMENT,Lab Review,19-02-2023,Dr. Kim,816,N
+NOTE-70907,GAMMA-00622,post-surgical follow-up,Surgical,14-07-2023,Dr. Perez,1287,Y
+NOTE-12430,GAMMA-00433,Multidisciplinary team note,Progress,04/12/2022,Dr. Jackson,1099,N
+NOTE-10611,ALPHA-00763,DISCHARGE NOTE,Discharge,10/16/2023,Dr. Miller,1996,Y
+NOTE-25750,GAMMA-00251,SURGERY NOTE,Surgical,01 Sep 2022,Dr. Wilson,1613,N
+NOTE-21967,BETA-00222,Initial admission assessment,Admission,2024-06-13T00:00:00,Dr. Tanaka,1436,N
+NOTE-21393,ALPHA-00179,DAILY NOTE,Progress,22 Feb 2023,Dr. Smith,724,Y
+NOTE-79326,GAMMA-00161,PATIENT ADMITTED FOR EVALUATION,Admission,2023-11-16,Dr. Chen,1938,Y
+NOTE-62369,BETA-00191,Requested clinical opinion,Consultation,15 May 2022,Dr. Tanaka,231,N
+NOTE-35279,GAMMA-00346,nursing progress documentation,Progress,2022/01/29,Dr. Thompson,139,N
+NOTE-64283,GAMMA-00387,LAB REVIEW NOTE,Lab Review,14-12-2023,Dr. Taylor,1678,N
+NOTE-20509,BETA-00566,Morning assessment,Progress,2024-07-29T00:00:00,Dr. Kim,814,N
+NOTE-42257,GAMMA-00411,progress update day 3,Progress,10/16/2024,Dr. Schmidt,778,N
+NOTE-15091,GAMMA-00300,routine progress check,Progress,01/02/2023,Dr. Gonzalez,307,N
+NOTE-67624,ALPHA-00059,patient intake assessment,Admission,10/12/2024,Dr. Kim,1581,N
+NOTE-41822,GAMMA-00372,nursing progress documentation,Progress,05/15/2024,Dr. Jones,1953,N
+NOTE-21043,BETA-00202,Critical lab value follow-up,Lab Review,2022/04/04,Dr. Brown,1312,N
+NOTE-37092,ALPHA-00131,Admission Note - New Patient,Admission,02/14/2022,Dr. Martin,1147,N
+NOTE-40897,BETA-00296,pre-op clearance,Surgical,2022-10-11T00:00:00,Dr. Gonzalez,1649,N
+NOTE-93457,GAMMA-00292,Endocrine Consult,Consultation,07/03/2023,Dr. Lewis,1498,Y
+NOTE-47553,GAMMA-00420,Specialist Consultation Request,Consultation,07/24/2024,Dr. Gupta,1885,N
+NOTE-80323,ALPHA-00131,lab review note,Lab Review,12-02-2022,Dr. Ramirez,1018,N
+NOTE-20169,ALPHA-00779,DISCHARGE NOTE,Discharge,06-01-2024,Dr. Wilson,1880,N
+NOTE-36999,ALPHA-00209,pre-op clearance,Surgical,2022/07/18,Dr. Thomas,1878,N
+NOTE-13725,BETA-00781,progress update day 3,Progress,07/28/2024,Dr. Martinez,649,Y
+NOTE-75453,BETA-00116,Post-operative note,Surgical,06-05-2022,Dr. Martinez,1088,Y
+NOTE-17801,ALPHA-00531,operative report,Surgical,2023/11/12,Dr. Lee,767,Y
+NOTE-98949,BETA-00117,surgical consent documentation,Surgical,"July 23, 2024",Dr. Wang,770,N
+NOTE-81801,BETA-00487,Admission note - new patient,Admission,03/12/2023,Dr. Kim,1761,Y
+NOTE-90135,BETA-00215,informed consent discussion,Surgical,12-02-2022,Dr. Hernandez,1023,N
+NOTE-52846,ALPHA-00617,Critical lab value follow-up,Lab Review,"June 28, 2023",Dr. Lopez,666,N
+NOTE-74951,ALPHA-00132,post-surgical follow-up,Surgical,10 Jan 2024,Dr. Davis,1722,Y
+NOTE-67395,BETA-00167,LAB INTERPRETATION NOTE,Lab Review,04/05/2022,Dr. King,967,N
+NOTE-17356,ALPHA-00344,post-surgical follow-up,Surgical,"January 05, 2024",Dr. Chen,767,N
+NOTE-54879,GAMMA-00589,shift handoff note,Progress,"October 20, 2022",Dr. Hernandez,417,Y
+NOTE-35090,GAMMA-00317,operative report,Surgical,2022-08-14,Dr. Johansson,1781,N
+NOTE-85746,ALPHA-00454,discharge instructions given,Discharge,02/25/2024,Dr. Perez,52,N
+NOTE-86529,BETA-00518,DAILY NOTE,Progress,2024-06-27,Dr. Chen,1548,N
+NOTE-21781,ALPHA-00504,Post-operative note,Surgical,06/28/2023,Dr. Clark,1085,N
+NOTE-77825,BETA-00773,psych consult requested,Consultation,07/08/2024,Dr. Kim,1508,N
+NOTE-84765,BETA-00343,ER to inpatient admission,Admission,2023-06-20,Dr. Gonzalez,1440,N
+NOTE-58245,BETA-00145,Critical lab value follow-up,Lab Review,2023-03-01,Dr. King,1966,Y
+NOTE-34707,GAMMA-00288,ENDOCRINE CONSULT,Consultation,03/26/2024,Dr. Gupta,814,N
+NOTE-40180,ALPHA-00029,Initial evaluation and workup,Admission,03/25/2023,Dr. Gonzalez,564,N
+NOTE-11380,ALPHA-00527,post-surgical follow-up,Surgical,05/08/2024,Dr. Brown,1377,N
+NOTE-23721,GAMMA-00496,Subspecialty evaluation,Consultation,2022-01-30,Dr. Singh,840,Y
+NOTE-18469,ALPHA-00503,CONSULTATION NOTE,Consultation,11/20/2022,Dr. Williams,1863,N
+NOTE-37136,ALPHA-00663,surgical consent documentation,Surgical,10/31/2023,Dr. Davis,148,N
+NOTE-20842,BETA-00199,New Admission Workup,Admission,2024-06-12,Dr. Lewis,746,Y
+NOTE-82212,BETA-00412,discharge med reconciliation,Discharge,2023-07-01T00:00:00,Dr. Mueller,106,N
+NOTE-31536,BETA-00781,interval progress note,Progress,07/23/2024,Dr. Sato,1418,Y
+NOTE-48379,GAMMA-00439,DISCHARGE MED RECONCILIATION,Discharge,2022-12-21,Dr. Singh,1286,N
+NOTE-89937,GAMMA-00542,admit note,Admission,09/02/2022,Dr. Sanchez,414,Y
+NOTE-89273,ALPHA-00605,ROUNDING NOTE,Progress,07/17/2024,Dr. Singh,1153,N
+NOTE-77204,GAMMA-00627,clinical update,Progress,2023/06/01,Dr. Harris,1833,N
+NOTE-75954,BETA-00781,Receiving unit documentation,Admission,06/30/2022,Dr. Johansson,97,N
+NOTE-56766,BETA-00064,Admission H&P,Admission,"August 30, 2022",Dr. Kumar,1714,N
+NOTE-49959,GAMMA-00659,Discharge planning documentation,Discharge,02-02-2024,Dr. Gonzalez,1325,Y
+NOTE-68569,GAMMA-00706,anesthesia pre-op eval,Surgical,"April 21, 2024",Dr. Thomas,502,Y
+NOTE-26796,ALPHA-00619,surgical consent documentation,Surgical,09/24/2024,Dr. Lewis,567,N
+NOTE-24931,BETA-00551,SURGERY NOTE,Surgical,2024-07-20,Dr. Thompson,1575,Y
+NOTE-51514,ALPHA-00293,OPERATIVE REPORT,Surgical,03/31/2024,Dr. Thomas,884,N
+NOTE-57358,GAMMA-00586,admission note - new patient,Admission,"January 14, 2024",Dr. Williams,543,N
+NOTE-58450,ALPHA-00627,PRE-OPERATIVE ASSESSMENT,Surgical,2024-12-28,Dr. Ramirez,64,N
+NOTE-13478,BETA-00146,discharge med reconciliation,Discharge,2023-09-26T00:00:00,Dr. Mueller,50,N
+NOTE-12576,GAMMA-00607,Specialist consultation request,Consultation,2022-10-07,Dr. Schmidt,1928,N
+NOTE-52659,GAMMA-00687,FINAL DISCHARGE ASSESSMENT,Discharge,2024-07-06T00:00:00,Dr. Singh,1673,N
+NOTE-95552,ALPHA-00484,pre-op clearance,Surgical,03/20/2024,Dr. Jones,1619,Y
+NOTE-69372,BETA-00137,Rounding note,Progress,10/21/2024,Dr. Gonzalez,181,N
+NOTE-20972,BETA-00072,Pre-operative assessment,Surgical,11/19/2022,Dr. Allen,1154,N
+NOTE-63151,ALPHA-00132,psych consult requested,Consultation,01/17/2024,Dr. Brown,489,N
+NOTE-43272,BETA-00706,ROUNDING NOTE,Progress,"April 21, 2024",Dr. Perez,1558,Y
+NOTE-24798,ALPHA-00303,id consultation,Consultation,11/07/2022,Dr. White,908,N
+NOTE-94794,GAMMA-00508,discharge note,Discharge,01/23/2022,Dr. Thomas,1827,N
+NOTE-68859,ALPHA-00159,Post-operative note,Surgical,2024-11-01,Dr. Shah,354,N
+NOTE-79863,GAMMA-00491,ADMIT NOTE,Admission,"December 19, 2023",Dr. Moore,940,Y
+NOTE-81872,ALPHA-00779,blood work assessment,Lab Review,01/05/2024,Dr. Lopez,1673,Y
+NOTE-41115,GAMMA-00716,lab panel discussion,Lab Review,04 Feb 2022,Dr. Shah,1535,N
+NOTE-89700,ALPHA-00735,anesthesia pre-op eval,Surgical,"September 14, 2023",Dr. Taylor,82,N
+NOTE-80048,BETA-00161,patient intake assessment,Admission,12-11-2023,Dr. Thomas,1783,N
+NOTE-49984,GAMMA-00270,Central line placement note,Surgical,2022-11-17,Dr. Perez,164,Y
+NOTE-93624,ALPHA-00199,PATHOLOGY RESULTS REVIEW,Lab Review,2024-06-07,Dr. Shah,1780,N
+NOTE-48456,ALPHA-00208,Lab results review,Lab Review,08 Jul 2024,Dr. Taylor,1111,N
+NOTE-33947,GAMMA-00475,operative report,Surgical,"December 25, 2024",Dr. Davis,303,N
+NOTE-83069,ALPHA-00019,final discharge assessment,Discharge,04/23/2024,Dr. Ramirez,948,N
+NOTE-43508,GAMMA-00472,ER to inpatient admission,Admission,2022-11-25T00:00:00,Dr. Martin,1922,N
+NOTE-91301,GAMMA-00019,Lab Interpretation Note,Lab Review,2024-04-12,Dr. Hernandez,1457,N
+NOTE-12846,GAMMA-00730,Nephrology consult note,Consultation,2022-09-11,Dr. Perez,1367,Y
+NOTE-69591,BETA-00652,Lab results review,Lab Review,2022/07/12,Dr. Martinez,1359,N
+NOTE-94116,ALPHA-00412,LAB REVIEW NOTE,Lab Review,2023/07/11,Dr. Williams,1909,N
+NOTE-94448,ALPHA-00245,discharge med reconciliation,Discharge,25 Aug 2022,Dr. White,1075,N
+NOTE-67316,BETA-00456,discharge med reconciliation,Discharge,18-09-2023,Dr. Wang,1504,N
+NOTE-58740,ALPHA-00175,lab panel discussion,Lab Review,2024-02-25T00:00:00,Dr. Walker,1450,N
+NOTE-29165,GAMMA-00068,patient status update,Progress,20 Oct 2023,Dr. Moore,144,N
+NOTE-80296,ALPHA-00010,ADMISSION EVALUATION,Admission,2022-11-27,Dr. Mueller,1788,Y
+NOTE-70041,ALPHA-00485,Admission Note - New Patient,Admission,2023/08/11,Dr. Sato,1355,N
+NOTE-71821,GAMMA-00026,Specialist consultation request,Consultation,2024/10/03,Dr. Anderson,295,Y
+NOTE-21616,BETA-00602,Admission note - new patient,Admission,2024-02-27,Dr. White,791,N
+NOTE-81372,ALPHA-00032,DISCHARGE NOTE,Discharge,2023-01-08,Dr. Garcia,1632,N
+NOTE-68558,GAMMA-00336,SURGERY NOTE,Surgical,05/02/2024,Dr. Young,513,N
+NOTE-22204,ALPHA-00049,CONSULTATION NOTE,Consultation,11-10-2023,Dr. Davis,1784,N
+NOTE-24471,GAMMA-00189,Admission note - new patient,Admission,20 Jan 2023,Dr. Sanchez,632,N
+NOTE-77881,BETA-00494,Panel results assessment,Lab Review,03/22/2023,Dr. Sharma,1290,N
+NOTE-48567,GAMMA-00157,Lab results review,Lab Review,04/05/2022,Dr. Schmidt,378,N
+NOTE-13548,ALPHA-00382,Urinalysis interpretation,Lab Review,03/23/2023,Dr. Johnson,555,N
+NOTE-54278,BETA-00317,id consultation,Consultation,08/10/2022,Dr. Martinez,758,N
+NOTE-23839,GAMMA-00156,Post-Operative Note,Surgical,2024-08-26,Dr. White,574,N
+NOTE-29851,ALPHA-00703,post-surgical follow-up,Surgical,2024-09-26T00:00:00,Dr. Kim,1787,Y
+NOTE-93565,ALPHA-00068,Progress note - awaiting surgical clearance,Progress,24 Oct 2023,Dr. Kim,405,N
+NOTE-96531,BETA-00438,LAB REVIEW NOTE,Lab Review,2023/10/27,Dr. Garcia,327,N
+NOTE-45386,ALPHA-00213,Post-discharge follow-up labs reviewed,Lab Review,2023-10-07T00:00:00,Dr. Shah,432,N
+NOTE-33431,ALPHA-00471,admit note,Admission,2024-04-02,Dr. Wilson,1653,N
+NOTE-66011,GAMMA-00038,Anesthesia Pre-Op Eval,Surgical,"May 12, 2024",Dr. Walker,914,N
+NOTE-65664,BETA-00021,patient intake assessment,Admission,09/07/2024,Dr. Gupta,1211,Y
+NOTE-18746,GAMMA-00529,CONSULTATION NOTE,Consultation,2022-03-31,Dr. Park,1041,N
+NOTE-48738,GAMMA-00589,lab panel discussion,Lab Review,22-10-2024,Dr. Clark,403,N
+NOTE-24563,BETA-00450,Daily Note,Progress,2023-07-26,Dr. Lewis,674,N
+NOTE-64207,GAMMA-00416,BLOOD WORK ASSESSMENT,Lab Review,04/05/2022,Dr. Clark,1969,N
+NOTE-86101,ALPHA-00098,Patient discharge note,Discharge,18-06-2022,Dr. Allen,67,Y
+NOTE-37241,ALPHA-00687,Post-operative note,Surgical,07/10/2024,Dr. Davis,1436,N
+NOTE-52452,ALPHA-00790,Post-operative note,Surgical,09/12/2024,Dr. Davis,1363,N
+NOTE-90904,BETA-00714,endocrine consult,Consultation,01-09-2024,Dr. Jackson,1308,N
+NOTE-75035,GAMMA-00135,lab panel discussion,Lab Review,2023-02-27,Dr. Walker,814,N
+NOTE-40403,BETA-00072,Post-operative note,Surgical,26-11-2022,Dr. Miller,1909,N
+NOTE-49589,ALPHA-00166,ANESTHESIA PRE-OP EVAL,Surgical,2024-10-03,Dr. Thomas,523,Y
+NOTE-78911,GAMMA-00196,Specialist consultation request,Consultation,2022-12-25,Dr. Lewis,1662,N
+NOTE-79495,GAMMA-00013,ID consultation,Consultation,12/14/2022,Dr. Park,1902,N
+NOTE-95800,BETA-00073,admission h&p,Admission,03/08/2024,Dr. King,793,N
+NOTE-70837,ALPHA-00258,operative report,Surgical,2022-08-13T00:00:00,Dr. Sato,1493,N
+NOTE-61165,BETA-00359,interval progress note,Progress,01/09/2024,Dr. Sanchez,1052,N
+NOTE-11734,ALPHA-00448,Nephrology consult note,Consultation,2022-10-15,Dr. Perez,1355,N
+NOTE-47001,ALPHA-00322,endocrine consult,Consultation,12/16/2023,Dr. Mueller,941,Y
+NOTE-68738,GAMMA-00055,Critical lab value follow-up,Lab Review,02/13/2022,Dr. Wilson,97,N
+NOTE-39125,GAMMA-00373,Follow-up progress assessment,Progress,2022-01-05,Dr. Gupta,1263,N
+NOTE-48360,GAMMA-00032,CONSULTATION NOTE,Consultation,2023-01-13T00:00:00,Dr. Sanchez,1349,N
+NOTE-98242,GAMMA-00156,Diagnostic findings review,Lab Review,08/30/2024,Dr. Robinson,1521,N
+NOTE-25150,BETA-00494,Nephrology consult note,Consultation,2022-09-15,Dr. Gupta,784,Y
+NOTE-14355,GAMMA-00649,debridement documentation,Surgical,2024/03/11,Dr. Wilson,1321,Y
+NOTE-70675,GAMMA-00022,Surgical procedure note,Surgical,03/23/2022,Dr. Johansson,990,Y
+NOTE-49467,GAMMA-00391,CONSULTATION NOTE,Consultation,12/15/2023,Dr. Lee,1194,Y
+NOTE-35978,BETA-00479,Critical lab value follow-up,Lab Review,12/27/2024,Dr. Harris,1078,Y
+NOTE-76981,ALPHA-00006,Surgical procedure note,Surgical,2023-11-03T00:00:00,Dr. Patel,1271,Y
+NOTE-63225,GAMMA-00015,Cardiology consultation,Consultation,05/01/2022,Dr. King,1189,N
+NOTE-31665,GAMMA-00731,discharge med reconciliation,Discharge,29-03-2023,Dr. White,755,N
+NOTE-79105,GAMMA-00524,pre-op clearance,Surgical,2022-12-23,Dr. Wang,344,Y
+NOTE-91660,BETA-00684,Cardiology consultation,Consultation,01/07/2025,Dr. Lopez,1951,N
+NOTE-82365,BETA-00417,patient intake assessment,Admission,2024-01-07,Dr. Gonzalez,612,N
+NOTE-45548,ALPHA-00262,blood work assessment,Lab Review,01/05/2024,Dr. Brown,1088,N
+NOTE-79008,GAMMA-00359,surgical consent documentation,Surgical,01/10/2024,Dr. Kumar,936,N
+NOTE-91330,ALPHA-00445,Cardiology consultation,Consultation,16-11-2023,Dr. Brown,1031,N
+NOTE-63760,BETA-00720,operative report,Surgical,30 May 2023,Dr. Thomas,1423,Y
+NOTE-50027,BETA-00718,Daily progress note,Progress,"February 20, 2023",Dr. Jones,1161,N
+NOTE-68490,BETA-00627,Continued care assessment,Progress,"August 23, 2024",Dr. Gonzalez,749,N
+NOTE-50304,GAMMA-00161,Follow-up arrangement documentation,Discharge,05/12/2024,Dr. Taylor,903,N
+NOTE-67265,ALPHA-00463,abnormal lab follow-up,Lab Review,2022-04-12,Dr. Schmidt,1038,N
+NOTE-40326,GAMMA-00237,Patient discharge note,Discharge,10/02/2024,Dr. Patel,1923,N
+NOTE-10218,GAMMA-00508,Post-operative note,Surgical,"January 25, 2022",Dr. Taylor,1641,Y
+NOTE-31798,GAMMA-00518,blood work assessment,Lab Review,2024-06-18,Dr. Miller,204,N
+NOTE-25062,BETA-00442,Daily progress note,Progress,2024-12-27T00:00:00,Dr. Allen,716,Y
+NOTE-44491,BETA-00013,patient status update,Progress,2022-12-19,Dr. Lee,333,N
+NOTE-74624,ALPHA-00293,DAILY NOTE,Progress,03/24/2024,Dr. Sato,1043,N
+NOTE-43811,BETA-00438,Patient Discharge Note,Discharge,11/01/2023,Dr. Thomas,1963,N
+NOTE-52977,GAMMA-00114,operative report,Surgical,2022-06-09,Dr. Shah,1971,N
+NOTE-15133,BETA-00043,discharge planning documentation,Discharge,"February 11, 2022",Dr. Martinez,771,N
+NOTE-63318,ALPHA-00217,interval progress note,Progress,01/09/2024,Dr. Perez,1417,N
+NOTE-14190,GAMMA-00630,ABNORMAL LAB FOLLOW-UP,Lab Review,2022-07-01,Dr. King,534,N
+NOTE-96773,ALPHA-00170,psych consult requested,Consultation,2023-10-30,Dr. Wilson,423,N
+NOTE-63545,ALPHA-00502,surgical consent documentation,Surgical,2022-11-16,Dr. Harris,1279,Y
+NOTE-84306,ALPHA-00441,Emergency department to floor transfer,Admission,06/23/2024,Dr. Tanaka,1010,N
+NOTE-96811,BETA-00494,d/c summary,Discharge,2022-09-27,Dr. Shah,1272,N
+NOTE-37982,GAMMA-00218,blood work assessment,Lab Review,2023-04-08,Dr. Gonzalez,561,Y
+NOTE-80040,GAMMA-00700,New encounter documentation,Admission,2022-08-01,Dr. Martinez,1940,N
+NOTE-27194,ALPHA-00374,operative report,Surgical,20 Jul 2022,Dr. Singh,565,N
+NOTE-70818,ALPHA-00228,discharge planning documentation,Discharge,"October 15, 2024",Dr. Anderson,1294,N
+NOTE-76792,BETA-00429,Critical lab value follow-up,Lab Review,28-07-2024,Dr. Garcia,1365,N
+NOTE-93539,BETA-00366,Nephrology consult note,Consultation,10/22/2022,Dr. Walker,1564,Y
+NOTE-20085,BETA-00720,Cardiology consultation,Consultation,2023-05-30,Dr. Lopez,155,Y
+NOTE-57370,GAMMA-00049,consult - pulmonology,Consultation,10 Oct 2023,Dr. Schmidt,1684,N
+NOTE-25613,ALPHA-00412,LAB INTERPRETATION NOTE,Lab Review,2023-07-11T00:00:00,Dr. Singh,1726,N
+NOTE-52507,BETA-00722,progress update day 3,Progress,02/02/2024,Dr. Ramirez,454,N
+NOTE-66617,BETA-00660,d/c summary,Discharge,2023-09-27,Dr. Hernandez,1633,N
+NOTE-19132,BETA-00720,Final care summary,Discharge,11/02/2023,Dr. Kim,1664,N
+NOTE-68066,BETA-00463,ID consultation,Consultation,2022-04-18,Dr. Park,1795,Y
+NOTE-10742,ALPHA-00679,ADMISSION EVALUATION,Admission,2024-08-14,Dr. Shah,321,N
+NOTE-30406,GAMMA-00405,discharge planning documentation,Discharge,2023-04-23T00:00:00,Dr. Shah,1136,N
+NOTE-53287,GAMMA-00544,psych consult requested,Consultation,12/29/2024,Dr. Williams,1012,N
+NOTE-93696,ALPHA-00684,ANESTHESIA PRE-OP EVAL,Surgical,01/01/2025,Dr. Tanaka,88,N
+NOTE-13763,BETA-00215,TREATMENT RESPONSE EVALUATION,Progress,17-02-2024,Dr. Thompson,1338,N
+NOTE-24840,GAMMA-00462,endocrine consult,Consultation,27-03-2023,Dr. White,806,N
+NOTE-60979,BETA-00370,surgical consent documentation,Surgical,"August 23, 2024",Dr. Kumar,366,N
+NOTE-34360,GAMMA-00619,final discharge assessment,Discharge,09/22/2024,Dr. Gonzalez,637,N
+NOTE-84399,ALPHA-00587,SURGICAL CONSENT DOCUMENTATION,Surgical,08/24/2022,Dr. Martin,1097,N
+NOTE-31025,BETA-00566,blood work assessment,Lab Review,2023-04-04,Dr. Lewis,438,N
+NOTE-64491,ALPHA-00544,PATHOLOGY RESULTS REVIEW,Lab Review,"December 29, 2024",Dr. Anderson,267,Y
+NOTE-48466,ALPHA-00341,abnormal lab follow-up,Lab Review,2024-07-02T00:00:00,Dr. Gonzalez,1971,Y
+NOTE-48293,ALPHA-00022,Departure assessment,Discharge,2023/05/18,Dr. Patel,1474,N
+NOTE-16616,BETA-00660,oncology referral note,Consultation,2023/09/30,Dr. Young,1019,N
+NOTE-72771,BETA-00097,Admission H&P,Admission,12-12-2024,Dr. Jones,146,N
+NOTE-88232,BETA-00466,Admit Note,Admission,2023-07-24,Dr. Shah,1179,N
+NOTE-65121,GAMMA-00207,pathology results review,Lab Review,07/09/2023,Dr. Davis,535,Y
+NOTE-87307,GAMMA-00529,PATIENT INTAKE ASSESSMENT,Admission,2022-04-09T00:00:00,Dr. Thompson,1592,N
+NOTE-61947,ALPHA-00032,ER to inpatient admission,Admission,2023-01-08,Dr. King,1470,N
+NOTE-91866,BETA-00433,NEW ADMISSION WORKUP,Admission,2022-06-18,Dr. Allen,737,N
+NOTE-22380,GAMMA-00156,patient intake assessment,Admission,2024/09/02,Dr. Gonzalez,489,Y
+NOTE-92050,GAMMA-00158,POST-SURGICAL FOLLOW-UP,Surgical,08/01/2023,Dr. Perez,573,N
+NOTE-83282,BETA-00225,LAB RESULTS REVIEW,Lab Review,09/11/2023,Dr. Garcia,1278,N
+NOTE-35085,GAMMA-00406,pre-op clearance,Surgical,19-08-2023,Dr. Sharma,1443,N
+NOTE-17846,GAMMA-00394,Admission H&P,Admission,"April 15, 2023",Dr. Taylor,1682,N
+NOTE-30035,BETA-00040,lab panel discussion,Lab Review,12-11-2024,Dr. Williams,413,Y
+NOTE-59457,ALPHA-00336,Microbiology results note,Lab Review,10/12/2024,Dr. King,1643,N
+NOTE-55986,GAMMA-00270,lab review note,Lab Review,2024-08-29,Dr. Walker,845,Y
+NOTE-44715,GAMMA-00450,Critical lab value follow-up,Lab Review,2023-07-21,Dr. Wilson,1811,N
+NOTE-87094,BETA-00679,surgical consent documentation,Surgical,10 Aug 2024,Dr. Moore,214,N
+NOTE-60629,ALPHA-00502,pre-op clearance,Surgical,2022-11-09,Dr. Brown,1652,N
+NOTE-94313,ALPHA-00243,FOLLOW-UP PROGRESS ASSESSMENT,Progress,2022-10-18,Dr. Thompson,892,N
+NOTE-34112,GAMMA-00199,Admission note - new patient,Admission,2024-06-07,Dr. Wang,260,N
+NOTE-65265,BETA-00258,New patient encounter,Admission,10-04-2022,Dr. Smith,1814,N
+NOTE-51540,BETA-00491,new admission workup,Admission,12/13/2023,Dr. Wilson,1949,N
+NOTE-20875,BETA-00764,pathology results review,Lab Review,09/24/2022,Dr. Tanaka,252,Y
+NOTE-78025,GAMMA-00363,lab interpretation note,Lab Review,10/05/2024,Dr. Mueller,1028,N
+NOTE-66759,ALPHA-00406,ID consultation,Consultation,11 Aug 2023,Dr. Smith,85,N
+NOTE-12384,BETA-00478,lab results review,Lab Review,03 Aug 2022,Dr. Garcia,779,N
+NOTE-65230,GAMMA-00064,post-surgical follow-up,Surgical,2022/09/02,Dr. King,1935,N
+NOTE-21258,BETA-00546,Discharge planning documentation,Discharge,05/12/2024,Dr. Gonzalez,805,N
+NOTE-46579,BETA-00691,pathology results review,Lab Review,"January 04, 2024",Dr. Williams,307,N
+NOTE-77420,ALPHA-00231,abnormal lab follow-up,Lab Review,23-12-2023,Dr. Perez,1110,N
+NOTE-92792,ALPHA-00485,DISCHARGE NOTE,Discharge,08/06/2023,Dr. Tanaka,1140,N
+NOTE-46697,BETA-00008,NEW ADMISSION WORKUP,Admission,2024/11/18,Dr. Park,1733,Y
+NOTE-17287,GAMMA-00515,discharge instructions given,Discharge,2022-01-19,Dr. Taylor,296,N
+NOTE-73699,BETA-00382,ENDOCRINE CONSULT,Consultation,07/09/2022,Dr. Singh,82,N
+NOTE-29084,BETA-00151,Admission H&P,Admission,"September 24, 2023",Dr. Sanchez,1500,Y
+NOTE-53135,ALPHA-00620,ER TO INPATIENT ADMISSION,Admission,07/24/2023,Dr. Davis,221,N
+NOTE-11643,ALPHA-00779,Overnight events summary,Progress,"June 28, 2023",Dr. King,1653,N
+NOTE-66571,ALPHA-00491,ADMISSION EVALUATION,Admission,"December 12, 2023",Dr. Gupta,518,N
+NOTE-77639,BETA-00125,Cross-service evaluation,Consultation,2023-12-22T00:00:00,Dr. Perez,1650,N
+NOTE-35760,BETA-00490,admit note,Admission,2022-11-11T00:00:00,Dr. Kumar,1961,Y
+NOTE-89204,GAMMA-00766,nursing progress documentation,Progress,03/22/2023,Dr. Jones,1429,N
+NOTE-80933,ALPHA-00619,patient admitted for evaluation,Admission,2024/09/30,Dr. Ramirez,381,N
+NOTE-70846,ALPHA-00375,d/c summary,Discharge,2022-01-15,Dr. Sanchez,847,Y
+NOTE-70473,ALPHA-00296,NURSING PROGRESS DOCUMENTATION,Progress,10/05/2022,Dr. Lewis,469,Y
+NOTE-91564,ALPHA-00627,admit note,Admission,2024-12-17,Dr. Harris,1397,N
+NOTE-67141,GAMMA-00504,Rounding note,Progress,08-07-2023,Dr. Williams,144,N
+NOTE-77997,GAMMA-00406,abnormal lab follow-up,Lab Review,18 Aug 2023,Dr. Johnson,151,N
+NOTE-79565,ALPHA-00438,pathology results review,Lab Review,2023-11-02,Dr. Patel,1544,N
+NOTE-21385,ALPHA-00001,admit note,Admission,"November 09, 2024",Dr. Johansson,847,N
+NOTE-32761,BETA-00258,Discharge planning documentation,Discharge,08/15/2022,Dr. Walker,1439,N
+NOTE-16694,ALPHA-00484,consult - pulmonology,Consultation,26 Mar 2024,Dr. Ramirez,1437,Y
+NOTE-73531,ALPHA-00703,routine progress check,Progress,09/18/2024,Dr. Wilson,637,N
+NOTE-10398,ALPHA-00191,routine progress check,Progress,2022/03/31,Dr. Robinson,283,N
+NOTE-74765,ALPHA-00750,aftercare planning note,Discharge,08/24/2024,Dr. Jackson,1216,N
+NOTE-91489,BETA-00116,consult - pulmonology,Consultation,"May 09, 2022",Dr. Schmidt,811,N
+NOTE-78880,ALPHA-00188,progress update day 3,Progress,2024-06-02,Dr. Davis,1288,N
+NOTE-12715,GAMMA-00706,final discharge assessment,Discharge,19-04-2024,Dr. Thomas,1395,N
+NOTE-76421,BETA-00166,Specialist consultation request,Consultation,2024-10-11,Dr. Jackson,864,N
+NOTE-74204,GAMMA-00592,Patient discharge note,Discharge,02/28/2023,Dr. Jackson,241,N
+NOTE-74960,GAMMA-00430,psych consult requested,Consultation,19 Mar 2023,Dr. Martinez,231,Y
+NOTE-51716,ALPHA-00375,Discharge summary,Discharge,2022-01-24,Dr. Gonzalez,238,N
+NOTE-98062,GAMMA-00068,Tissue biopsy documentation,Surgical,05/08/2024,Dr. Anderson,451,N
+NOTE-74236,ALPHA-00441,Interdepartmental request,Consultation,2022/07/01,Dr. Jones,147,Y
+NOTE-30251,ALPHA-00123,Discharge summary,Discharge,21-11-2023,Dr. Jackson,1344,N
+NOTE-20834,GAMMA-00237,Discharge Instructions Given,Discharge,26 Sep 2024,Dr. Johnson,522,N
+NOTE-27464,BETA-00105,consult - pulmonology,Consultation,03-01-2025,Dr. Allen,1937,N
+NOTE-87292,GAMMA-00597,SURGERY NOTE,Surgical,04/01/2022,Dr. Gonzalez,560,N
+NOTE-17303,BETA-00244,Lab results review,Lab Review,08/20/2023,Dr. Robinson,439,N
+NOTE-26112,GAMMA-00030,nursing progress documentation,Progress,28 Nov 2022,Dr. Young,1367,N
+NOTE-40789,BETA-00324,routine progress check,Progress,2022/09/26,Dr. Perez,447,N
+NOTE-83695,BETA-00739,Patient admitted for evaluation,Admission,14-08-2024,Dr. Brown,1689,Y
+NOTE-19019,GAMMA-00042,post-surgical follow-up,Surgical,03/06/2024,Dr. Anderson,718,N
+NOTE-24925,BETA-00782,consult - pulmonology,Consultation,2024/11/22,Dr. Perez,437,N
+NOTE-44801,BETA-00677,SURGERY NOTE,Surgical,01/19/2022,Dr. Sharma,611,Y
+NOTE-12658,ALPHA-00104,Surgical procedure note,Surgical,09 Jan 2023,Dr. Park,826,Y
+NOTE-27555,BETA-00789,nursing progress documentation,Progress,2022/06/23,Dr. Rodriguez,1241,N
+NOTE-91397,ALPHA-00579,patient status update,Progress,04/20/2024,Dr. Singh,786,N
+NOTE-40553,ALPHA-00290,endocrine consult,Consultation,03/19/2024,Dr. Taylor,1192,N
+NOTE-29508,GAMMA-00739,LAB REVIEW NOTE,Lab Review,26-08-2024,Dr. Moore,635,N
+NOTE-40236,GAMMA-00700,final discharge assessment,Discharge,05-02-2023,Dr. Martin,1270,Y
+NOTE-51012,GAMMA-00614,pathology results review,Lab Review,2023-11-19,Dr. Allen,720,N
+NOTE-29434,GAMMA-00133,SURGICAL PROCEDURE NOTE,Surgical,"June 11, 2023",Dr. Wilson,1737,N
+NOTE-50623,GAMMA-00219,oncology referral note,Consultation,2023-09-10T00:00:00,Dr. Taylor,860,Y
+NOTE-12947,ALPHA-00687,Discharge summary,Discharge,2024/07/06,Dr. King,923,Y
+NOTE-94597,GAMMA-00592,operative report,Surgical,02/24/2023,Dr. Davis,1340,Y
+NOTE-57164,GAMMA-00158,Leaving AMA documentation,Discharge,2022/10/16,Dr. Thompson,998,N

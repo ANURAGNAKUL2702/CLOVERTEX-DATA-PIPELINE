@@ -1,0 +1,5892 @@
+[
+  {
+    "patientID": "BETA-00724",
+    "name": {
+      "given": "Betty",
+      "family": "Sanchez"
+    },
+    "birthDate": "2002-06-02",
+    "gender": "female",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "29-05-2023",
+      "dischargeDate": "2023-06-03",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-534-786-8606",
+      "email": "betty.sanchez63@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00429",
+    "name": {
+      "given": "Arjun",
+      "family": "Shah"
+    },
+    "birthDate": "1973-12-12",
+    "gender": "male",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "2024-07-15",
+      "dischargeDate": "28-07-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-200-843-1567",
+      "email": "arjun.shah37@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00785",
+    "name": {
+      "given": "Svetlana",
+      "family": "Miller"
+    },
+    "birthDate": "1938-12-27",
+    "gender": "female",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "01-08-2023",
+      "dischargeDate": "21-08-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-301-149-3797",
+      "email": "svetlana.miller41@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00791",
+    "name": {
+      "given": "Matthew",
+      "family": "Schmidt"
+    },
+    "birthDate": "2005-11-01",
+    "gender": "male",
+    "bloodType": "AB-",
+    "encounter": {
+      "admissionDate": "2024-12-30",
+      "dischargeDate": "2025-01-07",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-956-777-9652",
+      "email": "matthew.schmidt88@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00094",
+    "name": {
+      "given": "Thomas",
+      "family": "Kumar"
+    },
+    "birthDate": "1980-05-08",
+    "gender": "male",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "01-03-2023",
+      "dischargeDate": "2023-03-09",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-536-892-3417",
+      "email": "thomas.kumar77@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00086",
+    "name": {
+      "given": "Vikram",
+      "family": "Mueller"
+    },
+    "birthDate": "1990-04-25",
+    "gender": "f",
+    "bloodType": "AB-",
+    "encounter": {
+      "admissionDate": "2023-08-28",
+      "dischargeDate": "11-09-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-379-305-3165",
+      "email": "vikram.mueller70@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00657",
+    "name": {
+      "given": "Barbara",
+      "family": "White"
+    },
+    "birthDate": "1938-11-29",
+    "gender": "female",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "2024-11-28",
+      "dischargeDate": "2024-12-07",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-798-610-7937",
+      "email": "barbara.white57@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00347",
+    "name": {
+      "given": "Aisha",
+      "family": "Davis"
+    },
+    "birthDate": "1957-02-07",
+    "gender": "female",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "03-08-2023",
+      "dischargeDate": "2023-08-20",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-988-483-9426",
+      "email": "aisha.davis66@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00772",
+    "name": {
+      "given": "Mohammed",
+      "family": "Thomas"
+    },
+    "birthDate": "08-04-2002",
+    "gender": "male",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "09-05-2023",
+      "dischargeDate": "25-05-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-509-804-3826",
+      "email": "mohammed.thomas84@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00386",
+    "name": {
+      "given": "Arjun",
+      "family": "Chen"
+    },
+    "birthDate": "1977-07-02",
+    "gender": "male",
+    "bloodType": "AB-",
+    "encounter": {
+      "admissionDate": "2023-04-16",
+      "dischargeDate": "2023-04-30",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-561-628-9776",
+      "email": "arjun.chen2@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00363",
+    "name": {
+      "given": "Wei",
+      "family": "Thompson"
+    },
+    "birthDate": "2001-02-15",
+    "gender": "male",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "2024-09-25",
+      "dischargeDate": "2024-09-28",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-470-478-4834",
+      "email": "wei.thompson6@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00016",
+    "name": {
+      "given": "Svetlana",
+      "family": "Wilson"
+    },
+    "birthDate": "1937-04-17",
+    "gender": "female",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "26-08-2024",
+      "dischargeDate": "2024-09-11",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-616-294-2545",
+      "email": "svetlana.wilson13@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00337",
+    "name": {
+      "given": "Sunita",
+      "family": "Park"
+    },
+    "birthDate": "1989-06-12",
+    "gender": "female",
+    "bloodType": "AB-",
+    "encounter": {
+      "admissionDate": "31-12-2022",
+      "dischargeDate": "04-01-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-979-460-8870",
+      "email": "sunita.park75@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00263",
+    "name": {
+      "given": "Jennifer",
+      "family": "Wilson"
+    },
+    "birthDate": "1965-04-02",
+    "gender": "female",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "2022-07-06",
+      "dischargeDate": "2022-07-18",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-605-625-1802",
+      "email": "jennifer.wilson87@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00251",
+    "name": {
+      "given": "Lisa",
+      "family": "White"
+    },
+    "birthDate": "1990-01-24",
+    "gender": "female",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "30-08-2022",
+      "dischargeDate": "10-09-2022",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-639-378-9582",
+      "email": "lisa.white9@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00607",
+    "name": {
+      "given": "Ali",
+      "family": "Lee"
+    },
+    "birthDate": "1948-10-19",
+    "gender": "male",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "2022-10-01",
+      "dischargeDate": "2022-10-07",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-903-707-6367",
+      "email": "ali.lee37@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00042",
+    "name": {
+      "given": "Elizabeth",
+      "family": "Rodriguez"
+    },
+    "birthDate": "1987-02-13",
+    "gender": "female",
+    "bloodType": "B+",
+    "encounter": {
+      "admissionDate": "24-02-2024",
+      "dischargeDate": "2024-03-02",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-265-524-7678",
+      "email": "elizabeth.rodriguez43@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00509",
+    "name": {
+      "given": "Sandra",
+      "family": "Mueller"
+    },
+    "birthDate": "07-02-1970",
+    "gender": "female",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "2023-01-31",
+      "dischargeDate": "01-02-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-834-194-1931",
+      "email": "sandra.mueller77@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00733",
+    "name": {
+      "given": "Amit",
+      "family": "Lopez"
+    },
+    "birthDate": "10-07-1965",
+    "gender": "male",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "14-09-2024",
+      "dischargeDate": "2024-09-25",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-218-723-8354",
+      "email": "amit.lopez49@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00503",
+    "name": {
+      "given": "Amit",
+      "family": "Garcia"
+    },
+    "birthDate": "11-08-1987",
+    "gender": "male",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "2022-11-12",
+      "dischargeDate": "2022-11-26",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-988-492-4898",
+      "email": "amit.garcia85@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00046",
+    "name": {
+      "given": "Aisha",
+      "family": "Lee"
+    },
+    "birthDate": "24-10-1978",
+    "gender": "female",
+    "bloodType": "AB-",
+    "encounter": {
+      "admissionDate": "2023-11-01",
+      "dischargeDate": "2023-11-14",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-484-870-7906",
+      "email": "aisha.lee33@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00728",
+    "name": {
+      "given": "Arjun",
+      "family": "Gonzalez"
+    },
+    "birthDate": "05-12-1974",
+    "gender": "male",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "2023-05-04",
+      "dischargeDate": "2023-05-07",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-216-531-1457",
+      "email": "arjun.gonzalez2@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00692",
+    "name": {
+      "given": "Michael",
+      "family": "Rodriguez"
+    },
+    "birthDate": "1966-08-21",
+    "gender": "male",
+    "bloodType": "AB-",
+    "encounter": {
+      "admissionDate": "2024-06-11",
+      "dischargeDate": "2024-06-21",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-797-654-3385",
+      "email": "michael.rodriguez19@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00641",
+    "name": {
+      "given": "Svetlana",
+      "family": "Martin"
+    },
+    "birthDate": "1976-02-27",
+    "gender": "female",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "2022-04-07",
+      "dischargeDate": "19-04-2022",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-467-465-3598",
+      "email": "svetlana.martin23@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00166",
+    "name": {
+      "given": "Emily",
+      "family": "Sato"
+    },
+    "birthDate": "1979-06-25",
+    "gender": "female",
+    "bloodType": "AB-",
+    "encounter": {
+      "admissionDate": "2024-09-28",
+      "dischargeDate": "2024-10-14",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-557-673-5480",
+      "email": "emily.sato37@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00763",
+    "name": {
+      "given": "Joseph",
+      "family": "Kumar"
+    },
+    "birthDate": "1959-04-14",
+    "gender": "male",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "2023-10-04",
+      "dischargeDate": "2023-10-23",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-954-101-6092",
+      "email": "joseph.kumar8@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00159",
+    "name": {
+      "given": "Karen",
+      "family": "Gonzalez"
+    },
+    "birthDate": "29-11-1940",
+    "gender": "female",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "2024-10-21",
+      "dischargeDate": "23-10-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-239-240-6456",
+      "email": "karen.gonzalez61@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00047",
+    "name": {
+      "given": "Patricia",
+      "family": "Schmidt"
+    },
+    "birthDate": "1937-05-28",
+    "gender": "female",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "18-12-2023",
+      "dischargeDate": "08-01-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-270-899-1659",
+      "email": "patricia.schmidt97@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00795",
+    "name": {
+      "given": "James",
+      "family": "Thompson"
+    },
+    "birthDate": "1982-11-19",
+    "gender": "male",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "2023-12-28",
+      "dischargeDate": "01-01-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-641-603-4236",
+      "email": "james.thompson11@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00423",
+    "name": {
+      "given": "Richard",
+      "family": "Williams"
+    },
+    "birthDate": "1932-07-31",
+    "gender": "male",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "2024-03-06",
+      "dischargeDate": "2024-03-23",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-838-818-5193",
+      "email": "richard.williams7@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00672",
+    "name": {
+      "given": "Steven",
+      "family": "Johansson"
+    },
+    "birthDate": "1934-07-26",
+    "gender": "male",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "2022-09-15",
+      "dischargeDate": "2022-10-04",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-616-556-2374",
+      "email": "steven.johansson82@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00173",
+    "name": {
+      "given": "Lisa",
+      "family": "Mueller"
+    },
+    "birthDate": "25-07-1947",
+    "gender": "female",
+    "bloodType": "B+",
+    "encounter": {
+      "admissionDate": "11-06-2023",
+      "dischargeDate": "2023-06-12",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-954-445-5833",
+      "email": "lisa.mueller73@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00330",
+    "name": {
+      "given": "Anita",
+      "family": "White"
+    },
+    "birthDate": "2000-02-14",
+    "gender": "female",
+    "bloodType": "AB-",
+    "encounter": {
+      "admissionDate": "2024-07-19",
+      "dischargeDate": "2024-08-06",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-985-734-8751",
+      "email": "anita.white92@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00467",
+    "name": {
+      "given": "Richard",
+      "family": "Kumar"
+    },
+    "birthDate": "1939-05-10",
+    "gender": "male",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "2024-09-17",
+      "dischargeDate": "2024-10-01",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-823-968-6185",
+      "email": "richard.kumar34@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00746",
+    "name": {
+      "given": "Arjun",
+      "family": "Ramirez"
+    },
+    "birthDate": "1975-02-10",
+    "gender": "male",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "2024-09-05",
+      "dischargeDate": "2024-09-17",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-846-823-1462",
+      "email": "arjun.ramirez90@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00405",
+    "name": {
+      "given": "Donna",
+      "family": "Thompson"
+    },
+    "birthDate": "1944-09-18",
+    "gender": "female",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "2023-04-11",
+      "dischargeDate": "26-04-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-515-474-7753",
+      "email": "donna.thompson34@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00793",
+    "name": {
+      "given": "Lisa",
+      "family": "White"
+    },
+    "birthDate": "1991-12-19",
+    "gender": "female",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "27-05-2023",
+      "dischargeDate": "2023-06-06",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-506-594-5809",
+      "email": "lisa.white34@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00774",
+    "name": {
+      "given": "Rob\u00e9rt",
+      "family": "Si\u00f1gh"
+    },
+    "birthDate": "1932-09-04",
+    "gender": "male",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "2024-09-09",
+      "dischargeDate": "2024-09-13",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-807-285-7290",
+      "email": "robert.singh62@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00757",
+    "name": {
+      "given": "James",
+      "family": "Chen"
+    },
+    "birthDate": "08-06-1965",
+    "gender": "male",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "08-01-2024",
+      "dischargeDate": "2024-01-19",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-894-554-4826",
+      "email": "james.chen78@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00384",
+    "name": {
+      "given": "Paul",
+      "family": "Lopez"
+    },
+    "birthDate": "1953-10-03",
+    "gender": "male",
+    "bloodType": null,
+    "encounter": {
+      "admissionDate": "2022-08-07",
+      "dischargeDate": "2022-08-24",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-501-448-2917",
+      "email": "paul.lopez66@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00450",
+    "name": {
+      "given": "Ana",
+      "family": "Clark"
+    },
+    "birthDate": "02-11-1967",
+    "gender": "female",
+    "bloodType": "B+",
+    "encounter": {
+      "admissionDate": "2023-07-15",
+      "dischargeDate": "22-07-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-309-234-4026",
+      "email": "ana.clark4@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00167",
+    "name": {
+      "given": "Maria",
+      "family": "Thompson"
+    },
+    "birthDate": "14-01-1988",
+    "gender": "female",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "2022-03-28",
+      "dischargeDate": "31-03-2022",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-554-552-5201",
+      "email": "maria.thompson96@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00328",
+    "name": {
+      "given": "Luis",
+      "family": "Lewis"
+    },
+    "birthDate": "1932-11-07",
+    "gender": "male",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "30-06-2022",
+      "dischargeDate": "2022-07-15",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-523-221-9148",
+      "email": "luis.lewis96@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00067",
+    "name": {
+      "given": "Jennifer",
+      "family": "Johansson"
+    },
+    "birthDate": "15-10-1983",
+    "gender": "female",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "2024-11-28",
+      "dischargeDate": "07-12-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-385-699-8141",
+      "email": "jennifer.johansson82@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00322",
+    "name": {
+      "given": "Kimberly",
+      "family": "Mueller"
+    },
+    "birthDate": "01-12-1994",
+    "gender": "female",
+    "bloodType": "B+",
+    "encounter": {
+      "admissionDate": "2023-12-03",
+      "dischargeDate": "2023-12-07",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-610-509-8479",
+      "email": "kimberly.mueller35@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00531",
+    "name": {
+      "given": "Priya",
+      "family": "Clark"
+    },
+    "birthDate": "01-07-1980",
+    "gender": "female",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "2023-10-30",
+      "dischargeDate": "2023-11-03",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-533-333-2606",
+      "email": "priya.clark31@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00214",
+    "name": {
+      "given": "Aisha",
+      "family": "Moore"
+    },
+    "birthDate": "1955-12-15",
+    "gender": "female",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "2022-08-22",
+      "dischargeDate": "10-09-2022",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-758-284-1440",
+      "email": "aisha.moore94@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00009",
+    "name": {
+      "given": "Barbara",
+      "family": "Harris"
+    },
+    "birthDate": "17-08-1957",
+    "gender": "female",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "16-08-2024",
+      "dischargeDate": "2024-09-03",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-211-796-2876",
+      "email": "barbara.harris88@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00064",
+    "name": {
+      "given": "Mark",
+      "family": "Taylor"
+    },
+    "birthDate": "1980-11-07",
+    "gender": "male",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "2022-08-24",
+      "dischargeDate": "2022-09-14",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-352-372-3330",
+      "email": "mark.taylor10@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00277",
+    "name": {
+      "given": "Jennifer",
+      "family": "Lopez"
+    },
+    "birthDate": "07-08-1965",
+    "gender": "female",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "2023-03-29",
+      "dischargeDate": "2023-04-14",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-344-439-2274",
+      "email": "jennifer.lopez31@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00437",
+    "name": {
+      "given": "Ingrid",
+      "family": "Ramirez"
+    },
+    "birthDate": "1990-04-02",
+    "gender": "female",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "2024-09-11",
+      "dischargeDate": "27-09-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-604-767-4212",
+      "email": "ingrid.ramirez72@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00412",
+    "name": {
+      "given": "Amit",
+      "family": "Garcia"
+    },
+    "birthDate": "13-05-1988",
+    "gender": "male",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "2023-06-30",
+      "dischargeDate": "03-07-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-756-581-3975",
+      "email": "amit.garcia25@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00525",
+    "name": {
+      "given": "Arjun",
+      "family": "Hernandez"
+    },
+    "birthDate": "2003-10-01",
+    "gender": "male",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "2022-06-15",
+      "dischargeDate": "16-06-2022",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": null,
+      "email": "arjun.hernandez54@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00204",
+    "name": {
+      "given": "Barbara",
+      "family": "Martin"
+    },
+    "birthDate": "1985-08-27",
+    "gender": "female",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "2023-05-08",
+      "dischargeDate": "2023-05-26",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-539-493-3292",
+      "email": "barbara.martin89@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00449",
+    "name": {
+      "given": "Charles",
+      "family": "Lee"
+    },
+    "birthDate": "1997-08-27",
+    "gender": "male",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "2024-12-27",
+      "dischargeDate": "2025-01-02",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-525-959-3384",
+      "email": "charles.lee94@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00368",
+    "name": {
+      "given": "Margaret",
+      "family": "Singh"
+    },
+    "birthDate": "1985-07-15",
+    "gender": "female",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "21-04-2024",
+      "dischargeDate": "29-04-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": null,
+      "email": "margaret.singh18@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00161",
+    "name": {
+      "given": "Donna",
+      "family": "Walker"
+    },
+    "birthDate": "01-12-2003",
+    "gender": "female",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "2023-11-10",
+      "dischargeDate": "24-11-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-797-415-1436",
+      "email": "donna.walker77@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00155",
+    "name": {
+      "given": "Ingrid",
+      "family": "Robinson"
+    },
+    "birthDate": "1943-01-16",
+    "gender": "female",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "2024-10-15",
+      "dischargeDate": "2024-10-18",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-602-617-8491",
+      "email": "ingrid.robinson31@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00178",
+    "name": {
+      "given": "Ana",
+      "family": "Tanaka"
+    },
+    "birthDate": "26-10-1935",
+    "gender": "female",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "2023-03-24",
+      "dischargeDate": "2023-04-13",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-283-638-8319",
+      "email": "ana.tanaka68@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00566",
+    "name": {
+      "given": "Richard",
+      "family": "Wilson"
+    },
+    "birthDate": "1986-09-27",
+    "gender": "male",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "2023-03-29",
+      "dischargeDate": "2023-04-16",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": null,
+      "email": "richard.wilson69@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00475",
+    "name": {
+      "given": "Vikram",
+      "family": "Lewis"
+    },
+    "birthDate": "1968-02-26",
+    "gender": "male",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "2024-12-11",
+      "dischargeDate": "17-12-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-314-483-1612",
+      "email": "vikram.lewis26@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00500",
+    "name": {
+      "given": "Emily",
+      "family": "Hernandez"
+    },
+    "birthDate": "2001-06-17",
+    "gender": "female",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "2023-09-15",
+      "dischargeDate": "17-09-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-844-584-3770",
+      "email": "emily.hernandez74@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00423",
+    "name": {
+      "given": "Richard",
+      "family": "Williams"
+    },
+    "birthDate": "1932-07-31",
+    "gender": "male",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "2024-03-06",
+      "dischargeDate": "2024-03-23",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": null,
+      "email": "richard.williams7@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00729",
+    "name": {
+      "given": "David",
+      "family": "Anderson"
+    },
+    "birthDate": "1993-07-04",
+    "gender": "male",
+    "bloodType": "B+",
+    "encounter": {
+      "admissionDate": "2022-12-10",
+      "dischargeDate": "12-12-2022",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-625-624-2764",
+      "email": "david.anderson42@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00022",
+    "name": {
+      "given": "Mohammed",
+      "family": "Davis"
+    },
+    "birthDate": "18-02-1934",
+    "gender": "male",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "2022-03-23",
+      "dischargeDate": "2022-04-06",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-873-697-9565",
+      "email": "mohammed.davis41@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00369",
+    "name": {
+      "given": "Christopher",
+      "family": "Brown"
+    },
+    "birthDate": "1985-01-30",
+    "gender": "male",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "2023-01-04",
+      "dischargeDate": "2023-01-24",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-777-752-1305",
+      "email": "christopher.brown93@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00447",
+    "name": {
+      "given": "Sarah",
+      "family": "Garcia"
+    },
+    "birthDate": "25-09-1957",
+    "gender": "female",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "2023-04-11",
+      "dischargeDate": "2023-04-19",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-786-256-7987",
+      "email": "sarah.garcia40@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00713",
+    "name": {
+      "given": "Priya",
+      "family": "Singh"
+    },
+    "birthDate": "21-08-2003",
+    "gender": "female",
+    "bloodType": "B+",
+    "encounter": {
+      "admissionDate": "2022-03-07",
+      "dischargeDate": "2022-03-12",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-538-681-7404",
+      "email": "priya.singh49@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00577",
+    "name": {
+      "given": "Susan",
+      "family": "Sanchez"
+    },
+    "birthDate": "1949-09-26",
+    "gender": "female",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "24-06-2022",
+      "dischargeDate": "2022-06-29",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-604-510-2666",
+      "email": "susan.sanchez95@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00442",
+    "name": {
+      "given": "Karen",
+      "family": "Tanaka"
+    },
+    "birthDate": "2003-11-27",
+    "gender": "female",
+    "bloodType": null,
+    "encounter": {
+      "admissionDate": "2024-12-14",
+      "dischargeDate": "2024-12-23",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-374-161-5653",
+      "email": "karen.tanaka26@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00765",
+    "name": {
+      "given": "Sandra",
+      "family": "Young"
+    },
+    "birthDate": "06-04-1948",
+    "gender": "female",
+    "bloodType": "B+",
+    "encounter": {
+      "admissionDate": "2023-08-04",
+      "dischargeDate": "2023-08-06",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-813-427-6060",
+      "email": "sandra.young65@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00797",
+    "name": {
+      "given": "Andrew",
+      "family": "Miller"
+    },
+    "birthDate": "1949-07-19",
+    "gender": "male",
+    "bloodType": "B+",
+    "encounter": {
+      "admissionDate": "2024-06-18",
+      "dischargeDate": "2024-06-23",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-562-865-8110",
+      "email": "andrew.miller1@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00578",
+    "name": {
+      "given": "David",
+      "family": "White"
+    },
+    "birthDate": "1980-12-21",
+    "gender": "male",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "2023-02-15",
+      "dischargeDate": "2023-02-19",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-438-958-7958",
+      "email": "david.white93@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00151",
+    "name": {
+      "given": "Patricia",
+      "family": "Young"
+    },
+    "birthDate": "1937-01-26",
+    "gender": "female",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "2023-09-11",
+      "dischargeDate": "2023-09-19",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-901-515-5873",
+      "email": "patricia.young59@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00411",
+    "name": {
+      "given": "Mark",
+      "family": "Garcia"
+    },
+    "birthDate": "1987-06-04",
+    "gender": "male",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "07-10-2024",
+      "dischargeDate": "18-10-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-630-419-9165",
+      "email": "mark.garcia48@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00015",
+    "name": {
+      "given": "Mark",
+      "family": "Smith"
+    },
+    "birthDate": "1996-06-11",
+    "gender": "male",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "01-05-2022",
+      "dischargeDate": "04-05-2022",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-232-980-6413",
+      "email": "mark.smith10@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00456",
+    "name": {
+      "given": "Matthew",
+      "family": "Jackson"
+    },
+    "birthDate": "1949-11-29",
+    "gender": "male",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "16-09-2023",
+      "dischargeDate": "2023-10-01",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-370-532-5823",
+      "email": "matthew.jackson79@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00122",
+    "name": {
+      "given": "Donna",
+      "family": "Lopez"
+    },
+    "birthDate": "21-12-1978",
+    "gender": "female",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "2024-09-22",
+      "dischargeDate": "2024-09-30",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-340-258-2264",
+      "email": "donna.lopez38@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00027",
+    "name": {
+      "given": "Sarah",
+      "family": "Chen"
+    },
+    "birthDate": "1973-03-24",
+    "gender": "female",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "2024-06-23",
+      "dischargeDate": "11-07-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-209-214-2232",
+      "email": "sarah.chen89@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00663",
+    "name": {
+      "given": "Mei",
+      "family": "Kim"
+    },
+    "birthDate": "1949-04-05",
+    "gender": "female",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "29-10-2023",
+      "dischargeDate": "2023-11-18",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-880-738-7711",
+      "email": "mei.kim50@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00235",
+    "name": {
+      "given": "Barbara",
+      "family": "Chen"
+    },
+    "birthDate": "15-11-1994",
+    "gender": "female",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "21-11-2024",
+      "dischargeDate": "2024-12-03",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-665-599-6362",
+      "email": "barbara.chen75@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00644",
+    "name": {
+      "given": "John",
+      "family": "Allen"
+    },
+    "birthDate": "16-03-1993",
+    "gender": "male",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "30-08-2022",
+      "dischargeDate": "2022-09-11",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-360-845-5786",
+      "email": "john.allen91@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00307",
+    "name": {
+      "given": "Fatima",
+      "family": "Taylor"
+    },
+    "birthDate": "1932-01-26",
+    "gender": "female",
+    "bloodType": null,
+    "encounter": {
+      "admissionDate": "07-08-2024",
+      "dischargeDate": "23-08-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-254-987-2166",
+      "email": null
+    }
+  },
+  {
+    "patientID": "BETA-00559",
+    "name": {
+      "given": "Matthew",
+      "family": "Lopez"
+    },
+    "birthDate": "1958-01-21",
+    "gender": "male",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "2024-10-01",
+      "dischargeDate": "2024-10-11",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-799-411-9095",
+      "email": "matthew.lopez72@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00739",
+    "name": {
+      "given": "Steven",
+      "family": "Allen"
+    },
+    "birthDate": "03-11-1995",
+    "gender": "male",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "2024-08-14",
+      "dischargeDate": "20-08-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-938-302-5012",
+      "email": "steven.allen55@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00551",
+    "name": {
+      "given": "Raj",
+      "family": "Thompson"
+    },
+    "birthDate": "1987-12-03",
+    "gender": "male",
+    "bloodType": "B+",
+    "encounter": {
+      "admissionDate": "2024-07-07",
+      "dischargeDate": "2024-07-25",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-508-224-1408",
+      "email": "raj.thompson52@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00525",
+    "name": {
+      "given": "Arjun",
+      "family": "Hernandez"
+    },
+    "birthDate": "2003-10-01",
+    "gender": "male",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "2022-06-15",
+      "dischargeDate": "16-06-2022",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-383-191-5648",
+      "email": "arjun.hernandez54@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00179",
+    "name": {
+      "given": "Joseph",
+      "family": "Brown"
+    },
+    "birthDate": "1935-10-09",
+    "gender": "male",
+    "bloodType": "B+",
+    "encounter": {
+      "admissionDate": "2023-02-19",
+      "dischargeDate": "2023-02-25",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-535-974-9525",
+      "email": "joseph.brown57@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00066",
+    "name": {
+      "given": "Carlos",
+      "family": "Schmidt"
+    },
+    "birthDate": "1964-08-11",
+    "gender": "male",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "28-05-2023",
+      "dischargeDate": "31-05-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-434-790-1339",
+      "email": "carlos.schmidt98@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00112",
+    "name": {
+      "given": "Steven",
+      "family": "Ramirez"
+    },
+    "birthDate": "1954-09-24",
+    "gender": "male",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "2022-06-11",
+      "dischargeDate": "2022-06-21",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-963-447-4630",
+      "email": "steven.ramirez43@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00544",
+    "name": {
+      "given": "Wei",
+      "family": "Sato"
+    },
+    "birthDate": "11-07-1937",
+    "gender": "male",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "27-12-2024",
+      "dischargeDate": "2025-01-11",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-835-476-2075",
+      "email": "wei.sato25@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00061",
+    "name": {
+      "given": "Elizabeth",
+      "family": "Thomas"
+    },
+    "birthDate": "1990-08-29",
+    "gender": "female",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "02-05-2024",
+      "dischargeDate": "2024-05-19",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-589-561-8253",
+      "email": "elizabeth.thomas39@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00758",
+    "name": {
+      "given": "Sanjay",
+      "family": "Ramirez"
+    },
+    "birthDate": "19-07-1945",
+    "gender": "male",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "2022-07-25",
+      "dischargeDate": "2022-08-04",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-821-299-3345",
+      "email": "sanjay.ramirez67@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00238",
+    "name": {
+      "given": "Miguel",
+      "family": "Robinson"
+    },
+    "birthDate": "30-10-2005",
+    "gender": "male",
+    "bloodType": "B+",
+    "encounter": {
+      "admissionDate": "19-02-2023",
+      "dischargeDate": "12-03-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": null,
+      "email": "miguel.robinson12@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00571",
+    "name": {
+      "given": "Daniel",
+      "family": "Kim"
+    },
+    "birthDate": "1962-06-03",
+    "gender": "male",
+    "bloodType": "B+",
+    "encounter": {
+      "admissionDate": "2022-07-05",
+      "dischargeDate": "2022-07-14",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-793-456-6770",
+      "email": "daniel.kim21@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00186",
+    "name": {
+      "given": "Steven",
+      "family": "Schmidt"
+    },
+    "birthDate": "2000-11-14",
+    "gender": "male",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "2024-06-17",
+      "dischargeDate": "05-07-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-422-872-1924",
+      "email": "steven.schmidt18@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00669",
+    "name": {
+      "given": "Nancy",
+      "family": "Johnson"
+    },
+    "birthDate": "1999-01-07",
+    "gender": "female",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "2024-03-09",
+      "dischargeDate": "2024-03-20",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-345-522-6311",
+      "email": "nancy.johnson34@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00069",
+    "name": {
+      "given": "Jennifer",
+      "family": "Robinson"
+    },
+    "birthDate": "1994-12-30",
+    "gender": "female",
+    "bloodType": "AB-",
+    "encounter": {
+      "admissionDate": "2023-06-01",
+      "dischargeDate": "05-06-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-991-513-9431",
+      "email": "jennifer.robinson1@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00425",
+    "name": {
+      "given": "Andrew",
+      "family": "King"
+    },
+    "birthDate": "2001-05-02",
+    "gender": "male",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "2023-09-15",
+      "dischargeDate": "22-09-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-731-199-2658",
+      "email": "andrew.king93@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00230",
+    "name": {
+      "given": "Andrew",
+      "family": "Patel"
+    },
+    "birthDate": "1959-09-14",
+    "gender": "male",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "27-03-2022",
+      "dischargeDate": "2022-04-14",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-423-535-2677",
+      "email": "andrew.patel95@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00382",
+    "name": {
+      "given": "Vikram",
+      "family": "Thomas"
+    },
+    "birthDate": "2006-03-18",
+    "gender": "male",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "27-06-2022",
+      "dischargeDate": "2022-07-10",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-561-785-7474",
+      "email": "vikram.thomas52@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00206",
+    "name": {
+      "given": "Mei",
+      "family": "Young"
+    },
+    "birthDate": "13-12-1976",
+    "gender": null,
+    "bloodType": null,
+    "encounter": {
+      "admissionDate": "2024-02-08",
+      "dischargeDate": "14-02-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-896-699-7227",
+      "email": "mei.young11@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00070",
+    "name": {
+      "given": "Ana",
+      "family": "Brown"
+    },
+    "birthDate": "1981-09-20",
+    "gender": "female",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "11-01-2024",
+      "dischargeDate": "2024-02-01",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-652-878-1845",
+      "email": null
+    }
+  },
+  {
+    "patientID": "BETA-00283",
+    "name": {
+      "given": "Emily",
+      "family": "Martin"
+    },
+    "birthDate": "25-04-1976",
+    "gender": "female",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "12-04-2022",
+      "dischargeDate": "2022-05-01",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-762-960-9043",
+      "email": "emily.martin20@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00193",
+    "name": {
+      "given": "Emily",
+      "family": "Harris"
+    },
+    "birthDate": "21-09-1946",
+    "gender": "female",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "2024-01-06",
+      "dischargeDate": "2024-01-15",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-568-625-9147",
+      "email": "emily.harris60@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00154",
+    "name": {
+      "given": "Michael",
+      "family": "Jackson"
+    },
+    "birthDate": "07-08-1956",
+    "gender": "male",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "2024-05-06",
+      "dischargeDate": "2024-05-12",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-535-691-6123",
+      "email": "michael.jackson25@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00462",
+    "name": {
+      "given": "Mary",
+      "family": "Sharma"
+    },
+    "birthDate": "21-02-1943",
+    "gender": "female",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "2023-03-21",
+      "dischargeDate": "05-04-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": null,
+      "email": "mary.sharma77@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00712",
+    "name": {
+      "given": "Thomas",
+      "family": "Martin"
+    },
+    "birthDate": "24-09-2004",
+    "gender": "male",
+    "bloodType": "AB-",
+    "encounter": {
+      "admissionDate": "2023-12-28",
+      "dischargeDate": "2024-01-05",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-629-535-7608",
+      "email": "thomas.martin98@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00613",
+    "name": {
+      "given": "Elizabeth",
+      "family": "Smith"
+    },
+    "birthDate": "1946-04-14",
+    "gender": "female",
+    "bloodType": null,
+    "encounter": {
+      "admissionDate": "2023-10-25",
+      "dischargeDate": "01-11-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-930-492-7935",
+      "email": "elizabeth.smith95@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00137",
+    "name": {
+      "given": "Anita",
+      "family": "Lopez"
+    },
+    "birthDate": "1942-07-03",
+    "gender": "female",
+    "bloodType": "AB-",
+    "encounter": {
+      "admissionDate": "2024-10-15",
+      "dischargeDate": "2024-11-01",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-473-920-2353",
+      "email": "anita.lopez94@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00389",
+    "name": {
+      "given": "Karen",
+      "family": "Miller"
+    },
+    "birthDate": "1991-05-01",
+    "gender": "female",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "2024-10-05",
+      "dischargeDate": "2024-10-23",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-243-968-8901",
+      "email": "karen.miller48@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00021",
+    "name": {
+      "given": "Raj",
+      "family": "Brown"
+    },
+    "birthDate": "1999-08-13",
+    "gender": "male",
+    "bloodType": "B+",
+    "encounter": {
+      "admissionDate": "2024-09-03",
+      "dischargeDate": "05-09-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-720-182-4044",
+      "email": "raj.brown9@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00471",
+    "name": {
+      "given": "Joseph",
+      "family": "Park"
+    },
+    "birthDate": "1963-12-25",
+    "gender": "male",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "22-03-2024",
+      "dischargeDate": "28-03-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-398-438-6536",
+      "email": "joseph.park87@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00623",
+    "name": {
+      "given": "Anthony",
+      "family": "Brown"
+    },
+    "birthDate": "1970-01-01",
+    "gender": "male",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "2022-04-24",
+      "dischargeDate": "12-05-2022",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-816-490-2516",
+      "email": "anthony.brown52@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00339",
+    "name": {
+      "given": "Joshua",
+      "family": "Park"
+    },
+    "birthDate": "1974-04-01",
+    "gender": "male",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "08-05-2022",
+      "dischargeDate": "2022-05-15",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-971-654-1529",
+      "email": "joshua.park46@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00762",
+    "name": {
+      "given": "Yuki",
+      "family": "Anderson"
+    },
+    "birthDate": "1978-02-01",
+    "gender": "female",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "2022-08-25",
+      "dischargeDate": "28-08-2022",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-314-191-6574",
+      "email": "yuki.anderson95@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00618",
+    "name": {
+      "given": "Linda",
+      "family": "Gonzalez"
+    },
+    "birthDate": "1987-05-15",
+    "gender": "female",
+    "bloodType": "B+",
+    "encounter": {
+      "admissionDate": "2023-04-16",
+      "dischargeDate": "2023-04-18",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-681-366-3679",
+      "email": "linda.gonzalez91@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00341",
+    "name": {
+      "given": "James",
+      "family": "Schmidt"
+    },
+    "birthDate": "03-03-1974",
+    "gender": "male",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "2024-06-26",
+      "dischargeDate": "17-07-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-921-826-7025",
+      "email": "james.schmidt97@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00635",
+    "name": {
+      "given": "Miguel",
+      "family": "Young"
+    },
+    "birthDate": "1946-06-11",
+    "gender": "male",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "2024-07-09",
+      "dischargeDate": "2024-07-16",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-501-683-7418",
+      "email": "miguel.young7@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00516",
+    "name": {
+      "given": "Olga",
+      "family": "Davis"
+    },
+    "birthDate": "23-09-1933",
+    "gender": "female",
+    "bloodType": "AB-",
+    "encounter": {
+      "admissionDate": "2024-01-06",
+      "dischargeDate": "2024-01-16",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-610-156-2485",
+      "email": "olga.davis47@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00030",
+    "name": {
+      "given": "Ana",
+      "family": "Kim"
+    },
+    "birthDate": "29-01-1975",
+    "gender": "female",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "23-11-2022",
+      "dischargeDate": "2022-12-06",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-239-979-8711",
+      "email": "ana.kim29@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00464",
+    "name": {
+      "given": "Kenneth",
+      "family": "Perez"
+    },
+    "birthDate": "1995-05-15",
+    "gender": "male",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "2022-08-12",
+      "dischargeDate": "18-08-2022",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-365-788-5659",
+      "email": "kenneth.perez79@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00691",
+    "name": {
+      "given": "Thomas",
+      "family": "Chen"
+    },
+    "birthDate": "11-02-1941",
+    "gender": "male",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "29-12-2023",
+      "dischargeDate": "14-01-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-942-735-8284",
+      "email": "thomas.chen24@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00176",
+    "name": {
+      "given": "Paul",
+      "family": "Wang"
+    },
+    "birthDate": "1959-06-29",
+    "gender": "FEMALE",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "2023-04-29",
+      "dischargeDate": "03-05-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-676-414-3616",
+      "email": "paul.wang52@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00321",
+    "name": {
+      "given": "Priya",
+      "family": "Ramirez"
+    },
+    "birthDate": "22-04-1992",
+    "gender": "female",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "04-04-2022",
+      "dischargeDate": "09-04-2022",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-879-762-3793",
+      "email": "priya.ramirez43@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00586",
+    "name": {
+      "given": "Aisha",
+      "family": "Miller"
+    },
+    "birthDate": "1951-12-26",
+    "gender": "female",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "2024-01-02",
+      "dischargeDate": "14-01-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": null,
+      "email": "aisha.miller32@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00649",
+    "name": {
+      "given": "Mohammed",
+      "family": "Johansson"
+    },
+    "birthDate": "2001-07-04",
+    "gender": "male",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "2022-11-06",
+      "dischargeDate": "2022-11-27",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-930-918-9516",
+      "email": "mohammed.johansson38@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00103",
+    "name": {
+      "given": "Christopher",
+      "family": "Kim"
+    },
+    "birthDate": "1945-02-27",
+    "gender": null,
+    "bloodType": "AB-",
+    "encounter": {
+      "admissionDate": "2022-08-10",
+      "dischargeDate": "28-08-2022",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-576-217-5564",
+      "email": "christopher.kim74@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00540",
+    "name": {
+      "given": "Jennifer",
+      "family": "Jackson"
+    },
+    "birthDate": "1952-02-02",
+    "gender": "female",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "01-03-2023",
+      "dischargeDate": "2023-03-21",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-543-853-1898",
+      "email": "jennifer.jackson66@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00124",
+    "name": {
+      "given": "Miguel",
+      "family": "Williams"
+    },
+    "birthDate": "15-12-1953",
+    "gender": "male",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "02-05-2023",
+      "dischargeDate": "2023-05-22",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-491-870-8355",
+      "email": "miguel.williams30@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00619",
+    "name": {
+      "given": "Jun",
+      "family": "Williams"
+    },
+    "birthDate": "1949-12-20",
+    "gender": "male",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "2024-09-20",
+      "dischargeDate": "2024-10-06",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-315-966-3425",
+      "email": "jun.williams16@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00537",
+    "name": {
+      "given": "Carlos",
+      "family": "King"
+    },
+    "birthDate": "1955-10-17",
+    "gender": "male",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "2022-07-20",
+      "dischargeDate": "2022-08-05",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-446-185-1203",
+      "email": "carlos.king89@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00062",
+    "name": {
+      "given": "Donna",
+      "family": "Kumar"
+    },
+    "birthDate": "1998-07-31",
+    "gender": "female",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "2022-07-23",
+      "dischargeDate": "2022-08-13",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-416-370-2330",
+      "email": "donna.kumar21@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00195",
+    "name": {
+      "given": "Emily",
+      "family": "Martinez"
+    },
+    "birthDate": "26-12-1980",
+    "gender": "female",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "17-04-2023",
+      "dischargeDate": "2023-05-06",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-451-611-6530",
+      "email": "emily.martinez33@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00684",
+    "name": {
+      "given": "Mark",
+      "family": "Brown"
+    },
+    "birthDate": "12-11-1970",
+    "gender": "male",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "2024-12-26",
+      "dischargeDate": "2025-01-06",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-205-501-4188",
+      "email": "mark.brown43@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00338",
+    "name": {
+      "given": "Emily",
+      "family": "Ramirez"
+    },
+    "birthDate": "12-09-2004",
+    "gender": "female",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "07-08-2022",
+      "dischargeDate": "2022-08-20",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-348-154-1927",
+      "email": "emily.ramirez26@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00579",
+    "name": {
+      "given": "Maria",
+      "family": "Thompson"
+    },
+    "birthDate": "1945-07-15",
+    "gender": "female",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "08-04-2024",
+      "dischargeDate": "2024-04-25",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-485-250-8448",
+      "email": "maria.thompson14@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00457",
+    "name": {
+      "given": "Luis",
+      "family": "Wang"
+    },
+    "birthDate": "05-05-1949",
+    "gender": "male",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "22-10-2024",
+      "dischargeDate": "2024-10-28",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-997-699-9952",
+      "email": "luis.wang18@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00332",
+    "name": {
+      "given": "Charles",
+      "family": "Young"
+    },
+    "birthDate": "13-11-1988",
+    "gender": "male",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "2022-08-08",
+      "dischargeDate": "2022-08-28",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-400-292-2978",
+      "email": "charles.young51@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00448",
+    "name": {
+      "given": "Mei",
+      "family": "Patel"
+    },
+    "birthDate": "1990-02-25",
+    "gender": "female",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "2022-10-11",
+      "dischargeDate": "2022-10-16",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-516-805-9582",
+      "email": "mei.patel18@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00373",
+    "name": {
+      "given": "William",
+      "family": "Walker"
+    },
+    "birthDate": "1989-08-06",
+    "gender": "male",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "2022-01-03",
+      "dischargeDate": "20-01-2022",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-630-479-1711",
+      "email": "william.walker90@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00592",
+    "name": {
+      "given": "Yuki",
+      "family": "Kim"
+    },
+    "birthDate": "1937-01-14",
+    "gender": "female",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "2023-02-14",
+      "dischargeDate": "2023-02-27",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-457-739-9443",
+      "email": "yuki.kim59@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00228",
+    "name": {
+      "given": "Arjun",
+      "family": "Shah"
+    },
+    "birthDate": "23-07-1941",
+    "gender": "male",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "10-10-2024",
+      "dischargeDate": "2024-10-26",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-625-827-8272",
+      "email": "arjun.shah63@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00399",
+    "name": {
+      "given": "Charles",
+      "family": "Chen"
+    },
+    "birthDate": "1962-11-14",
+    "gender": "male",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "2024-04-08",
+      "dischargeDate": "2024-04-11",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-365-451-4739",
+      "email": "charles.chen41@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00424",
+    "name": {
+      "given": "James",
+      "family": "Wilson"
+    },
+    "birthDate": "1944-05-12",
+    "gender": "male",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "16-08-2024",
+      "dischargeDate": "2024-08-28",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-771-861-7814",
+      "email": "james.wilson48@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00368",
+    "name": {
+      "given": "Margaret",
+      "family": "Singh"
+    },
+    "birthDate": "1985-07-15",
+    "gender": "female",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "21-04-2024",
+      "dischargeDate": "29-04-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-244-230-3639",
+      "email": "margaret.singh18@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00598",
+    "name": {
+      "given": "Ali",
+      "family": "White"
+    },
+    "birthDate": "1994-11-18",
+    "gender": "male",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "2022-10-15",
+      "dischargeDate": "19-10-2022",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-784-852-9196",
+      "email": "ali.white16@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00127",
+    "name": {
+      "given": "Andrew",
+      "family": "Lewis"
+    },
+    "birthDate": "1941-04-08",
+    "gender": "male",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "2024-06-14",
+      "dischargeDate": "2024-06-22",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-661-457-1436",
+      "email": "andrew.lewis54@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00568",
+    "name": {
+      "given": "Nancy",
+      "family": "Sato"
+    },
+    "birthDate": "1968-06-01",
+    "gender": "female",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "2022-08-31",
+      "dischargeDate": "2022-09-05",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-910-245-4712",
+      "email": "nancy.sato40@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00000",
+    "name": {
+      "given": "Robert",
+      "family": "Schmidt"
+    },
+    "birthDate": "10-02-1971",
+    "gender": "male",
+    "bloodType": "B+",
+    "encounter": {
+      "admissionDate": "2023-04-03",
+      "dischargeDate": "2023-04-07",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-892-858-9935",
+      "email": "robert.schmidt12@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00590",
+    "name": {
+      "given": "Anthony",
+      "family": "Jackson"
+    },
+    "birthDate": "1973-05-21",
+    "gender": "male",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "2023-09-01",
+      "dischargeDate": "2023-09-09",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-839-860-2506",
+      "email": "anthony.jackson92@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00140",
+    "name": {
+      "given": "David",
+      "family": "Kim"
+    },
+    "birthDate": "15-12-1954",
+    "gender": "male",
+    "bloodType": "B+",
+    "encounter": {
+      "admissionDate": "2024-11-16",
+      "dischargeDate": "2024-11-17",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-346-969-8179",
+      "email": "david.kim5@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00720",
+    "name": {
+      "given": "Maria",
+      "family": "Gupta"
+    },
+    "birthDate": "12-11-1983",
+    "gender": "female",
+    "bloodType": "B+",
+    "encounter": {
+      "admissionDate": "26-05-2023",
+      "dischargeDate": "2023-06-15",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-950-542-8501",
+      "email": "maria.gupta50@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00576",
+    "name": {
+      "given": "Sandra",
+      "family": "Shah"
+    },
+    "birthDate": "22-01-1954",
+    "gender": "female",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "26-05-2024",
+      "dischargeDate": "2024-05-29",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-687-795-7020",
+      "email": "sandra.shah23@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00266",
+    "name": {
+      "given": "William",
+      "family": "Perez"
+    },
+    "birthDate": "20-05-1991",
+    "gender": "male",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "02-08-2024",
+      "dischargeDate": "08-08-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-787-543-7471",
+      "email": "william.perez64@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00527",
+    "name": {
+      "given": "Elizabeth",
+      "family": "Chen"
+    },
+    "birthDate": "20-12-1967",
+    "gender": "female",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "2024-05-07",
+      "dischargeDate": "2024-05-25",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-441-296-2925",
+      "email": "elizabeth.chen68@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00504",
+    "name": {
+      "given": "Anthony",
+      "family": "Kumar"
+    },
+    "birthDate": "1962-05-21",
+    "gender": "male",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "26-06-2023",
+      "dischargeDate": "2023-06-28",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-371-575-7533",
+      "email": "anthony.kumar61@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00068",
+    "name": {
+      "given": "Wei",
+      "family": "Thompson"
+    },
+    "birthDate": "1953-12-31",
+    "gender": "male",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "2023-10-20",
+      "dischargeDate": "2023-10-26",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-537-521-9117",
+      "email": "wei.thompson37@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00545",
+    "name": {
+      "given": "Elizabeth",
+      "family": "Garcia"
+    },
+    "birthDate": "19-03-1956",
+    "gender": "female",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "2023-08-14",
+      "dischargeDate": "2023-08-18",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-368-382-2835",
+      "email": "elizabeth.garcia90@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00616",
+    "name": {
+      "given": "William",
+      "family": "Lee"
+    },
+    "birthDate": "14-11-1938",
+    "gender": "male",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "2022-10-18",
+      "dischargeDate": "2022-10-22",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-520-145-3095",
+      "email": "william.lee64@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00213",
+    "name": {
+      "given": "Kenneth",
+      "family": "Lee"
+    },
+    "birthDate": "1980-10-10",
+    "gender": "male",
+    "bloodType": "B+",
+    "encounter": {
+      "admissionDate": "2023-10-06",
+      "dischargeDate": "2023-10-19",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-526-398-9044",
+      "email": "kenneth.lee74@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00238",
+    "name": {
+      "given": "Miguel",
+      "family": "Robinson"
+    },
+    "birthDate": "30-10-2005",
+    "gender": "male",
+    "bloodType": "B+",
+    "encounter": {
+      "admissionDate": "19-02-2023",
+      "dischargeDate": "12-03-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-509-262-5489",
+      "email": "miguel.robinson12@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00481",
+    "name": {
+      "given": "Ashley",
+      "family": "Hernandez"
+    },
+    "birthDate": "1996-12-31",
+    "gender": "female",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "2023-11-25",
+      "dischargeDate": "2023-11-27",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-333-129-8712",
+      "email": "ashley.hernandez87@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00181",
+    "name": {
+      "given": "Donna",
+      "family": "Mueller"
+    },
+    "birthDate": "2003-11-17",
+    "gender": "female",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "2023-06-06",
+      "dischargeDate": "2023-06-13",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-792-174-1742",
+      "email": "donna.mueller55@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00092",
+    "name": {
+      "given": "Jennifer",
+      "family": "Tanaka"
+    },
+    "birthDate": "1959-02-27",
+    "gender": "female",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "2024-06-27",
+      "dischargeDate": "05-07-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-571-201-7018",
+      "email": "jennifer.tanaka70@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00370",
+    "name": {
+      "given": "Elizabeth",
+      "family": "Wilson"
+    },
+    "birthDate": "1948-08-14",
+    "gender": "female",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "2024-08-23",
+      "dischargeDate": "29-08-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": null,
+      "email": "elizabeth.wilson77@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00313",
+    "name": {
+      "given": "Kenneth",
+      "family": "Jacks\u00f6n"
+    },
+    "birthDate": "28-09-1947",
+    "gender": "male",
+    "bloodType": "AB-",
+    "encounter": {
+      "admissionDate": "2024-12-09",
+      "dischargeDate": "2024-12-23",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-903-237-6615",
+      "email": "kenneth.jackson63@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00558",
+    "name": {
+      "given": "Anita",
+      "family": "Jones"
+    },
+    "birthDate": "1958-05-04",
+    "gender": "female",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "2022-01-14",
+      "dischargeDate": "04-02-2022",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-479-524-3865",
+      "email": "anita.jones72@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00077",
+    "name": {
+      "given": "Susan",
+      "family": "Lewis"
+    },
+    "birthDate": "1993-09-13",
+    "gender": "female",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "2024-07-24",
+      "dischargeDate": "2024-07-29",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-619-991-3529",
+      "email": "susan.lewis10@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00123",
+    "name": {
+      "given": "Hiroshi",
+      "family": "Patel"
+    },
+    "birthDate": "1939-06-04",
+    "gender": "male",
+    "bloodType": "B+",
+    "encounter": {
+      "admissionDate": "21-11-2023",
+      "dischargeDate": "11-12-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-585-257-3658",
+      "email": "hiroshi.patel24@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00156",
+    "name": {
+      "given": "Linda",
+      "family": "Brown"
+    },
+    "birthDate": "1969-10-05",
+    "gender": "female",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "21-08-2024",
+      "dischargeDate": "08-09-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-208-967-2761",
+      "email": "linda.brown56@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00756",
+    "name": {
+      "given": "Sarah",
+      "family": "Johnson"
+    },
+    "birthDate": "12-09-1990",
+    "gender": "female",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "2023-07-27",
+      "dischargeDate": "2023-08-08",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-662-733-8785",
+      "email": "sarah.johnson66@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00604",
+    "name": {
+      "given": "Jennifer",
+      "family": "Moore"
+    },
+    "birthDate": "01-10-1995",
+    "gender": "female",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "2024-08-22",
+      "dischargeDate": "2024-09-02",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-934-532-2644",
+      "email": "jennifer.moore21@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00711",
+    "name": {
+      "given": "Sakura",
+      "family": "Perez"
+    },
+    "birthDate": "1995-12-31",
+    "gender": "female",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "20-01-2023",
+      "dischargeDate": "03-02-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-414-549-8372",
+      "email": "sakura.perez72@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00200",
+    "name": {
+      "given": "Sunita",
+      "family": "Moore"
+    },
+    "birthDate": "09-05-1956",
+    "gender": "Male",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "04-02-2024",
+      "dischargeDate": "19-02-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-778-349-4700",
+      "email": "sunita.moore39@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00441",
+    "name": {
+      "given": "Kenneth",
+      "family": "Lewis"
+    },
+    "birthDate": "1946-06-10",
+    "gender": "male",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "2023-11-11",
+      "dischargeDate": "2023-11-29",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-416-308-9952",
+      "email": "kenneth.lewis67@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00233",
+    "name": {
+      "given": "Emily",
+      "family": "Jackson"
+    },
+    "birthDate": "08-02-1933",
+    "gender": "female",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "2024-11-19",
+      "dischargeDate": "24-11-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-968-904-7743",
+      "email": "emily.jackson8@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00430",
+    "name": {
+      "given": "Kenneth",
+      "family": "Smith"
+    },
+    "birthDate": "1968-02-23",
+    "gender": "male",
+    "bloodType": "AB-",
+    "encounter": {
+      "admissionDate": "2023-03-16",
+      "dischargeDate": "2023-03-17",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-990-941-5521",
+      "email": null
+    }
+  },
+  {
+    "patientID": "BETA-00222",
+    "name": {
+      "given": "Sandra",
+      "family": "Sanchez"
+    },
+    "birthDate": "1983-03-09",
+    "gender": "female",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "04-06-2024",
+      "dischargeDate": "05-06-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-955-728-4232",
+      "email": "sandra.sanchez58@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00480",
+    "name": {
+      "given": "James",
+      "family": "Gupta"
+    },
+    "birthDate": "1934-10-04",
+    "gender": "male",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "2022-07-29",
+      "dischargeDate": "2022-08-16",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-558-662-6218",
+      "email": "james.gupta35@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00335",
+    "name": {
+      "given": "Arjun",
+      "family": "Kim"
+    },
+    "birthDate": "1964-10-01",
+    "gender": "male",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "2024-02-27",
+      "dischargeDate": "18-03-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-909-880-5067",
+      "email": "arjun.kim36@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00666",
+    "name": {
+      "given": "Daniel",
+      "family": "Johnson"
+    },
+    "birthDate": "1971-03-02",
+    "gender": "male",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "2023-05-18",
+      "dischargeDate": "21-05-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-746-721-6249",
+      "email": "daniel.johnson52@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00050",
+    "name": {
+      "given": "David",
+      "family": "Singh"
+    },
+    "birthDate": "1975-04-23",
+    "gender": "male",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "2023-09-10",
+      "dischargeDate": "2023-09-29",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-242-455-9728",
+      "email": "david.singh55@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00271",
+    "name": {
+      "given": "Linda",
+      "family": "Johansson"
+    },
+    "birthDate": "1977-08-23",
+    "gender": "female",
+    "bloodType": "AB-",
+    "encounter": {
+      "admissionDate": "06-03-2024",
+      "dischargeDate": "2024-03-12",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-380-342-6210",
+      "email": "linda.johansson95@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00019",
+    "name": {
+      "given": "William",
+      "family": "Johansson"
+    },
+    "birthDate": "20-03-1976",
+    "gender": "male",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "2024-04-12",
+      "dischargeDate": "2024-04-28",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-418-985-7570",
+      "email": "william.johansson8@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00147",
+    "name": {
+      "given": "Barbara",
+      "family": "Lewis"
+    },
+    "birthDate": "1946-07-08",
+    "gender": "female",
+    "bloodType": "AB-",
+    "encounter": {
+      "admissionDate": "25-11-2024",
+      "dischargeDate": "30-11-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-998-664-3981",
+      "email": "barbara.lewis99@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00573",
+    "name": {
+      "given": "Anthony",
+      "family": "Allen"
+    },
+    "birthDate": "1945-12-16",
+    "gender": "male",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "2023-01-15",
+      "dischargeDate": "2023-01-19",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-385-954-6813",
+      "email": "anthony.allen49@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00023",
+    "name": {
+      "given": "Raj",
+      "family": "Thomas"
+    },
+    "birthDate": "1972-11-24",
+    "gender": "male",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "26-09-2022",
+      "dischargeDate": "2022-10-11",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-523-869-2188",
+      "email": "raj.thomas2@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00409",
+    "name": {
+      "given": "Ana",
+      "family": "Gonzalez"
+    },
+    "birthDate": "1998-03-07",
+    "gender": "female",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "2022-10-07",
+      "dischargeDate": "2022-10-11",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-852-566-8418",
+      "email": "ana.gonzalez35@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00738",
+    "name": {
+      "given": "Mary",
+      "family": "Jones"
+    },
+    "birthDate": "1944-05-17",
+    "gender": "female",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "2023-01-30",
+      "dischargeDate": "20-02-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-344-309-3057",
+      "email": "mary.jones12@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00254",
+    "name": {
+      "given": "John",
+      "family": "Shah"
+    },
+    "birthDate": "1953-02-25",
+    "gender": "male",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "2023-10-22",
+      "dischargeDate": "2023-11-05",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-937-427-5444",
+      "email": "john.shah10@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00310",
+    "name": {
+      "given": "Charles",
+      "family": "Kumar"
+    },
+    "birthDate": "04-10-1985",
+    "gender": "male",
+    "bloodType": "B+",
+    "encounter": {
+      "admissionDate": "30-06-2022",
+      "dischargeDate": "20-07-2022",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-644-748-8035",
+      "email": "charles.kumar52@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00652",
+    "name": {
+      "given": "Takeshi",
+      "family": "Patel"
+    },
+    "birthDate": "26-02-1970",
+    "gender": "male",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "2022-07-10",
+      "dischargeDate": "2022-07-27",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-548-875-3621",
+      "email": "takeshi.patel3@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00519",
+    "name": {
+      "given": "Jun",
+      "family": "Harris"
+    },
+    "birthDate": "1997-09-05",
+    "gender": "male",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "2023-09-23",
+      "dischargeDate": "11-10-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-660-116-1606",
+      "email": "jun.harris44@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00753",
+    "name": {
+      "given": "Patricia",
+      "family": "Singh"
+    },
+    "birthDate": "1975-10-13",
+    "gender": "female",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "2024-09-20",
+      "dischargeDate": "2024-09-21",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-262-372-1118",
+      "email": "patricia.singh86@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00602",
+    "name": {
+      "given": "Michael",
+      "family": "Tanaka"
+    },
+    "birthDate": "05-02-1976",
+    "gender": "male",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "2024-02-27",
+      "dischargeDate": "19-03-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-917-471-2999",
+      "email": "michael.tanaka69@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00753",
+    "name": {
+      "given": "Patricia",
+      "family": "Singh"
+    },
+    "birthDate": "1975-10-13",
+    "gender": "female",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "2024-09-20",
+      "dischargeDate": "2024-09-21",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": null,
+      "email": "patricia.singh86@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00689",
+    "name": {
+      "given": "Maria",
+      "family": "Miller"
+    },
+    "birthDate": "1954-02-20",
+    "gender": "female",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "2022-01-22",
+      "dischargeDate": "2022-02-04",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-675-914-8014",
+      "email": "maria.miller80@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00234",
+    "name": {
+      "given": "Thomas",
+      "family": "Thomas"
+    },
+    "birthDate": "1987-06-12",
+    "gender": "male",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "2023-10-22",
+      "dischargeDate": "04-11-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-701-245-5402",
+      "email": "thomas.thomas81@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00324",
+    "name": {
+      "given": "Arjun",
+      "family": "Thompson"
+    },
+    "birthDate": "2002-06-22",
+    "gender": "male",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "2022-09-25",
+      "dischargeDate": "2022-10-11",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-315-521-8220",
+      "email": "arjun.thompson6@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00768",
+    "name": {
+      "given": "Yuki",
+      "family": "Park"
+    },
+    "birthDate": "1945-12-25",
+    "gender": "female",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "12-03-2024",
+      "dischargeDate": "2024-03-15",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-740-844-5637",
+      "email": "yuki.park37@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00518",
+    "name": {
+      "given": "Sanjay",
+      "family": "Young"
+    },
+    "birthDate": "1995-07-21",
+    "gender": "male",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "2024-06-15",
+      "dischargeDate": "2024-06-20",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-236-297-1415",
+      "email": "sanjay.young93@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00210",
+    "name": {
+      "given": "Takeshi",
+      "family": "Hernandez"
+    },
+    "birthDate": "1958-03-24",
+    "gender": "male",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "2022-10-12",
+      "dischargeDate": "22-10-2022",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-474-604-3390",
+      "email": "takeshi.hernandez9@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00007",
+    "name": {
+      "given": "Raj",
+      "family": "Wilson"
+    },
+    "birthDate": "02-12-1942",
+    "gender": "male",
+    "bloodType": "B+",
+    "encounter": {
+      "admissionDate": "28-07-2024",
+      "dischargeDate": "2024-08-06",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-342-352-9830",
+      "email": "raj.wilson34@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00603",
+    "name": {
+      "given": "Aisha",
+      "family": "Smith"
+    },
+    "birthDate": "1956-02-09",
+    "gender": "female",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "2023-09-09",
+      "dischargeDate": "2023-09-17",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-504-315-3625",
+      "email": "aisha.smith57@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00628",
+    "name": {
+      "given": "Kenneth",
+      "family": "Thomas"
+    },
+    "birthDate": "1939-11-17",
+    "gender": "male",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "2023-08-29",
+      "dischargeDate": "2023-09-16",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-278-146-9411",
+      "email": "kenneth.thomas14@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00750",
+    "name": {
+      "given": "Mary",
+      "family": "Hernandez"
+    },
+    "birthDate": "21-06-1944",
+    "gender": "female",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "2022-07-18",
+      "dischargeDate": "2022-08-01",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-737-526-5724",
+      "email": "mary.hernandez94@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00114",
+    "name": {
+      "given": "Betty",
+      "family": "Lopez"
+    },
+    "birthDate": "11-07-1986",
+    "gender": "female",
+    "bloodType": "B+",
+    "encounter": {
+      "admissionDate": "2022-06-04",
+      "dischargeDate": "2022-06-25",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-705-575-8354",
+      "email": "betty.lopez88@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00587",
+    "name": {
+      "given": "Elizabeth",
+      "family": "Tanaka"
+    },
+    "birthDate": "1998-01-03",
+    "gender": "female",
+    "bloodType": "AB-",
+    "encounter": {
+      "admissionDate": "2022-08-23",
+      "dischargeDate": "2022-08-29",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-220-651-6343",
+      "email": "elizabeth.tanaka5@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00306",
+    "name": {
+      "given": "Nancy",
+      "family": "Park"
+    },
+    "birthDate": "1963-07-17",
+    "gender": "female",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "02-07-2022",
+      "dischargeDate": "2022-07-14",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-428-862-6031",
+      "email": "nancy.park54@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00029",
+    "name": {
+      "given": "Richard",
+      "family": "Thompson"
+    },
+    "birthDate": "1934-11-28",
+    "gender": "male",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "2022-11-13",
+      "dischargeDate": "19-11-2022",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-381-522-1406",
+      "email": "richard.thompson23@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00588",
+    "name": {
+      "given": "Ingrid",
+      "family": "Clark"
+    },
+    "birthDate": "1972-06-04",
+    "gender": "female",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "19-08-2024",
+      "dischargeDate": "2024-08-30",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-586-684-7394",
+      "email": "ingrid.clark42@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00095",
+    "name": {
+      "given": "Thomas",
+      "family": "Patel"
+    },
+    "birthDate": "1974-03-17",
+    "gender": "male",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "2022-08-14",
+      "dischargeDate": "2022-08-19",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-215-466-4898",
+      "email": "thomas.patel76@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00203",
+    "name": {
+      "given": "Andrew",
+      "family": "Patel"
+    },
+    "birthDate": "1933-07-23",
+    "gender": "male",
+    "bloodType": "B+",
+    "encounter": {
+      "admissionDate": "2022-03-09",
+      "dischargeDate": "2022-03-20",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-216-312-3362",
+      "email": "andrew.patel97@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00680",
+    "name": {
+      "given": "Sunita",
+      "family": "Gonzalez"
+    },
+    "birthDate": "1994-07-30",
+    "gender": "female",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "2023-09-13",
+      "dischargeDate": "2023-09-21",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-705-471-1602",
+      "email": "sunita.gonzalez36@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00089",
+    "name": {
+      "given": "Aisha",
+      "family": "Chen"
+    },
+    "birthDate": "1959-04-24",
+    "gender": "female",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "24-04-2023",
+      "dischargeDate": "25-04-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-834-674-6374",
+      "email": "aisha.chen79@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00520",
+    "name": {
+      "given": "Mohammed",
+      "family": "Davis"
+    },
+    "birthDate": "1978-07-14",
+    "gender": "FEMALE",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "2024-12-07",
+      "dischargeDate": "25-12-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-352-858-4817",
+      "email": "mohammed.davis10@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00215",
+    "name": {
+      "given": "Miguel",
+      "family": "Jackson"
+    },
+    "birthDate": "1997-11-11",
+    "gender": "male",
+    "bloodType": "B+",
+    "encounter": {
+      "admissionDate": "19-10-2024",
+      "dischargeDate": "2024-11-09",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-510-347-5139",
+      "email": "miguel.jackson85@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00570",
+    "name": {
+      "given": "Wei",
+      "family": "Davis"
+    },
+    "birthDate": "1974-05-23",
+    "gender": "male",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "2022-05-16",
+      "dischargeDate": "2022-05-17",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-972-198-3028",
+      "email": "wei.davis78@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00040",
+    "name": {
+      "given": "Priya",
+      "family": "Johansson"
+    },
+    "birthDate": "1949-08-11",
+    "gender": "female",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "2024-10-30",
+      "dischargeDate": "2024-11-17",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-656-262-8777",
+      "email": "priya.johansson58@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00098",
+    "name": {
+      "given": "Susan",
+      "family": "Young"
+    },
+    "birthDate": "1950-05-14",
+    "gender": "female",
+    "bloodType": "AB-",
+    "encounter": {
+      "admissionDate": "2022-06-15",
+      "dischargeDate": "2022-07-05",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-351-167-3067",
+      "email": "susan.young36@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00366",
+    "name": {
+      "given": "Svetlana",
+      "family": "Walker"
+    },
+    "birthDate": "23-09-2005",
+    "gender": "female",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "2022-10-12",
+      "dischargeDate": "18-10-2022",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-435-178-9430",
+      "email": "svetlana.walker83@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00115",
+    "name": {
+      "given": "Priya",
+      "family": "Martinez"
+    },
+    "birthDate": "1950-05-17",
+    "gender": "female",
+    "bloodType": null,
+    "encounter": {
+      "admissionDate": "18-08-2024",
+      "dischargeDate": "2024-09-08",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": null,
+      "email": "priya.martinez76@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00676",
+    "name": {
+      "given": "Anita",
+      "family": "Chen"
+    },
+    "birthDate": "1972-06-17",
+    "gender": "female",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "16-07-2024",
+      "dischargeDate": "2024-07-24",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-878-429-6597",
+      "email": "anita.chen27@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00008",
+    "name": {
+      "given": "Maria",
+      "family": "White"
+    },
+    "birthDate": "1978-04-04",
+    "gender": "female",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "2024-11-09",
+      "dischargeDate": "2024-11-12",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": null,
+      "email": "maria.white20@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00126",
+    "name": {
+      "given": "Matthew",
+      "family": "Sharma"
+    },
+    "birthDate": "1989-02-02",
+    "gender": "male",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "2022-04-17",
+      "dischargeDate": "29-04-2022",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-767-205-9452",
+      "email": "matthew.sharma16@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00035",
+    "name": {
+      "given": "Maria",
+      "family": "Tanaka"
+    },
+    "birthDate": "1968-09-05",
+    "gender": "female",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "2022-09-18",
+      "dischargeDate": "2022-10-02",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-880-488-3851",
+      "email": "maria.tanaka79@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00211",
+    "name": {
+      "given": "Ana",
+      "family": "Martin"
+    },
+    "birthDate": "1945-05-13",
+    "gender": "female",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "2024-01-10",
+      "dischargeDate": "2024-01-18",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-938-740-9123",
+      "email": "ana.martin77@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00298",
+    "name": {
+      "given": "Svetlana",
+      "family": "Sharma"
+    },
+    "birthDate": "1949-03-22",
+    "gender": "female",
+    "bloodType": "AB-",
+    "encounter": {
+      "admissionDate": "29-08-2024",
+      "dischargeDate": "2024-09-10",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-367-957-5237",
+      "email": "svetlana.sharma96@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00454",
+    "name": {
+      "given": "Ashley",
+      "family": "Ramirez"
+    },
+    "birthDate": "29-05-1955",
+    "gender": "female",
+    "bloodType": "AB-",
+    "encounter": {
+      "admissionDate": "2024-02-19",
+      "dischargeDate": "03-03-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-826-860-9784",
+      "email": "ashley.ramirez68@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00528",
+    "name": {
+      "given": "Ingrid",
+      "family": "Anderson"
+    },
+    "birthDate": "1946-08-05",
+    "gender": "female",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "2023-03-03",
+      "dischargeDate": "2023-03-05",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-398-215-3444",
+      "email": "ingrid.anderson88@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00049",
+    "name": {
+      "given": "Lisa",
+      "family": "Sharma"
+    },
+    "birthDate": "1992-03-18",
+    "gender": "female",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "2023-09-30",
+      "dischargeDate": "2023-10-19",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-226-419-7149",
+      "email": "lisa.sharma51@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00597",
+    "name": {
+      "given": "Kimberly",
+      "family": "Kim"
+    },
+    "birthDate": "1936-03-25",
+    "gender": "female",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "28-03-2022",
+      "dischargeDate": "29-03-2022",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-256-980-2375",
+      "email": "kimberly.kim41@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00317",
+    "name": {
+      "given": "Takeshi",
+      "family": "Moore"
+    },
+    "birthDate": "1988-11-08",
+    "gender": "male",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "2022-08-03",
+      "dischargeDate": "2022-08-13",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-316-903-2741",
+      "email": "takeshi.moore64@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00188",
+    "name": {
+      "given": "Linda",
+      "family": "Sh\u00e4h"
+    },
+    "birthDate": "27-07-1983",
+    "gender": "female",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "2024-05-24",
+      "dischargeDate": "2024-05-26",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-552-758-7244",
+      "email": "linda.shah68@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00420",
+    "name": {
+      "given": "Emily",
+      "family": "Taylor"
+    },
+    "birthDate": "18-12-1936",
+    "gender": "female",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "2024-07-18",
+      "dischargeDate": "2024-08-08",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-718-488-4039",
+      "email": "emily.taylor3@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00281",
+    "name": {
+      "given": "Susan",
+      "family": "Jones"
+    },
+    "birthDate": "1963-03-22",
+    "gender": "female",
+    "bloodType": "B+",
+    "encounter": {
+      "admissionDate": "08-02-2024",
+      "dischargeDate": "2024-02-11",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-760-195-6536",
+      "email": "susan.jones77@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00593",
+    "name": {
+      "given": "Robert",
+      "family": "Chen"
+    },
+    "birthDate": "1940-03-19",
+    "gender": "male",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "2024-10-19",
+      "dischargeDate": "03-11-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-474-753-9728",
+      "email": "robert.chen79@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00205",
+    "name": {
+      "given": "Linda",
+      "family": "Miller"
+    },
+    "birthDate": "1951-02-22",
+    "gender": "female",
+    "bloodType": "AB-",
+    "encounter": {
+      "admissionDate": "2022-06-05",
+      "dischargeDate": "2022-06-25",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-987-728-7499",
+      "email": "linda.miller42@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00318",
+    "name": {
+      "given": "Paul",
+      "family": "King"
+    },
+    "birthDate": "1980-12-11",
+    "gender": "male",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "2024-04-19",
+      "dischargeDate": "2024-04-25",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-240-661-9132",
+      "email": "paul.king27@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00090",
+    "name": {
+      "given": "Luis",
+      "family": "Tanaka"
+    },
+    "birthDate": "19-07-1967",
+    "gender": "male",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "2024-04-16",
+      "dischargeDate": "21-04-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-246-138-5986",
+      "email": "luis.tanaka64@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00265",
+    "name": {
+      "given": "Thomas",
+      "family": "Gonzalez"
+    },
+    "birthDate": "11-12-1954",
+    "gender": "male",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "22-06-2022",
+      "dischargeDate": "2022-06-25",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-222-166-4239",
+      "email": "thomas.gonzalez83@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00688",
+    "name": {
+      "given": "Thomas",
+      "family": "Brown"
+    },
+    "birthDate": "23-05-1950",
+    "gender": "male",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "10-09-2023",
+      "dischargeDate": "13-09-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-304-793-1914",
+      "email": "thomas.brown72@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00219",
+    "name": {
+      "given": "Sanjay",
+      "family": "Johnson"
+    },
+    "birthDate": "1945-04-29",
+    "gender": "male",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "29-08-2023",
+      "dischargeDate": "01-09-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-318-951-3321",
+      "email": "sanjay.johnson45@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00130",
+    "name": {
+      "given": "Takeshi",
+      "family": "Ramirez"
+    },
+    "birthDate": "1992-01-14",
+    "gender": "male",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "2023-05-02",
+      "dischargeDate": "06-05-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-248-344-7878",
+      "email": "takeshi.ramirez82@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00073",
+    "name": {
+      "given": "Ashley",
+      "family": "Robinson"
+    },
+    "birthDate": "1936-04-10",
+    "gender": "female",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "25-02-2024",
+      "dischargeDate": "2024-03-16",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-720-864-3236",
+      "email": "ashley.robinson9@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00413",
+    "name": {
+      "given": "Aisha",
+      "family": "Smith"
+    },
+    "birthDate": "1991-02-03",
+    "gender": "female",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "2024-02-28",
+      "dischargeDate": "2024-03-07",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-955-134-4263",
+      "email": "aisha.smith59@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00334",
+    "name": {
+      "given": "Takeshi",
+      "family": "Schmidt"
+    },
+    "birthDate": "1999-08-29",
+    "gender": "male",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "2024-06-05",
+      "dischargeDate": "22-06-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-999-281-3845",
+      "email": "takeshi.schmidt94@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00706",
+    "name": {
+      "given": "Yuki",
+      "family": "Lewis"
+    },
+    "birthDate": "1946-11-12",
+    "gender": "female",
+    "bloodType": "AB-",
+    "encounter": {
+      "admissionDate": "2024-04-17",
+      "dischargeDate": "2024-05-03",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-524-379-7264",
+      "email": "yuki.lewis4@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00548",
+    "name": {
+      "given": "Sakura",
+      "family": "Martin"
+    },
+    "birthDate": "1934-04-18",
+    "gender": "female",
+    "bloodType": "B+",
+    "encounter": {
+      "admissionDate": "2023-09-20",
+      "dischargeDate": "2023-09-29",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-432-595-7093",
+      "email": "sakura.martin37@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00185",
+    "name": {
+      "given": "Andrew",
+      "family": "Gonzalez"
+    },
+    "birthDate": "1992-05-24",
+    "gender": "male",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "2024-05-08",
+      "dischargeDate": "2024-05-16",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-411-168-2653",
+      "email": "andrew.gonzalez77@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00665",
+    "name": {
+      "given": "Jessica",
+      "family": "Wang"
+    },
+    "birthDate": "1935-05-12",
+    "gender": "female",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "2023-01-30",
+      "dischargeDate": "18-02-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-734-293-8796",
+      "email": "jessica.wang65@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00543",
+    "name": {
+      "given": "Ingrid",
+      "family": "Park"
+    },
+    "birthDate": "1952-01-30",
+    "gender": "female",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "2022-04-22",
+      "dischargeDate": "2022-05-04",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-553-563-8966",
+      "email": "ingrid.park65@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00553",
+    "name": {
+      "given": "Miguel",
+      "family": "Perez"
+    },
+    "birthDate": "1991-10-08",
+    "gender": "male",
+    "bloodType": "B+",
+    "encounter": {
+      "admissionDate": "24-03-2022",
+      "dischargeDate": "2022-04-11",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-319-415-1406",
+      "email": "miguel.perez52@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00546",
+    "name": {
+      "given": "Anthony",
+      "family": "King"
+    },
+    "birthDate": "2004-01-08",
+    "gender": "male",
+    "bloodType": null,
+    "encounter": {
+      "admissionDate": "2024-05-03",
+      "dischargeDate": "2024-05-19",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-555-530-8272",
+      "email": "anthony.king95@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00417",
+    "name": {
+      "given": "Amit",
+      "family": "Johansson"
+    },
+    "birthDate": "09-05-1999",
+    "gender": "male",
+    "bloodType": "B+",
+    "encounter": {
+      "admissionDate": "2023-12-30",
+      "dischargeDate": "2024-01-17",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-309-228-8992",
+      "email": "amit.johansson30@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00009",
+    "name": {
+      "given": "Barbara",
+      "family": "Harris"
+    },
+    "birthDate": "17-08-1957",
+    "gender": "female",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "16-08-2024",
+      "dischargeDate": "2024-09-03",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": null,
+      "email": "barbara.harris88@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00143",
+    "name": {
+      "given": "Paul",
+      "family": "Taylor"
+    },
+    "birthDate": "1949-03-03",
+    "gender": "male",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "2023-08-08",
+      "dischargeDate": "15-08-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-325-238-2213",
+      "email": "paul.taylor58@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00468",
+    "name": {
+      "given": "Sarah",
+      "family": "Gupta"
+    },
+    "birthDate": "1933-10-13",
+    "gender": "female",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "30-11-2024",
+      "dischargeDate": "2024-12-16",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-384-724-4812",
+      "email": "sarah.gupta91@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00565",
+    "name": {
+      "given": "Susan",
+      "family": "Patel"
+    },
+    "birthDate": "1931-12-27",
+    "gender": "female",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "2022-10-22",
+      "dischargeDate": "27-10-2022",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-730-388-7111",
+      "email": "susan.patel63@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00754",
+    "name": {
+      "given": "Richard",
+      "family": "Wilson"
+    },
+    "birthDate": "19-06-1940",
+    "gender": "male",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "2024-02-09",
+      "dischargeDate": "25-02-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-684-875-6521",
+      "email": "richard.wilson78@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00476",
+    "name": {
+      "given": "Ingrid",
+      "family": "Johnson"
+    },
+    "birthDate": "1944-10-08",
+    "gender": "female",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "2022-11-12",
+      "dischargeDate": "23-11-2022",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-695-850-9579",
+      "email": "ingrid.johnson40@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00723",
+    "name": {
+      "given": "Margaret",
+      "family": "Allen"
+    },
+    "birthDate": "2000-10-14",
+    "gender": "female",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "2022-02-24",
+      "dischargeDate": "17-03-2022",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-911-791-8567",
+      "email": "margaret.allen49@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00289",
+    "name": {
+      "given": "Nancy",
+      "family": "Hernandez"
+    },
+    "birthDate": "07-03-1979",
+    "gender": "female",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "16-09-2022",
+      "dischargeDate": "30-09-2022",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-280-799-8133",
+      "email": "nancy.hernandez26@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00102",
+    "name": {
+      "given": "Jessica",
+      "family": "Clark"
+    },
+    "birthDate": "1960-07-12",
+    "gender": "female",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "2024-05-16",
+      "dischargeDate": "26-05-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-814-419-6761",
+      "email": "jessica.clark14@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00208",
+    "name": {
+      "given": "Susan",
+      "family": "Garcia"
+    },
+    "birthDate": "2005-12-31",
+    "gender": "female",
+    "bloodType": "AB-",
+    "encounter": {
+      "admissionDate": "2024-06-29",
+      "dischargeDate": "2024-07-08",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-304-235-2430",
+      "email": "susan.garcia24@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00541",
+    "name": {
+      "given": "Linda",
+      "family": "Davis"
+    },
+    "birthDate": "1956-12-13",
+    "gender": "female",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "2024-08-11",
+      "dischargeDate": "2024-08-23",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-575-279-2097",
+      "email": "linda.davis72@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00621",
+    "name": {
+      "given": "Jun",
+      "family": "Park"
+    },
+    "birthDate": "23-12-1993",
+    "gender": "male",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "23-02-2022",
+      "dischargeDate": "27-02-2022",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-603-482-2737",
+      "email": "jun.park42@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00716",
+    "name": {
+      "given": "Luis",
+      "family": "Brown"
+    },
+    "birthDate": "1958-09-26",
+    "gender": "male",
+    "bloodType": "B+",
+    "encounter": {
+      "admissionDate": "2022-01-23",
+      "dischargeDate": "03-02-2022",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-620-500-3572",
+      "email": "luis.brown15@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00032",
+    "name": {
+      "given": "Anita",
+      "family": "Johnson"
+    },
+    "birthDate": "28-01-1992",
+    "gender": "",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "01-01-2023",
+      "dischargeDate": "2023-01-03",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-311-710-8119",
+      "email": "anita.johnson45@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00524",
+    "name": {
+      "given": "Joseph",
+      "family": "Moore"
+    },
+    "birthDate": "1987-11-11",
+    "gender": "male",
+    "bloodType": "AB-",
+    "encounter": {
+      "admissionDate": "2022-12-11",
+      "dischargeDate": "29-12-2022",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-368-549-4991",
+      "email": "joseph.moore75@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00261",
+    "name": {
+      "given": "Priya",
+      "family": "Lewis"
+    },
+    "birthDate": "16-02-1972",
+    "gender": "female",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "02-06-2022",
+      "dischargeDate": "2022-06-07",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-998-888-2785",
+      "email": "priya.lewis20@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00705",
+    "name": {
+      "given": "Dorothy",
+      "family": "Shah"
+    },
+    "birthDate": "1996-04-01",
+    "gender": "female",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "2022-06-22",
+      "dischargeDate": "07-07-2022",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-731-460-4771",
+      "email": "dorothy.shah75@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00489",
+    "name": {
+      "given": "Barbara",
+      "family": "Sharma"
+    },
+    "birthDate": "1992-06-24",
+    "gender": "female",
+    "bloodType": "AB-",
+    "encounter": {
+      "admissionDate": "2024-02-16",
+      "dischargeDate": "2024-03-03",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-860-776-2007",
+      "email": "barbara.sharma12@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00434",
+    "name": {
+      "given": "Mark",
+      "family": "Schmidt"
+    },
+    "birthDate": "2004-07-17",
+    "gender": "male",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "23-02-2024",
+      "dischargeDate": "04-03-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-736-142-6231",
+      "email": "mark.schmidt70@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00444",
+    "name": {
+      "given": "Ingrid",
+      "family": "Sato"
+    },
+    "birthDate": "1993-12-30",
+    "gender": "female",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "2024-09-19",
+      "dischargeDate": "2024-09-25",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-403-612-8503",
+      "email": "ingrid.sato72@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00589",
+    "name": {
+      "given": "Susan",
+      "family": "Tanaka"
+    },
+    "birthDate": "23-12-1979",
+    "gender": "female",
+    "bloodType": null,
+    "encounter": {
+      "admissionDate": "2024-10-14",
+      "dischargeDate": "20-10-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-829-406-6952",
+      "email": "susan.tanaka56@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00575",
+    "name": {
+      "given": "William",
+      "family": "Lee"
+    },
+    "birthDate": "1943-04-24",
+    "gender": "male",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "28-02-2024",
+      "dischargeDate": "14-03-2024",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-814-853-6111",
+      "email": "william.lee88@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00006",
+    "name": {
+      "given": "Aisha",
+      "family": "Moore"
+    },
+    "birthDate": "1935-03-04",
+    "gender": "female",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "2023-10-27",
+      "dischargeDate": "04-11-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-232-924-6168",
+      "email": "aisha.moore52@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00315",
+    "name": {
+      "given": "Arjun",
+      "family": "Chen"
+    },
+    "birthDate": "14-09-1973",
+    "gender": "male",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "2022-04-10",
+      "dischargeDate": "2022-04-14",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-869-956-1323",
+      "email": "arjun.chen7@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00710",
+    "name": {
+      "given": "Wei",
+      "family": "Wang"
+    },
+    "birthDate": "1941-04-07",
+    "gender": "male",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "25-03-2024",
+      "dischargeDate": "2024-04-02",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-940-867-4438",
+      "email": "wei.wang61@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00356",
+    "name": {
+      "given": "Luis",
+      "family": "Wang"
+    },
+    "birthDate": "17-05-1936",
+    "gender": "male",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "19-08-2023",
+      "dischargeDate": "2023-08-28",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-300-302-8982",
+      "email": "luis.wang43@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00039",
+    "name": {
+      "given": "Richard",
+      "family": "Ramirez"
+    },
+    "birthDate": "1978-03-15",
+    "gender": "male",
+    "bloodType": null,
+    "encounter": {
+      "admissionDate": "2024-11-26",
+      "dischargeDate": "2024-11-28",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-770-355-2988",
+      "email": "richard.ramirez59@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00074",
+    "name": {
+      "given": "Anita",
+      "family": "Allen"
+    },
+    "birthDate": "1972-06-13",
+    "gender": "female",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "2023-08-03",
+      "dischargeDate": "2023-08-22",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-793-775-9022",
+      "email": "anita.allen20@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00144",
+    "name": {
+      "given": "Elizabeth",
+      "family": "Park"
+    },
+    "birthDate": "10-07-1965",
+    "gender": "female",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "2023-12-13",
+      "dischargeDate": "31-12-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-755-397-5914",
+      "email": "elizabeth.park21@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00752",
+    "name": {
+      "given": "Matthew",
+      "family": "Taylor"
+    },
+    "birthDate": "06-11-1953",
+    "gender": "male",
+    "bloodType": "B+",
+    "encounter": {
+      "admissionDate": "2022-08-12",
+      "dischargeDate": "2022-08-15",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-500-187-7188",
+      "email": "matthew.taylor16@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00638",
+    "name": {
+      "given": "Olga",
+      "family": "Davis"
+    },
+    "birthDate": "1942-08-08",
+    "gender": "female",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "2023-12-12",
+      "dischargeDate": "2023-12-26",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-221-265-5718",
+      "email": "olga.davis93@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00195",
+    "name": {
+      "given": "Emily",
+      "family": "Martinez"
+    },
+    "birthDate": "26-12-1980",
+    "gender": "female",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "17-04-2023",
+      "dischargeDate": "2023-05-06",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": null,
+      "email": "emily.martinez33@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00456",
+    "name": {
+      "given": "Matthew",
+      "family": "Jackson"
+    },
+    "birthDate": "1949-11-29",
+    "gender": "male",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "16-09-2023",
+      "dischargeDate": "2023-10-01",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": null,
+      "email": "matthew.jackson79@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00380",
+    "name": {
+      "given": "Vikram",
+      "family": "Garcia"
+    },
+    "birthDate": "2001-11-23",
+    "gender": "male",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "2024-03-31",
+      "dischargeDate": "2024-04-20",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-258-892-3871",
+      "email": "vikram.garcia82@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00408",
+    "name": {
+      "given": "Aisha",
+      "family": "Anderson"
+    },
+    "birthDate": "05-05-1973",
+    "gender": "female",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "2024-05-14",
+      "dischargeDate": "2024-05-31",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-982-919-5454",
+      "email": "aisha.anderson37@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00721",
+    "name": {
+      "given": "Richard",
+      "family": "Sanchez"
+    },
+    "birthDate": "2001-02-05",
+    "gender": "male",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "20-11-2022",
+      "dischargeDate": "11-12-2022",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-750-398-2093",
+      "email": "richard.sanchez90@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00374",
+    "name": {
+      "given": "Wei",
+      "family": "Harris"
+    },
+    "birthDate": "20-08-1961",
+    "gender": "male",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "2022-07-20",
+      "dischargeDate": "2022-07-25",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-460-588-4809",
+      "email": "wei.harris11@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00357",
+    "name": {
+      "given": "Richard",
+      "family": "Jackson"
+    },
+    "birthDate": "1998-03-01",
+    "gender": "male",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "2023-10-13",
+      "dischargeDate": "28-10-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-536-731-6008",
+      "email": "richard.jackson89@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00026",
+    "name": {
+      "given": "Amit",
+      "family": "Wilson"
+    },
+    "birthDate": "1972-09-29",
+    "gender": "male",
+    "bloodType": "AB+",
+    "encounter": {
+      "admissionDate": "2024-09-27",
+      "dischargeDate": "2024-09-29",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-294-749-7939",
+      "email": "amit.wilson36@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00624",
+    "name": {
+      "given": "Mohammed",
+      "family": "Garcia"
+    },
+    "birthDate": "21-02-2004",
+    "gender": "male",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "30-11-2022",
+      "dischargeDate": "2022-12-13",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-491-762-3525",
+      "email": "mohammed.garcia16@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00794",
+    "name": {
+      "given": "Margaret",
+      "family": "Martin"
+    },
+    "birthDate": "1941-06-04",
+    "gender": "female",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "2024-08-06",
+      "dischargeDate": "2024-08-08",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": null,
+      "email": "margaret.martin43@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00131",
+    "name": {
+      "given": "Barbara",
+      "family": "Davis"
+    },
+    "birthDate": "1942-08-21",
+    "gender": "female",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "2022-02-03",
+      "dischargeDate": "2022-02-08",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-498-539-1025",
+      "email": null
+    }
+  },
+  {
+    "patientID": "BETA-00619",
+    "name": {
+      "given": "Jun",
+      "family": "Williams"
+    },
+    "birthDate": "1949-12-20",
+    "gender": "male",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "2024-09-20",
+      "dischargeDate": "2024-10-06",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": null,
+      "email": "jun.williams16@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00482",
+    "name": {
+      "given": "Linda",
+      "family": "Garcia"
+    },
+    "birthDate": "02-12-1951",
+    "gender": "female",
+    "bloodType": "O-",
+    "encounter": {
+      "admissionDate": "2023-01-02",
+      "dischargeDate": "22-01-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-564-419-6444",
+      "email": "linda.garcia26@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00115",
+    "name": {
+      "given": "Priya",
+      "family": "Martinez"
+    },
+    "birthDate": "1950-05-17",
+    "gender": "female",
+    "bloodType": null,
+    "encounter": {
+      "admissionDate": "18-08-2024",
+      "dischargeDate": "2024-09-08",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-510-915-5500",
+      "email": "priya.martinez76@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00479",
+    "name": {
+      "given": "Betty",
+      "family": "Gonzalez"
+    },
+    "birthDate": "1970-01-25",
+    "gender": "female",
+    "bloodType": "AB-",
+    "encounter": {
+      "admissionDate": "2024-12-26",
+      "dischargeDate": "2025-01-10",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-887-220-5467",
+      "email": "betty.gonzalez20@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00300",
+    "name": {
+      "given": "James",
+      "family": "Walker"
+    },
+    "birthDate": "1989-07-14",
+    "gender": "male",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "2022-12-21",
+      "dischargeDate": "2022-12-29",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-458-722-6004",
+      "email": "james.walker92@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00162",
+    "name": {
+      "given": "Michael",
+      "family": "Singh"
+    },
+    "birthDate": "1945-03-26",
+    "gender": "male",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "09-12-2024",
+      "dischargeDate": "2024-12-14",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-897-348-1517",
+      "email": "michael.singh74@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00693",
+    "name": {
+      "given": "Emily",
+      "family": "White"
+    },
+    "birthDate": "14-09-2004",
+    "gender": "female",
+    "bloodType": "A+",
+    "encounter": {
+      "admissionDate": "2022-10-24",
+      "dischargeDate": "01-11-2022",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-719-938-1894",
+      "email": "emily.white55@gmail.com"
+    }
+  },
+  {
+    "patientID": "BETA-00498",
+    "name": {
+      "given": "Sakura",
+      "family": "King"
+    },
+    "birthDate": "1995-09-15",
+    "gender": "female",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "2022-07-01",
+      "dischargeDate": "17-07-2022",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-845-859-2279",
+      "email": "sakura.king88@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00331",
+    "name": {
+      "given": "Jessica",
+      "family": "Miller"
+    },
+    "birthDate": "1978-06-12",
+    "gender": "female",
+    "bloodType": "AB-",
+    "encounter": {
+      "admissionDate": "01-12-2023",
+      "dischargeDate": "2023-12-22",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-498-660-9552",
+      "email": "jessica.miller48@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00700",
+    "name": {
+      "given": "Barbara",
+      "family": "Davis"
+    },
+    "birthDate": "05-04-1988",
+    "gender": "female",
+    "bloodType": "B-",
+    "encounter": {
+      "admissionDate": "24-01-2023",
+      "dischargeDate": "11-02-2023",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-587-811-7131",
+      "email": "barbara.davis41@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00487",
+    "name": {
+      "given": "Wei",
+      "family": "Harris"
+    },
+    "birthDate": "1997-12-16",
+    "gender": "male",
+    "bloodType": "O+",
+    "encounter": {
+      "admissionDate": "03-03-2023",
+      "dischargeDate": "2023-03-17",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-780-906-6606",
+      "email": "wei.harris70@yahoo.com"
+    }
+  },
+  {
+    "patientID": "BETA-00781",
+    "name": {
+      "given": "Aisha",
+      "family": "Wang"
+    },
+    "birthDate": "1985-11-19",
+    "gender": "female",
+    "bloodType": "A-",
+    "encounter": {
+      "admissionDate": "23-07-2024",
+      "dischargeDate": "2024-08-01",
+      "facility": "Beta Medical Center"
+    },
+    "contact": {
+      "phone": "+1-892-535-3346",
+      "email": "aisha.wang69@gmail.com"
+    }
+  }
+]
