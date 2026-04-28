@@ -6,15 +6,25 @@ from urllib import request
 
 import pandas as pd
 
+from pipeline.utils.config import get_config
+from pipeline.utils.logging_config import get_logger
+from pipeline.utils.parallel import run_parallel
+
 # -------------------------------
 # CONFIG
 # -------------------------------
-REFINED_DIR = Path("datalake/refined/v1")
-CONSUMPTION_DIR = Path("datalake/consumption/v1")
-PARTITION_PREFIX = "ingest_date="
+CONFIG = get_config()
+PATHS = CONFIG["paths"]
+PROCESSING = CONFIG["processing"]
+
+REFINED_DIR = PATHS["refined_dir"]
+CONSUMPTION_DIR = PATHS["consumption_dir"]
+PARTITION_PREFIX = PROCESSING["partition_prefix"]
+PARALLEL_WORKERS = int(PROCESSING.get("parallel_workers", 1))
+ENABLE_PARALLEL = bool(PROCESSING.get("enable_parallel", False))
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
-GROQ_MODEL = "llama-3.1-8b-instant"
+GROQ_MODEL = PROCESSING["groq_model"]
 
 STANDARD_NOTE_CATEGORIES = [
     "admission",
@@ -48,7 +58,9 @@ def _check_groq_reachable(host: str = "api.groq.com", port: int = 443, timeout: 
 _GROQ_REACHABLE: bool = bool(GROQ_API_KEY) and _check_groq_reachable()
 
 if GROQ_API_KEY and not _GROQ_REACHABLE:
-    print("[WARN] Cannot reach api.groq.com — note categories will use rule-based fallback.")
+    get_logger(__name__).warning("[WARN] Cannot reach api.groq.com — note categories will use rule-based fallback.")
+
+LOGGER = get_logger(__name__)
 
 
 # -------------------------------
@@ -78,7 +90,7 @@ def convert_dates(df: pd.DataFrame) -> pd.DataFrame:
             after_na = df[col].isna().sum()
             newly_na = after_na - before_na
             if newly_na > 0:
-                print(f"⚠️ {col}: {newly_na} values could not be parsed → NaT")
+                LOGGER.warning("⚠️ %s: %s values could not be parsed → NaT", col, newly_na)
     return df
 
 
@@ -187,9 +199,9 @@ def standardize_note_category(df: pd.DataFrame) -> pd.DataFrame:
     use_llm = _GROQ_REACHABLE
 
     if use_llm:
-        print("[INFO] Note category: using Groq LLM (llama-3.1-8b-instant)")
+        LOGGER.info("[INFO] Note category: using Groq LLM (%s)", GROQ_MODEL)
     else:
-        print("[INFO] Note category: using rule-based fallback")
+        LOGGER.info("[INFO] Note category: using rule-based fallback")
 
     unique_vals = df["note_category"].astype("string").fillna("").unique().tolist()
     mapping: dict[str, str] = {}
@@ -249,6 +261,48 @@ def load_concat(files: list[Path]) -> pd.DataFrame:
         df = transform_dataframe(df)
         frames.append(df)
     return pd.concat(frames, ignore_index=True) if frames else pd.DataFrame()
+
+
+def transform_one_file(file: Path) -> dict:
+    parts = file.parts
+    dataset_name = parts[parts.index("v1") + 1] if "v1" in parts else file.parent.name
+    ingest_partition = next((p for p in parts if p.startswith(PARTITION_PREFIX)), None)
+
+    df = pd.read_parquet(file)
+    if df.empty:
+        raise ValueError("Empty file")
+
+    before_rows, before_cols = df.shape
+    df = transform_dataframe(df)
+    after_rows, after_cols = df.shape
+
+    if dataset_name == "patients":
+        return {
+            "dataset_name": dataset_name,
+            "file_name": file.name,
+            "before_rows": before_rows,
+            "before_cols": before_cols,
+            "after_rows": after_rows,
+            "after_cols": after_cols,
+            "saved": False,
+        }
+
+    output_dir = CONSUMPTION_DIR / dataset_name
+    if ingest_partition:
+        output_dir = output_dir / ingest_partition
+    output_dir.mkdir(parents=True, exist_ok=True)
+    save_transformed(df, str(output_dir.relative_to(CONSUMPTION_DIR)), file.name)
+
+    return {
+        "dataset_name": dataset_name,
+        "file_name": file.name,
+        "before_rows": before_rows,
+        "before_cols": before_cols,
+        "after_rows": after_rows,
+        "after_cols": after_cols,
+        "saved": True,
+        "output_dir": str(output_dir),
+    }
 
 
 def filter_high_risk_variants(df: pd.DataFrame) -> pd.DataFrame:
@@ -419,7 +473,7 @@ def build_unified_dataset(refined_files: list[Path]):
         patients = load_concat([unified_file]) if unified_file else load_concat(patient_files)
 
         if patients.empty:
-            print(f"   ⚠ No patients data for partition {part_key} — unified join skipped")
+            LOGGER.warning("   ⚠ No patients data for partition %s — unified join skipped", part_key)
             continue
 
         labs = load_concat(datasets.get("labs", []))
@@ -459,58 +513,50 @@ def build_unified_dataset(refined_files: list[Path]):
         tmp_file.replace(out_file)
 
         high_risk_count = int(unified["high_risk_patient"].sum())
-        print(f"   Variants filtered: {variants_filtered}/{variants_total} kept")
-        print(f"   High-risk patients: {high_risk_count}")
-        print(f"   Unified dataset saved → {out_file}")
+        LOGGER.info("   Variants filtered: %s/%s kept", variants_filtered, variants_total)
+        LOGGER.info("   High-risk patients: %s", high_risk_count)
+        LOGGER.info("   Unified dataset saved → %s", out_file)
 
 
 # -------------------------------
 # MAIN TRANSFORMATION PIPELINE
 # -------------------------------
 def run_transformation():
-    print("⚙️ Starting Transformation...\n")
+    LOGGER.info("⚙️ Starting Transformation...")
 
     refined_files = iter_refined_files()
     success, failed, total_rows = 0, 0, 0
 
-    for file in refined_files:
+    results = run_parallel(refined_files, transform_one_file, PARALLEL_WORKERS if ENABLE_PARALLEL else 1)
+
+    for result in results:
         try:
-            parts = file.parts
-            dataset_name = parts[parts.index("v1") + 1] if "v1" in parts else file.parent.name
-            ingest_partition = next((p for p in parts if p.startswith(PARTITION_PREFIX)), None)
+            total_rows += int(result["after_rows"])
+            LOGGER.info("📂 Transforming: %s/%s", result["dataset_name"], result["file_name"])
+            LOGGER.info(
+                "   Rows: %s → %s, Cols: %s → %s",
+                result["before_rows"],
+                result["after_rows"],
+                result["before_cols"],
+                result["after_cols"],
+            )
 
-            print(f"📂 Transforming: {dataset_name}/{file.name}")
-
-            df = pd.read_parquet(file)
-            before_rows, before_cols = df.shape
-            df = transform_dataframe(df)
-            after_rows, after_cols = df.shape
-            total_rows += after_rows
-
-            if dataset_name == "patients":
-                print(f"   Rows: {before_rows} → {after_rows}, Cols: {before_cols} → {after_cols}")
-                print("   Skipped writing patients to consumption (unified only)\n")
+            if result.get("saved"):
+                LOGGER.info("   Saved → %s/", result.get("output_dir"))
             else:
-                output_dir = CONSUMPTION_DIR / dataset_name
-                if ingest_partition:
-                    output_dir = output_dir / ingest_partition
-                output_dir.mkdir(parents=True, exist_ok=True)
-                save_transformed(df, str(output_dir.relative_to(CONSUMPTION_DIR)), file.name)
-                print(f"   Rows: {before_rows} → {after_rows}, Cols: {before_cols} → {after_cols}")
-                print(f"   Saved → {output_dir}/\n")
+                LOGGER.info("   Skipped writing patients to consumption (unified only)")
 
             success += 1
-
         except Exception as e:
-            print(f"❌ Error: {file.name} → {e}\n")
+            LOGGER.error("❌ Error: %s", e)
             failed += 1
 
-    print("📊 Transformation Summary")
-    print(f"   Success     : {success}")
-    print(f"   Failed      : {failed}")
-    print(f"   Total Rows  : {total_rows}")
+    LOGGER.info("📊 Transformation Summary")
+    LOGGER.info("   Success     : %s", success)
+    LOGGER.info("   Failed      : %s", failed)
+    LOGGER.info("   Total Rows  : %s", total_rows)
 
-    print("\n🧩 Building unified analytics dataset...\n")
+    LOGGER.info("🧩 Building unified analytics dataset...")
     build_unified_dataset(refined_files)
 
 
