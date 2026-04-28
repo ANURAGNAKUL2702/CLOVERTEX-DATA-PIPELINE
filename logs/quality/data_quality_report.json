@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-27 04:36:42",
+  "generated": "2026-04-28 02:56:21",
   "ingestion": [
     {
       "dataset": "notes",
@@ -89,7 +89,7 @@
   ],
   "cleaning": {
     "diagnoses": {
-      "nulls_handled": 2208,
+      "nulls_handled": 0,
       "duplicates_removed": 0
     },
     "labs": {
@@ -97,16 +97,16 @@
       "duplicates_removed": 0
     },
     "medications": {
-      "nulls_handled": 4870,
+      "nulls_handled": 0,
       "duplicates_removed": 0
     },
     "notes": {
-      "nulls_handled": 1424,
+      "nulls_handled": 0,
       "duplicates_removed": 0
     },
     "patients": {
-      "nulls_handled": 834,
-      "duplicates_removed": 24
+      "nulls_handled": 0,
+      "duplicates_removed": 36
     },
     "variants": {
       "nulls_handled": 0,
@@ -114,7 +114,7 @@
     },
     "patients_unified": {
       "nulls_handled": 0,
-      "duplicates_removed": 634
+      "duplicates_removed": 951
     }
   },
   "quality_by_file": [
@@ -217,6 +217,22 @@
       "duplicate_rows": 0
     },
     {
+      "file": "datalake/consumption/v1/analytics/ingest_date=2026-04-27/anomaly_detection.parquet",
+      "dataset": "analytics",
+      "row_count": 557,
+      "nulls_by_column": {
+        "dataset": 0,
+        "patient_id": 0,
+        "field": 0,
+        "value": 0,
+        "reason": 0,
+        "threshold_low": 538,
+        "threshold_high": 0,
+        "is_anomaly": 0
+      },
+      "duplicate_rows": 18
+    },
+    {
       "file": "datalake/consumption/v1/analytics/ingest_date=2026-04-27/diagnosis_frequency.parquet",
       "dataset": "analytics",
       "row_count": 14,
@@ -279,6 +295,68 @@
       "duplicate_rows": 0
     },
     {
+      "file": "datalake/consumption/v1/analytics/ingest_date=2026-04-28/diagnosis_frequency.parquet",
+      "dataset": "analytics",
+      "row_count": 14,
+      "nulls_by_column": {
+        "chapter": 0,
+        "patient_count": 0
+      },
+      "duplicate_rows": 0
+    },
+    {
+      "file": "datalake/consumption/v1/analytics/ingest_date=2026-04-28/high_risk_patients.parquet",
+      "dataset": "analytics",
+      "row_count": 0,
+      "nulls_by_column": {
+        "patient_id": 0
+      },
+      "duplicate_rows": 0
+    },
+    {
+      "file": "datalake/consumption/v1/analytics/ingest_date=2026-04-28/lab_statistics.parquet",
+      "dataset": "analytics",
+      "row_count": 1,
+      "nulls_by_column": {
+        "record_type": 0,
+        "test_name": 0,
+        "mean": 0,
+        "median": 0,
+        "std": 0,
+        "count": 0,
+        "out_of_range_count": 0,
+        "period": 1
+      },
+      "duplicate_rows": 0
+    },
+    {
+      "file": "datalake/consumption/v1/analytics/ingest_date=2026-04-28/patient_summary.parquet",
+      "dataset": "analytics",
+      "row_count": 12,
+      "nulls_by_column": {
+        "metric": 0,
+        "category": 0,
+        "count": 0
+      },
+      "duplicate_rows": 0
+    },
+    {
+      "file": "datalake/consumption/v1/analytics/ingest_date=2026-04-28/variant_hotspots.parquet",
+      "dataset": "analytics",
+      "row_count": 5,
+      "nulls_by_column": {
+        "gene": 0,
+        "count": 0,
+        "mean": 0,
+        "median": 0,
+        "p25": 0,
+        "p75": 0,
+        "min": 0,
+        "max": 0
+      },
+      "duplicate_rows": 0
+    },
+    {
       "file": "datalake/consumption/v1/diagnoses/ingest_date=2026-04-26/diagnoses_icd10_csv.parquet",
       "dataset": "diagnoses",
       "row_count": 1638,
@@ -321,6 +399,27 @@
       "duplicate_rows": 0
     },
     {
+      "file": "datalake/consumption/v1/diagnoses/ingest_date=2026-04-28/diagnoses_icd10_csv.parquet",
+      "dataset": "diagnoses",
+      "row_count": 1638,
+      "nulls_by_column": {
+        "diagnosis_id": 0,
+        "patient_id": 0,
+        "icd10_code": 0,
+        "description": 0,
+        "diagnosis_date": 1104,
+        "diagnosing_physician": 0,
+        "is_primary": 0,
+        "severity": 56,
+        "status": 0,
+        "_source_file": 0,
+        "_ingestion_time": 0,
+        "_dataset": 0,
+        "_batch_id": 0
+      },
+      "duplicate_rows": 0
+    },
+    {
       "file": "datalake/consumption/v1/labs/ingest_date=2026-04-26/site_gamma_lab_results_parquet.parquet",
       "dataset": "labs",
       "row_count": 118,
@@ -342,6 +441,26 @@
     },
     {
       "file": "datalake/consumption/v1/labs/ingest_date=2026-04-27/site_gamma_lab_results_parquet.parquet",
+      "dataset": "labs",
+      "row_count": 118,
+      "nulls_by_column": {
+        "lab_result_id": 0,
+        "patient_id": 0,
+        "test_name": 0,
+        "test_value": 1,
+        "test_unit": 0,
+        "collection_date": 1,
+        "ordering_physician": 1,
+        "site_name": 0,
+        "_source_file": 0,
+        "_ingestion_time": 0,
+        "_dataset": 0,
+        "_batch_id": 0
+      },
+      "duplicate_rows": 0
+    },
+    {
+      "file": "datalake/consumption/v1/labs/ingest_date=2026-04-28/site_gamma_lab_results_parquet.parquet",
       "dataset": "labs",
       "row_count": 118,
       "nulls_by_column": {
@@ -405,6 +524,28 @@
       "duplicate_rows": 0
     },
     {
+      "file": "datalake/consumption/v1/medications/ingest_date=2026-04-28/medications_log_json.parquet",
+      "dataset": "medications",
+      "row_count": 1922,
+      "nulls_by_column": {
+        "medication_id": 0,
+        "patient_id": 0,
+        "medication_name": 0,
+        "dosage": 35,
+        "route": 0,
+        "frequency": 0,
+        "start_date": 1269,
+        "end_date": 1346,
+        "prescribing_physician": 0,
+        "status": 0,
+        "_source_file": 0,
+        "_ingestion_time": 0,
+        "_dataset": 0,
+        "_batch_id": 0
+      },
+      "duplicate_rows": 0
+    },
+    {
       "file": "datalake/consumption/v1/notes/ingest_date=2026-04-26/clinical_notes_metadata_csv.parquet",
       "dataset": "notes",
       "row_count": 1128,
@@ -427,6 +568,27 @@
     },
     {
       "file": "datalake/consumption/v1/notes/ingest_date=2026-04-27/clinical_notes_metadata_csv.parquet",
+      "dataset": "notes",
+      "row_count": 1128,
+      "nulls_by_column": {
+        "note_id": 0,
+        "patient_id": 0,
+        "note_category": 0,
+        "expected_category": 0,
+        "note_date": 712,
+        "author": 0,
+        "word_count": 0,
+        "is_addendum": 0,
+        "_source_file": 0,
+        "_ingestion_time": 0,
+        "_dataset": 0,
+        "_batch_id": 0,
+        "standard_category": 0
+      },
+      "duplicate_rows": 0
+    },
+    {
+      "file": "datalake/consumption/v1/notes/ingest_date=2026-04-28/clinical_notes_metadata_csv.parquet",
       "dataset": "notes",
       "row_count": 1128,
       "nulls_by_column": {
@@ -541,6 +703,53 @@
       "duplicate_rows": 0
     },
     {
+      "file": "datalake/consumption/v1/unified/ingest_date=2026-04-28/patients_unified_analytics.parquet",
+      "dataset": "unified",
+      "row_count": 351,
+      "nulls_by_column": {
+        "patient_id": 0,
+        "first_name": 1,
+        "last_name": 1,
+        "date_of_birth": 1,
+        "sex": 1,
+        "blood_group": 11,
+        "admission_dt": 1,
+        "discharge_dt": 1,
+        "contact_phone": 10,
+        "contact_email": 13,
+        "site": 1,
+        "_source_file": 0,
+        "_ingestion_time": 0,
+        "_dataset": 0,
+        "_batch_id": 0,
+        "birthdate": 350,
+        "gender": 350,
+        "bloodtype": 350,
+        "name.given": 350,
+        "name.family": 350,
+        "encounter.admissiondate": 350,
+        "encounter.dischargedate": 350,
+        "encounter.facility": 350,
+        "contact.phone": 350,
+        "contact.email": 350,
+        "labs_count": 351,
+        "latest_lab_date": 351,
+        "latest_lab_value": 351,
+        "latest_lab_test": 351,
+        "abnormal_lab_count": 0,
+        "diagnoses_count": 141,
+        "primary_diagnoses_count": 141,
+        "top_diagnosis_code": 141,
+        "medications_count": 108,
+        "active_medications_count": 108,
+        "top_medication": 108,
+        "high_risk_variants_count": 0,
+        "top_gene": 330,
+        "high_risk_patient": 0
+      },
+      "duplicate_rows": 0
+    },
+    {
       "file": "datalake/consumption/v1/variants/ingest_date=2026-04-26/genomics_variants_parquet.parquet",
       "dataset": "variants",
       "row_count": 1137,
@@ -589,6 +798,201 @@
         "_batch_id": 0
       },
       "duplicate_rows": 0
+    },
+    {
+      "file": "datalake/consumption/v1/variants/ingest_date=2026-04-28/genomics_variants_parquet.parquet",
+      "dataset": "variants",
+      "row_count": 1137,
+      "nulls_by_column": {
+        "variant_id": 0,
+        "patient_id": 0,
+        "gene": 0,
+        "chromosome": 0,
+        "position": 0,
+        "ref_allele": 0,
+        "alt_allele": 0,
+        "variant_type": 0,
+        "allele_frequency": 0,
+        "read_depth": 0,
+        "clinical_significance": 98,
+        "sample_date": 0,
+        "sequencing_platform": 0,
+        "_source_file": 0,
+        "_ingestion_time": 0,
+        "_dataset": 0,
+        "_batch_id": 0
+      },
+      "duplicate_rows": 0
+    }
+  ],
+  "quality_by_source_file": [
+    {
+      "source_file": "diagnoses_icd10.csv",
+      "dataset": "diagnoses",
+      "nulls_handled": 0,
+      "duplicates_removed": 0,
+      "orphan_records_found": 2910,
+      "schema_mismatches_fixed": 0
+    },
+    {
+      "source_file": "diagnoses_icd10.csv",
+      "dataset": "diagnoses",
+      "nulls_handled": 0,
+      "duplicates_removed": 0,
+      "orphan_records_found": 2910,
+      "schema_mismatches_fixed": 0
+    },
+    {
+      "source_file": "diagnoses_icd10.csv",
+      "dataset": "diagnoses",
+      "nulls_handled": 0,
+      "duplicates_removed": 0,
+      "orphan_records_found": 2910,
+      "schema_mismatches_fixed": 0
+    },
+    {
+      "source_file": "site_gamma_lab_results.parquet",
+      "dataset": "labs",
+      "nulls_handled": 0,
+      "duplicates_removed": 0,
+      "orphan_records_found": 318,
+      "schema_mismatches_fixed": 0
+    },
+    {
+      "source_file": "site_gamma_lab_results.parquet",
+      "dataset": "labs",
+      "nulls_handled": 0,
+      "duplicates_removed": 0,
+      "orphan_records_found": 318,
+      "schema_mismatches_fixed": 0
+    },
+    {
+      "source_file": "site_gamma_lab_results.parquet",
+      "dataset": "labs",
+      "nulls_handled": 0,
+      "duplicates_removed": 0,
+      "orphan_records_found": 318,
+      "schema_mismatches_fixed": 0
+    },
+    {
+      "source_file": "medications_log.json",
+      "dataset": "medications",
+      "nulls_handled": 0,
+      "duplicates_removed": 0,
+      "orphan_records_found": 3060,
+      "schema_mismatches_fixed": 0
+    },
+    {
+      "source_file": "medications_log.json",
+      "dataset": "medications",
+      "nulls_handled": 0,
+      "duplicates_removed": 0,
+      "orphan_records_found": 3060,
+      "schema_mismatches_fixed": 0
+    },
+    {
+      "source_file": "medications_log.json",
+      "dataset": "medications",
+      "nulls_handled": 0,
+      "duplicates_removed": 0,
+      "orphan_records_found": 3060,
+      "schema_mismatches_fixed": 0
+    },
+    {
+      "source_file": "clinical_notes_metadata.csv",
+      "dataset": "notes",
+      "nulls_handled": 0,
+      "duplicates_removed": 0,
+      "orphan_records_found": 0,
+      "schema_mismatches_fixed": 0
+    },
+    {
+      "source_file": "clinical_notes_metadata.csv",
+      "dataset": "notes",
+      "nulls_handled": 0,
+      "duplicates_removed": 0,
+      "orphan_records_found": 0,
+      "schema_mismatches_fixed": 0
+    },
+    {
+      "source_file": "clinical_notes_metadata.csv",
+      "dataset": "notes",
+      "nulls_handled": 0,
+      "duplicates_removed": 0,
+      "orphan_records_found": 0,
+      "schema_mismatches_fixed": 0
+    },
+    {
+      "source_file": "site_alpha_patients.csv",
+      "dataset": "patients",
+      "nulls_handled": 0,
+      "duplicates_removed": 12,
+      "orphan_records_found": 0,
+      "schema_mismatches_fixed": 0
+    },
+    {
+      "source_file": "site_beta_patients.json",
+      "dataset": "patients",
+      "nulls_handled": 0,
+      "duplicates_removed": 0,
+      "orphan_records_found": 0,
+      "schema_mismatches_fixed": 0
+    },
+    {
+      "source_file": "site_alpha_patients.csv",
+      "dataset": "patients",
+      "nulls_handled": 0,
+      "duplicates_removed": 12,
+      "orphan_records_found": 0,
+      "schema_mismatches_fixed": 0
+    },
+    {
+      "source_file": "site_beta_patients.json",
+      "dataset": "patients",
+      "nulls_handled": 0,
+      "duplicates_removed": 0,
+      "orphan_records_found": 0,
+      "schema_mismatches_fixed": 0
+    },
+    {
+      "source_file": "site_alpha_patients.csv",
+      "dataset": "patients",
+      "nulls_handled": 0,
+      "duplicates_removed": 12,
+      "orphan_records_found": 0,
+      "schema_mismatches_fixed": 0
+    },
+    {
+      "source_file": "site_beta_patients.json",
+      "dataset": "patients",
+      "nulls_handled": 0,
+      "duplicates_removed": 0,
+      "orphan_records_found": 0,
+      "schema_mismatches_fixed": 0
+    },
+    {
+      "source_file": "genomics_variants.parquet",
+      "dataset": "variants",
+      "nulls_handled": 0,
+      "duplicates_removed": 0,
+      "orphan_records_found": 474,
+      "schema_mismatches_fixed": 0
+    },
+    {
+      "source_file": "genomics_variants.parquet",
+      "dataset": "variants",
+      "nulls_handled": 0,
+      "duplicates_removed": 0,
+      "orphan_records_found": 474,
+      "schema_mismatches_fixed": 0
+    },
+    {
+      "source_file": "genomics_variants.parquet",
+      "dataset": "variants",
+      "nulls_handled": 0,
+      "duplicates_removed": 0,
+      "orphan_records_found": 474,
+      "schema_mismatches_fixed": 0
     }
   ],
   "orphan_records": {
@@ -685,6 +1089,74 @@
           "mean",
           "median",
           "min"
+        ]
+      },
+      {
+        "only_in_base": [
+          "chapter",
+          "patient_count"
+        ],
+        "only_in_other": [
+          "dataset",
+          "field",
+          "is_anomaly",
+          "patient_id",
+          "reason",
+          "threshold_high",
+          "threshold_low",
+          "value"
+        ]
+      },
+      {
+        "only_in_base": [
+          "chapter",
+          "patient_count"
+        ],
+        "only_in_other": [
+          "patient_id"
+        ]
+      },
+      {
+        "only_in_base": [
+          "chapter",
+          "patient_count"
+        ],
+        "only_in_other": [
+          "count",
+          "mean",
+          "median",
+          "out_of_range_count",
+          "period",
+          "record_type",
+          "std",
+          "test_name"
+        ]
+      },
+      {
+        "only_in_base": [
+          "chapter",
+          "patient_count"
+        ],
+        "only_in_other": [
+          "category",
+          "count",
+          "metric"
+        ]
+      },
+      {
+        "only_in_base": [
+          "chapter",
+          "patient_count"
+        ],
+        "only_in_other": [
+          "count",
+          "gene",
+          "max",
+          "mean",
+          "median",
+          "min",
+          "p25",
+          "p75"
         ]
       },
       {

@@ -1,0 +1,191 @@
+[
+  {
+    "source_file": "diagnoses_icd10.csv",
+    "dataset": "diagnoses",
+    "rows_in": 1638,
+    "rows_out": 1638,
+    "nulls_handled": 0,
+    "duplicates_removed": 0,
+    "encoding_fixed": 0
+  },
+  {
+    "source_file": "diagnoses_icd10.csv",
+    "dataset": "diagnoses",
+    "rows_in": 1638,
+    "rows_out": 1638,
+    "nulls_handled": 0,
+    "duplicates_removed": 0,
+    "encoding_fixed": 0
+  },
+  {
+    "source_file": "diagnoses_icd10.csv",
+    "dataset": "diagnoses",
+    "rows_in": 1638,
+    "rows_out": 1638,
+    "nulls_handled": 0,
+    "duplicates_removed": 0,
+    "encoding_fixed": 0
+  },
+  {
+    "source_file": "site_gamma_lab_results.parquet",
+    "dataset": "labs",
+    "rows_in": 2026,
+    "rows_out": 2026,
+    "nulls_handled": 0,
+    "duplicates_removed": 0,
+    "encoding_fixed": 0
+  },
+  {
+    "source_file": "site_gamma_lab_results.parquet",
+    "dataset": "labs",
+    "rows_in": 2026,
+    "rows_out": 2026,
+    "nulls_handled": 0,
+    "duplicates_removed": 0,
+    "encoding_fixed": 0
+  },
+  {
+    "source_file": "site_gamma_lab_results.parquet",
+    "dataset": "labs",
+    "rows_in": 2026,
+    "rows_out": 2026,
+    "nulls_handled": 0,
+    "duplicates_removed": 0,
+    "encoding_fixed": 0
+  },
+  {
+    "source_file": "medications_log.json",
+    "dataset": "medications",
+    "rows_in": 1922,
+    "rows_out": 1922,
+    "nulls_handled": 0,
+    "duplicates_removed": 0,
+    "encoding_fixed": 0
+  },
+  {
+    "source_file": "medications_log.json",
+    "dataset": "medications",
+    "rows_in": 1922,
+    "rows_out": 1922,
+    "nulls_handled": 0,
+    "duplicates_removed": 0,
+    "encoding_fixed": 0
+  },
+  {
+    "source_file": "medications_log.json",
+    "dataset": "medications",
+    "rows_in": 1922,
+    "rows_out": 1922,
+    "nulls_handled": 0,
+    "duplicates_removed": 0,
+    "encoding_fixed": 0
+  },
+  {
+    "source_file": "clinical_notes_metadata.csv",
+    "dataset": "notes",
+    "rows_in": 1128,
+    "rows_out": 1128,
+    "nulls_handled": 0,
+    "duplicates_removed": 0,
+    "encoding_fixed": 0
+  },
+  {
+    "source_file": "clinical_notes_metadata.csv",
+    "dataset": "notes",
+    "rows_in": 1128,
+    "rows_out": 1128,
+    "nulls_handled": 0,
+    "duplicates_removed": 0,
+    "encoding_fixed": 0
+  },
+  {
+    "source_file": "clinical_notes_metadata.csv",
+    "dataset": "notes",
+    "rows_in": 1128,
+    "rows_out": 1128,
+    "nulls_handled": 0,
+    "duplicates_removed": 0,
+    "encoding_fixed": 0
+  },
+  {
+    "source_file": "site_alpha_patients.csv",
+    "dataset": "patients",
+    "rows_in": 370,
+    "rows_out": 358,
+    "nulls_handled": 0,
+    "duplicates_removed": 12,
+    "encoding_fixed": 0
+  },
+  {
+    "source_file": "site_beta_patients.json",
+    "dataset": "patients",
+    "rows_in": 310,
+    "rows_out": 310,
+    "nulls_handled": 0,
+    "duplicates_removed": 0,
+    "encoding_fixed": 0
+  },
+  {
+    "source_file": "site_alpha_patients.csv",
+    "dataset": "patients",
+    "rows_in": 370,
+    "rows_out": 358,
+    "nulls_handled": 0,
+    "duplicates_removed": 12,
+    "encoding_fixed": 0
+  },
+  {
+    "source_file": "site_beta_patients.json",
+    "dataset": "patients",
+    "rows_in": 310,
+    "rows_out": 310,
+    "nulls_handled": 0,
+    "duplicates_removed": 0,
+    "encoding_fixed": 0
+  },
+  {
+    "source_file": "site_alpha_patients.csv",
+    "dataset": "patients",
+    "rows_in": 370,
+    "rows_out": 358,
+    "nulls_handled": 0,
+    "duplicates_removed": 12,
+    "encoding_fixed": 0
+  },
+  {
+    "source_file": "site_beta_patients.json",
+    "dataset": "patients",
+    "rows_in": 310,
+    "rows_out": 310,
+    "nulls_handled": 0,
+    "duplicates_removed": 0,
+    "encoding_fixed": 0
+  },
+  {
+    "source_file": "genomics_variants.parquet",
+    "dataset": "variants",
+    "rows_in": 1137,
+    "rows_out": 1137,
+    "nulls_handled": 0,
+    "duplicates_removed": 0,
+    "encoding_fixed": 0
+  },
+  {
+    "source_file": "genomics_variants.parquet",
+    "dataset": "variants",
+    "rows_in": 1137,
+    "rows_out": 1137,
+    "nulls_handled": 0,
+    "duplicates_removed": 0,
+    "encoding_fixed": 0
+  },
+  {
+    "source_file": "genomics_variants.parquet",
+    "dataset": "variants",
+    "rows_in": 1137,
+    "rows_out": 1137,
+    "nulls_handled": 0,
+    "duplicates_removed": 0,
+    "encoding_fixed": 0
+  }
+]

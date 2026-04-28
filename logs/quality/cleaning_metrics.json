@@ -1,6 +1,6 @@
 {
   "diagnoses": {
-    "nulls_handled": 2208,
+    "nulls_handled": 0,
     "duplicates_removed": 0
   },
   "labs": {
@@ -8,16 +8,16 @@
     "duplicates_removed": 0
   },
   "medications": {
-    "nulls_handled": 4870,
+    "nulls_handled": 0,
     "duplicates_removed": 0
   },
   "notes": {
-    "nulls_handled": 1424,
+    "nulls_handled": 0,
     "duplicates_removed": 0
   },
   "patients": {
-    "nulls_handled": 834,
-    "duplicates_removed": 24
+    "nulls_handled": 0,
+    "duplicates_removed": 36
   },
   "variants": {
     "nulls_handled": 0,
@@ -25,6 +25,6 @@
   },
   "patients_unified": {
     "nulls_handled": 0,
-    "duplicates_removed": 634
+    "duplicates_removed": 951
   }
 }

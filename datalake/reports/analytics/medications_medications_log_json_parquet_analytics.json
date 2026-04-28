@@ -2,7 +2,7 @@
   "_metadata": {
     "dataset": "medications",
     "row_count": 1922,
-    "generated": "2026-04-27 04:36:42",
+    "generated": "2026-04-28 02:56:20",
     "source_file": "medications_log_json.parquet"
   },
   "analytics": {

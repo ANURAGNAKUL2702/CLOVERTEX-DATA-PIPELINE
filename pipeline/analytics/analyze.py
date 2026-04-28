@@ -388,12 +388,12 @@ def save_parquet_output(df: pd.DataFrame, name: str, partition: str):
 # -------------------------------
 # SAVE
 # -------------------------------
-def save_analytics(data: dict, dataset: str, row_count: int, source_file: str):
+def save_analytics(data: dict, dataset: str, row_count: int, source_file: str, generated_ts: str | None):
     output = {
         "_metadata": {
             "dataset": dataset,
             "row_count": row_count,
-            "generated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S"),
+            "generated": generated_ts or "unknown",
             "source_file": source_file,
         },
         "analytics": data,
@@ -447,10 +447,17 @@ def run_analytics():
 
         result = analyzer(df)
 
+        generated_ts = None
+        if "_ingestion_time" in df.columns:
+            try:
+                generated_ts = str(pd.to_datetime(df["_ingestion_time"], errors="coerce").max())
+            except Exception:
+                generated_ts = None
+
         print(f"   Rows    : {len(df)}")
         print(f"   Metrics : {len(result)} computed")
 
-        save_analytics(result, dataset_name, len(df), file.name)
+        save_analytics(result, dataset_name, len(df), file.name, generated_ts)
         print()
 
         success += 1

@@ -1,6 +1,6 @@
 {
   "root": "datalake/refined",
-  "generated": "2026-04-27 04:36:43",
+  "generated": "2026-04-28 02:56:23",
   "files": [
     {
       "file": "v1/diagnoses/ingest_date=2026-04-26/diagnoses_icd10_csv.parquet",
@@ -59,7 +59,7 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "bf880479cc06556852a9497f5f7a19fc57b54f1d65e38389c7a8bf22ee592b1d"
     },
     {
@@ -119,8 +119,68 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "9999332fec372b9211bc9bab5fdea648b9c8808c3af6ecb87ae7bbfc7c464c12"
+    },
+    {
+      "file": "v1/diagnoses/ingest_date=2026-04-28/diagnoses_icd10_csv.parquet",
+      "row_count": 1638,
+      "schema": [
+        {
+          "name": "diagnosis_id",
+          "dtype": "string"
+        },
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "icd10_code",
+          "dtype": "string"
+        },
+        {
+          "name": "description",
+          "dtype": "string"
+        },
+        {
+          "name": "diagnosis_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "diagnosing_physician",
+          "dtype": "string"
+        },
+        {
+          "name": "is_primary",
+          "dtype": "string"
+        },
+        {
+          "name": "severity",
+          "dtype": "string"
+        },
+        {
+          "name": "status",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        }
+      ],
+      "timestamp": "2026-04-28 02:54:47",
+      "sha256": "1739d2f0cd1dcb822ee302902f6972a7dd3d656bf4e7ad36db4ddd39b391239b"
     },
     {
       "file": "v1/labs/ingest_date=2026-04-26/site_gamma_lab_results_parquet.parquet",
@@ -231,7 +291,7 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "ce23992ff7a0c2e8c50c4db25f447ae679477673c41508cf30fa21f818e54af8"
     },
     {
@@ -287,8 +347,64 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "3891bf257959dcfce7c5aef585e1f1b61ac900d67a4d7d8bc3b64acfd5f29d73"
+    },
+    {
+      "file": "v1/labs/test_name=alt/ingest_date=2026-04-28/site_gamma_lab_results_parquet.parquet",
+      "row_count": 128,
+      "schema": [
+        {
+          "name": "lab_result_id",
+          "dtype": "string"
+        },
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "test_name",
+          "dtype": "string"
+        },
+        {
+          "name": "test_value",
+          "dtype": "float64"
+        },
+        {
+          "name": "test_unit",
+          "dtype": "string"
+        },
+        {
+          "name": "collection_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "ordering_physician",
+          "dtype": "string"
+        },
+        {
+          "name": "site_name",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        }
+      ],
+      "timestamp": "2026-04-28 02:54:47",
+      "sha256": "dde28e9dd4d33864b68730f409a6c772ffe032756cc371bbea67ca19fe648a3a"
     },
     {
       "file": "v1/labs/test_name=ast/ingest_date=2026-04-26/site_gamma_lab_results_parquet.parquet",
@@ -343,7 +459,7 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "e81a69fa09406fde747c3512267316ba49081da13e875c95b4dd35c45d1c272a"
     },
     {
@@ -399,8 +515,64 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "646a81bdd2ed46efc6b471dd6b13da5cd228879254ed9ec4f9068588bbfb40a2"
+    },
+    {
+      "file": "v1/labs/test_name=ast/ingest_date=2026-04-28/site_gamma_lab_results_parquet.parquet",
+      "row_count": 140,
+      "schema": [
+        {
+          "name": "lab_result_id",
+          "dtype": "string"
+        },
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "test_name",
+          "dtype": "string"
+        },
+        {
+          "name": "test_value",
+          "dtype": "float64"
+        },
+        {
+          "name": "test_unit",
+          "dtype": "string"
+        },
+        {
+          "name": "collection_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "ordering_physician",
+          "dtype": "string"
+        },
+        {
+          "name": "site_name",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        }
+      ],
+      "timestamp": "2026-04-28 02:54:47",
+      "sha256": "97337c4b7b4bc1688fe83e1ee1dd78a46d0ec706b9629da195a67e1da4ac9872"
     },
     {
       "file": "v1/labs/test_name=bun/ingest_date=2026-04-26/site_gamma_lab_results_parquet.parquet",
@@ -455,7 +627,7 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "3beb624c65d918faca7851b8f7a8597e877514edf923a5cfaeb8097caf5451d3"
     },
     {
@@ -511,8 +683,64 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "8e438e65b73e462f22cf251157b9857d3294dbb105506279fa9427d7cb2a056b"
+    },
+    {
+      "file": "v1/labs/test_name=bun/ingest_date=2026-04-28/site_gamma_lab_results_parquet.parquet",
+      "row_count": 127,
+      "schema": [
+        {
+          "name": "lab_result_id",
+          "dtype": "string"
+        },
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "test_name",
+          "dtype": "string"
+        },
+        {
+          "name": "test_value",
+          "dtype": "float64"
+        },
+        {
+          "name": "test_unit",
+          "dtype": "string"
+        },
+        {
+          "name": "collection_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "ordering_physician",
+          "dtype": "string"
+        },
+        {
+          "name": "site_name",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        }
+      ],
+      "timestamp": "2026-04-28 02:54:47",
+      "sha256": "2ae04c3ef32169114b9ed0bdb09444acca5c5e6f39c82dc5bf613a090c26bbf5"
     },
     {
       "file": "v1/labs/test_name=creatinine/ingest_date=2026-04-26/site_gamma_lab_results_parquet.parquet",
@@ -567,7 +795,7 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "05f9b5c5c3a7b531fdc1ad577b71ed115832d6d7e3516b06b2daa87e85c62bb0"
     },
     {
@@ -623,8 +851,64 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "7ba8d6e66c671a8f5986014455e403f309695c7dcd8398985c6fabacedc33439"
+    },
+    {
+      "file": "v1/labs/test_name=creatinine/ingest_date=2026-04-28/site_gamma_lab_results_parquet.parquet",
+      "row_count": 140,
+      "schema": [
+        {
+          "name": "lab_result_id",
+          "dtype": "string"
+        },
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "test_name",
+          "dtype": "string"
+        },
+        {
+          "name": "test_value",
+          "dtype": "float64"
+        },
+        {
+          "name": "test_unit",
+          "dtype": "string"
+        },
+        {
+          "name": "collection_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "ordering_physician",
+          "dtype": "string"
+        },
+        {
+          "name": "site_name",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        }
+      ],
+      "timestamp": "2026-04-28 02:54:48",
+      "sha256": "5918543d3e85a73db014bff0de0ea5b08c1b1f7489cd4bb4d45a71f1c5ce1781"
     },
     {
       "file": "v1/labs/test_name=glucose_fasting/ingest_date=2026-04-26/site_gamma_lab_results_parquet.parquet",
@@ -679,7 +963,7 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "8f71dc8f25eb17757a6a4c444992d408002ce94a0c71a86dc58c4f0dfd9e2a7a"
     },
     {
@@ -735,8 +1019,64 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "f79118d5dd77f2dffd3d801d4c1983f19fc51837078f6bd2278bc9a59036d331"
+    },
+    {
+      "file": "v1/labs/test_name=glucose_fasting/ingest_date=2026-04-28/site_gamma_lab_results_parquet.parquet",
+      "row_count": 137,
+      "schema": [
+        {
+          "name": "lab_result_id",
+          "dtype": "string"
+        },
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "test_name",
+          "dtype": "string"
+        },
+        {
+          "name": "test_value",
+          "dtype": "float64"
+        },
+        {
+          "name": "test_unit",
+          "dtype": "string"
+        },
+        {
+          "name": "collection_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "ordering_physician",
+          "dtype": "string"
+        },
+        {
+          "name": "site_name",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        }
+      ],
+      "timestamp": "2026-04-28 02:54:48",
+      "sha256": "b286a22d5587d9c79dd3606b22255fb31246922b60e43ec03e95c3e159e1339f"
     },
     {
       "file": "v1/labs/test_name=hba1c/ingest_date=2026-04-26/site_gamma_lab_results_parquet.parquet",
@@ -791,7 +1131,7 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "b334f0c4087517c67c1c2687e34f41af9d25ee05c40d49b4ee6767db94063111"
     },
     {
@@ -847,8 +1187,64 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "eae4fc0504788b64c45409605572a6bd8356056002952ce0889d9b24d8c20b98"
+    },
+    {
+      "file": "v1/labs/test_name=hba1c/ingest_date=2026-04-28/site_gamma_lab_results_parquet.parquet",
+      "row_count": 129,
+      "schema": [
+        {
+          "name": "lab_result_id",
+          "dtype": "string"
+        },
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "test_name",
+          "dtype": "string"
+        },
+        {
+          "name": "test_value",
+          "dtype": "float64"
+        },
+        {
+          "name": "test_unit",
+          "dtype": "string"
+        },
+        {
+          "name": "collection_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "ordering_physician",
+          "dtype": "string"
+        },
+        {
+          "name": "site_name",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        }
+      ],
+      "timestamp": "2026-04-28 02:54:48",
+      "sha256": "6cf2c8c42a5f263794b5a4c0e1b7934708fb8ae33f6e0b29e58cb190e116d742"
     },
     {
       "file": "v1/labs/test_name=hdl/ingest_date=2026-04-26/site_gamma_lab_results_parquet.parquet",
@@ -903,7 +1299,7 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "4c9f4ea45d315e4d18964da88acd1739a6bd26a3972bb42c988e1ccc44581964"
     },
     {
@@ -959,8 +1355,64 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "456945272fc9f97bf7882871c2f10996b18cd4bfb05e9a6bdbf4264c184c8bb9"
+    },
+    {
+      "file": "v1/labs/test_name=hdl/ingest_date=2026-04-28/site_gamma_lab_results_parquet.parquet",
+      "row_count": 133,
+      "schema": [
+        {
+          "name": "lab_result_id",
+          "dtype": "string"
+        },
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "test_name",
+          "dtype": "string"
+        },
+        {
+          "name": "test_value",
+          "dtype": "float64"
+        },
+        {
+          "name": "test_unit",
+          "dtype": "string"
+        },
+        {
+          "name": "collection_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "ordering_physician",
+          "dtype": "string"
+        },
+        {
+          "name": "site_name",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        }
+      ],
+      "timestamp": "2026-04-28 02:54:48",
+      "sha256": "fe94b1f161b520e3f50f77fe92b50a2206c876a9e22d7cbb9af9b94979ba0a66"
     },
     {
       "file": "v1/labs/test_name=hemoglobin/ingest_date=2026-04-26/site_gamma_lab_results_parquet.parquet",
@@ -1015,7 +1467,7 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "4f6567f73e192a03550ede67f80622b8cefc75fcbdf60de35064193810b40813"
     },
     {
@@ -1071,8 +1523,64 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "c19379ce248aa5e461abeee3ecdc3c336e548a5ff7b12d8e2ae3ee2b2bdddaf4"
+    },
+    {
+      "file": "v1/labs/test_name=hemoglobin/ingest_date=2026-04-28/site_gamma_lab_results_parquet.parquet",
+      "row_count": 124,
+      "schema": [
+        {
+          "name": "lab_result_id",
+          "dtype": "string"
+        },
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "test_name",
+          "dtype": "string"
+        },
+        {
+          "name": "test_value",
+          "dtype": "float64"
+        },
+        {
+          "name": "test_unit",
+          "dtype": "string"
+        },
+        {
+          "name": "collection_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "ordering_physician",
+          "dtype": "string"
+        },
+        {
+          "name": "site_name",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        }
+      ],
+      "timestamp": "2026-04-28 02:54:48",
+      "sha256": "c8b54e5c322bea871fc8effb7e5a8cea502d8172802daa32161547d8947c7a5f"
     },
     {
       "file": "v1/labs/test_name=ldl/ingest_date=2026-04-26/site_gamma_lab_results_parquet.parquet",
@@ -1127,7 +1635,7 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "12479d85371c9bd20fcf9f1d2a26c9185ebebb7b50fd43bff564cf2642f2b0d5"
     },
     {
@@ -1183,8 +1691,64 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "aba0472d6bb1f6262b5184458f4df483367bcbf9488189c56937b282a31befac"
+    },
+    {
+      "file": "v1/labs/test_name=ldl/ingest_date=2026-04-28/site_gamma_lab_results_parquet.parquet",
+      "row_count": 136,
+      "schema": [
+        {
+          "name": "lab_result_id",
+          "dtype": "string"
+        },
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "test_name",
+          "dtype": "string"
+        },
+        {
+          "name": "test_value",
+          "dtype": "float64"
+        },
+        {
+          "name": "test_unit",
+          "dtype": "string"
+        },
+        {
+          "name": "collection_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "ordering_physician",
+          "dtype": "string"
+        },
+        {
+          "name": "site_name",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        }
+      ],
+      "timestamp": "2026-04-28 02:54:48",
+      "sha256": "738ed982a3a682e735f2e6f46bc9b89faae2f1738a76e1f46b2e00c533b1fff5"
     },
     {
       "file": "v1/labs/test_name=platelets/ingest_date=2026-04-26/site_gamma_lab_results_parquet.parquet",
@@ -1239,7 +1803,7 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "a5b3d2098a17215d25f893a5423e8c44eb99c9692dbaa0c8efb389f288877848"
     },
     {
@@ -1295,8 +1859,64 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "71bbf74719fa43d4addbe241de92d10a6af157b79d97ca07092bf4e9ac686507"
+    },
+    {
+      "file": "v1/labs/test_name=platelets/ingest_date=2026-04-28/site_gamma_lab_results_parquet.parquet",
+      "row_count": 116,
+      "schema": [
+        {
+          "name": "lab_result_id",
+          "dtype": "string"
+        },
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "test_name",
+          "dtype": "string"
+        },
+        {
+          "name": "test_value",
+          "dtype": "float64"
+        },
+        {
+          "name": "test_unit",
+          "dtype": "string"
+        },
+        {
+          "name": "collection_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "ordering_physician",
+          "dtype": "string"
+        },
+        {
+          "name": "site_name",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        }
+      ],
+      "timestamp": "2026-04-28 02:54:48",
+      "sha256": "bbff48608f811cf7f5ae28b7065b6ee0c2f02973e7dc036d80b694fa86fe28ce"
     },
     {
       "file": "v1/labs/test_name=potassium/ingest_date=2026-04-26/site_gamma_lab_results_parquet.parquet",
@@ -1351,7 +1971,7 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "4804f11acee1098da32d9f296f4c5c1b24a40e71386dce951eaa697eecfd0f38"
     },
     {
@@ -1407,8 +2027,64 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "7bfdf98570109ba128f51ef2abcec3604ba3fe8f0ef510330fdc3e0dbab3293c"
+    },
+    {
+      "file": "v1/labs/test_name=potassium/ingest_date=2026-04-28/site_gamma_lab_results_parquet.parquet",
+      "row_count": 117,
+      "schema": [
+        {
+          "name": "lab_result_id",
+          "dtype": "string"
+        },
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "test_name",
+          "dtype": "string"
+        },
+        {
+          "name": "test_value",
+          "dtype": "float64"
+        },
+        {
+          "name": "test_unit",
+          "dtype": "string"
+        },
+        {
+          "name": "collection_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "ordering_physician",
+          "dtype": "string"
+        },
+        {
+          "name": "site_name",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        }
+      ],
+      "timestamp": "2026-04-28 02:54:48",
+      "sha256": "8a8ee216a89e4355287bad97df742168aad691cc54dd544ac25a33b2885efcf3"
     },
     {
       "file": "v1/labs/test_name=sodium/ingest_date=2026-04-26/site_gamma_lab_results_parquet.parquet",
@@ -1463,7 +2139,7 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "41d66d60d75678d84374792e79759b36823a735d3d9ec4718fdc0bff571ef044"
     },
     {
@@ -1519,8 +2195,64 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "3cbc263247381b970d2db07bd9ce47208ed7944e74dd20c632717f35094870c0"
+    },
+    {
+      "file": "v1/labs/test_name=sodium/ingest_date=2026-04-28/site_gamma_lab_results_parquet.parquet",
+      "row_count": 121,
+      "schema": [
+        {
+          "name": "lab_result_id",
+          "dtype": "string"
+        },
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "test_name",
+          "dtype": "string"
+        },
+        {
+          "name": "test_value",
+          "dtype": "float64"
+        },
+        {
+          "name": "test_unit",
+          "dtype": "string"
+        },
+        {
+          "name": "collection_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "ordering_physician",
+          "dtype": "string"
+        },
+        {
+          "name": "site_name",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        }
+      ],
+      "timestamp": "2026-04-28 02:54:48",
+      "sha256": "21b99b84bc9c2b4eeb9e432ea659513229c5e933300cd06f8615ef735b3279aa"
     },
     {
       "file": "v1/labs/test_name=total_cholesterol/ingest_date=2026-04-26/site_gamma_lab_results_parquet.parquet",
@@ -1575,7 +2307,7 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "df2b3f5844c65da65c1295afbe3f28a982e81ceb3b591db0c37ed5188397d11c"
     },
     {
@@ -1631,8 +2363,64 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "161b18fa59487110022d0de542303416ae292b7ce9ee1046d65fd8171e8b3962"
+    },
+    {
+      "file": "v1/labs/test_name=total_cholesterol/ingest_date=2026-04-28/site_gamma_lab_results_parquet.parquet",
+      "row_count": 129,
+      "schema": [
+        {
+          "name": "lab_result_id",
+          "dtype": "string"
+        },
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "test_name",
+          "dtype": "string"
+        },
+        {
+          "name": "test_value",
+          "dtype": "float64"
+        },
+        {
+          "name": "test_unit",
+          "dtype": "string"
+        },
+        {
+          "name": "collection_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "ordering_physician",
+          "dtype": "string"
+        },
+        {
+          "name": "site_name",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        }
+      ],
+      "timestamp": "2026-04-28 02:54:48",
+      "sha256": "7601ab1cdde6b61ae22e24fdf10d7ca7484f2f39d1a52686fc543296fd182489"
     },
     {
       "file": "v1/labs/test_name=triglycerides/ingest_date=2026-04-26/site_gamma_lab_results_parquet.parquet",
@@ -1687,7 +2475,7 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "e267c8833a53890cbce855c6ed1c0772d233d077c45b26397a975e4a7532e06e"
     },
     {
@@ -1743,8 +2531,64 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "c5b90762aecfa11721b743a88adacc581decc3e196205d986aaf6f561c699fec"
+    },
+    {
+      "file": "v1/labs/test_name=triglycerides/ingest_date=2026-04-28/site_gamma_lab_results_parquet.parquet",
+      "row_count": 110,
+      "schema": [
+        {
+          "name": "lab_result_id",
+          "dtype": "string"
+        },
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "test_name",
+          "dtype": "string"
+        },
+        {
+          "name": "test_value",
+          "dtype": "float64"
+        },
+        {
+          "name": "test_unit",
+          "dtype": "string"
+        },
+        {
+          "name": "collection_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "ordering_physician",
+          "dtype": "string"
+        },
+        {
+          "name": "site_name",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        }
+      ],
+      "timestamp": "2026-04-28 02:54:48",
+      "sha256": "a447d4ffc3346844a46777d6d19eb61cef6f29581f176f00c851806ed84f0e45"
     },
     {
       "file": "v1/labs/test_name=tsh/ingest_date=2026-04-26/site_gamma_lab_results_parquet.parquet",
@@ -1799,7 +2643,7 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "eda8c1ef61ae07550c9e8b0e9ad3851b3208bda0833ffbdc24ea70746ce453c3"
     },
     {
@@ -1855,8 +2699,64 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "0d0b33b7b01f97b79e1b27e8327ba7bbbc95f8e2bc48c6a7d5554b1d16dbb771"
+    },
+    {
+      "file": "v1/labs/test_name=tsh/ingest_date=2026-04-28/site_gamma_lab_results_parquet.parquet",
+      "row_count": 121,
+      "schema": [
+        {
+          "name": "lab_result_id",
+          "dtype": "string"
+        },
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "test_name",
+          "dtype": "string"
+        },
+        {
+          "name": "test_value",
+          "dtype": "float64"
+        },
+        {
+          "name": "test_unit",
+          "dtype": "string"
+        },
+        {
+          "name": "collection_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "ordering_physician",
+          "dtype": "string"
+        },
+        {
+          "name": "site_name",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        }
+      ],
+      "timestamp": "2026-04-28 02:54:48",
+      "sha256": "c46763d30929f694f2ae619ffe0ea4efe67548d238db5f4564518324a9369940"
     },
     {
       "file": "v1/labs/test_name=wbc/ingest_date=2026-04-26/site_gamma_lab_results_parquet.parquet",
@@ -1911,7 +2811,7 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "1706dee7541e4ea4b6491bc8e2a368aaffbfa4effd124e18c92becef4ee8f743"
     },
     {
@@ -1967,8 +2867,64 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:47",
       "sha256": "d5989db2dd7f901e193defcb848a0f3aee7c915754bb6ae036edff75f1ff0269"
+    },
+    {
+      "file": "v1/labs/test_name=wbc/ingest_date=2026-04-28/site_gamma_lab_results_parquet.parquet",
+      "row_count": 118,
+      "schema": [
+        {
+          "name": "lab_result_id",
+          "dtype": "string"
+        },
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "test_name",
+          "dtype": "string"
+        },
+        {
+          "name": "test_value",
+          "dtype": "float64"
+        },
+        {
+          "name": "test_unit",
+          "dtype": "string"
+        },
+        {
+          "name": "collection_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "ordering_physician",
+          "dtype": "string"
+        },
+        {
+          "name": "site_name",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        }
+      ],
+      "timestamp": "2026-04-28 02:54:48",
+      "sha256": "e2c23c431a78ac58c43dbe09d54431d31d57be3db0902fe8781a9e9ca5a048d6"
     },
     {
       "file": "v1/medications/ingest_date=2026-04-26/medications_log_json.parquet",
@@ -2031,7 +2987,7 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:48",
       "sha256": "ec1f3da1436a7e464d69d50ad3302ebead521b595ec4515c393d3d4bfabe8ef8"
     },
     {
@@ -2095,8 +3051,72 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:48",
       "sha256": "a4db6853cc12e695991e09337cde70ab2b1b9c5631bc28b92e8f05adfb8245f9"
+    },
+    {
+      "file": "v1/medications/ingest_date=2026-04-28/medications_log_json.parquet",
+      "row_count": 1922,
+      "schema": [
+        {
+          "name": "medication_id",
+          "dtype": "string"
+        },
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "medication_name",
+          "dtype": "string"
+        },
+        {
+          "name": "dosage",
+          "dtype": "string"
+        },
+        {
+          "name": "route",
+          "dtype": "string"
+        },
+        {
+          "name": "frequency",
+          "dtype": "string"
+        },
+        {
+          "name": "start_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "end_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "prescribing_physician",
+          "dtype": "string"
+        },
+        {
+          "name": "status",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        }
+      ],
+      "timestamp": "2026-04-28 02:54:48",
+      "sha256": "00a9fbb47c4300c4f09e31c48f7a6221e2d25f79852139e2515b71bf0f696f0f"
     },
     {
       "file": "v1/notes/ingest_date=2026-04-26/clinical_notes_metadata_csv.parquet",
@@ -2151,7 +3171,7 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:48",
       "sha256": "d0cc44dc3b5bbb2c5abdb9453d6873f32699045c433006d1922991c7fdb05bdf"
     },
     {
@@ -2207,8 +3227,64 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:48",
       "sha256": "537c9da943c5f408a83b9ef17fe1df624a8b96d2bff5f7d4dfc09956036f42b1"
+    },
+    {
+      "file": "v1/notes/ingest_date=2026-04-28/clinical_notes_metadata_csv.parquet",
+      "row_count": 1128,
+      "schema": [
+        {
+          "name": "note_id",
+          "dtype": "string"
+        },
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "note_category",
+          "dtype": "string"
+        },
+        {
+          "name": "expected_category",
+          "dtype": "string"
+        },
+        {
+          "name": "note_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "author",
+          "dtype": "string"
+        },
+        {
+          "name": "word_count",
+          "dtype": "int64"
+        },
+        {
+          "name": "is_addendum",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        }
+      ],
+      "timestamp": "2026-04-28 02:54:48",
+      "sha256": "20421f3379524cfc247686a9c92af97b478a2826185783364a86280d0bec1aad"
     },
     {
       "file": "v1/patients/ingest_date=2026-04-26/patients_unified.parquet",
@@ -2315,7 +3391,7 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:48",
       "sha256": "fca985ea50cb592cf24a32237778eaa9025ddc3c2fb3092982594508e0210d81"
     },
     {
@@ -2383,7 +3459,7 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:48",
       "sha256": "c1df824a208f4e474db013b04041a795792a2ba593adc3bc21cbefeb75d73bd3"
     },
     {
@@ -2451,7 +3527,7 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:48",
       "sha256": "d12957823c67da950b538d9dadac6a38ecd6abbc4309a77c636e38371dedfe9e"
     },
     {
@@ -2559,7 +3635,7 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:48",
       "sha256": "0d4f1916eb03dbe9a0a1ce9fd1172d977a1ceb4f6ee7f3885aab1f042c1acbcb"
     },
     {
@@ -2627,7 +3703,7 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:48",
       "sha256": "b2653e4061f34f69b54f0b78a0e1a35f40cafe805d612ea3e9a3bbbc7d863103"
     },
     {
@@ -2695,8 +3771,252 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:48",
       "sha256": "b8bcf7d93e06541ffb91edfc662f87ea110fd45035a48f49fc424ad5f314c566"
+    },
+    {
+      "file": "v1/patients/ingest_date=2026-04-28/patients_unified.parquet",
+      "row_count": 351,
+      "schema": [
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "first_name",
+          "dtype": "string"
+        },
+        {
+          "name": "last_name",
+          "dtype": "string"
+        },
+        {
+          "name": "date_of_birth",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "sex",
+          "dtype": "string"
+        },
+        {
+          "name": "blood_group",
+          "dtype": "string"
+        },
+        {
+          "name": "admission_dt",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "discharge_dt",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "contact_phone",
+          "dtype": "string"
+        },
+        {
+          "name": "contact_email",
+          "dtype": "string"
+        },
+        {
+          "name": "site",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        },
+        {
+          "name": "birthdate",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "gender",
+          "dtype": "string"
+        },
+        {
+          "name": "bloodtype",
+          "dtype": "string"
+        },
+        {
+          "name": "name.given",
+          "dtype": "string"
+        },
+        {
+          "name": "name.family",
+          "dtype": "string"
+        },
+        {
+          "name": "encounter.admissiondate",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "encounter.dischargedate",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "encounter.facility",
+          "dtype": "string"
+        },
+        {
+          "name": "contact.phone",
+          "dtype": "string"
+        },
+        {
+          "name": "contact.email",
+          "dtype": "string"
+        }
+      ],
+      "timestamp": "2026-04-28 02:54:48",
+      "sha256": "df5d058bdad2660d275aa9be0b633b3b91ca706f101b608f23e8ea2fadd976d0"
+    },
+    {
+      "file": "v1/patients/ingest_date=2026-04-28/site_alpha_patients_csv.parquet",
+      "row_count": 358,
+      "schema": [
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "first_name",
+          "dtype": "string"
+        },
+        {
+          "name": "last_name",
+          "dtype": "string"
+        },
+        {
+          "name": "date_of_birth",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "sex",
+          "dtype": "string"
+        },
+        {
+          "name": "blood_group",
+          "dtype": "string"
+        },
+        {
+          "name": "admission_dt",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "discharge_dt",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "contact_phone",
+          "dtype": "string"
+        },
+        {
+          "name": "contact_email",
+          "dtype": "string"
+        },
+        {
+          "name": "site",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        }
+      ],
+      "timestamp": "2026-04-28 02:54:48",
+      "sha256": "94b2d227b6fd939f0fdfa993dc6c77a90bd6a888b54c667cd380128c5989ad45"
+    },
+    {
+      "file": "v1/patients/ingest_date=2026-04-28/site_beta_patients_json.parquet",
+      "row_count": 310,
+      "schema": [
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "birthdate",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "gender",
+          "dtype": "string"
+        },
+        {
+          "name": "bloodtype",
+          "dtype": "string"
+        },
+        {
+          "name": "name.given",
+          "dtype": "string"
+        },
+        {
+          "name": "name.family",
+          "dtype": "string"
+        },
+        {
+          "name": "encounter.admissiondate",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "encounter.dischargedate",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "encounter.facility",
+          "dtype": "string"
+        },
+        {
+          "name": "contact.phone",
+          "dtype": "string"
+        },
+        {
+          "name": "contact.email",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        }
+      ],
+      "timestamp": "2026-04-28 02:54:48",
+      "sha256": "0fa341627107bb8575d8306926aa24245256de4507c67a2638e277d6135bcfb4"
     },
     {
       "file": "v1/variants/ingest_date=2026-04-26/genomics_variants_parquet.parquet",
@@ -2771,7 +4091,7 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:48",
       "sha256": "46dd628d2dfe8fe2942c0517c9c3d7cea18f6b1668e8168572e34dc108ecfd93"
     },
     {
@@ -2847,8 +4167,84 @@
           "dtype": "string"
         }
       ],
-      "timestamp": "2026-04-27 04:36:38",
+      "timestamp": "2026-04-28 02:54:48",
       "sha256": "0a42edd44ac5b0fa78366f3b91866ee1b3cd61e9f38f41a11b101d28180cbdb7"
+    },
+    {
+      "file": "v1/variants/ingest_date=2026-04-28/genomics_variants_parquet.parquet",
+      "row_count": 1137,
+      "schema": [
+        {
+          "name": "variant_id",
+          "dtype": "string"
+        },
+        {
+          "name": "patient_id",
+          "dtype": "string"
+        },
+        {
+          "name": "gene",
+          "dtype": "string"
+        },
+        {
+          "name": "chromosome",
+          "dtype": "string"
+        },
+        {
+          "name": "position",
+          "dtype": "int64"
+        },
+        {
+          "name": "ref_allele",
+          "dtype": "string"
+        },
+        {
+          "name": "alt_allele",
+          "dtype": "string"
+        },
+        {
+          "name": "variant_type",
+          "dtype": "string"
+        },
+        {
+          "name": "allele_frequency",
+          "dtype": "float64"
+        },
+        {
+          "name": "read_depth",
+          "dtype": "int64"
+        },
+        {
+          "name": "clinical_significance",
+          "dtype": "string"
+        },
+        {
+          "name": "sample_date",
+          "dtype": "datetime64[us]"
+        },
+        {
+          "name": "sequencing_platform",
+          "dtype": "string"
+        },
+        {
+          "name": "_source_file",
+          "dtype": "string"
+        },
+        {
+          "name": "_ingestion_time",
+          "dtype": "datetime64[us, UTC]"
+        },
+        {
+          "name": "_dataset",
+          "dtype": "string"
+        },
+        {
+          "name": "_batch_id",
+          "dtype": "string"
+        }
+      ],
+      "timestamp": "2026-04-28 02:54:48",
+      "sha256": "3b9636112f41c963ad7ce6830363f25fbf5902a9ac4b0a47b969f66cf6c4e5c5"
     }
   ]
 }

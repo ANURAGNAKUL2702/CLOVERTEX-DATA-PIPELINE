@@ -38,11 +38,11 @@ Built to simulate real-world clinical data engineering at scale — with idempot
 │  RAW INPUT │ INGESTION  │  RAW LAYER  │  CLEANING  │  REFINED   │TRANSFORM │
 │            │            │             │            │  LAYER     │          │
 │  data/     │ ingest.py  │ datalake/   │ clean.py   │ datalake/  │transform │
-│  raw_input/│            │ raw/        │            │ refined/v1/│ .py      │
-│            │ • normalize│             │ • dedup    │            │          │
-│  CSV/JSON/ │ • validate │ partitioned │ • nulls    │ partitioned│ • join   │
-│  Parquet   │ • classify │ by          │ • schema   │ by         │ • filter │
-│            │ • metadata │ ingest_date │ • unify    │ ingest_date│ • enrich │
+│            │            │ raw/        │            │ refined/v1/│ .py      │
+│            │ • copy raw │             │ • dedup    │            │          │
+│  CSV/JSON/ │ • partition│ partitioned │ • nulls    │ partitioned│ • join   │
+│  Parquet   │ by mtime   │ by          │ • schema   │ by         │ • filter │
+│            │            │ ingest_date │ • unify    │ ingest_date│ • enrich │
 └────────────┴────────────┴─────────────┴────────────┴────────────┴──────────┘
                                                               │
               ┌───────────────────────────────────────────────┘
@@ -84,8 +84,7 @@ Built to simulate real-world clinical data engineering at scale — with idempot
 
 ```
 clovertex-pipeline/
-├── data/
-│   └── raw_input/                  # Drop source files here (CSV/JSON/Parquet)
+├── data/                           # Drop source files here (CSV/JSON/Parquet)
 ├── datalake/
 │   ├── raw/                        # Untouched copies, partitioned by ingest_date
 │   ├── refined/v1/                 # Cleaned Parquet outputs
@@ -94,7 +93,6 @@ clovertex-pipeline/
 │       ├── analytics/              # Task 3 parquet outputs
 │       └── plots/                  # PNG visualizations
 ├── logs/
-│   ├── ingestion/                  # Per-batch ingestion logs (JSON)
 │   └── quality/                    # data_quality_report.json, cleaning_metrics.json
 ├── pipeline/
 │   ├── ingestion/ingest.py
@@ -122,7 +120,7 @@ The pipeline follows a **medallion architecture** with three zones:
 
 | Zone | Path | Description | Format |
 |---|---|---|---|
-| **Raw** | `datalake/raw/` | Exact copy of source files, never modified | Parquet |
+| **Raw** | `datalake/raw/` | Exact copy of source files, never modified | Original format |
 | **Refined** | `datalake/refined/v1/` | Cleaned, deduplicated, schema-normalized | Parquet |
 | **Consumption** | `datalake/consumption/v1/` | Analytics-ready, joined, aggregated | Parquet |
 
@@ -150,25 +148,24 @@ datalake/refined/v1/labs/test_name=<normalized_test>/ingest_date=YYYY-MM-DD/<fil
 
 ### Stage 1 — Ingestion (`ingest.py`)
 
-- Reads all files from `data/raw_input/` (CSV, JSON, NDJSON, Excel, Parquet)
-- Normalizes all column names: lowercase, underscores, stripped whitespace
-- Standardizes patient key aliases (`patientid`, `patient_ref`, `patient`) → `patient_id`
-- Attaches metadata columns: `_source_file`, `_ingestion_time`, `_dataset`, `_batch_id`
-- Writes atomically via `.tmp → .parquet` rename (prevents corrupt reads mid-write)
-- **Idempotent:** existing files are skipped entirely — running twice produces identical output
-- Logs structured JSON stats per dataset to `logs/ingestion/`
+- Reads all files from `data/` (CSV, JSON, NDJSON, Excel, Parquet)
+- Copies each file **untouched** into `datalake/raw/` (same file format)
+- Partitions by source file modified date (`ingest_date=YYYY-MM-DD`)
+- Writes atomically via `.tmp → original` rename (prevents corrupt reads mid-write)
+- **Idempotent:** identical files are skipped on re-run (hash check)
 
 **Stdout JSON per dataset (required format):**
 ```json
 {
   "dataset": "patients",
   "rows_in": 370,
-  "rows_out": 370,
+  "rows_out": 350,
   "issues_found": {
-    "null_columns": {"blood_group": 12},
-    "duplicate_rows": 0,
-    "schema_fixes": ["normalized_columns"]
-  }
+    "duplicates_removed": 20,
+    "nulls_handled": 15,
+    "encoding_fixed": 7
+  },
+  "processing_timestamp": "2024-06-15T10:30:00Z"
 }
 ```
 
@@ -180,6 +177,8 @@ datalake/refined/v1/labs/test_name=<normalized_test>/ingest_date=YYYY-MM-DD/<fil
 - Lowercases `category`, `status`, `severity` columns
 - Parses all date columns to `datetime64`
 - Drops fully-empty columns
+- **Schema alignment:** adds missing columns per dataset and logs schema fixes
+- **Null handling:** imputes numeric median, datetime median, boolean False, and string `"unknown"`
 - Calls `drop_duplicates()` — counts removed rows for quality report
 - **Cross-site patient unification:** builds a dedup key from `first_name + last_name + date_of_birth + sex`, keeps record with most non-null fields, saves `patients_unified.parquet`
 
@@ -223,8 +222,8 @@ Also produces JSON analytics reports per dataset to `datalake/reports/analytics/
 ### Stage 6 — Validation (`validate.py`)
 
 Aggregates all quality signals into `logs/quality/data_quality_report.json`:
-- `ingestion`: raw ingestion stats from latest ingestion log
 - `cleaning`: nulls handled + duplicates removed per dataset (from `cleaning_metrics.json`)
+- `quality_by_source_file`: nulls handled, duplicates removed, orphan records, schema mismatches fixed per source file
 - `orphan_records`: patient IDs in labs/diagnoses/meds/variants with no match in unified patients table
 - `schema_mismatches`: column-level diffs detected across files within same dataset
 
@@ -299,6 +298,9 @@ Free-text `note_category` fields have high variability across sites ("Admission 
 ### Cross-Site Patient Deduplication
 The dedup key is built as: `first_name|last_name|date_of_birth|sex`. When duplicates are found across sites, the record with the highest non-null field count is kept — preserving the most complete clinical picture. Falls back to `patient_id`-based dedup if name/DOB fields are absent.
 
+### Handling Unmatched Patient IDs
+The unified dataset is built from the patients table, and downstream joins are left-joins on `patient_id`. Records from labs, diagnoses, medications, or variants that do not match a unified patient are not joined; they are tracked as orphan records in `data_quality_report.json` and flagged as anomalies.
+
 ---
 
 ## Filtering Criteria
@@ -334,7 +336,7 @@ A patient record is flagged as anomalous if it meets **any** of the following cr
 | Duplicate visit | Same `patient_id` + `test_name` + `collection_date` appears more than once | Likely duplicate submission |
 | Orphan record | `patient_id` in labs/diagnoses/variants with no match in patients table | Referential integrity violation |
 
-Anomalous records are flagged with `is_anomaly=True` and `anomaly_reason` columns — they are **not deleted**, preserving auditability.
+Anomalous records are flagged with `is_anomaly=True` and a `reason` column — they are **not deleted**, preserving auditability.
 
 ---
 
@@ -377,7 +379,7 @@ export GROQ_API_KEY="your_groq_api_key_here"
 
 ### Place Input Files
 
-Drop your source files into `data/raw_input/`. Supported formats: `.csv`, `.json`, `.parquet`, `.xlsx`, `.xls`
+Drop your source files into `data/`. Supported formats: `.csv`, `.json`, `.parquet`, `.xlsx`, `.xls`
 
 File naming conventions for automatic dataset routing:
 
@@ -467,11 +469,20 @@ high_risk_patient  | True
 ```json
 {
   "generated": "2024-06-15 10:30:00",
-  "ingestion": { ... },
   "cleaning": {
     "patients": { "nulls_handled": 15, "duplicates_removed": 20 },
     "labs":     { "nulls_handled": 42, "duplicates_removed": 3  }
   },
+  "quality_by_source_file": [
+    {
+      "source_file": "site_alpha_patients.csv",
+      "dataset": "patients",
+      "nulls_handled": 15,
+      "duplicates_removed": 20,
+      "orphan_records_found": 0,
+      "schema_mismatches_fixed": 2
+    }
+  ],
   "orphan_records": {
     "labs": 7, "diagnoses": 2, "variants": 0
   },
@@ -487,6 +498,7 @@ high_risk_patient  | True
 
 The pipeline produces `logs/quality/data_quality_report.json` after each run containing:
 
+- **Per-source metrics** — nulls handled, duplicates removed, orphan records, and schema mismatches fixed per source file
 - **Nulls handled** — count of null/empty/NA values standardized per dataset
 - **Duplicates removed** — row-level duplicates dropped during cleaning
 - **Orphan records** — records in child tables (labs, diagnoses, variants) with no matching `patient_id` in the patients table
@@ -516,7 +528,7 @@ A failing lint or failed Docker build blocks the PR. The `main` branch is always
 
 | Symptom | Cause | Fix |
 |---|---|---|
-| `FileNotFoundError: data/raw_input` | Input directory missing | `mkdir -p data/raw_input` and add files |
+| `FileNotFoundError: data` | Input directory missing | `mkdir -p data` and add files |
 | `Unknown dataset for file: xyz.csv` | Filename doesn't match any routing rule | Rename file to include `patient`, `lab`, `diagnos`, etc. |
 | `Cannot reach api.groq.com` | No internet or invalid API key | Set `GROQ_API_KEY` or ignore (rule-based fallback activates automatically) |
 | `No patients data for partition` | Cleaning ran but produced no unified patient file | Check `clean.py` logs — patient files may have failed loading |
