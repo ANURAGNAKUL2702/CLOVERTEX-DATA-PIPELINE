@@ -1,15 +1,92 @@
+import hashlib
 import json
-import pandas as pd
+from datetime import datetime, timezone
+from io import StringIO
 from pathlib import Path
+import re
+
+import pandas as pd
+
+from pipeline.utils.config import get_config
+from pipeline.utils.logging_config import get_logger
+from pipeline.utils.parallel import run_parallel
   
 # -------------------------------
 # CONFIG
 # -------------------------------
-RAW_DIR = Path("datalake/raw")
-REFINED_DIR = Path("datalake/refined/v1")
-LOG_QUALITY_DIR = Path("logs/quality")
+CONFIG = get_config()
+PATHS = CONFIG["paths"]
+PROCESSING = CONFIG["processing"]
+
+RAW_DIR = PATHS["raw_dir"]
+REFINED_DIR = PATHS["refined_dir"]
+LOG_QUALITY_DIR = PATHS["logs_quality_dir"]
 METRICS_PATH = LOG_QUALITY_DIR / "cleaning_metrics.json"
-PARTITION_PREFIX = "ingest_date="
+FILE_METRICS_PATH = LOG_QUALITY_DIR / "cleaning_file_metrics.json"
+PARTITION_PREFIX = PROCESSING["partition_prefix"]
+SUPPORTED_EXT = PROCESSING["supported_ext"]
+PARALLEL_WORKERS = int(PROCESSING.get("parallel_workers", 1))
+ENABLE_PARALLEL = bool(PROCESSING.get("enable_parallel", False))
+
+LOGGER = get_logger(__name__)
+
+
+def sha256_file(path: Path) -> str:
+    h = hashlib.sha256()
+    with open(path, "rb") as f:
+        for chunk in iter(lambda: f.read(1024 * 1024), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
+
+def safe_filename(name: str) -> str:
+    name = name.lower()
+    name = re.sub(r"[^a-z0-9_.-]+", "_", name)
+    return name.replace(".", "_").strip("_")
+
+
+def ingestion_timestamp_from_mtime(path: Path) -> str:
+    mtime = datetime.fromtimestamp(path.stat().st_mtime, tz=timezone.utc)
+    return mtime.strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def batch_id_from_hash(path: Path) -> str:
+    return sha256_file(path)[0:12]
+
+
+def load_json_text(text: str) -> pd.DataFrame:
+    try:
+        return pd.read_json(StringIO(text), lines=True)
+    except ValueError:
+        data = json.loads(text)
+        if isinstance(data, list) or isinstance(data, dict):
+            return pd.json_normalize(data)
+        raise ValueError("Unsupported JSON structure")
+
+
+def load_raw_file(path: Path) -> tuple[pd.DataFrame, int]:
+    ext = path.suffix.lower()
+    encoding_fixed = 0
+
+    if ext == ".parquet":
+        return pd.read_parquet(path), encoding_fixed
+
+    if ext in {".xlsx", ".xls"}:
+        return pd.read_excel(path), encoding_fixed
+
+    if ext in {".csv", ".json"}:
+        try:
+            raw_text = path.read_text(encoding="utf-8")
+        except UnicodeDecodeError:
+            raw_text = path.read_text(encoding="latin-1")
+            encoding_fixed = 1
+
+        if ext == ".csv":
+            return pd.read_csv(StringIO(raw_text)), encoding_fixed
+
+        return load_json_text(raw_text), encoding_fixed
+
+    raise ValueError(f"Unsupported file: {path}")
 
 
 # -------------------------------
@@ -102,6 +179,47 @@ def clean_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
+def align_schema(df: pd.DataFrame, dataset: str, schema_map: dict[str, set[str]]) -> tuple[pd.DataFrame, int]:
+    expected = schema_map.get(dataset, set())
+    if not expected:
+        return df, 0
+
+    missing = [c for c in sorted(expected) if c not in df.columns]
+    if not missing:
+        return df, 0
+
+    for col in missing:
+        df[col] = pd.NA
+
+    return df, len(missing)
+
+
+def fill_missing_values(df: pd.DataFrame) -> pd.DataFrame:
+    df = df.copy()
+
+    for col in df.columns:
+        if df[col].isna().sum() == 0:
+            continue
+
+        if "date" in col or col.endswith("_dt"):
+            df[col] = pd.to_datetime(df[col], errors="coerce")
+
+        if pd.api.types.is_numeric_dtype(df[col]):
+            median = pd.to_numeric(df[col], errors="coerce").median()
+            if pd.notna(median):
+                df[col] = df[col].fillna(median)
+        elif pd.api.types.is_datetime64_any_dtype(df[col]):
+            median = pd.to_datetime(df[col], errors="coerce").dropna().median()
+            if pd.notna(median):
+                df[col] = df[col].fillna(median)
+        elif pd.api.types.is_bool_dtype(df[col]):
+            df[col] = df[col].fillna(False)
+        else:
+            df[col] = df[col].astype("string").fillna("unknown")
+
+    return df
+
+
 def safe_partition_value(value: str) -> str:
     clean = str(value).strip().lower()
     clean = clean.replace(" ", "_").replace("/", "_").replace("-", "_")
@@ -152,77 +270,183 @@ def save_clean(df: pd.DataFrame, dataset: str, filename: str):
     temp_file.replace(final_file)
 
 
+def output_parquet_name(path: Path) -> str:
+    return f"{safe_filename(path.stem)}.parquet"
+
+
+def dataset_from_path(path: Path) -> str:
+    parts = path.parts
+    return parts[parts.index("raw") + 1] if "raw" in parts else path.parent.name
+
+
+def collect_schema_map(raw_files: list[Path]) -> dict[str, set[str]]:
+    schema_map: dict[str, set[str]] = {}
+    for file in raw_files:
+        dataset = dataset_from_path(file)
+        df, _ = load_raw_file(file)
+        df = clean_dataframe(df)
+        schema_map.setdefault(dataset, set()).update(set(df.columns))
+    return schema_map
+
+
+def add_metadata(df: pd.DataFrame, source_file: Path, dataset: str) -> pd.DataFrame:
+    df = df.copy()
+    df["_source_file"] = source_file.name
+    df["_ingestion_time"] = ingestion_timestamp_from_mtime(source_file)
+    df["_dataset"] = dataset
+    df["_batch_id"] = batch_id_from_hash(source_file)
+    return df
+
+
 def iter_raw_files():
     if not RAW_DIR.exists():
         raise FileNotFoundError(f"Raw dir not found: {RAW_DIR}")
 
-    files = list(RAW_DIR.glob(f"**/{PARTITION_PREFIX}*/*.parquet"))
-
-    # Fallback for non-partitioned layout
-    if not files:
-        files = list(RAW_DIR.glob("*/*.parquet"))
+    files = [
+        f for f in RAW_DIR.rglob("*")
+        if f.is_file() and f.suffix.lower() in SUPPORTED_EXT
+    ]
 
     return files
+
+
+def partition_key_from_path(path: Path) -> str:
+    parts = path.parts
+    partition = next((p for p in parts if p.startswith(PARTITION_PREFIX)), None)
+    return partition or "unpartitioned"
+
+
+def iter_refined_patient_files() -> dict[str, list[Path]]:
+    patients_dir = REFINED_DIR / "patients"
+    if not patients_dir.exists():
+        return {}
+
+    files = [
+        f for f in patients_dir.rglob("*.parquet")
+        if f.name != "patients_unified.parquet"
+    ]
+    grouped: dict[str, list[Path]] = {}
+    for file in files:
+        key = partition_key_from_path(file)
+        grouped.setdefault(key, []).append(file)
+    return grouped
+
+
+def clean_one_file(file: Path, schema_map: dict[str, set[str]]) -> dict:
+    parts = file.parts
+    dataset_name = dataset_from_path(file)
+    ingest_partition = next((p for p in parts if p.startswith(PARTITION_PREFIX)), None)
+
+    df, encoding_fixed = load_raw_file(file)
+
+    if df.empty:
+        raise ValueError("Empty file")
+
+    before_rows, before_cols = df.shape
+
+    df = clean_dataframe(df)
+    df, schema_fixed = align_schema(df, dataset_name, schema_map)
+    before_missing = int(df.isna().sum().sum())
+    df = fill_missing_values(df)
+    after_missing = int(df.isna().sum().sum())
+
+    df = add_metadata(df, file, dataset_name)
+
+    df = df.drop_duplicates()
+    after_rows, after_cols = df.shape
+
+    nulls_handled = max(before_missing - after_missing, 0)
+    duplicates_removed = max(before_rows - after_rows, 0)
+
+    output_dir = REFINED_DIR / dataset_name
+    if ingest_partition:
+        output_dir = output_dir / ingest_partition
+
+    if dataset_name == "labs" and "test_name" in df.columns:
+        for test_name, group in df.groupby(df["test_name"].astype("string"), dropna=False):
+            test_partition = f"test_name={safe_partition_value(test_name)}"
+            partition_dir = REFINED_DIR / dataset_name / test_partition
+            if ingest_partition:
+                partition_dir = partition_dir / ingest_partition
+            partition_dir.mkdir(parents=True, exist_ok=True)
+            save_clean(group, str(partition_dir.relative_to(REFINED_DIR)), output_parquet_name(file))
+        saved_message = f"{REFINED_DIR / dataset_name} (partitioned by test_name)"
+    else:
+        output_dir.mkdir(parents=True, exist_ok=True)
+        save_clean(df, str(output_dir.relative_to(REFINED_DIR)), output_parquet_name(file))
+        saved_message = str(output_dir)
+
+    return {
+        "dataset_name": dataset_name,
+        "file_name": file.name,
+        "ingest_partition": ingest_partition,
+        "before_rows": int(before_rows),
+        "before_cols": int(before_cols),
+        "after_rows": int(after_rows),
+        "after_cols": int(after_cols),
+        "nulls_handled": int(nulls_handled),
+        "duplicates_removed": int(duplicates_removed),
+        "encoding_fixed": int(encoding_fixed),
+        "schema_fixed": int(schema_fixed),
+        "saved_message": saved_message,
+    }
 
 
 # -------------------------------
 # MAIN CLEANING PIPELINE
 # -------------------------------
 def run_cleaning():
-    print("🧹 Starting Cleaning...\n")
+    LOGGER.info("🧹 Starting Cleaning...")
 
     raw_files = iter_raw_files()
+    schema_map = collect_schema_map(raw_files)
     success, failed, total_rows = 0, 0, 0
     metrics: dict[str, dict[str, int]] = {}
-    patient_frames: dict[str, list[pd.DataFrame]] = {}
+    file_metrics: list[dict[str, int | str]] = []
+    dataset_totals: dict[str, dict[str, int]] = {}
 
-    for file in raw_files:
+    def _run_clean(file: Path) -> dict:
+        return clean_one_file(file, schema_map)
+
+    results = run_parallel(raw_files, _run_clean, PARALLEL_WORKERS if ENABLE_PARALLEL else 1)
+
+    for result in results:
         try:
-            # raw/<dataset>/ingest_date=YYYY-MM-DD/<file>
-            parts = file.parts
-            dataset_name = parts[parts.index("raw") + 1] if "raw" in parts else file.parent.name
-            ingest_partition = next((p for p in parts if p.startswith(PARTITION_PREFIX)), None)
+            dataset_name = result["dataset_name"]
+            before_rows = result["before_rows"]
+            before_cols = result["before_cols"]
+            after_rows = result["after_rows"]
+            after_cols = result["after_cols"]
+            nulls_handled = result["nulls_handled"]
+            duplicates_removed = result["duplicates_removed"]
+            encoding_fixed = result["encoding_fixed"]
+            schema_fixed = result["schema_fixed"]
 
-            print(f"📂 Cleaning: {dataset_name}/{file.name}")
-
-            df = pd.read_parquet(file)
-
-            before_rows, before_cols = df.shape
-            before_missing = int(df.isna().sum().sum())
-
-            # Clean
-            df = clean_dataframe(df)
-            after_missing = int(df.isna().sum().sum())
-
-            df = df.drop_duplicates()
-            after_rows, after_cols = df.shape
             total_rows += after_rows
 
-            nulls_handled = max(after_missing - before_missing, 0)
-            duplicates_removed = max(before_rows - after_rows, 0)
-
-            metrics_entry = metrics.setdefault(dataset_name, {"nulls_handled": 0, "duplicates_removed": 0})
+            metrics_entry = metrics.setdefault(
+                dataset_name,
+                {"nulls_handled": 0, "duplicates_removed": 0, "encoding_fixed": 0},
+            )
             metrics_entry["nulls_handled"] += int(nulls_handled)
             metrics_entry["duplicates_removed"] += int(duplicates_removed)
+            metrics_entry["encoding_fixed"] += int(encoding_fixed)
 
-            # Save with same partitioning (plus lab-specific partitioning)
-            output_dir = REFINED_DIR / dataset_name
-            if ingest_partition:
-                output_dir = output_dir / ingest_partition
-
-            if dataset_name == "labs" and "test_name" in df.columns:
-                for test_name, group in df.groupby(df["test_name"].astype("string"), dropna=False):
-                    test_partition = f"test_name={safe_partition_value(test_name)}"
-                    partition_dir = REFINED_DIR / dataset_name / test_partition
-                    if ingest_partition:
-                        partition_dir = partition_dir / ingest_partition
-                    partition_dir.mkdir(parents=True, exist_ok=True)
-                    save_clean(group, str(partition_dir.relative_to(REFINED_DIR)), file.name)
-                saved_message = f"{REFINED_DIR / dataset_name} (partitioned by test_name)"
-            else:
-                output_dir.mkdir(parents=True, exist_ok=True)
-                save_clean(df, str(output_dir.relative_to(REFINED_DIR)), file.name)
-                saved_message = str(output_dir)
+            dataset_entry = dataset_totals.setdefault(
+                dataset_name,
+                {
+                    "rows_in": 0,
+                    "rows_out": 0,
+                    "nulls_handled": 0,
+                    "duplicates_removed": 0,
+                    "encoding_fixed": 0,
+                },
+            )
+            dataset_entry["rows_in"] += int(before_rows)
+            dataset_entry["rows_out"] += int(after_rows)
+            dataset_entry["nulls_handled"] += int(nulls_handled)
+            dataset_entry["duplicates_removed"] += int(duplicates_removed)
+            dataset_entry["encoding_fixed"] += int(encoding_fixed)
 
             stats = {
                 "dataset": dataset_name,
@@ -232,34 +456,47 @@ def run_cleaning():
                 "duplicates_removed": int(duplicates_removed),
             }
 
-            print(f"   Rows: {before_rows} → {after_rows}, Cols: {before_cols} → {after_cols}")
-            print(f"   Stats: {json.dumps(stats)}")
-            print(f"   Saved → {saved_message}\n")
+            file_metrics.append(
+                {
+                    "source_file": result["file_name"],
+                    "dataset": dataset_name,
+                    "rows_in": int(before_rows),
+                    "rows_out": int(after_rows),
+                    "nulls_handled": int(nulls_handled),
+                    "duplicates_removed": int(duplicates_removed),
+                    "encoding_fixed": int(encoding_fixed),
+                    "schema_mismatches_fixed": int(schema_fixed),
+                }
+            )
 
-            if dataset_name == "patients":
-                key = ingest_partition or "unpartitioned"
-                patient_frames.setdefault(key, []).append(df)
+            LOGGER.info("📂 Cleaning: %s/%s", dataset_name, result["file_name"])
+            LOGGER.info("   Rows: %s → %s, Cols: %s → %s", before_rows, after_rows, before_cols, after_cols)
+            LOGGER.info("   Stats: %s", json.dumps(stats))
+            LOGGER.info("   Saved → %s", result["saved_message"])
 
             success += 1
-
         except Exception as e:
-            print(f"❌ Error: {file.name} → {e}\n")
+            LOGGER.error("❌ Error: %s", e)
             failed += 1
 
     # -------------------------------
     # SUMMARY
     # -------------------------------
-    print("📊 Cleaning Summary")
-    print(f"   Success     : {success}")
-    print(f"   Failed      : {failed}")
-    print(f"   Total Rows  : {total_rows}")
+    LOGGER.info("📊 Cleaning Summary")
+    LOGGER.info("   Success     : %s", success)
+    LOGGER.info("   Failed      : %s", failed)
+    LOGGER.info("   Total Rows  : %s", total_rows)
 
     # -------------------------------
     # CROSS-SITE PATIENT DEDUP
     # -------------------------------
     patients_unified_removed = 0
-    for part_key, frames in patient_frames.items():
-        combined = pd.concat(frames, ignore_index=True)
+    refined_patient_files = iter_refined_patient_files()
+    for part_key, files in refined_patient_files.items():
+        frames = [pd.read_parquet(f) for f in files]
+        combined = pd.concat(frames, ignore_index=True) if frames else pd.DataFrame()
+        if combined.empty:
+            continue
         before_rows = len(combined)
         dedup_key = build_patient_dedup_key(combined)
 
@@ -282,18 +519,42 @@ def run_cleaning():
             output_dir = output_dir / part_key
         output_dir.mkdir(parents=True, exist_ok=True)
         save_clean(unified, str(output_dir.relative_to(REFINED_DIR)), "patients_unified.parquet")
-        print(f"✅ Patients unified saved → {output_dir}/patients_unified.parquet")
+        LOGGER.info("✅ Patients unified saved → %s/patients_unified.parquet", output_dir)
 
-    if patient_frames:
+    if refined_patient_files:
         metrics["patients_unified"] = {
             "nulls_handled": 0,
             "duplicates_removed": int(patients_unified_removed),
+            "encoding_fixed": 0,
         }
 
     LOG_QUALITY_DIR.mkdir(parents=True, exist_ok=True)
     with open(METRICS_PATH, "w", encoding="utf-8") as f:
         json.dump(metrics, f, indent=2)
-    print(f"✅ Cleaning metrics saved → {METRICS_PATH}")
+    LOGGER.info("✅ Cleaning metrics saved → %s", METRICS_PATH)
+
+    with open(FILE_METRICS_PATH, "w", encoding="utf-8") as f:
+        json.dump(file_metrics, f, indent=2)
+    LOGGER.info("✅ Cleaning file metrics saved → %s", FILE_METRICS_PATH)
+
+    processing_ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    for dataset_name in sorted(dataset_totals.keys()):
+        totals = dataset_totals[dataset_name]
+        LOGGER.info(
+            json.dumps(
+                {
+                    "dataset": dataset_name,
+                    "rows_in": totals["rows_in"],
+                    "rows_out": totals["rows_out"],
+                    "issues_found": {
+                        "duplicates_removed": totals["duplicates_removed"],
+                        "nulls_handled": totals["nulls_handled"],
+                        "encoding_fixed": totals["encoding_fixed"],
+                    },
+                    "processing_timestamp": processing_ts,
+                }
+            )
+        )
 
 
 # -------------------------------
@@ -301,4 +562,3 @@ def run_cleaning():
 # -------------------------------
 if __name__ == "__main__":
     run_cleaning()
-    
